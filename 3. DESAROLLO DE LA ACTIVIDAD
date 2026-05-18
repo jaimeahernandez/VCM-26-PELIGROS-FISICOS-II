@@ -1,0 +1,140 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #1e3a8a 0%, #2c5282 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #e11d48; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Reto Técnico Aplicado </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Estudio de Caso: Telecomunicaciones e Industria</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Peligros Físicos II | Gestión del Riesgo por Radiaciones No
+                Ionizantes</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5">
+            <div
+              style="background-color: #f8fafc; border: 1px solid #e2e8f0; padding: 25px; border-radius: 12px; margin-bottom: 30px;">
+              <h4
+                style="color: #1e3a8a; font-weight: bold; margin-bottom: 15px;">
+                <i class="fa fa-briefcase mr-2" style="color: #4caf50;"></i>
+                Situación Problema</h4>
+              <p
+                style="color: #475569; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
+                Usted ha sido contratado como Administrador en SST de la empresa
+                <strong>"TechConnect &amp; Steel S.A.S."</strong>. Durante su
+                primer recorrido de inspección, identifica dos áreas críticas:
+                <br><br><strong>Área 1 (Mantenimiento):</strong> Operarios
+                instalando y calibrando antenas de transmisión celular y
+                microondas en la azotea del edificio central. <br><strong>Área 2
+                  (Producción):</strong> Trabajadores en la zona de
+                metalmecánica operando equipos de soldadura de arco eléctrico y
+                un horno de inducción térmica sin pantallas de protección.</p>
+            </div>
+            <h4
+              style="color: #1e3a8a; font-weight: bold; margin-bottom: 20px; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; font-size: 1.2rem;">
+              <i class="fa fa-edit mr-2" style="color: #4caf50;"></i>
+              Entregables del Reto (Lo que debes resolver)</h4>
+            <p
+              style="color: #475569; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 25px;">
+              Tomando como base fundamental la información analizada en la
+              <strong>Presentación Interactiva</strong> anterior, desarrolle un
+              informe técnico (máximo 3 páginas) resolviendo los siguientes
+              ítems estructurados:</p>
+            <ul style="list-style: none; padding-left: 0; margin-bottom: 35px;">
+              <li
+                style="font-size: 1.05rem; color: #334155; margin-bottom: 18px; display: flex; align-items: flex-start;">
+                <i class="fa fa-arrow-circle-right"
+                  style="color: #4caf50; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                <div style="line-height: 1.6; text-align: justify;"><strong>1.
+                    Matriz de Espectro Electromagnético:</strong> Identifique el
+                  tipo exacto de radiación no ionizante presente en cada una de
+                  las dos áreas y clasifíquelas según su frecuencia y longitud
+                  de onda (utilizando los parámetros de la presentación).</div>
+              </li>
+              <li
+                style="font-size: 1.05rem; color: #334155; margin-bottom: 18px; display: flex; align-items: flex-start;">
+                <i class="fa fa-arrow-circle-right"
+                  style="color: #4caf50; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                <div style="line-height: 1.6; text-align: justify;"><strong>2.
+                    Diagnóstico de Efectos Biológicos:</strong> Analice qué
+                  efectos biológicos <em>térmicos</em> y <em>no térmicos (o a
+                    largo plazo)</em> podrían sufrir los operarios de antenas y
+                  los soldadores si se exponen de manera prolongada y
+                  descontrolada.</div>
+              </li>
+              <li
+                style="font-size: 1.05rem; color: #334155; margin-bottom: 18px; display: flex; align-items: flex-start;">
+                <i class="fa fa-arrow-circle-right"
+                  style="color: #4caf50; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                <div style="line-height: 1.6; text-align: justify;"><strong>3.
+                    Plan de Controles Técnicos:</strong> Proponga una solución
+                  de prevención aplicando estrictamente la <strong>Jerarquía de
+                    Controles</strong>. Debe incluir obligatoriamente al menos:
+                  un control de ingeniería para el Área de Producción, una
+                  medida administrativa para el Área de Antenas y la
+                  especificación de los EPP correctos para el cuidado ocular de
+                  los soldadores.</div>
+              </li>
+              <li
+                style="font-size: 1.05rem; color: #334155; margin-bottom: 18px; display: flex; align-items: flex-start;">
+                <i class="fa fa-arrow-circle-right"
+                  style="color: #4caf50; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                <div style="line-height: 1.6; text-align: justify;"><strong>4.
+                    Criterio Normativo:</strong> ¿Bajo qué organismo o comisión
+                  internacional fundamentaría los límites permisibles (TLVs)
+                  ambientales para auditar los campos de radiofrecuencia e
+                  infrarrojos de la planta?</div>
+              </li>
+            </ul>
+            <div class="row">
+              <div class="col-12 col-md-6 mb-3">
+                <div
+                  style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px; border-radius: 6px;">
+                  <span
+                    style="font-size: 0.9rem; font-weight: bold; color: #1e40af; text-transform: uppercase;">Metodología
+                    de entrega</span>
+                  <p
+                    style="font-size: 0.95rem; color: #1e3a8a; margin-top: 5px; margin-bottom: 0;">
+                    El documento debe ser cargado en formato PDF de manera
+                    grupal (máximo 3 integrantes) a través del buzón de tareas
+                    de Moodle dispuesto al final de esta unidad.</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-3">
+                <div
+                  style="background-color: #fef2f2; border-left: 4px solid #ef4444; padding: 15px; border-radius: 6px;">
+                  <span
+                    style="font-size: 0.9rem; font-weight: bold; color: #991b1b; text-transform: uppercase;">Criterio
+                    de Evaluación</span>
+                  <p
+                    style="font-size: 0.95rem; color: #7f1d1d; margin-top: 5px; margin-bottom: 0;">
+                    Se evaluará la rigurosidad técnica en la clasificación del
+                    peligro, el sustento normativo y la viabilidad económica y
+                    operativa de las medidas de control propuestas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #1e3a8a; color: rgba(255,255,255,0.8); border-top: 5px solid #4CAF50;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-shield mr-2" style="color: #4caf50;"></i> Peligros
+              Físicos II | Administración en Seguridad y Salud en el Trabajo
+            </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
