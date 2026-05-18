@@ -1,0 +1,129 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #1e3a8a 0%, #2c5282 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #4caf50; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Buzón Oficial </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Entrega Final: Informe Técnico UV</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Peligros Físicos II | Evidencia de Resolución de Retos
+                Higiénicos</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5">
+            <div class="row text-left">
+              <div class="col-12 col-lg-4 mb-4">
+                <div
+                  style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 25px; border-radius: 15px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+                  <div>
+                    <div style="text-align: center; margin-bottom: 20px;"> 
+                    </div>
+                    <h4
+                      style="color: #1e3a8a; font-weight: bold; font-size: 1.1rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 0.5px; text-align: center;">
+                      Requisito de Archivo</h4>
+                    <p
+                      style="color: #475569; font-size: 0.95rem; line-height: 1.6; text-align: center; margin-bottom: 0;">
+                      El entregable debe cargarse <strong>únicamente en formato
+                        digital PDF</strong>. Asegúrese de compilar los análisis
+                      de los tres casos (EC1, EC2 y EC3) en un solo documento
+                      consolidado.</p>
+                  </div>
+                  <div
+                    style="margin-top: 25px; background-color: #fff1f2; border: 1px solid #fecdd3; padding: 12px; border-radius: 8px; text-align: center;">
+                    <span
+                      style="color: #be123c; font-size: 0.85rem; font-weight: bold; text-transform: uppercase;">
+                      <i class="fa fa-warning"></i> Restricción </span>
+                    <p
+                      style="color: #9f1239; font-size: 0.85rem; margin-top: 5px; margin-bottom: 0; line-height: 1.4;">
+                      No se aceptarán enlaces de nubes compartidas o formatos
+                      editables (.docx, .xlsx). El archivo debe estar adjunto
+                      directamente aquí.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-8 mb-4">
+                <div style="padding-left: 5px;">
+                  <h4
+                    style="color: #1e3a8a; font-weight: bold; margin-bottom: 25px; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; font-size: 1.2rem;">
+                    <i class="fa fa-check-square-o mr-2"
+                      style="color: #4caf50;"></i> Lista de Verificación
+                    Administrativa</h4>
+                  <p
+                    style="color: #475569; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 25px;">
+                    Antes de proceder con el envío de su propuesta de control
+                    higiénico, valide que su informe cumpla con las
+                    especificaciones del área:</p>
+                  <ul
+                    style="list-style: none; padding-left: 0; margin-bottom: 0;">
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-calculator"
+                        style="color: #4caf50; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.1rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">
+                        <strong>Sustentación Matemática:</strong> Se deben
+                        evidenciar de manera clara los cálculos operacionales de
+                        las dosis, tiempos máximos ($t_{max}$) y distancias de
+                        seguridad según las fórmulas de radiación UV.</div>
+                    </li>
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-shield"
+                        style="color: #4caf50; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.1rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">
+                        <strong>Criterio Gerencial de SST:</strong> El documento
+                        debe incluir el análisis de riesgos y el diseño de la
+                        medida administrativa (rotación/turnos) o técnica
+                        adoptada para mitigar la exposición.</div>
+                    </li>
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-tag"
+                        style="color: #3b82f6; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.1rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">
+                        <strong>Nomenclatura del Archivo:</strong> Guarde el
+                        documento final utilizando el estándar institucional
+                        establecido: <br><code
+                          style="background-color: #f1f5f9; padding: 2px 6px; border-radius: 4px; color: #0f172a; font-family: monospace; font-size: 0.95rem;">Informe_UV_Apellido1_Apellido2.pdf</code>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              style="margin-top: 10px; padding: 30px; background-color: #f8fafc; border: 2px dashed #cbd5e1; border-radius: 12px; text-align: center;">
+              <p
+                style="color: #64748b; font-size: 1.1rem; font-weight: 600; margin-bottom: 15px;">
+                ¿Ha verificado todos los criterios de la guía?</p>
+              <a style="display: inline-block; background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 100%); color: white; font-weight: bold; font-size: 1.1rem; padding: 15px 40px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 15px rgba(29, 78, 216, 0.3); transition: all 0.3s ease; border: none;"
+                href="#" target="_self"> <i class="fa fa-cloud-upload mr-2"></i>
+                CLIC AQUÍ PARA CARGAR TRABAJO (PDF) </a>
+              <p
+                style="color: #475569; font-size: 0.85rem; margin-top: 15px; margin-bottom: 0;">
+                Tras hacer clic, arrastre su documento al área de transferencia
+                y presione <strong>"Guardar cambios"</strong>.</p>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #1e3a8a; color: rgba(255,255,255,0.8); border-top: 5px solid #4CAF50;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-shield mr-2" style="color: #4caf50;"></i> Peligros
+              Físicos II | Administración en SST </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
