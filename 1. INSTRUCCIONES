@@ -1,0 +1,120 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #3b82f6; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Fase de Aplicación Cuantitativa </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Actividad E3: Ejercicios de Aplicación</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Radiaciones Ionizantes | Dosimetría y Blindaje del Riesgo
+                Radiológico</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5">
+            <div
+              style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #3b82f6; padding: 25px; border-radius: 12px; margin-bottom: 30px;">
+              <h4
+                style="color: #1e3a8a; font-weight: bold; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; font-size: 1.15rem;">
+                <i class="fa fa-flag-checkered mr-2"
+                  style="color: #3b82f6;"></i> Protocolo de Actividad Individual
+              </h4>
+              <p
+                style="color: #475569; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
+                Esta actividad consta de <strong>cinco (5) ejercicios
+                  analíticos</strong> diseñados para cuantificar la exposición a
+                radiaciones ionizantes (Partículas Alfa, Beta, Rayos X y Gamma).
+                Siga rigurosamente la ruta de aprendizaje establecida para el
+                correcto desarrollo del taller en el aula.</p>
+            </div>
+            <div class="row text-left">
+              <div class="col-12 col-md-4 mb-3">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; padding: 20px; border-radius: 10px; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <div
+                    style="width: 45px; height: 45px; background-color: #eff6ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                    <span
+                      style="color: #3b82f6; font-weight: bold; font-size: 1.2rem; line-height: 1; display: inline-block;">1</span>
+                  </div>
+                  <h5
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1rem; text-transform: uppercase;">
+                    1. Revisión Teórica</h5>
+                  <p
+                    style="color: #64748b; font-size: 0.95rem; line-height: 1.5; margin-bottom: 0; text-align: justify;">
+                    Previo al desarrollo, es un prerrequisito indispensable
+                    visualizar el <strong>Tutorial de Fundamentos de Radiaciones
+                      Ionizantes</strong> cargado en el módulo.</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-3">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; padding: 20px; border-radius: 10px; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <div
+                    style="width: 45px; height: 45px; background-color: #f0fdf4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                    <span
+                      style="color: #22c55e; font-weight: bold; font-size: 1.2rem; line-height: 1; display: inline-block;">2</span>
+                  </div>
+                  <h5
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1rem; text-transform: uppercase;">
+                    2. Fase Sincrónica</h5>
+                  <p
+                    style="color: #64748b; font-size: 0.95rem; line-height: 1.5; margin-bottom: 0; text-align: justify;">
+                    Responda y resuelva cada uno de los ejercicios bajo la
+                    dirección técnica del tutor <strong>DURANTE el encuentro
+                      académico</strong>.</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-3">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; padding: 20px; border-radius: 10px; height: 100%; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <div
+                    style="width: 45px; height: 45px; background-color: #fffbeb; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+                    <span
+                      style="color: #eab308; font-weight: bold; font-size: 1.2rem; line-height: 1; display: inline-block;">3</span>
+                  </div>
+                  <h5
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1rem; text-transform: uppercase;">
+                    3. Modelamiento</h5>
+                  <p
+                    style="color: #64748b; font-size: 0.95rem; line-height: 1.5; margin-bottom: 0; text-align: justify;">
+                    Si requiere efectuar cálculos de decaimiento o ley de
+                    blindaje, apóyese en los modelos y tablas matemáticas
+                    incluidas en la plataforma.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              style="margin-top: 25px; background-color: #f1f5f9; padding: 15px; border-radius: 8px; text-align: center; border: 1px dashed #cbd5e1;">
+              <p
+                style="color: #334155; font-size: 0.95rem; margin-bottom: 0; line-height: 1.5;">
+                <i class="fa fa-info-circle"
+                  style="color: #1e3a8a; margin-right: 5px;"></i>
+                <strong>Sistema de Evaluación:</strong> Al finalizar la revisión
+                de los cinco casos, la plataforma habilitará la evaluación
+                informática. Cada estudiante es responsable de registrar sus
+                propias respuestas de forma individual. <strong>¡Muchos éxitos
+                  en su desarrollo!</strong></p>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #0f172a; color: rgba(255,255,255,0.8); border-top: 5px solid #4CAF50;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-shield mr-2" style="color: #4caf50;"></i> Peligros
+              Físicos II | Administración en SST </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
