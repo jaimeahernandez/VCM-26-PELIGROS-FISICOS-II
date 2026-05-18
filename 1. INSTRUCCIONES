@@ -1,0 +1,147 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #1e3a8a 0%, #2c5282 100%); color: white;">
+            <div class="text-center">
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 5px; font-size: 1.8rem;">
+                Actividad E1: Entorno Virtual</h2>
+              <div
+                style="width: 120px; height: 4px; background: #4CAF50; margin: 10px auto;">
+                 </div>
+              <p class="mb-0"
+                style="font-size: 1.1rem; opacity: 0.9; font-weight: 300;">
+                Peligros Físicos II | Exposición a Radiaciones No Ionizantes</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5">
+            <div class="row">
+              <div class="col-12 col-lg-4 mb-4">
+                <div
+                  style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 25px; border-radius: 15px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+                  <div>
+                    <div style="text-align: center; margin-bottom: 20px;"><img
+                        class="img-fluid"
+                        style="max-height: 70px; border-radius: 8px; padding: 5px;"
+                        src="https://sn-recit-formation-a-distance.github.io/html-bootstrap-editor-showcase/img/fp01/Moodle.jpg">
+                    </div>
+                    <h4
+                      style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 0.5px;">
+                      <i class="fa fa-calendar-check-o mr-2"
+                        style="color: #4caf50;"></i> Componente</h4>
+                    <p
+                      style="color: #475569; font-size: 0.95rem; line-height: 1.6; text-align: justify;">
+                      <strong>Metodología:</strong> Revisión de presentación
+                      interactiva sobre riesgos físicos enfocados en radiaciones
+                      no ionizantes y su posterior evaluación teórica.</p>
+                  </div>
+                  <div style="margin-top: 20px;"><a
+                      class="btn btn-primary btn-block py-3 shadow-sm"
+                      style="background: #1e3a8a; color: white; border: none; border-radius: 8px; font-weight: bold; font-size: 1.05rem; text-decoration: none; display: block; text-align: center;"
+                      href="https://aulasvirtuales.uniajc.edu.co/mod/book/view.php?id=1050390&amp;chapterid=227131#mod_book-chapter"
+                      target="_self"> <i class="fa fa-desktop mr-2"></i> Abrir
+                      Presentación </a>
+                    <div
+                      style="text-align: right; margin-top: 12px; color: #64748b; font-size: 0.85rem; font-weight: 600;">
+                      <i class="fa fa-clock-o"></i> Duración estimada: 2 horas
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-8 mb-4">
+                <div style="padding-left: 5px;">
+                  <h4
+                    style="color: #1e3a8a; font-weight: bold; margin-bottom: 25px; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; font-size: 1.2rem;">
+                    <i class="fa fa-list-ol mr-2" style="color: #4caf50;"></i>
+                    Guía de Pasos a Seguir</h4>
+                  <p
+                    style="color: #475569; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 25px;">
+                    Siga detenidamente este protocolo secuencial para asegurar
+                    la correcta asimilación de los conceptos y el registro de su
+                    calificación en el sistema:</p>
+                  <ul
+                    style="list-style: none; padding-left: 0; margin-bottom: 0;">
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-arrow-circle-right"
+                        style="color: #4caf50; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">
+                        Ingrese al recurso multimedia haciendo clic en el botón
+                        <strong>"Abrir Presentación"</strong>.</div>
+                    </li>
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-arrow-circle-right"
+                        style="color: #4caf50; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">Una
+                        vez dentro del entorno, pulse el botón <strong>"Comienza
+                          el Curso"</strong>.</div>
+                    </li>
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-arrow-circle-right"
+                        style="color: #4caf50; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">Avance
+                        de forma ordenada por las diapositivas utilizando el
+                        control <strong>"Siguiente"</strong>.</div>
+                    </li>
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-info-circle"
+                        style="color: #3b82f6; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">Preste
+                        especial atención a las capas interactivas marcadas con
+                        un <strong>icono "+" de color púrpura</strong>; haga
+                        clic en ellos para expandir la información técnica.
+                      </div>
+                    </li>
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-video-camera"
+                        style="color: #2c5282; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.1rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">
+                        Visualice de manera íntegra y completa todos los
+                        recursos audiovisuales embebidos en la presentación.
+                      </div>
+                    </li>
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-arrow-circle-right"
+                        style="color: #f59e0b; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">Al
+                        finalizar la revisión del material, regrese al aula
+                        virtual y diríjase a la sección de evaluación.</div>
+                    </li>
+                    <li
+                      style="font-size: 1.05rem; color: #334155; margin-bottom: 16px; display: flex; align-items: flex-start;">
+                      <i class="fa fa-check-square-o"
+                        style="color: #e11d48; margin-top: 4px; margin-right: 12px; flex-shrink: 0; font-size: 1.2rem;"></i>
+                      <div style="line-height: 1.6; text-align: justify;">
+                        Resuelva el cuestionario propuesto para efectuar el
+                        registro automatizado de su calificación.</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #1e3a8a; color: rgba(255,255,255,0.8); border-top: 5px solid #4CAF50;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-shield mr-2" style="color: #4caf50;"></i> Peligros
+              Físicos II | Administración en Seguridad y Salud en el Trabajo
+            </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
