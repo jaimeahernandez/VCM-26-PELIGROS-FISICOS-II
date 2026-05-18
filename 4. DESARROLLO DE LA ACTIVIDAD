@@ -1,0 +1,344 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #e11d48; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Gestión Estratégica y Toma de Decisiones </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Panel de Retos: Higiene Radiológica Avanzada</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Casos de Estudio Clínico-Operacionales para Administradores en
+                SST</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5" style="background-color: #ffffff;">
+            <div
+              style="background-color: #f8fafc; border-left: 5px solid #e11d48; padding: 20px; border-radius: 8px; margin-bottom: 40px;">
+              <h5
+                style="color: #0f172a; font-weight: bold; margin-bottom: 8px; text-transform: uppercase; font-size: 1rem;">
+                <i class="fa fa-briefcase mr-2" style="color: #e11d48;"></i>
+                Consigna de Actuación Gerencial</h5>
+              <p
+                style="color: #475569; font-size: 1rem; line-height: 1.6; text-align: justify; margin-bottom: 0;">
+                Como futuro Administrador en Seguridad y Salud en el Trabajo, su
+                labor va más allá de procesar fórmulas; su verdadera
+                responsabilidad radica en la **interpretación, auditoría y
+                mitigación del riesgo** con base en datos reales. Abra su hoja
+                de trabajo, tome los valores matemáticos que calculó en cada
+                ejercicio y resuelva los siguientes desafíos preventivos
+                institucionales.</p>
+            </div>
+            <div class="row align-items-stretch mb-5"
+              style="position: relative;">
+              <div
+                class="col-auto text-center d-none d-sm-flex flex-column align-items-center"
+                style="width: 70px;">
+                <div
+                  style="width: 45px; height: 45px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
+                  <span
+                    style="color: white; font-weight: bold; font-size: 1.15rem; line-height: 1;">1</span>
+                </div>
+                <div
+                  style="position: absolute; top: 45px; bottom: -45px; width: 2px; background-color: #cbd5e1; z-index: 1;">
+                   </div>
+              </div>
+              <div class="col">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #3b82f6; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <span
+                    style="background-color: #eff6ff; color: #1e40af; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Reto
+                    de Auditoría Técnica</span>
+                  <h4
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px;">
+                    Validación del Factor de Ponderación ($W_R$)</h4>
+                  <p
+                    style="color: #334155; font-size: 1rem; line-height: 1.6; text-align: justify;">
+                    Un informe de dosimetría externa reporta la dosis absorbida
+                    de un trabajador expuesto a una fuente de neutrones. A
+                    partir de la operación analítica que usted realizó en el
+                    **Ejercicio 1** para hallar la dosis equivalente en piel:
+                  </p>
+                  <div
+                    style="background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 15px; border-radius: 8px; margin-top: 15px;">
+                    <span
+                      style="color: #1e3a8a; font-weight: bold; font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 5px;">Desafío
+                      SST:</span>
+                    <p
+                      style="color: #475569; font-size: 0.95rem; margin-bottom: 0; text-align: justify;">
+                      Sustente técnicamente cuál fue el factor de ponderación de
+                      la radiación ($W_R$) que debió aplicar sobre la dosis
+                      absorbida original y argumente qué impacto genera este
+                      factor multiplicador sobre las prioridades de intervención
+                      en la matriz de riesgos de la organización.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-stretch mb-5"
+              style="position: relative;">
+              <div
+                class="col-auto text-center d-none d-sm-flex flex-column align-items-center"
+                style="width: 70px;">
+                <div
+                  style="width: 45px; height: 45px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
+                  <span
+                    style="color: white; font-weight: bold; font-size: 1.15rem; line-height: 1;">2</span>
+                </div>
+                <div
+                  style="position: absolute; top: 45px; bottom: -45px; width: 2px; background-color: #cbd5e1; z-index: 1;">
+                   </div>
+              </div>
+              <div class="col">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #3b82f6; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <span
+                    style="background-color: #eff6ff; color: #1e40af; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Reto
+                    de Toma de Decisiones Clínico-Laborales</span>
+                  <h4
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px;">
+                    Gestión de Exposiciones Mixtas de Alta Magnitud</h4>
+                  <p
+                    style="color: #334155; font-size: 1rem; line-height: 1.6; text-align: justify;">
+                    En ambientes con presencia simultánea de diversos
+                    radionucleidos, la dosis equivalente total no puede
+                    evaluarse de manera lineal aislada. Utilizando la dosis
+                    equivalente total integrada que calculó en el **Ejercicio
+                    2**:</p>
+                  <div
+                    style="background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 15px; border-radius: 8px; margin-top: 15px;">
+                    <span
+                      style="color: #1e3a8a; font-weight: bold; font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 5px;">Desafío
+                      SST:</span>
+                    <p
+                      style="color: #475569; font-size: 0.95rem; margin-bottom: 0; text-align: justify;">
+                      Explique detalladamente el procedimiento analítico que usó
+                      para consolidar los diferentes tipos de radiación en un
+                      único valor de dosis equivalente total. Con base en la
+                      magnitud del valor final que obtuvo, defina si se requiere
+                      una intervención administrativa de emergencia o
+                      reubicación del operario.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-stretch mb-5"
+              style="position: relative;">
+              <div
+                class="col-auto text-center d-none d-sm-flex flex-column align-items-center"
+                style="width: 70px;">
+                <div
+                  style="width: 45px; height: 45px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
+                  <span
+                    style="color: white; font-weight: bold; font-size: 1.15rem; line-height: 1;">3</span>
+                </div>
+                <div
+                  style="position: absolute; top: 45px; bottom: -45px; width: 2px; background-color: #cbd5e1; z-index: 1;">
+                   </div>
+              </div>
+              <div class="col">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #3b82f6; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <span
+                    style="background-color: #eff6ff; color: #1e40af; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Reto
+                    de Control de Ingeniería y EPP</span>
+                  <h4
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px;">
+                    Protección de Órganos Críticos e Interpretación de Umbrales
+                  </h4>
+                  <p
+                    style="color: #334155; font-size: 1rem; line-height: 1.6; text-align: justify;">
+                    El cristalino (lente de los ojos) posee un umbral de
+                    radiosensibilidad sumamente específico frente al riesgo de
+                    opacidades deterministas. Tomando como referencia la dosis
+                    equivalente anual que calculó en el **Ejercicio 3**:</p>
+                  <div
+                    style="background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 15px; border-radius: 8px; margin-top: 15px;">
+                    <span
+                      style="color: #1e3a8a; font-weight: bold; font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 5px;">Desafío
+                      SST:</span>
+                    <p
+                      style="color: #475569; font-size: 0.95rem; margin-bottom: 0; text-align: justify;">
+                      Contraste su resultado frente al límite máximo anual
+                      internacionalmente recomendado para el cristalino. Indique
+                      con claridad si el trabajador se encuentra en una
+                      condición segura o de sobreexposición, y detalle qué
+                      barreras específicas de protección colectiva o individual
+                      implementaría.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-stretch mb-5"
+              style="position: relative;">
+              <div
+                class="col-auto text-center d-none d-sm-flex flex-column align-items-center"
+                style="width: 70px;">
+                <div
+                  style="width: 45px; height: 45px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
+                  <span
+                    style="color: white; font-weight: bold; font-size: 1.15rem; line-height: 1;">4</span>
+                </div>
+                <div
+                  style="position: absolute; top: 45px; bottom: -45px; width: 2px; background-color: #cbd5e1; z-index: 1;">
+                   </div>
+              </div>
+              <div class="col">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #3b82f6; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <span
+                    style="background-color: #eff6ff; color: #1e40af; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Reto
+                    Legal y de Vigilancia Epidemiológica</span>
+                  <h4
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px;">
+                    Análisis de Riesgo Total: Dosis Efectiva Corporal</h4>
+                  <p
+                    style="color: #334155; font-size: 1rem; line-height: 1.6; text-align: justify;">
+                    La dosis efectiva corporal total es el indicador de control
+                    legal por excelencia para cuantificar de forma integral los
+                    efectos estocásticos a largo plazo. Utilizando el valor
+                    final de la dosis efectiva total obtenido en el **Ejercicio
+                    4**:</p>
+                  <div
+                    style="background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 15px; border-radius: 8px; margin-top: 15px;">
+                    <span
+                      style="color: #1e3a8a; font-weight: bold; font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 5px;">Desafío
+                      SST:</span>
+                    <p
+                      style="color: #475569; font-size: 0.95rem; margin-bottom: 0; text-align: justify;">
+                      Determine mediante una evaluación de conformidad
+                      regulatoria si la dosis calculada excede o se mantiene
+                      dentro del límite legal promediado anual recomendado para
+                      un Trabajador Ocupacionalmente Expuesto (TOE). ¿Qué
+                      acciones preventivas o modificaciones de jornada
+                      estipularía según su margen de seguridad?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-stretch mb-5"
+              style="position: relative;">
+              <div
+                class="col-auto text-center d-none d-sm-flex flex-column align-items-center"
+                style="width: 70px;">
+                <div
+                  style="width: 45px; height: 45px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
+                  <span
+                    style="color: white; font-weight: bold; font-size: 1.15rem; line-height: 1;">5</span>
+                </div>
+                <div
+                  style="position: absolute; top: 45px; bottom: -45px; width: 2px; background-color: #cbd5e1; z-index: 1;">
+                   </div>
+              </div>
+              <div class="col">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #3b82f6; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <span
+                    style="background-color: #eff6ff; color: #1e40af; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Reto
+                    de Gestión del Ciclo de Vida Laboral</span>
+                  <h4
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px;">
+                    Evaluación Crítica de la Dosis Acumulada Histórica</h4>
+                  <p
+                    style="color: #334155; font-size: 1rem; line-height: 1.6; text-align: justify;">
+                    La auditoría de historiales dosimétricos es indispensable
+                    para preservar la salud del personal antiguo y planificar su
+                    ciclo de vida laboral seguro. Con base en el resultado de la
+                    dosis equivalente acumulada calculada en el **Ejercicio 5**:
+                  </p>
+                  <div
+                    style="background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 15px; border-radius: 8px; margin-top: 15px;">
+                    <span
+                      style="color: #1e3a8a; font-weight: bold; font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 5px;">Desafío
+                      SST:</span>
+                    <p
+                      style="color: #475569; font-size: 0.95rem; margin-bottom: 0; text-align: justify;">
+                      Compare la dosis acumulada calculada frente al límite
+                      máximo acumulado vitalicio de control reglamentario.
+                      Evalúe el margen disponible antes de alcanzar el umbral de
+                      restricción y diseñe una estrategia organizacional de
+                      control administrativo para este colaborador.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="margin-top: 40px; margin-bottom: 25px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;">
+              <h3
+                style="color: #0f172a; font-weight: 800; font-size: 1.3rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                <i class="fa fa-shield" style="color: #22c55e;"></i> Marco
+                conceptual de aplicación gerencial</h3>
+            </div>
+            <div
+              style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 25px; border-radius: 12px;">
+              <span
+                style="background-color: #22c55e; color: white; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Estándar
+                de Certificación Técnica</span>
+              <h4
+                style="color: #166534; font-weight: bold; font-size: 1.15rem; margin-top: 10px; margin-bottom: 15px;">
+                Diferenciación de Magnitudes Dosimétricas en Auditorías del
+                SG-SST</h4>
+              <p
+                style="color: #14532d; font-size: 1rem; line-height: 1.6; text-align: justify;">
+                Durante los procesos de sustentación legal y auditoría, el
+                Administrador en SST debe dominar con absoluta precisión
+                analítica los conceptos fundamentales avalados por la Comisión
+                Internacional de Protección Radiológica (ICRP):</p>
+              <div class="row style-left mt-3">
+                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                  <div
+                    style="background-color: #ffffff; border: 1px solid #bbf7d0; padding: 15px; border-radius: 8px; height: 100%;">
+                    <p
+                      style="color: #334155; font-size: 0.95rem; line-height: 1.5; margin-bottom: 0; text-align: justify;">
+                      <strong style="color: #166534;"><i
+                          class="fa fa-info-circle"></i> Correlación de
+                        Magnitudes:</strong> La <strong>Dosis
+                        Equivalente</strong> se encarga de ponderar el impacto
+                      biológico ajustando la dosis absorbida en función de la
+                      agresividad física de la radiación ($W_R$), mientras que
+                      la <strong>Dosis Efectiva</strong> incorpora la
+                      sensibilidad de cada órgano o tejido ($W_T$) para estimar
+                      el riesgo de detrimento biológico total sobre el
+                      organismo.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div
+                    style="background-color: #ffffff; border: 1px solid #bbf7d0; padding: 15px; border-radius: 8px; height: 100%;">
+                    <p
+                      style="color: #334155; font-size: 0.95rem; line-height: 1.5; margin-bottom: 0; text-align: justify;">
+                      <strong style="color: #c2410c;"><i
+                          class="fa fa-exclamation-triangle"></i> Orden del
+                        Algoritmo Matemático:</strong> En los esquemas de
+                      auditoría higiénica, es indispensable recordar que los
+                      factores de ponderación de la radiación ($W_R$) se aplican
+                      directamente sobre los valores de la <strong>dosis
+                        absorbida</strong> para derivar la dosis equivalente, y
+                      nunca en orden inverso, evitando sesgos graves de
+                      subvaloración del riesgo.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #0f172a; color: rgba(255,255,255,0.8); border-top: 5px solid #4CAF50;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-shield mr-2" style="color: #4caf50;"></i> Peligros
+              Físicos II | Administración en SST </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
