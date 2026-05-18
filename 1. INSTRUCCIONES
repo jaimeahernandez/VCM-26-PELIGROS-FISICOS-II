@@ -1,0 +1,139 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #1e3a8a 0%, #2c5282 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #f59e0b; color: #1e3a8a; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Fase de Aplicación Práctica </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Actividad E2: Protocolo de Casos Autónomos</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Evaluación Quirúrgica e Higiénica en la Región UV</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5" style="position: relative;">
+            <div class="row align-items-center mb-5"
+              style="position: relative;">
+              <div
+                class="col-auto text-center d-none d-sm-flex flex-column align-items-center justify-content-center"
+                style="width: 80px;">
+                <div
+                  style="width: 55px; height: 55px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
+                  <h5
+                    style="margin: 0; font-weight: bold; color: white; font-size: 1.3rem; line-height: 1;">
+                    1</h5>
+                </div>
+                <div
+                  style="position: absolute; top: 55px; bottom: -45px; width: 3px; background-color: #cbd5e1; z-index: 1;">
+                   </div>
+              </div>
+              <div class="col">
+                <div
+                  style="background-color: #fff1f2; border: 1px solid #fecdd3; border-left: 5px solid #e11d48; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <h4
+                    style="color: #9f1239; font-weight: bold; font-size: 1.15rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; text-align: left;">
+                    <i class="fa fa-calculator mr-2"></i> Lineamientos de
+                    Honestidad Académica</h4>
+                  <p
+                    style="color: #475569; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
+                    Lea detenidamente las instrucciones de esta actividad
+                    individual. Está autorizado el uso de <strong>calculadora
+                      física u operacional</strong>. Queda estrictamente
+                    <strong>prohibido el uso de teléfonos celulares o
+                      aplicaciones de mensajería (WhatsApp)</strong> durante el
+                    desarrollo. La infracción de esta norma de control acarreará
+                    la anulación automática de la actividad de forma inapelable.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-center mb-5"
+              style="position: relative;">
+              <div
+                class="col-auto text-center d-none d-sm-flex flex-column align-items-center justify-content-center"
+                style="width: 80px;">
+                <div
+                  style="width: 55px; height: 55px; background-color: #4caf50; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
+                  <h5
+                    style="margin: 0; font-weight: bold; color: white; font-size: 1.3rem; line-height: 1;">
+                    2</h5>
+                </div>
+                <div
+                  style="position: absolute; top: 55px; bottom: -45px; width: 3px; background-color: #cbd5e1; z-index: 1;">
+                   </div>
+              </div>
+              <div class="col">
+                <div
+                  style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #4CAF50; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <h4
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1.15rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; text-align: left;">
+                    <i class="fa fa-folder-open mr-2"
+                      style="color: #4caf50;"></i> Estructura: Estudios de Caso
+                    UV</h4>
+                  <p
+                    style="color: #475569; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
+                    Esta actividad contiene <strong>tres (3) estudios de casos
+                      de entornos reales</strong> relacionados con la exposición
+                    laboral a radiaciones en la <strong>Región Ultravioleta
+                      (UV)</strong>. Deberá responder a los requerimientos
+                    indicados para cada caso de manera sincrónica
+                    <strong>DURANTE el encuentro académico</strong>. Absténgase
+                    de interactuar con otros grupos o personas; la detección de
+                    copias influirá negativamente con el descuento de puntos o
+                    la pérdida del taller.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-center" style="position: relative;">
+              <div
+                class="col-auto text-center d-none d-sm-flex flex-column align-items-center justify-content-center"
+                style="width: 80px;">
+                <div
+                  style="width: 55px; height: 55px; background-color: #f59e0b; color: #1e3a8a; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
+                  <h5
+                    style="margin: 0; font-weight: bold; color: #1e3a8a; font-size: 1.3rem; line-height: 1;">
+                    3</h5>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  style="background-color: #eff6ff; border: 1px solid #bfdbfe; border-left: 5px solid #3b82f6; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <h4
+                    style="color: #1e40af; font-weight: bold; font-size: 1.15rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; text-align: left;">
+                    <i class="fa fa-info-circle" style="color: #3b82f6;"></i>
+                    Modelado Matemático y Evaluación</h4>
+                  <p
+                    style="color: #475569; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
+                    Si el análisis del caso requiere cuantificar dosis o
+                    interpretar variables físicas, le recomendamos apoyarse
+                    estrictamente en las <strong>fórmulas matemáticas y tablas
+                      normativas</strong> anexadas dentro de la plataforma. Al
+                    finalizar la revisión exhaustiva de los casos, se habilitará
+                    automáticamente el sistema técnico para que efectúe su
+                    evaluación informática. ¡Muchos éxitos en su desarrollo
+                    profesional!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #1e3a8a; color: rgba(255,255,255,0.8); border-top: 5px solid #4CAF50;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-shield mr-2" style="color: #4caf50;"></i> Peligros
+              Físicos II | Administración en SST </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
