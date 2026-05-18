@@ -1,0 +1,122 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #3b82f6; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Recurso Audiovisual Instruccional </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Tutorial: Fundamentos de Radiaciones Ionizantes</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Física de Partículas y Magnitudes Dosimétricas en SST</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5" style="background-color: #f8fafc;">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-4 mb-4 order-lg-2">
+                <div
+                  style="background: #ffffff; border: 1px solid #e2e8f0; padding: 25px; border-radius: 15px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 6px rgba(0,0,0,0.01);">
+                  <div>
+                    <h4
+                      style="color: #1e3a8a; font-weight: bold; font-size: 1.1rem; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px;">
+                      <i class="fa fa-list-ul mr-2" style="color: #3b82f6;"></i>
+                      Foco de Análisis</h4>
+                    <p
+                      style="color: #475569; font-size: 0.95rem; line-height: 1.6; text-align: justify; margin-bottom: 15px;">
+                      Durante el visionado del material, preste especial
+                      atención a los siguientes ejes transversales de la higiene
+                      industrial:</p>
+                    <div
+                      style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+                      <div
+                        style="width: 28px; height: 28px; background-color: #eff6ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 10px; flex-shrink: 0;">
+                        <span
+                          style="color: #3b82f6; font-size: 0.85rem; font-weight: bold; line-height: 1;">1</span>
+                      </div>
+                      <div
+                        style="color: #334155; font-size: 0.9rem; line-height: 1.4;">
+                        Diferenciación entre partículas (Alfa, Beta) y ondas
+                        electromagnéticas (Rayos X y Gamma).</div>
+                    </div>
+                    <div
+                      style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+                      <div
+                        style="width: 28px; height: 28px; background-color: #f0fdf4; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 10px; flex-shrink: 0;">
+                        <span
+                          style="color: #22c55e; font-size: 0.85rem; font-weight: bold; line-height: 1;">2</span>
+                      </div>
+                      <div
+                        style="color: #334155; font-size: 0.9rem; line-height: 1.4;">
+                        Comprensión de unidades físicas de medida: Gray (Gy) y
+                        Sievert (Sv) para dosimetría efectiva.</div>
+                    </div>
+                    <div style="display: flex; align-items: flex-start;">
+                      <div
+                        style="width: 28px; height: 28px; background-color: #fffbeb; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 10px; flex-shrink: 0;">
+                        <span
+                          style="color: #eab308; font-size: 0.85rem; font-weight: bold; line-height: 1; display: inline-block; text-align: center;">3</span>
+                      </div>
+                      <div
+                        style="color: #334155; font-size: 0.9rem; line-height: 1.4;">
+                        Mecanismos operacionales de protección radiológica:
+                        Tiempo, Distancia y Blindaje.</div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-top: 25px; width: 100%; background-color: #eff6ff; border: 1px solid #bfdbfe; padding: 12px; border-radius: 8px; flex-shrink: 0;">
+                    <p
+                      style="color: #1e40af; font-size: 0.85rem; margin-bottom: 0; line-height: 1.4; text-align: justify;">
+                      <strong>Nota Académica:</strong> Los conceptos explicados
+                      aquí proveerán la base interpretativa para el modelado
+                      matemático de los 5 ejercicios sincrónicos subsiguientes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-8 mb-4 order-lg-1">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; padding: 15px; border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.01); height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <div
+                      style="margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between;">
+                      <span
+                        style="font-size: 0.85rem; font-weight: 600; color: #64748b;">
+                        <i class="fa fa-video-camera"
+                          style="color: #e11d48; margin-right: 5px;"></i>
+                        Reproductor Universitario </span> <span
+                        style="background-color: #f1f5f9; color: #334155; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 500;">
+                        HD 1080p </span></div>
+                    <div class="embed-responsive embed-responsive-16by9"
+                      style="position: relative; display: block; width: 100%; padding: 0; overflow: hidden; padding-top: 56.25%; border-radius: 8px; border: 1px solid #cbd5e1;">
+                      <iframe class="embed-responsive-item"
+                        style="position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                        title="Tutorial - Fundamentos Radiaciones Ionizantes"
+                        src="https://www.youtube.com/embed/bjiQYihSYHw?rel=0"
+                        frameborder="0" allowfullscreen="allowfullscreen">
+                      </iframe></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #0f172a; color: rgba(255,255,255,0.8); border-top: 5px solid #4CAF50;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-shield mr-2" style="color: #4caf50;"></i> Peligros
+              Físicos II | Administración en SST </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
