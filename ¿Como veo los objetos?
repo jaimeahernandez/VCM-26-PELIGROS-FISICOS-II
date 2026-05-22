@@ -1,0 +1,288 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #10b981; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Anatomía Funcional y Ergonomía </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Mecanismo de Percepción de la Luz Visible</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Fisiología Ocular e Interpretación de Estímulos en el Entorno
+                Laboral</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5" style="background-color: #ffffff;">
+            <div class="row mb-5">
+              <div class="col-12 text-justify">
+                <p
+                  style="color: #334155; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
+                  Desde la perspectiva biofísica, la visión no es un evento
+                  pasivo, sino un proceso dinámico mediante el cual el sistema
+                  ocular humano capta la radiación reflejada por las superficies
+                  para codificar e interpretar la geometría, textura y
+                  distribución cromática de los objetos. Comprender la secuencia
+                  bioeléctrica y las estructuras que regulan el paso de la luz
+                  es un requisito fundamental para que el administrador en SST
+                  evalúe correctamente los factores de riesgo por iluminación.
+                </p>
+              </div>
+            </div>
+            <div
+              style="margin-bottom: 35px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;">
+              <h4
+                style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                <i class="fa fa-refresh mr-2" style="color: #3b82f6;"></i> Fases
+                del Procesamiento Visual</h4>
+            </div>
+            <div class="row justify-content-center mb-4 text-center">
+              <div class="col-12 col-md-5 mb-3 mb-md-0"><img class="img-fluid"
+                  style="border-radius: 8px; border: 1px solid #cbd5e1; max-height: 200px;"
+                  src="https://cs.stanford.edu/people/eroberts/courses/soco/projects/1997-98/ray-tracing/images/reflection.gif"
+                  alt="Reflexión de la luz"></div>
+              <div class="col-12 col-md-5"><img class="img-fluid"
+                  style="border-radius: 8px; border: 1px solid #cbd5e1; max-height: 200px;"
+                  src="https://www.shutterstock.com/image-vector/seeing-colors-reflection-red-apple-260nw-2239971697.jpg"
+                  alt="Percepción cromática"></div>
+            </div>
+            <div
+              style="background-color: #f8fafc; padding: 25px; border-radius: 12px; margin-bottom: 45px; border: 1px solid #e2e8f0;">
+              <div
+                style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+                <div
+                  style="width: 30px; height: 30px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0; font-weight: bold; font-size: 0.9rem;">
+                  1</div>
+                <div
+                  style="color: #334155; font-size: 1rem; line-height: 1.5; text-align: justify;">
+                  <strong>Captación Fotónica:</strong> La luz visible incide
+                  sobre los objetos del entorno; una fracción del espectro es
+                  absorbida según las propiedades químicas de la superficie y
+                  otra es reflejada, dirigiéndose directamente hacia el sistema
+                  óptico del trabajador.</div>
+              </div>
+              <div
+                style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+                <div
+                  style="width: 30px; height: 30px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0; font-weight: bold; font-size: 0.9rem;">
+                  2</div>
+                <div
+                  style="color: #334155; font-size: 1rem; line-height: 1.5; text-align: justify;">
+                  <strong>Enfoque y Refracción:</strong> Los haces fotónicos
+                  atraviesan los medios transparentes del ojo (córnea y
+                  cristalino), sufriendo una desviación geométrica calculada
+                  para converger y proyectarse con nitidez matemática sobre el
+                  plano retiniano.</div>
+              </div>
+              <div
+                style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+                <div
+                  style="width: 30px; height: 30px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0; font-weight: bold; font-size: 0.9rem;">
+                  3</div>
+                <div
+                  style="color: #334155; font-size: 1rem; line-height: 1.5; text-align: justify;">
+                  <strong>Fototraducción en Receptores:</strong> La energía
+                  electromagnética enfocada estimula las células neuroreceptoras
+                  de la retina: los <strong>bastones</strong> (especializados en
+                  la gestión de la intensidad lumínica y visión escotópica) y
+                  los <strong>conos</strong> (responsables de la resolución
+                  cromática).</div>
+              </div>
+              <div class="text-center my-4"><img class="img-fluid"
+                  style="border-radius: 8px; width: 450px; border: 1px solid #cbd5e1;"
+                  src="https://eyesafe.com/wp-content/uploads/2022/04/highenergybluelighttotheeye.jpg"
+                  alt="Estimulación retiniana"></div>
+              <div
+                style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+                <div
+                  style="width: 30px; height: 30px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0; font-weight: bold; font-size: 0.9rem;">
+                  4</div>
+                <div
+                  style="color: #334155; font-size: 1rem; line-height: 1.5; text-align: justify;">
+                  <strong>Transmisión Aferente:</strong> Las reacciones
+                  fotoquímicas de los fotorreceptores se transforman en impulsos
+                  bioeléctricos (potenciales de acción) que viajan de forma
+                  sincronizada a través de las fibras del nervio óptico.</div>
+              </div>
+              <div style="display: flex; align-items: flex-start;">
+                <div
+                  style="width: 30px; height: 30px; background-color: #1e3a8a; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0; font-weight: bold; font-size: 0.9rem;">
+                  5</div>
+                <div
+                  style="color: #334155; font-size: 1rem; line-height: 1.5; text-align: justify;">
+                  <strong>Procesamiento Cortical:</strong> La corteza visual del
+                  cerebro (lóbulo occipital) decodifica la frecuencia, la
+                  intensidad y los contornos de las señales neuronales
+                  recibidas, construyendo la imagen mental detallada del entorno
+                  operativo.</div>
+              </div>
+            </div>
+            <div
+              style="margin-bottom: 25px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;">
+              <h4
+                style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                <i class="fa fa-eye mr-2" style="color: #10b981;"></i> Matriz de
+                Intervención Anatómica</h4>
+            </div>
+            <div class="text-center mb-4"><img class="img-fluid"
+                style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1;"
+                src="https://www.brillpharma.com/wp-content/uploads/2018/11/PARTES-DEL-OJO.jpg"
+                alt="Partes del Ojo Humano">
+              <p
+                style="font-size: 0.85rem; color: #64748b; margin-top: 8px; font-style: italic;">
+                Figura 3. Componentes estructurales del globo ocular
+                involucrados en la refracción y filtrado de la luz.</p>
+            </div>
+            <div class="table-responsive mb-5">
+              <table class="table table-bordered"
+                style="font-size: 1rem; border-color: #e2e8f0;">
+                <thead style="background-color: #0f172a; color: white;">
+                  <tr class="text-center">
+                    <th
+                      style="padding: 12px; font-weight: 600; text-transform: uppercase; font-size: 0.85rem; width: 25%;">
+                      Estructura Ocular</th>
+                    <th
+                      style="padding: 12px; font-weight: 600; text-transform: uppercase; font-size: 0.85rem;">
+                      Función Dinámica frente al Estímulo Lumínico</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td
+                      style="padding: 12px; font-weight: bold; color: #1e3a8a; background-color: #f8fafc; text-align: center;">
+                      <i class="fa fa-shield mr-2"></i>Córnea</td>
+                    <td
+                      style="padding: 12px; color: #475569; text-align: justify;">
+                      Tejido convexo, transparente y avascular situado en la
+                      zona anterior. Constituye la primera y más potente barrera
+                      de refracción óptica, desviando los rayos de luz hacia el
+                      eje pupilar mientras resguarda las estructuras internas de
+                      agresiones mecánicas o macropartículas del ambiente.</td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="padding: 12px; font-weight: bold; color: #1e3a8a; background-color: #f8fafc; text-align: center;">
+                      <i class="fa fa-circle-o mr-2"></i>Pupila</td>
+                    <td
+                      style="padding: 12px; color: #475569; text-align: justify;">
+                      Abertura central regulable. Funciona como un diafragma
+                      físico que controla el flujo volumétrico de fotones que
+                      ingresan al ojo: experimenta **midriasis** (dilatación)
+                      ante déficits lumínicos para optimizar la captura, y
+                      **miosis** (contracción) ante excesos cromáticos para
+                      atenuar la sobreexposición.</td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="padding: 12px; font-weight: bold; color: #1e3a8a; background-color: #f8fafc; text-align: center;">
+                      <i class="fa fa-sliders mr-2"></i>Iris</td>
+                    <td
+                      style="padding: 12px; color: #475569; text-align: justify;">
+                      Membrana circular pigmentada y contráctil. Modula de forma
+                      automatizada e involuntaria el diámetro de la pupila
+                      mediante la activación de sus músculos esfínter y
+                      dilatador, actuando como el estabilizador primario ante
+                      variaciones súbitas de luminancia en el puesto de trabajo.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="padding: 12px; font-weight: bold; color: #1e3a8a; background-color: #f8fafc; text-align: center;">
+                      <i class="fa fa-compress mr-2"></i>Cristalino</td>
+                    <td
+                      style="padding: 12px; color: #475569; text-align: justify;">
+                      Lente biconvexa, elástica y dinámica. Modifica su
+                      curvatura geométrica (proceso de **acomodación**)
+                      impulsada por el músculo ciliar para enfocar con precisión
+                      los planos de trabajo. Su esfuerzo sostenido al enfocar
+                      distancias cortas es la causa principal de fatiga muscular
+                      ocular.</td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="padding: 12px; font-weight: bold; color: #1e3a8a; background-color: #f8fafc; text-align: center;">
+                      <i class="fa fa-th mr-2"></i>Retina</td>
+                    <td
+                      style="padding: 12px; color: #475569; text-align: justify;">
+                      Estructura neurosensorial posterior de alta complejidad.
+                      Actúa como la pantalla biológica receptora donde los
+                      fotorreceptores (conos y bastones) realizan la
+                      transducción metabólica, convirtiendo la señal lumínica en
+                      un impulso nervioso analizable por el sistema nervioso
+                      central.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="row align-items-stretch"
+              style="position: relative; margin-top: 40px;">
+              <div
+                class="col-auto text-center d-none d-sm-flex flex-column align-items-center"
+                style="width: 70px;">
+                <div
+                  style="width: 45px; height: 45px; background-color: #e11d48; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
+                   </div>
+              </div>
+              <div class="col">
+                <div
+                  style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #e11d48; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
+                  <span
+                    style="background-color: #ffe4e6; color: #9f1239; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Desafío
+                    de Auditoría Ergonómica</span>
+                  <h4
+                    style="color: #9f1239; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px;">
+                    Reto de Gestión: Fatiga de Acomodación en Puestos de Control
+                    Visual</h4>
+                  <p
+                    style="color: #334155; font-size: 1rem; line-height: 1.6; text-align: justify;">
+                    Un informe de inspección en un taller de confección textil y
+                    ensamble de microcomponentes revela un ausentismo recurrente
+                    por cefaleas intensas, lagrimeo y visión borrosa al final de
+                    la jornada. El análisis del puesto demuestra que los
+                    operarios fijan la mirada en un plano extremadamente cercano
+                    (menor a 30 cm) durante ciclos continuos de 4 horas bajo
+                    niveles de iluminancia deficientes, obligando al
+                    **cristalino** y al **iris** a realizar un esfuerzo estático
+                    de acomodación muscular y miosis sostenida.</p>
+                  <div
+                    style="background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 15px; border-radius: 8px; margin-top: 15px;">
+                    <span
+                      style="color: #0f172a; font-weight: bold; font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 8px;">Consigna
+                      Analítica para el Estudiante:</span>
+                    <p
+                      style="color: #475569; font-size: 0.95rem; margin-bottom: 0; text-align: justify; line-height: 1.5;">
+                      Asumiendo su rol como **Administrador en SST**, analice la
+                      disfunción ergonómica descrita. Explique detalladamente
+                      por qué el esfuerzo estático del cristalino y el iris
+                      genera fatiga física ocular y, con base en este mecanismo
+                      biológico, formule **tres directrices administrativas o de
+                      ingeniería** (como pausas de re-enfoque al infinito,
+                      redistribución de luxes o uso de ayudas ópticas)
+                      orientadas a romper la tensión ocular continuada de los
+                      colaboradores sin detener los indicadores de
+                      productividad.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #0f172a; color: rgba(255,255,255,0.8); border-top: 5px solid #10b981;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-shield mr-2" style="color: #10b981;"></i> Peligros
+              Físicos II | Iluminación y Ergonomía Visual </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
