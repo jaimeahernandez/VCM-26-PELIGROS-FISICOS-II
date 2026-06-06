@@ -1,0 +1,239 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #1e293b 0%, #0284c7 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #eab308; color: #0f172a; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Estudio de Caso Avanzado: Ergo-Iluminación </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Reto Evaluativo: Auditoría al Informe de Confort Visual</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Validación de Datos, Criterios de Uniformidad y Metodología en
+                Campo</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5" style="background-color: #ffffff;">
+            <div class="mb-4 text-justify">
+              <p style="color: #334155; font-size: 1.05rem; line-height: 1.7;">
+                <strong>Contexto de Campo:</strong> Una empresa de servicios
+                administrativos realizó un cambio de luminarias en su área de
+                digitación. El proveedor anterior instaló la <strong>Luminaria
+                  1</strong>, pero ante quejas de fatiga visual, la gerencia
+                decidió cambiarla por la <strong>Luminaria 2</strong> (la cual
+                posee mayor potencia y flujo luminoso). Un técnico externo
+                entregó un reporte con mediciones antes y después usando una
+                cuadrícula de $5 \times 5$ (25 puntos de muestreo).</p>
+              <p
+                style="color: #334155; font-size: 1.05rem; line-height: 1.7; margin-bottom: 0;">
+                Como **Administrador en SST**, usted ha recibido el informe y ha
+                detectado serias inconsistencias analíticas, errores
+                metodológicos y conclusiones falsas. Su misión no es repetir el
+                muestreo, sino **auditar el informe** respondiendo con rigor
+                técnico a los siguientes 5 desafíos basados estrictamente en la
+                matriz de datos validados:</p>
+            </div>
+            <div class="position-relative mt-5">
+              <div class="row no-gutters mb-4 align-items-stretch">
+                <div class="col-auto text-center d-none d-sm-flex flex-column"
+                  style="width: 70px;">
+                  <div
+                    style="width: 45px; height: 45px; background-color: #0284c7; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.1rem; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    1</div>
+                  <div
+                    style="width: 4px; background-color: #e2e8f0; flex-grow: 1; margin: 0 auto; z-index: 1;">
+                     </div>
+                </div>
+                <div class="col pl-sm-3">
+                  <div
+                    style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #0284c7; padding: 20px; border-radius: 8px;">
+                    <h5
+                      style="color: #1e3a8a; font-weight: bold; font-size: 1.1rem; text-transform: uppercase; margin-bottom: 8px;">
+                      Parte 1: Desmitificación de los Indicadores de Uniformidad
+                    </h5>
+                    <p
+                      style="color: #475569; font-size: 0.98rem; line-height: 1.6; margin-bottom: 0;">
+                      El consultor externo afirmó textualmente en sus
+                      conclusiones que <em>"los datos demuestran que ambas
+                        luminarias tienen una uniformidad de iluminación
+                        aceptable para el puesto"</em>. <strong>Refute esta
+                        afirmación demostrando por qué es falsa</strong>.
+                      Explique el error del consultor al asumir que un promedio
+                      más alto con la Luminaria 2 implica una mejor
+                      distribución, cuando en la realidad física la uniformidad
+                      empeoró respecto a la Luminaria 1 debido a la
+                      concentración de haces de luz.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row no-gutters mb-4 align-items-stretch">
+                <div class="col-auto text-center d-none d-sm-flex flex-column"
+                  style="width: 70px;">
+                  <div
+                    style="width: 45px; height: 45px; background-color: #0284c7; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.1rem; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    2</div>
+                  <div
+                    style="width: 4px; background-color: #e2e8f0; flex-grow: 1; margin: 0 auto; z-index: 1;">
+                     </div>
+                </div>
+                <div class="col pl-sm-3">
+                  <div
+                    style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #0284c7; padding: 20px; border-radius: 8px;">
+                    <h5
+                      style="color: #1e3a8a; font-weight: bold; font-size: 1.1rem; text-transform: uppercase; margin-bottom: 8px;">
+                      Parte 2: Auditoría de Datos e Interpretación de Cobertura
+                    </h5>
+                    <p
+                      style="color: #475569; font-size: 0.98rem; line-height: 1.6; margin-bottom: 0;">
+                      Al revisar el plano de la oficina con las dos cuadrículas
+                      (Antes y Después), el informe sostiene erróneamente que
+                      <em>"en la medición inicial todos los puntos eran
+                        adecuados"</em>. <strong>Desmienta esta afirmación
+                        analizando la verdadera distribución de los
+                        datos</strong>: demuestre que en la medición inicial
+                      ningún punto era adecuado (100% deficientes) y que en la
+                      medición final, a pesar del cambio, solo 4 puntos (el 16%)
+                      lograron ser adecuados mientras que el 84% (21 puntos) se
+                      mantuvieron deficientes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row no-gutters mb-4 align-items-stretch">
+                <div class="col-auto text-center d-none d-sm-flex flex-column"
+                  style="width: 70px;">
+                  <div
+                    style="width: 45px; height: 45px; background-color: #0284c7; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.1rem; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    3</div>
+                  <div
+                    style="width: 4px; background-color: #e2e8f0; flex-grow: 1; margin: 0 auto; z-index: 1;">
+                     </div>
+                </div>
+                <div class="col pl-sm-3">
+                  <div
+                    style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #0284c7; padding: 20px; border-radius: 8px;">
+                    <h5
+                      style="color: #1e3a8a; font-weight: bold; font-size: 1.1rem; text-transform: uppercase; margin-bottom: 8px;">
+                      Parte 3: Relación entre Ángulo de Apertura y Uniformidad
+                    </h5>
+                    <p
+                      style="color: #475569; font-size: 0.98rem; line-height: 1.6; margin-bottom: 0;">
+                      Los datos físicos revelan que la Luminaria 2 proporciona
+                      una distribución de luz considerablemente **menos
+                      uniforme** que la Luminaria 1. Sustente científicamente
+                      este fenómeno bajo los principios de la óptica:
+                      <strong>Explique cómo influyen el diseño específico y un
+                        menor ángulo de apertura en la Luminaria 2</strong> para
+                      concentrar el haz lumínico directamente debajo del centro
+                      de la fuente, privando a los extremos de la cuadrícula de
+                      una dispersión homogénea.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row no-gutters mb-4 align-items-stretch">
+                <div class="col-auto text-center d-none d-sm-flex flex-column"
+                  style="width: 70px;">
+                  <div
+                    style="width: 45px; height: 45px; background-color: #0284c7; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.1rem; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    4</div>
+                  <div
+                    style="width: 4px; background-color: #e2e8f0; flex-grow: 1; margin: 0 auto; z-index: 1;">
+                     </div>
+                </div>
+                <div class="col pl-sm-3">
+                  <div
+                    style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #0284c7; padding: 20px; border-radius: 8px;">
+                    <h5
+                      style="color: #1e3a8a; font-weight: bold; font-size: 1.1rem; text-transform: uppercase; margin-bottom: 8px;">
+                      Parte 4: Cálculo e Impacto de la Eficacia del Cambio</h5>
+                    <p
+                      style="color: #475569; font-size: 0.98rem; line-height: 1.6; margin-bottom: 0;">
+                      Aplique la ecuación oficial de impacto
+                      higiénico-operacional utilizando los datos promedio del
+                      informe: <br><br><span
+                        style="display: block; text-align: center; font-size: 1.05rem; color: #1e3a8a; font-weight: bold;">
+                        $$\% \text{ Eficacia} = \left( \frac{E_{\text{prom
+                        Alto}} - E_{\text{prom Bajo}}}{E_{\text{prom Alto}}}
+                        \right) \times 100$$ </span> <br><strong>Demuestre
+                        matemáticamente por qué el porcentaje de eficacia
+                        resultante es exactamente del 26.7%</strong> como
+                      consecuencia directa de cambiar la Luminaria 1 por la
+                      Luminaria 2. Argumente si este incremento de eficacia
+                      justifica operativamente la inversión si el 84% del
+                      espacio sigue estando por debajo de los estándares de
+                      confort visual.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row no-gutters align-items-stretch">
+                <div class="col-auto text-center d-none d-sm-flex flex-column"
+                  style="width: 70px;">
+                  <div
+                    style="width: 45px; height: 45px; background-color: #0284c7; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 1.1rem; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    5</div>
+                </div>
+                <div class="col pl-sm-3">
+                  <div
+                    style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #10b981; padding: 20px; border-radius: 8px;">
+                    <h5
+                      style="color: #1e3a8a; font-weight: bold; font-size: 1.1rem; text-transform: uppercase; margin-bottom: 8px;">
+                      Parte 5: Invalidación Científica del Procedimiento de
+                      Campo</h5>
+                    <p
+                      style="color: #475569; font-size: 0.98rem; line-height: 1.6; margin-bottom: 0;">
+                      En la sección metodológica se afirman dos procedimientos
+                      dudosos: primero, que orientar la fotocelda del luxómetro
+                      verticalmente hacia el bombillo mide adecuadamente el
+                      puesto; segundo, que para hallar el $E_{\text{prom}}$ se
+                      sumaron las <em>intensidades luminosas</em> de cada celda.
+                      <br><br><strong>Identifique y justifique técnicamente por
+                        qué ambos procedimientos son metodológicamente
+                        FALSOS.</strong> Explique la posición real en la que
+                      debe situarse el luxómetro en el plano horizontal de
+                      trabajo y aclare la diferencia entre sumar iluminancia en
+                      **lux (lx)** versus intensidad luminosa. Concluya
+                      sustentando por qué el nivel promedio general de
+                      iluminancia ($E_{\text{prom}}$) aumentó con la Luminaria 2
+                      debido a que **tanto su flujo luminoso (lúmenes) como su
+                      potencia (watts) son mayores** que los de la Luminaria 1.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              style="background-color: #e0f2fe; border: 1px solid #bae6fd; border-radius: 12px; padding: 20px; margin-top: 35px; text-align: left;">
+              <span
+                style="color: #0369a1; font-size: 1rem; font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 5px;">
+                <i class="fa fa-info-circle"></i> Consigna para el Informe
+                Ejecutivo: </span>
+              <p
+                style="color: #075985; font-size: 0.95rem; margin-bottom: 0; line-height: 1.5;">
+                Resuelva este reto en parejas. Deberán entregar un documento
+                analítico en formato PDF donde demuestren paso a paso los
+                errores de interpretación y procedimiento del informe externo
+                basándose en los resultados validados en clase. Su argumentación
+                debe sostener el rigor de la Higiene Industrial y los
+                lineamientos del RETILAP.</p>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #0f172a; color: rgba(255,255,255,0.8); border-top: 5px solid #0284c7;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-eye mr-2" style="color: #0284c7;"></i> Peligros
+              Físicos II | Iluminación Ocupacional y Confort Visual Ergonómico
+            </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
