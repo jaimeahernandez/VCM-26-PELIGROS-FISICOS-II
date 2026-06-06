@@ -1,0 +1,159 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #0284c7; color: #ffffff; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Evidencia de Aprendizaje Evaluativa </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Espacio de Entrega: Informe de Auditoría Lumínica</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Consolidación del Análisis Crítico, Modelación de Eficacia y
+                Validación Metodológica</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5" style="background-color: #ffffff;">
+            <div class="mb-5">
+              <div
+                style="margin-bottom: 20px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;">
+                <h4
+                  style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                  <i class="fa fa-file-text mr-2" style="color: #0284c7;"></i>
+                  Consigna del Informe Técnico</h4>
+              </div>
+              <p
+                style="color: #334155; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 15px;">
+                Estimados estudiantes, ha concluido el análisis del **Estudio de
+                Caso de Confort Visual e Iluminación**. Como Administradores en
+                SST y auditores del entorno laboral, su tarea no es solo
+                recopilar datos con un luxómetro, sino detectar fallas
+                metodológicas en campo, interpretar la uniformidad óptica y
+                justificar la viabilidad de los cambios tecnológicos basándose
+                en normas de higiene y los criterios del **RETILAP**.</p>
+              <p
+                style="color: #334155; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 15px;">
+                Para superar este reto, los equipos de trabajo deben consolidar
+                sus argumentos, memorias de cálculo y refutaciones en un **único
+                informe ejecutivo escrito** que aborde los 5 desafíos evaluados:
+              </p>
+              <div
+                style="background-color: #f8fafc; border: 1px solid #e2e8f0; padding: 20px; border-radius: 12px; margin-bottom: 25px;">
+                <span
+                  style="color: #0f172a; font-weight: bold; font-size: 1rem; text-transform: uppercase; display: block; margin-bottom: 12px;"><i
+                    class="fa fa-list-ol" style="color: #0284c7;"></i>
+                  Estructura Analítica Obligatoria:</span>
+                <ol
+                  style="color: #475569; font-size: 1rem; line-height: 1.6; padding-left: 20px; margin-bottom: 0;">
+                  <li class="mb-2"><strong>Análisis de Uniformidad:</strong>
+                    Refutación técnica de la conclusión del consultor y
+                    explicación del impacto ergonómico de la mala distribución
+                    lumínica.</li>
+                  <li class="mb-2"><strong>Desglose Estadístico:</strong>
+                    Contraste porcentual real entre el estado inicial (100%
+                    deficiente) y el estado final (84% deficiente) de la
+                    cuadrícula de $5 \times 5$.</li>
+                  <li class="mb-2"><strong>Sustentación Óptica:</strong>
+                    Explicación física de la pérdida de uniformidad de la
+                    Luminaria 2 asociada a su diseño y menor ángulo de apertura.
+                  </li>
+                  <li class="mb-2"><strong>Desarrollo Matemático:</strong>
+                    Modelación de la ecuación de impacto con el resultado exacto
+                    del <strong>26.7% de eficacia</strong> y su debida
+                    argumentación corporativa.</li>
+                  <li class="mb-0"><strong>Refutación Metodológica:</strong>
+                    Identificación y corrección de los dos errores del
+                    procedimiento de campo (posición de la fotocelda y uso
+                    incorrecto de unidades de intensidad frente a iluminancia).
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="row" style="margin-bottom: 40px;">
+              <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <div
+                  style="background-color: #f0fdf4; border: 1px solid #bbf7d0; padding: 20px; border-radius: 12px; height: 100%;">
+                  <h5
+                    style="color: #166534; font-weight: bold; font-size: 1.1rem; text-transform: uppercase; margin-bottom: 12px;">
+                    <i class="fa fa-check-square-o"></i> Requisitos del Archivo
+                  </h5>
+                  <ul
+                    style="color: #14532d; font-size: 0.95rem; line-height: 1.6; padding-left: 20px; margin-bottom: 0;">
+                    <li class="mb-2"><strong>Formato Único Obligatorio:</strong>
+                      El informe debe subirse exclusivamente en formato
+                      <strong>PDF</strong>. No se admiten formatos editables
+                      (.docx, .xls) ni enlaces externos.</li>
+                    <li class="mb-2"><strong>Nomenclatura Estándar:</strong> El
+                      documento debe nombrarse de la siguiente manera: <br><code
+                        style="background-color: #ffffff; padding: 2px 6px; border-radius: 4px; border: 1px solid #bbf7d0; font-size: 0.85rem; color: #15803d;">Apellido1_Apellido2_Auditoria_Iluminacion.pdf</code>
+                    </li>
+                    <li class="mb-0"><strong>Criterio Formal:</strong> Debe
+                      incluir una portada institucional clara, la justificación
+                      técnica de las respuestas y la referenciación normativa
+                      correspondiente.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div
+                  style="background-color: #fef2f2; border: 1px solid #fca5a5; padding: 20px; border-radius: 12px; height: 100%;">
+                  <h5
+                    style="color: #991b1b; font-weight: bold; font-size: 1.1rem; text-transform: uppercase; margin-bottom: 12px;">
+                    <i class="fa fa-gavel"></i> Criterios de Calificación</h5>
+                  <ul
+                    style="color: #7f1d1d; font-size: 0.95rem; line-height: 1.6; padding-left: 20px; margin-bottom: 0;">
+                    <li class="mb-2"><strong>Sustentación Científica
+                        (40%):</strong> Rigor en el uso de los conceptos físicos
+                      e higiénicos (lux, lúmenes, watts, ángulo de apertura,
+                      uniformidad).</li>
+                    <li class="mb-2"><strong>Exactitud Analítica (40%):</strong>
+                      Precisión en el cálculo matemático del porcentaje de
+                      eficacia y la correcta interpretación de la cobertura de
+                      la cuadrícula.</li>
+                    <li class="mb-0"><strong>Estructura y Redacción
+                        (20%):</strong> Presentación formal del reporte
+                      ejecutivo, ausencia de errores ortográficos y entrega
+                      estricta en el formato solicitado (PDF).</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="text-center style-conf"
+              style="background-color: #f8fafc; border: 2px dashed #cbd5e1; padding: 30px; border-radius: 15px;">
+              <p
+                style="color: #0f172a; font-size: 1.1rem; font-weight: bold; margin-bottom: 8px;">
+                <i class="fa fa-cloud-upload"
+                  style="color: #0284c7; font-size: 1.4rem;"></i> ¿Desea cargar
+                el informe final de su equipo?</p>
+              <p
+                style="color: #64748b; font-size: 0.95rem; margin-bottom: 20px;">
+                Haga clic en el botón inferior para abrir el espacio de carga,
+                arrastre su archivo PDF y guarde los cambios antes del cierre de
+                la plataforma.</p>
+              <div class="mt-2"><span
+                  style="display: inline-block; background-color: #0284c7; color: #ffffff; font-weight: bold; font-size: 1rem; padding: 12px 30px; border-radius: 8px; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 4px 6px rgba(2, 132, 199, 0.2); transition: all 0.3s ease; cursor: pointer;">
+                  <i class="fa fa-upload mr-2"></i> Agregar Entrega Aquí </span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #0f172a; color: rgba(255,255,255,0.8); border-top: 5px solid #0284c7;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-university mr-2"
+                style="color: #0284c7;"></i> Administración en Seguridad y Salud
+              en el Trabajo | Peligros Físicos II</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
