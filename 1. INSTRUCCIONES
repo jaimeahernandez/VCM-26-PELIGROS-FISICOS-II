@@ -1,0 +1,56 @@
+<section
+  style="background-color: #f8fafb; padding: 40px 0; font-family: 'Segoe UI', Roboto, sans-serif;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <div
+          style="background: #ffffff; border-radius: 14px; border: 1px solid #cfd8dc; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div
+            style="background: #1a3a5a; padding: 25px 35px; border-bottom: 4px solid #00a896;">
+            <h3
+              style="color: #ffffff; font-weight: 850; text-transform: uppercase; letter-spacing: 1.5px; font-size: 20px; margin: 0;">
+              <i class="fa fa-users"
+                style="color: #00a896; margin-right: 10px;"></i> Taller Práctico
+              Aplicado</h3>
+            <p
+              style="color: #b0bec5; font-size: 14px; margin: 5px 0 0 0; font-style: italic;">
+              Desarrollo colaborativo de competencias analíticas en Higiene
+              Industrial.</p>
+          </div>
+          <div style="padding: 35px;">
+            <div style="width: 100%;">
+              <h4
+                style="color: #1a3a5a; font-weight: 800; margin-bottom: 15px; letter-spacing: 0.5px; text-transform: uppercase; font-size: 16px;">
+                Lineamientos Generales para el Desarrollo Colectivo</h4>
+              <p
+                style="font-size: 15px; color: #455a64; line-height: 1.6; text-align: justify; margin-bottom: 15px;">
+                El producto acreditable de esta sesión consiste en el desarrollo
+                de <strong>tres (3) ejercicios analíticos</strong> que deberán
+                ser presentado al tutor. Esta actividad se desarrollará DURANTE
+                el encuentro de forma grupal y cada grupo deberá subirlo en el
+                espacio indicado.</p>
+              <p
+                style="font-size: 15px; color: #455a64; line-height: 1.6; text-align: justify; margin-bottom: 0;">
+                <i class="fa fa-info-circle"
+                  style="color: #0056b3; margin-right: 5px;"></i> Si requiere
+                hacer cálculos, les recomendamos ver los videos y las formulas
+                suministradas por su tutor que se encuentra en la misma
+                actividad. Sólo al final de la misma, saldrá un mensaje para que
+                puedan subir la actividad (al pulsar el botón Subir..). ¡Muchos
+                Éxitos!</p>
+            </div>
+          </div>
+          <div
+            style="background: #f4f7f6; padding: 15px 35px; border-top: 1px solid #e0e6ed; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <span
+              style="font-size: 12px; color: #78909c; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">
+              <i class="fa fa-graduation-cap"></i> Entorno Virtual de
+              Aprendizaje </span> <span
+              style="font-size: 12px; color: #78909c; font-style: italic;">
+              Higiene Industrial • Gestión en Seguridad y Salud en el Trabajo
+            </span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
