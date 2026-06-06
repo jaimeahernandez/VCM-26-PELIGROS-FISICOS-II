@@ -1,0 +1,526 @@
+<div
+  style="font-family: 'Roboto', Arial, sans-serif; background-color: #f0f4f8; color: #1a2a4a; line-height: 1.6; max-width: 960px; margin: 0 auto; padding-bottom: 40px; border-radius: 12px; overflow: hidden; border: 1px solid #d0dff0;">
+  <!-- ENCABEZADO TÍTULO -->
+  <div
+    style="background: linear-gradient(135deg, #1a2a4a 0%, #2e5f8a 100%); padding: 25px 36px; text-align: center;">
+    <span
+      style="display: inline-block; background-color: #c8a951; color: #1a2a4a; font-size: 11px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; padding: 3px 12px; border-radius: 20px; margin-bottom: 10px;">Peligros
+      Físicos II</span>
+    <h1
+      style="margin: 0; font-size: 28px; color: #ffffff; letter-spacing: 0.5px;">
+      Evaluación de <span style="color: #c8a951;">Confort Térmico</span> – ISO
+      7730</h1>
+  </div>
+  <div style="padding: 28px 25px 0;"><!-- TARJETA DE EJERCICIO -->
+    <div
+      style="background: #ffffff; border-radius: 10px; box-shadow: 0 2px 14px rgba(26, 42, 74, 0.10); overflow: hidden; margin-bottom: 30px; border: 1px solid #e0e6ed;">
+      <div
+        style="background: #f8fafc; padding: 16px 28px; display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #e0e6ed;">
+        <div
+          style="background-color: #1a2a4a; color: #ffffff; font-size: 18px; font-weight: bold; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+          1</div>
+        <h2
+          style="margin: 0; font-size: 20px; color: #1a2a4a; letter-spacing: 0.5px;">
+          Ejercicio 1 – Evaluación Integral en Oficinas</h2>
+      </div>
+      <div style="padding: 24px 28px 28px;"><!-- Instrucciones -->
+        <div
+          style="background: #eef3f9; border-left: 5px solid #c8a951; border-radius: 0 8px 8px 0; padding: 16px 20px; margin-bottom: 28px;">
+          <p
+            style="margin: 0; font-size: 15px; color: #1a2a4a; text-align: justify;">
+            Evaluar el confort de cada oficina empleando para ello la
+            <strong>Herramienta 1 (Tool 1)</strong>. Analice los tres escenarios
+            propuestos, compare las relaciones entre variables y redacte sus
+            conclusiones finales. Adjunte los <strong>pantallazos de cada
+              cálculo</strong> realizado.</p>
+        </div>
+        <!-- ===================================================
+             TABLA 1 Y SU INFOGRAFÍA
+        =================================================== -->
+        <div style="margin-bottom: 45px;">
+          <div
+            style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            <span
+              style="background: #1a2a4a; color: #fff; font-size: 11px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; padding: 3px 12px; border-radius: 20px;">Tabla
+              1</span> <span
+              style="font-size: 14px; color: #4a6080; font-style: italic;">Escenario
+              1: 0.8 CLO | Va variable</span></div>
+          <div
+            style="overflow-x: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(26,42,74,0.10); margin-bottom: 15px;">
+            <table
+              style="width: 100%; border-collapse: collapse; font-size: 13px; min-width: 620px; border: 1px solid #c5d5e8;">
+              <thead>
+                <tr style="background-color: #d0dff0;">
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Área</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    CLO</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    MET</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Ts (°C)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Tg (°C)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Va (m/s)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    HR (%)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #fff; background: #c8a951;">
+                    PMV</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #fff; background: #c8a951;">
+                    PPD (%)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center; font-weight: bold; background: #f8fafc;">
+                    Of 101</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.8</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.59</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    23.3</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    23.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.5</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    47%</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                </tr>
+                <tr>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center; font-weight: bold; background: #f8fafc;">
+                    Of 201</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.8</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.59</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    22.6</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    22.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.7</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    51%</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                </tr>
+                <tr>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center; font-weight: bold; background: #f8fafc;">
+                    Of 202</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.8</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.59</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    28.2</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    28.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.6</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    50%</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div
+            style="background: #ffffff; border-radius: 8px; padding: 10px; border: 1px solid #e0e6ed; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+            <img class="img-fluid"
+              style="width: 100%; border-radius: 4px; display: block;"
+              src="https://aulasvirtuales.unicamacho.edu.co/draftfile.php/766258/user/draft/364180904/infografia_confort_termico_datos.jpg"
+              alt="Infografía Escenario 1">
+            <p
+              style="margin: 8px 0 0; font-size: 11px; color: #5a7090; font-style: italic; text-align: center;">
+              Ilustración Escenario 1: Condiciones con ventilación variable.</p>
+          </div>
+        </div>
+        <hr
+          style="border: none; border-top: 2px dashed #c5d5e8; margin: 35px 0;"><!-- ===================================================
+             TABLA 2 Y SU INFOGRAFÍA
+        =================================================== -->
+        <div style="margin-bottom: 45px;">
+          <div
+            style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            <span
+              style="background: #1a2a4a; color: #fff; font-size: 11px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; padding: 3px 12px; border-radius: 20px;">Tabla
+              2</span> <span
+              style="font-size: 14px; color: #4a6080; font-style: italic;">Escenario
+              2: 0.8 CLO | Va = 0 m/s (Sin ventilación)</span></div>
+          <div
+            style="overflow-x: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(26,42,74,0.10); margin-bottom: 15px;">
+            <table
+              style="width: 100%; border-collapse: collapse; font-size: 13px; min-width: 620px; border: 1px solid #c5d5e8;">
+              <thead>
+                <tr style="background-color: #d0dff0;">
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Área</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    CLO</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    MET</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Ts (°C)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Tg (°C)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Va (m/s)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    HR (%)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #fff; background: #c8a951;">
+                    PMV</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #fff; background: #c8a951;">
+                    PPD (%)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center; font-weight: bold; background: #f8fafc;">
+                    Of 101</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.8</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.59</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    22.5</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    23.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    47%</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                </tr>
+                <tr>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center; font-weight: bold; background: #f8fafc;">
+                    Of 201</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.8</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.59</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    21.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    22.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    51%</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                </tr>
+                <tr>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center; font-weight: bold; background: #f8fafc;">
+                    Of 202</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.8</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.59</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    27.5</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    28.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    50%</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div
+            style="background: #ffffff; border-radius: 8px; padding: 10px; border: 1px solid #e0e6ed; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+            <img class="img-fluid"
+              style="width: 100%; border-radius: 4px; display: block;"
+              src="https://aulasvirtuales.unicamacho.edu.co/draftfile.php/766258/user/draft/364180904/infografia_escenario_2%20%281%29.jpg"
+              alt="Infografía Escenario 2">
+            <p
+              style="margin: 8px 0 0; font-size: 11px; color: #5a7090; font-style: italic; text-align: center;">
+              Ilustración Escenario 2: Condiciones críticas sin flujo de aire.
+            </p>
+          </div>
+        </div>
+        <hr
+          style="border: none; border-top: 2px dashed #c5d5e8; margin: 35px 0;"><!-- ===================================================
+             TABLA 3 Y SU INFOGRAFÍA
+        =================================================== -->
+        <div style="margin-bottom: 45px;">
+          <div
+            style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            <span
+              style="background: #1a2a4a; color: #fff; font-size: 11px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; padding: 3px 12px; border-radius: 20px;">Tabla
+              3</span> <span
+              style="font-size: 14px; color: #4a6080; font-style: italic;">Escenario
+              3: 1.2 CLO | Va variable (Ropa de invierno)</span></div>
+          <div
+            style="overflow-x: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(26,42,74,0.10); margin-bottom: 15px;">
+            <table
+              style="width: 100%; border-collapse: collapse; font-size: 13px; min-width: 620px; border: 1px solid #c5d5e8;">
+              <thead>
+                <tr style="background-color: #d0dff0;">
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Área</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    CLO</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    MET</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Ts (°C)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Tg (°C)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    Va (m/s)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #1a2a4a;">
+                    HR (%)</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #fff; background: #c8a951;">
+                    PMV</th>
+                  <th
+                    style="padding: 9px; border: 1px solid #b0c4d8; color: #fff; background: #c8a951;">
+                    PPD (%)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center; font-weight: bold; background: #f8fafc;">
+                    Of 101</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.2</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.59</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    23.3</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    23.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.5</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    47%</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                </tr>
+                <tr>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center; font-weight: bold; background: #f8fafc;">
+                    Of 201</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.2</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.59</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    22.4</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    22.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.7</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    51%</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                </tr>
+                <tr>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center; font-weight: bold; background: #f8fafc;">
+                    Of 202</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.2</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    1.59</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    28.1</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    28.0</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    0.6</td>
+                  <td
+                    style="padding: 9px; border: 1px solid #c5d5e8; text-align: center;">
+                    50%</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                  <td
+                    style="padding: 9px; border: 2px dashed #c8a951; text-align: center; font-weight: bold; color: #c8a951; background: #fffbf0;">
+                    ?</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div
+            style="background: #ffffff; border-radius: 8px; padding: 10px; border: 1px solid #e0e6ed; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+            <img class="img-fluid"
+              style="width: 100%; border-radius: 4px; display: block;"
+              src="https://aulasvirtuales.unicamacho.edu.co/draftfile.php/766258/user/draft/364180904/infografia_escenario_3.jpg"
+              alt="Infografía Escenario 3">
+            <p
+              style="margin: 8px 0 0; font-size: 11px; color: #5a7090; font-style: italic; text-align: center;">
+              Ilustración Escenario 3: Efecto del aumento de aislamiento térmico
+              (CLO).</p>
+          </div>
+        </div>
+        <!-- SECCIÓN DE ANÁLISIS FINAL -->
+        <div
+          style="background: #1a2a4a; border-radius: 10px; padding: 25px 30px; margin-top: 20px;">
+          <h3
+            style="margin: 0 0 15px; font-size: 16px; color: #c8a951; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid rgba(200,169,81,0.3); padding-bottom: 8px;">
+            📋 Entregables de la Actividad</h3>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li
+              style="color: #e8eef5; font-size: 14px; padding: 8px 0 8px 25px; position: relative; border-bottom: 1px solid rgba(255,255,255,0.05);">
+              <span
+                style="position: absolute; left: 0; color: #c8a951;">➤</span>
+              Cálculo de PMV y PPD para los 9 casos (3 oficinas x 3 escenarios).
+            </li>
+            <li
+              style="color: #e8eef5; font-size: 14px; padding: 8px 0 8px 25px; position: relative; border-bottom: 1px solid rgba(255,255,255,0.05);">
+              <span
+                style="position: absolute; left: 0; color: #c8a951;">➤</span>
+              Análisis comparativo: ¿Cómo afecta la falta de ventilación
+              (Escenario 2) al confort?</li>
+            <li
+              style="color: #e8eef5; font-size: 14px; padding: 8px 0 8px 25px; position: relative; border-bottom: 1px solid rgba(255,255,255,0.05);">
+              <span
+                style="position: absolute; left: 0; color: #c8a951;">➤</span>
+              Análisis comparativo: ¿Qué impacto tiene el cambio de vestimenta
+              (Escenario 3) en los resultados?</li>
+            <li
+              style="color: #e8eef5; font-size: 14px; padding: 8px 0 8px 25px; position: relative;">
+              <span
+                style="position: absolute; left: 0; color: #c8a951;">➤</span>
+              Conclusiones técnicas basadas en los rangos de la norma ISO 7730.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- PIE DE PÁGINA -->
+    <div
+      style="text-align: center; margin-top: 20px; padding-top: 16px; border-top: 2px solid #d0dff0; font-size: 12px; color: #7a90a8;">
+      <strong>Peligros Físicos II</strong> | Administración en SST | Unicamacho
+    </div>
+  </div>
+</div>
