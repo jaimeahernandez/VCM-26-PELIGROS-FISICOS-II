@@ -1,0 +1,71 @@
+<section
+  style="background-color: #f8fafb; padding: 40px 0; font-family: 'Segoe UI', Roboto, sans-serif;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <div
+          style="background: #ffffff; border-radius: 14px; border: 1px solid #cfd8dc; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div
+            style="background: #1a3a5a; padding: 25px 35px; border-bottom: 4px solid #00a896;">
+            <h3
+              style="color: #ffffff; font-weight: 850; text-transform: uppercase; letter-spacing: 1.5px; font-size: 20px; margin: 0;">
+              <i class="fa fa-cloud-upload"
+                style="color: #00a896; margin-right: 10px;"></i> Espacio de
+              Entrega de Actividad</h3>
+            <p
+              style="color: #b0bec5; font-size: 14px; margin: 5px 0 0 0; font-style: italic;">
+              Carga formal del entregable técnico evaluativo en Seguridad y
+              Salud en el Trabajo.</p>
+          </div>
+          <div style="padding: 35px 35px 25px 35px;">
+            <div
+              style="background: #f4f7f6; border-left: 4px solid #0056b3; padding: 15px 20px; margin-bottom: 25px;">
+              <h5
+                style="color: #1a3a5a; font-weight: 750; font-size: 15px; text-transform: uppercase; margin: 0 0 5px 0; letter-spacing: 0.3px;">
+                <i class="fa fa-exclamation-circle" style="color: #0056b3;"></i>
+                Instrucción Importante:</h5>
+              <p
+                style="font-size: 14px; color: #546e7a; margin: 0; font-weight: 600;">
+                Por favor, lea detenidamente los criterios, valide las
+                formulaciones y responda con rigor analítico.</p>
+            </div>
+            <div style="margin-bottom: 30px;">
+              <p
+                style="font-size: 14px; color: #546e7a; line-height: 1.6; text-align: justify; margin: 0 0 15px 0;">
+                Una vez haya revisado en detalle todo el contenido académico de
+                la actividad, verificado los escenarios de exposición y
+                calculado minuciosamente los resultados analíticos junto con los
+                demás indicadores del recurso <strong>E5 Evaluación del Confort
+                  Térmico (Individual)</strong>, proceda con la consolidación
+                formal del documento.</p>
+              <div
+                style="background: #fff8e1; border: 1px solid #ffe082; border-radius: 6px; padding: 12px 15px; display: flex; align-items: center; gap: 10px;">
+                <i class="fa fa-users"
+                  style="color: #ffb300; font-size: 16px;"></i> <span
+                  style="font-size: 14px; color: #b78103; font-weight: 600;">
+                  Recordatorio Pedagógico: Recuerde que la entrega de esta
+                  actividad consolidada se realiza de manera Grupal. </span>
+              </div>
+            </div>
+            <div style="text-align: center; padding: 10px 0 20px 0;"><a
+                class="btn btn-primary"
+                style="background-color: #0056b3; border-color: #0056b3; font-size: 15px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; padding: 12px 35px; border-radius: 5px; box-shadow: 0 3px 10px rgba(0,86,179,0.25); display: inline-block; transition: background-color 0.2s ease;"
+                href="https://aulasvirtuales.uniajc.edu.co/mod/assign/view.php?id=1066913"
+                target="_parent"> <i class="fa fa-arrow-circle-up"
+                  style="margin-right: 8px;"></i> Pulsar aquí para subir la
+                actividad </a></div>
+          </div>
+          <div
+            style="background: #f4f7f6; padding: 15px 35px; border-top: 1px solid #e0e6ed; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+            <span
+              style="font-size: 12px; color: #78909c; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">
+              <i class="fa fa-graduation-cap"></i> Entorno Virtual de
+              Aprendizaje </span> <span
+              style="font-size: 12px; color: #78909c; font-style: italic;"> Área
+              de Ergonomía e Higiene Industrial • Administración en Seguridad y
+              Salud en el Trabajo </span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
