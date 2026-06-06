@@ -1,0 +1,162 @@
+<section
+  style="background-color: #f8fafb; padding: 40px 0; font-family: 'Segoe UI', Roboto, sans-serif;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-11">
+        <div
+          style="background: #ffffff; border-radius: 14px; border: 1px solid #cfd8dc; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+          <div
+            style="background: #1a3a5a; padding: 25px 35px; border-bottom: 4px solid #00a896;">
+            <h3
+              style="color: #ffffff; font-weight: 850; text-transform: uppercase; letter-spacing: 1.5px; font-size: 20px; margin: 0;">
+              <i class="fa fa-calculator"
+                style="color: #00a896; margin-right: 10px;"></i> Evaluación de
+              Confort Térmico (Cálculos)</h3>
+            <p
+              style="color: #b0bec5; font-size: 14px; margin: 5px 0 0 0; font-style: italic;">
+              Repositorio especializado de software, normativas y herramientas
+              analíticas para entornos de aprendizaje en SST.</p>
+          </div>
+          <div
+            style="background: #f4f7f6; padding: 15px 35px; border-bottom: 1px solid #e0e6ed;">
+            <p
+              style="font-size: 14px; color: #546e7a; margin: 0; font-weight: 600;">
+              <i class="fa fa-arrow-circle-right" style="color: #0056b3;"></i>
+              Seleccione el recurso técnico o aplicativo que requiera para su
+              desarrollo metodológico:</p>
+          </div>
+          <div style="padding: 40px 35px 20px 35px;">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-4 mb-4">
+                <div
+                  style="background: #ffffff; border: 1px solid #e0e6ed; border-radius: 10px; padding: 25px; text-align: center; height: 100%; box-shadow: 0 3px 8px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <div
+                      style="background: #e3f2fd; color: #0056b3; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto; font-size: 22px; font-weight: bold; border: 2px solid #0056b3;">
+                      1</div>
+                    <h5
+                      style="color: #1a3a5a; font-weight: 800; font-size: 15px; text-transform: uppercase; margin-bottom: 10px; letter-spacing: 0.3px;">
+                      Herramienta Analítica 01</h5>
+                    <p
+                      style="font-size: 14px; color: #546e7a; line-height: 1.5; text-align: justify; margin-bottom: 20px;">
+                      Aplicación digital interactiva para el modelamiento
+                      matemático y cálculo automatizado de los índices PMV (Voto
+                      Medio Estimado) y PPD (Porcentaje de Personas
+                      Insatisfechas).</p>
+                  </div>
+                  <div
+                    style="display: flex; gap: 10px; justify-content: center;">
+                    <a class="btn btn-outline-primary btn-sm"
+                      style="font-weight: 600; border-radius: 4px; padding: 6px 12px;"
+                      href="https://comfort.cbe.berkeley.edu/" target="_blank"
+                      rel="noopener"> <i class="fa fa-external-link"></i>
+                      Acceder Web </a> <button
+                      class="btn btn-primary htmlbootstrapeditor_videobtn btn-sm"
+                      style="font-weight: 600; border-radius: 4px; padding: 6px 12px; background-color: #0056b3; border-color: #0056b3;"
+                      data-videourl="https://www.youtube.com/embed/pHAwd2BU6FM?rel=0">
+                      <i class="fa fa-video-camera"></i> Tutorial </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-4">
+                <div
+                  style="background: #ffffff; border: 1px solid #e0e6ed; border-radius: 10px; padding: 25px; text-align: center; height: 100%; box-shadow: 0 3px 8px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <div
+                      style="background: #e8f5e9; color: #2e7d32; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto; font-size: 22px; font-weight: bold; border: 2px solid #2e7d32;">
+                      2</div>
+                    <h5
+                      style="color: #1a3a5a; font-weight: 800; font-size: 15px; text-transform: uppercase; margin-bottom: 10px; letter-spacing: 0.3px;">
+                      Herramienta Analítica 02</h5>
+                    <p
+                      style="font-size: 14px; color: #546e7a; line-height: 1.5; text-align: justify; margin-bottom: 20px;">
+                      Nota Técnica de Prevención (NTP 74). Documento normativo
+                      para la estimación manual del PMV estructurado mediante
+                      tablas de referencia y determinación del PPD con soporte
+                      gráfico institucional.</p>
+                  </div>
+                  <div
+                    style="display: flex; gap: 10px; justify-content: center;">
+                    <a class="btn btn-outline-primary btn-sm"
+                      style="font-weight: 600; border-radius: 4px; padding: 6px 12px;"
+                      href="https://www.insst.es/documents/94886/326853/ntp_074.pdf/1a5d4655-f44d-4118-9516-281a452e820d"
+                      target="_blank" rel="noopener"> <i
+                        class="fa fa-download"></i> Descargar PDF </a> <button
+                      class="btn btn-primary htmlbootstrapeditor_videobtn btn-sm"
+                      style="font-weight: 600; border-radius: 4px; padding: 6px 12px; background-color: #0056b3; border-color: #0056b3;"
+                      data-videourl="https://www.youtube.com/embed/QT9Ql2P0hng?si=UxlFbM5NQjsYw5EZ&amp;rel=0">
+                      <i class="fa fa-video-camera"></i> Tutorial </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mb-4">
+                <div
+                  style="background: #ffffff; border: 1px solid #e0e6ed; border-radius: 10px; padding: 25px; text-align: center; height: 100%; box-shadow: 0 3px 8px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <div
+                      style="background: #fff3e0; color: #ef6c00; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px auto; font-size: 22px; font-weight: bold; border: 2px solid #ef6c00;">
+                      3</div>
+                    <h5
+                      style="color: #1a3a5a; font-weight: 800; font-size: 15px; text-transform: uppercase; margin-bottom: 10px; letter-spacing: 0.3px;">
+                      Herramienta Analítica 03</h5>
+                    <p
+                      style="font-size: 14px; color: #546e7a; line-height: 1.5; text-align: justify; margin-bottom: 20px;">
+                      Entorno web avanzado para la simulación y cálculo dinámico
+                      del PMV parametrizado bajo criterios de emisividad de
+                      materiales superficiales y física térmica ambiental.</p>
+                  </div>
+                  <div
+                    style="display: flex; gap: 10px; justify-content: center;">
+                    <a class="btn btn-outline-primary btn-sm"
+                      style="font-weight: 600; border-radius: 4px; padding: 6px 12px;"
+                      href="https://centerforthebuiltenvironment.github.io/mrt/"
+                      target="_blank" rel="noopener"> <i
+                        class="fa fa-external-link"></i> Acceder Web </a>
+                    <button
+                      class="btn btn-primary htmlbootstrapeditor_videobtn btn-sm"
+                      style="font-weight: 600; border-radius: 4px; padding: 6px 12px; background-color: #0056b3; border-color: #0056b3;"
+                      data-videourl="https://www.youtube.com/embed/yhh6g6-SwmQ?rel=0">
+                      <i class="fa fa-video-camera"></i> Tutorial </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="padding: 0 35px 35px 35px;">
+            <div
+              style="background: #e3f2fd; border: 1px solid #bbdefb; border-radius: 8px; padding: 25px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+              <div style="flex: 1; min-width: 280px;">
+                <h6
+                  style="color: #0d47a1; font-weight: 800; font-size: 14px; text-transform: uppercase; margin: 0 0 5px 0;">
+                  <i class="fa fa-info-circle"></i> Marco Conceptual
+                  Complementario</h6>
+                <p
+                  style="font-size: 14px; color: #1565c0; margin: 0; line-height: 1.5; text-align: justify;">
+                  Si requiere deducir y calcular formalmente la
+                  <strong>Temperatura Radiante Media (Trm)</strong> y la
+                  <strong>Temperatura Operativa (To)</strong> a través del
+                  desglose analítico de fórmulas matemáticas, visualice con
+                  detenimiento el siguiente recurso docente de apoyo
+                  estructurado.</p>
+              </div>
+              <div><button class="btn btn-primary htmlbootstrapeditor_videobtn"
+                  style="font-weight: bold; background-color: #0d47a1; border-color: #0d47a1; border-radius: 4px; padding: 10px 20px; font-size: 14px;"
+                  data-videourl="https://www.youtube.com/embed/wTJ4qoKoG00?rel=0">
+                  <i class="fa fa-play-circle"></i> Analizar Recurso de
+                  Ecuaciones </button></div>
+            </div>
+          </div>
+          <div
+            style="background: #f4f7f6; padding: 15px 35px; border-top: 1px solid #e0e6ed; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <span
+              style="font-size: 12px; color: #78909c; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">
+              <i class="fa fa-graduation-cap"></i> Entorno Virtual de
+              Aprendizaje </span> <span
+              style="font-size: 12px; color: #78909c; font-style: italic;">
+              Ergonomía e Higiene Industrial • Gestión en Seguridad y Salud en
+              el Trabajo </span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
