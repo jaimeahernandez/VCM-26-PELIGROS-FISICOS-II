@@ -1,0 +1,66 @@
+<p></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-11">
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #3b82f6; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Objeto Virtual de Aprendizaje (OVA) </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Simulador: Iluminación en Oficinas de Tipo General</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Interacción Didáctica y Criterios Normativos de Distribución
+                Lumínica</p>
+            </div>
+          </div>
+          <div class="card-body p-4 p-md-5" style="background-color: #ffffff;">
+            <div
+              style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 15px; border-radius: 0 8px 8px 0; margin-bottom: 30px;">
+              <strong
+                style="color: #1e3a8a; font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 4px;">
+                <i class="fa fa-info-circle"></i> Instrucción de Navegación:
+              </strong> <span
+                style="color: #334155; font-size: 0.98rem; display: block; text-align: justify;">
+                Interactúe de forma secuencial con el recurso multimedia
+                incrustado a continuación. Este módulo interactivo le guiará a
+                través de las condiciones ergonómicas idóneas, la disposición
+                geométrica de las luminarias y los niveles mínimos de
+                iluminancia exigidos para entornos administrativos generales.
+                Las temáticas abordadas aquí son indispensables para la correcta
+                resolución del estudio de caso. </span></div>
+            <div class="position-relative"
+              style="background-color: #0f172a; padding: 5px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);">
+              <div class="embed-responsive"
+                style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px;">
+                <iframe
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                  title="Iluminación en oficinas de tipo general"
+                  src="https://aulasvirtuales.unicamacho.edu.co/mod/hvp/embed.php?id=1469432"
+                  frameborder="0" allowfullscreen="allowfullscreen">
+                </iframe></div>
+            </div>
+            <script
+              src="https://aulasvirtuales.unicamacho.edu.co/mod/hvp/library/js/h5p-resizer.js"
+              charset="UTF-8"></script>
+          </div>
+          <div class="card-footer py-4 text-center"
+            style="background-color: #0f172a; color: rgba(255,255,255,0.8); border-top: 5px solid #3b82f6;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-desktop mr-2" style="color: #3b82f6;"></i>
+              Peligros Físicos II | Entornos Interactivos de Simulación en SST
+            </small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<p></p>
