@@ -1,0 +1,154 @@
+<p></p>
+<div
+  style="font-family: 'Roboto', Arial, sans-serif; background-color: #f0f2f5; color: #1c1e21; line-height: 1.6; max-width: 1000px; margin: 0 auto; padding-bottom: 60px; border-radius: 16px; overflow: hidden; border: 1px solid #e4e6eb; box-shadow: 0 4px 25px rgba(0,0,0,0.08);">
+  <!-- ENCABEZADO PRINCIPAL -->
+  <div
+    style="background: linear-gradient(135deg, #050505 0%, #1c1e21 100%); padding: 40px; text-align: center; border-bottom: 5px solid #c8a951;">
+    <span
+      style="display: inline-block; background-color: #c8a951; color: #050505; font-size: 12px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; padding: 4px 16px; border-radius: 4px; margin-bottom: 15px;">Estudio
+      de Caso SST</span>
+    <h1
+      style="margin: 0; font-size: 36px; color: #ffffff; letter-spacing: -1px; font-weight: bold;">
+      Lecciones de <span style="color: #c8a951;">Chernóbil</span></h1>
+    <p
+      style="margin: 10px 0 0; color: #90949c; font-size: 18px; font-weight: 300;">
+      Análisis de Causas y Medidas de Intervención</p>
+  </div>
+  <div style="padding: 40px;"><!-- PASO 1 -->
+    <div
+      style="display: flex; gap: 25px; margin-bottom: 50px; position: relative;">
+      <div style="flex-shrink: 0; width: 60px;">
+        <div
+          style="background: #1c1e21; color: #c8a951; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 800; border: 3px solid #c8a951; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+          1</div>
+        <div
+          style="width: 3px; background: #c8a951; height: calc(100% + 50px); margin: 10px auto 0; opacity: 0.3;">
+           </div>
+      </div>
+      <div style="flex-grow: 1;">
+        <div
+          style="background: #ffffff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.05); overflow: hidden; border: 1px solid #e4e6eb;">
+          <div style="height: 250px; overflow: hidden; position: relative;"><img
+              class="img-fluid"
+              style="width: 100%; height: 100%; object-fit: cover;"
+              src="https://aulasvirtuales.unicamacho.edu.co/draftfile.php/766258/user/draft/631228666/chernobyl_reactor_banner.jpg"
+              alt="Reactor de Chernóbil">
+            <div
+              style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); padding: 20px;">
+              <h3 style="margin: 0; color: #ffffff; font-size: 20px;">
+                Descripción del Problema</h3>
+            </div>
+          </div>
+          <div style="padding: 25px;">
+            <p
+              style="margin: 0; font-size: 16px; color: #4b4f56; text-align: justify; line-height: 1.8;">
+              Realice una descripción detallada del problema que se presenta en
+              los videos sugeridos: <strong style="color: #1c1e21;">Video 1:
+                "Cómo sobreviví a Chernóbil"</strong> y <strong
+                style="color: #1c1e21;">Video 2: "Al fin sabemos cómo se pudo
+                haber evitado"</strong>. Identifique los fallos críticos de
+              seguridad y los factores humanos involucrados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PASO 2 -->
+    <div
+      style="display: flex; gap: 25px; margin-bottom: 50px; position: relative;">
+      <div style="flex-shrink: 0; width: 60px;">
+        <div
+          style="background: #1c1e21; color: #c8a951; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 800; border: 3px solid #c8a951; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+          2</div>
+        <div
+          style="width: 3px; background: #c8a951; height: calc(100% + 50px); margin: 10px auto 0; opacity: 0.3;">
+           </div>
+      </div>
+      <div style="flex-grow: 1;">
+        <div
+          style="background: #ffffff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.05); overflow: hidden; border: 1px solid #e4e6eb;">
+          <div style="height: 250px; overflow: hidden; position: relative;"><img
+              class="img-fluid"
+              style="width: 100%; height: 100%; object-fit: cover;"
+              src="https://aulasvirtuales.unicamacho.edu.co/draftfile.php/766258/user/draft/631228666/root_cause_analysis_banner.jpg"
+              alt="Análisis de Causa Raíz">
+            <div
+              style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); padding: 20px;">
+              <h3 style="margin: 0; color: #ffffff; font-size: 20px;">Análisis
+                de Causas</h3>
+            </div>
+          </div>
+          <div style="padding: 25px;">
+            <p
+              style="margin: 0; font-size: 16px; color: #4b4f56; text-align: justify; line-height: 1.8;">
+              Realice un listado exhaustivo de <strong>causas básicas e
+                inmediatas</strong>. Para este análisis, se recomienda el uso de
+              herramientas metodológicas como:</p>
+            <div
+              style="display: flex; gap: 15px; margin-top: 15px; flex-wrap: wrap;">
+              <span
+                style="background: #f0f2f5; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 600; color: #1c1e21;">Tormenta
+                de ideas</span> <span
+                style="background: #f0f2f5; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 600; color: #1c1e21;">Diagrama
+                de Ishikawa</span> <span
+                style="background: #f0f2f5; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 600; color: #1c1e21;">Árbol
+                de causas</span> <span
+                style="background: #f0f2f5; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 600; color: #1c1e21;">Los
+                5 Porqués</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PASO 3 -->
+    <div style="display: flex; gap: 25px; position: relative;">
+      <div style="flex-shrink: 0; width: 60px;">
+        <div
+          style="background: #1c1e21; color: #c8a951; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 800; border: 3px solid #c8a951; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+          3</div>
+      </div>
+      <div style="flex-grow: 1;">
+        <div
+          style="background: #ffffff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.05); overflow: hidden; border: 1px solid #e4e6eb;">
+          <div style="height: 250px; overflow: hidden; position: relative;"><img
+              class="img-fluid"
+              style="width: 100%; height: 100%; object-fit: cover;"
+              src="https://aulasvirtuales.unicamacho.edu.co/draftfile.php/766258/user/draft/631228666/safety_intervention_banner.jpg"
+              alt="Medidas de Intervención">
+            <div
+              style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); padding: 20px;">
+              <h3 style="margin: 0; color: #ffffff; font-size: 20px;">Medidas de
+                Intervención</h3>
+            </div>
+          </div>
+          <div style="padding: 25px;">
+            <p
+              style="margin: 0; font-size: 16px; color: #4b4f56; text-align: justify; line-height: 1.8;">
+              Con base en las causas identificadas, indique cuáles serían las
+              <strong>medidas de intervención</strong> sugeridas para evitar la
+              repetición de un suceso similar. Responda con detalle y de manera
+              específica siguiendo la jerarquía de controles (Eliminación,
+              Sustitución, Controles de Ingeniería, Administrativos y EPP).</p>
+            <div
+              style="margin-top: 25px; background: #fff8e1; border: 1px solid #ffe082; padding: 15px; border-radius: 8px; display: flex; align-items: center; gap: 15px;">
+              <div
+                style="background: #ffc107; color: #fff; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                <svg style="width: 16px; height: 16px;">
+                  <path fill-rule="evenodd"
+                    d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"></path>
+                </svg></div>
+              <span
+                style="font-size: 14px; color: #795548; font-weight: 600;">Formato
+                de entrega: Suba su respuesta detallada en un archivo
+                PDF.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PIE DE PÁGINA -->
+    <div
+      style="text-align: center; margin-top: 50px; padding-top: 25px; border-top: 1px solid #e4e6eb; font-size: 13px; color: #90949c;">
+      <strong>Administración en SST</strong> | Análisis de Desastres
+      Industriales | Unicamacho 2026</div>
+  </div>
+</div>
