@@ -1,0 +1,207 @@
+<div
+  style="font-family: 'Segoe UI', Tahoma, sans-serif; max-width: 1100px; margin: auto; padding: 20px; background: #f8fbff; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+  <div
+    style="display: flex; align-items: center; gap: 14px; border-bottom: 4px solid #1a73e8; padding-bottom: 16px; margin-bottom: 24px;">
+    <span style="font-size: 2.8rem;">🔍</span>
+    <div>
+      <h1 style="color: #0a2a44; margin: 0; font-size: 2rem;">Exploración
+        Interactiva</h1>
+      <p style="color: #2c3e50; margin: 0; font-size: 1rem; font-weight: 300;">
+        Tabla WCI y simulador en tiempo real</p>
+    </div>
+  </div>
+  <!-- SIMULADOR -->
+  <div
+    style="background: white; border-radius: 16px; padding: 22px 26px; margin-bottom: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+    <h3
+      style="color: #0a2a44; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+      🌡️ Simulador de Sensación Térmica</h3>
+    <div
+      style="display: grid; grid-template-columns: 1fr 1fr auto; gap: 20px; align-items: end; flex-wrap: wrap;">
+      <div><label
+          style="font-weight: 600; color: #1a2a44; display: block; margin-bottom: 6px;">🌡️
+          Temperatura (°C): <span id="tempLabel2">-15</span></label> <input
+          id="tempInput2" style="width: 100%; accent-color: #1a73e8;" max="0"
+          min="-45" step="1" type="range" value="-15"></div>
+      <div><label
+          style="font-weight: 600; color: #1a2a44; display: block; margin-bottom: 6px;">💨
+          Viento (km/h): <span id="vientoLabel2">35</span></label> <input
+          id="vientoInput2" style="width: 100%; accent-color: #1a73e8;" max="70"
+          min="0" step="5" type="range" value="35"></div>
+      <div
+        style="background: #0a2a44; color: white; padding: 14px 24px; border-radius: 16px; text-align: center; min-width: 130px;">
+        <div style="font-size: 0.8rem; opacity: 0.7;">Sensación Térmica</div>
+        <div id="wciDisplay2"
+          style="font-size: 2.6rem; font-weight: 800; line-height: 1;">-48</div>
+        <div style="font-size: 0.8rem;">°C</div>
+        <div id="riesgoDisplay2"
+          style="background: #6c2bd9; color: white; padding: 2px 12px; border-radius: 40px; font-weight: bold; font-size: 0.8rem; margin-top: 4px;">
+          ⚠️ EXTREMO</div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 12px; background: #eef4fc; padding: 10px 16px; border-radius: 12px; font-size: 0.9rem;">
+      💡 <strong>Interpretación:</strong> Riesgo de congelamiento en
+      <strong>5-10 minutos</strong> en piel expuesta.</div>
+  </div>
+  <!-- TABLA WCI -->
+  <div
+    style="background: white; border-radius: 16px; padding: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); overflow-x: auto;">
+    <h3
+      style="color: #0a2a44; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+      📊 Tabla de Viento Frío (WCI)</h3>
+    <table id="tablaWCI2"
+      style="width: 100%; border-collapse: collapse; font-size: 0.85rem; min-width: 650px;">
+      <thead>
+        <tr style="background: #0a2a44; color: white;">
+          <th style="padding: 8px 4px;">T° ↓ / V →</th>
+          <th>0</th>
+          <th>5</th>
+          <th>10</th>
+          <th>15</th>
+          <th>20</th>
+          <th>25</th>
+          <th>30</th>
+          <th>35</th>
+          <th>40</th>
+          <th>45</th>
+          <th>50</th>
+          <th>55</th>
+          <th>60</th>
+          <th>65</th>
+          <th>70</th>
+        </tr>
+      </thead>
+      <tbody id="tablaBody2"></tbody>
+    </table>
+    <div
+      style="margin-top: 12px; display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.8rem; justify-content: center;">
+      <span
+        style="background: #6c2bd9; padding: 2px 10px; border-radius: 4px; color: white;">≤
+        -50</span> EXTREMO <span
+        style="background: #0984e3; padding: 2px 10px; border-radius: 4px; color: white;">-40
+        a -49</span> MUY FRÍO <span
+        style="background: #74b9ff; padding: 2px 10px; border-radius: 4px; color: #0a2a44;">-30
+        a -39</span> FRÍO <span
+        style="background: #ff6b6b; padding: 2px 10px; border-radius: 4px; color: white; outline: 2px solid #c0392b;">Destacado</span>
+      Celda del caso</div>
+  </div>
+  <div
+    style="margin-top: 24px; padding: 12px 20px; background: #e8f0fe; border-radius: 30px; text-align: center; font-size: 0.95rem; color: #1a3a5a;">
+    ⬅️ Página 2 de 5 — Ajusta los deslizadores y observa cómo cambia la
+    sensación térmica.</div>
+</div>
+<p>
+  <script>
+    // ======== DATOS WCI ========
+    const temps2 = [-5, -10, -15, -20, -25, -30, -35, -40, -45];
+    const vientos2 = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70];
+    const datos2 = [
+      [-5, -7, -9, -11, -12, -12, -13, -14, -14, -15, -15, -15, -16, -16, -
+      16],
+      [-10, -13, -15, -17, -18, -19, -20, -20, -21, -21, -22, -22, -23, -23, -
+        23
+      ],
+      [-15, -19, -21, -23, -24, -25, -26, -27, -27, -28, -29, -29, -30, -30, -
+        30
+      ],
+      [-20, -24, -27, -29, -30, -32, -33, -33, -34, -35, -35, -36, -36, -37, -
+        37
+      ],
+      [-25, -30, -33, -35, -37, -38, -39, -40, -41, -42, -42, -43, -43, -44, -
+        44
+      ],
+      [-30, -36, -39, -41, -43, -44, -46, -47, -48, -48, -49, -50, -50, -51, -
+        51
+      ],
+      [-35, -41, -45, -48, -49, -51, -52, -53, -54, -55, -56, -57, -57, -58, -
+        58
+      ],
+      [-40, -47, -51, -54, -56, -57, -59, -60, -61, -62, -63, -63, -64, -65, -
+        65
+      ],
+      [-45, -53, -57, -60, -62, -64, -65, -66, -68, -69, -69, -70, -71, -72, -
+        72
+      ]
+    ];
+
+    function obtenerWCI2(temp, viento) {
+      const i = temps2.indexOf(temp);
+      const j = vientos2.indexOf(viento);
+      if (i === -1 || j === -1) return null;
+      return datos2[i][j];
+    }
+
+    function renderizarTabla2(tempD = -15, vientoD = 35) {
+      const tbody = document.getElementById('tablaBody2');
+      tbody.innerHTML = '';
+      const iD = temps2.indexOf(tempD);
+      const jD = vientos2.indexOf(vientoD);
+      datos2.forEach((fila, i) => {
+        const tr = document.createElement('tr');
+        const tdTemp = document.createElement('td');
+        tdTemp.textContent = temps2[i];
+        tdTemp.style.cssText =
+          'background:#eef4fc; font-weight:700; color:#0a2a44; padding:6px 4px; border:1px solid #dbe3ef; text-align:center;';
+        tr.appendChild(tdTemp);
+        fila.forEach((val, j) => {
+          const td = document.createElement('td');
+          td.textContent = val;
+          td.style.cssText =
+            'padding:6px 4px; border:1px solid #dbe3ef; text-align:center; font-weight:500;';
+          if (val <= -50) td.style.cssText +=
+            'background:#6c2bd9; color:white;';
+          else if (val <= -40) td.style.cssText +=
+            'background:#0984e3; color:white;';
+          else if (val <= -30) td.style.cssText +=
+            'background:#74b9ff; color:#0a2a44;';
+          if (i === iD && j === jD) {
+            td.style.cssText +=
+              'background:#ff6b6b !important; color:white !important; font-weight:800; outline:2px solid #c0392b;';
+          }
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+    }
+
+    function actualizarSimulador2() {
+      const temp = parseInt(document.getElementById('tempInput2').value);
+      const viento = parseInt(document.getElementById('vientoInput2').value);
+      document.getElementById('tempLabel2').textContent = temp;
+      document.getElementById('vientoLabel2').textContent = viento;
+      const wci = obtenerWCI2(temp, viento);
+      if (wci !== null) {
+        document.getElementById('wciDisplay2').textContent = wci;
+        const r = document.getElementById('riesgoDisplay2');
+        let color, texto;
+        if (wci <= -50) {
+          color = '#6c2bd9';
+          texto = '⚠️ EXTREMO';
+        } else if (wci <= -40) {
+          color = '#c0392b';
+          texto = '🔴 ALTO';
+        } else if (wci <= -30) {
+          color = '#e67e22';
+          texto = '🟠 MODERADO';
+        } else if (wci <= -20) {
+          color = '#f1c40f';
+          texto = '🟡 BAJO';
+        } else {
+          color = '#2ecc71';
+          texto = '🟢 MÍNIMO';
+        }
+        r.style.background = color;
+        r.textContent = texto;
+        renderizarTabla2(temp, viento);
+      }
+    }
+
+    document.getElementById('tempInput2').addEventListener('input',
+      actualizarSimulador2);
+    document.getElementById('vientoInput2').addEventListener('input',
+      actualizarSimulador2);
+    renderizarTabla2(-15, 35);
+    actualizarSimulador2();
+  </script>
+</p>
