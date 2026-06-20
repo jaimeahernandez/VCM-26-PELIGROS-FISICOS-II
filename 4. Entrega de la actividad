@@ -1,0 +1,143 @@
+<section>
+  <div
+    style="font-family: Georgia, 'Times New Roman', serif; max-width: 1000px; margin: 0 auto; background: linear-gradient(135deg, #0b2545 0%, #1d4e89 100%); border-radius: 10px; overflow: hidden; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
+    <!-- HEADER ACADÉMICO -->
+    <div
+      style="padding: 30px 40px; border-bottom: 4px solid #c9a227; text-align: center;">
+      <div
+        style="color: #c9a227; font-size: 14px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 8px;">
+        <i class="fa fa-university" aria-hidden="true"></i>   Peligros Físicos
+        II</div>
+      <h2
+        style="color: #ffffff; font-family: Georgia, serif; font-size: 28px; margin: 0; font-weight: normal;">
+        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>   Entrega de la
+        Actividad — Estrés Térmico</h2>
+      <div
+        style="color: #cddbe9; font-size: 14px; margin-top: 10px; font-style: italic;">
+        Carga del informe final en formato PDF</div>
+    </div>
+    <!-- CUERPO -->
+    <div style="background: #f7f5ef; padding: 35px 40px;"><!-- INSTRUCCIONES -->
+      <div
+        style="background: #ffffff; border-left: 5px solid #c9a227; padding: 22px 26px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,0.06); margin-bottom: 25px;">
+        <h3
+          style="color: #0b2545; font-family: Georgia, serif; margin: 0 0 12px 0; font-size: 20px;">
+          <i class="fa fa-info-circle" aria-hidden="true"></i> Instrucciones de
+          Entrega</h3>
+        <p
+          style="color: #2c3e50; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.7; margin: 0;">
+          Estimado(a) estudiante, ha llegado el momento de consolidar el trabajo
+          desarrollado a lo largo de la actividad de <strong>Estrés
+            Térmico</strong>. A continuación encontrará el espacio destinado
+          para cargar su informe final en formato <strong>PDF</strong>. Le
+          recomendamos revisar cuidadosamente el contenido antes de subirlo,
+          asegurándose de que cumpla con todos los lineamientos académicos y
+          técnicos solicitados por su tutor.</p>
+      </div>
+      <!-- REQUISITOS -->
+      <div
+        style="background: #ffffff; padding: 25px 30px; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,0.06); margin-bottom: 25px; border-top: 4px solid #0b2545;">
+        <h3
+          style="color: #0b2545; font-family: Georgia, serif; margin: 0 0 15px 0; font-size: 19px;">
+          <i class="fa fa-check-square-o" aria-hidden="true"></i> Requisitos del
+          Informe</h3>
+        <ul
+          style="color: #2c3e50; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.9; margin: 0; padding-left: 22px;">
+          <li><strong>Formato:</strong> archivo en PDF (no se aceptan Word,
+            imágenes ni enlaces externos).</li>
+          <li><strong>Portada:</strong> nombre completo, código, asignatura,
+            tutor y fecha de entrega.</li>
+          <li><strong>Contenido:</strong> desarrollo de los 7 ejercicios con
+            procedimientos, cálculos y resultados.</li>
+          <li><strong>Análisis:</strong> interpretación de los resultados y
+            recomendaciones desde el rol del Administrador en SST.</li>
+          <li><strong>Tamaño máximo:</strong> 20 MB.</li>
+          <li><strong>Nombre del archivo:</strong>
+            <em>ApellidoNombre_EstresTermico.pdf</em></li>
+          <li><strong>Citación:</strong> normas APA 7ª edición para fuentes
+            consultadas.</li>
+        </ul>
+      </div>
+      <!-- CRITERIOS DE EVALUACIÓN -->
+      <div
+        style="background: #0b2545; color: #ffffff; padding: 25px 30px; border-radius: 6px; margin-bottom: 25px;">
+        <h3
+          style="color: #c9a227; font-family: Georgia, serif; margin: 0 0 15px 0; font-size: 19px;">
+          <i class="fa fa-balance-scale" aria-hidden="true"></i> Criterios de
+          Evaluación</h3>
+        <table
+          style="width: 100%; border-collapse: collapse; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px;">
+          <thead>
+            <tr style="border-bottom: 2px solid #c9a227;">
+              <th style="text-align: left; padding: 10px; color: #c9a227;">
+                Criterio</th>
+              <th
+                style="text-align: center; padding: 10px; color: #c9a227; width: 120px;">
+                Ponderación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.15);">
+              <td style="padding: 10px;">Exactitud en cálculos y aplicación de
+                fórmulas (WBGT, TGBH, CAF)</td>
+              <td style="padding: 10px; text-align: center;">30%</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.15);">
+              <td style="padding: 10px;">Análisis e interpretación de resultados
+              </td>
+              <td style="padding: 10px; text-align: center;">25%</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.15);">
+              <td style="padding: 10px;">Toma de decisiones y recomendaciones en
+                SST</td>
+              <td style="padding: 10px; text-align: center;">25%</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.15);">
+              <td style="padding: 10px;">Presentación, redacción y normas APA
+              </td>
+              <td style="padding: 10px; text-align: center;">10%</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px;">Entrega oportuna y cumplimiento de
+                formato</td>
+              <td style="padding: 10px; text-align: center;">10%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- LLAMADO A LA ACCIÓN -->
+      <div
+        style="background: #f4f1ea; border: 2px dashed #c9a227; border-radius: 8px; padding: 28px; text-align: center;">
+        <i class="fa fa-cloud-upload" aria-hidden="true"
+          style="font-size: 48px; color: #0b2545;"></i>
+        <h3
+          style="color: #0b2545; font-family: Georgia, serif; margin: 12px 0 8px 0; font-size: 22px;">
+          Cargue su archivo PDF</h3>
+        <p
+          style="color: #555; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.6; margin: 0 0 5px 0;">
+          Utilice el espacio dispuesto por Moodle a continuación para
+          <strong>arrastrar o seleccionar</strong> su informe final.</p>
+        <p
+          style="color: #888; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-style: italic; margin: 8px 0 0 0;">
+          Recuerde pulsar el botón <strong>"Guardar cambios"</strong> al
+          finalizar la carga.</p>
+      </div>
+      <!-- NOTA FINAL -->
+      <div
+        style="margin-top: 25px; padding: 18px 22px; background: #fff8e1; border-left: 4px solid #c9a227; border-radius: 4px;">
+        <p
+          style="color: #5d4a00; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; line-height: 1.6; margin: 0;">
+          <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>  
+          <strong>Importante:</strong> verifique que su archivo abra
+          correctamente antes de enviarlo. Una vez vencido el plazo, el sistema
+          no permitirá nuevas entregas. Para dudas o inconvenientes técnicos,
+          comuníquese oportunamente con su tutor.</p>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div
+      style="background: #0b2545; color: #cddbe9; padding: 18px 40px; text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 14px; border-top: 3px solid #c9a227;">
+      <i class="fa fa-graduation-cap" aria-hidden="true"></i>   "La excelencia
+      académica se demuestra en cada entrega."   — Peligros Físicos II</div>
+  </div>
+</section>
