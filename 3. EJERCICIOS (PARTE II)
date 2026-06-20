@@ -1,0 +1,511 @@
+<p></p>
+<div
+  style="font-family: Arial,Helvetica,sans-serif; max-width: 860px; margin: 0 auto; padding: 0 0 24px; line-height: 1.4;">
+  <div
+    style="background-color: #1a2a4a; border-bottom: 4px solid #c8a84b; padding: 24px 32px 20px; border-radius: 6px 6px 0 0;">
+    <div style="display: table; width: 100%;">
+      <div style="display: table-cell; vertical-align: middle; width: 64px;">
+        <div
+          style="width: 50px; height: 50px; background-color: #2a3d63; border: 2px solid #c8a84b; border-radius: 50%; text-align: center; line-height: 50px; font-size: 22px;">
+          📊</div>
+      </div>
+      <div style="display: table-cell; vertical-align: middle;">
+        <div
+          style="font-size: 10px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #c8a84b; margin-bottom: 6px;">
+          Taller · Peligros Físicos II — Parte 2</div>
+        <div
+          style="font-family: Georgia,'Times New Roman',serif; font-size: 19px; font-weight: bold; color: #ffffff; line-height: 1.3;">
+          T<sub style="font-size: 13px;">max</sub>, Valoración IREQ y
+          Aislamiento Térmico</div>
+        <div style="font-size: 12px; color: #8899bb; margin-top: 5px;">Cálculo
+          del Tiempo Máximo Admisible y evaluación del riesgo por método IREQ
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    style="background-color: #ffffff; border: 1px solid #cccccc; border-top: none; padding: 28px 32px;">
+    <div
+      style="font-size: 10px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #1a2a4a; border-bottom: 2px solid #c8a84b; padding-bottom: 5px; margin-bottom: 18px; display: inline-block;">
+      Ejercicios prácticos (continuación)</div>
+    <table style="border-collapse: collapse; margin-bottom: 18px;" width="100%"
+      cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td style="padding: 0 10px 0 0;" valign="top" width="36">
+            <div
+              style="width: 28px; height: 28px; background-color: #1a2a4a; border-radius: 50%; text-align: center; line-height: 28px; font-size: 13px; font-weight: bold; color: #c8a84b;">
+              4</div>
+          </td>
+          <td style="padding-top: 4px;" valign="top">
+            <p
+              style="font-size: 14px; line-height: 1.75; color: #2c2c2a; margin: 0 0 16px 0; padding: 0; text-align: justify;">
+              Calcular el <strong style="color: #1a2a4a;">T<sub>max</sub>
+                (Tiempo Máximo Admisible)</strong> y explique su significado en
+              los siguientes casos:</p>
+            <table style="border-collapse: collapse; margin-bottom: 12px;"
+              width="100%" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td style="padding: 0 10px 0 0;" valign="top" width="36">
+                    <div
+                      style="width: 28px; height: 28px; background-color: #c8a84b; border-radius: 4px; text-align: center; line-height: 28px; font-size: 13px; font-weight: bold; color: #1a2a4a;">
+                      a</div>
+                  </td>
+                  <td valign="top">
+                    <div
+                      style="background-color: #f7f5f0; border: 1px solid #cccccc; border-radius: 4px; padding: 16px 18px;">
+                      <p
+                        style="font-size: 14px; line-height: 1.8; color: #2c2c2a; margin: 0 0 12px 0; padding: 0; text-align: justify;">
+                        Un trabajador de cámara frigorífica que labora a una
+                        <strong style="color: #1a2a4a;">temperatura de −20
+                          °C</strong>.</p>
+                      <table
+                        style="border-collapse: collapse; border-top: 1px solid #d4d0c8;"
+                        width="100%" cellspacing="0" cellpadding="0">
+                        <tbody>
+                          <tr>
+                            <td style="padding: 8px 8px 0 0;" valign="top"
+                              width="33%">
+                              <div
+                                style="font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #888780; margin-bottom: 3px;">
+                                Actividad metabólica</div>
+                              <div
+                                style="font-size: 14px; font-weight: bold; color: #1a2a4a;">
+                                M = 80 W/m²</div>
+                            </td>
+                            <td style="padding: 8px 8px 0;" valign="top"
+                              width="33%">
+                              <div
+                                style="font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #888780; margin-bottom: 3px;">
+                                Aislamiento I<sub>CL</sub></div>
+                              <div
+                                style="font-size: 14px; font-weight: bold; color: #1a2a4a;">
+                                I<sub>CL</sub> = 2 CLO</div>
+                            </td>
+                            <td style="padding: 8px 0 0;" valign="top"
+                              width="33%">
+                              <div
+                                style="font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #888780; margin-bottom: 3px;">
+                                Velocidad del aire</div>
+                              <div
+                                style="font-size: 14px; font-weight: bold; color: #1a2a4a;">
+                                v = 0.5 m/s</div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table style="border-collapse: collapse;" width="100%"
+              cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td style="padding: 0 10px 0 0;" valign="top" width="36">
+                    <div
+                      style="width: 28px; height: 28px; background-color: #c8a84b; border-radius: 4px; text-align: center; line-height: 28px; font-size: 13px; font-weight: bold; color: #1a2a4a;">
+                      b</div>
+                  </td>
+                  <td valign="top">
+                    <div
+                      style="background-color: #f7f5f0; border: 1px solid #cccccc; border-radius: 4px; padding: 16px 18px;">
+                      <p
+                        style="font-size: 14px; line-height: 1.8; color: #2c2c2a; margin: 0 0 12px 0; padding: 0; text-align: justify;">
+                        Un trabajador de cámara frigorífica que labora a una
+                        <strong style="color: #1a2a4a;">temperatura de −30
+                          °C</strong>.</p>
+                      <table
+                        style="border-collapse: collapse; border-top: 1px solid #d4d0c8;"
+                        width="100%" cellspacing="0" cellpadding="0">
+                        <tbody>
+                          <tr>
+                            <td style="padding: 8px 8px 0 0;" valign="top"
+                              width="33%">
+                              <div
+                                style="font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #888780; margin-bottom: 3px;">
+                                Actividad metabólica</div>
+                              <div
+                                style="font-size: 14px; font-weight: bold; color: #1a2a4a;">
+                                M = 115 W/m²</div>
+                            </td>
+                            <td style="padding: 8px 8px 0;" valign="top"
+                              width="33%">
+                              <div
+                                style="font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #888780; margin-bottom: 3px;">
+                                Aislamiento I<sub>CL</sub></div>
+                              <div
+                                style="font-size: 14px; font-weight: bold; color: #1a2a4a;">
+                                I<sub>CL</sub> = 3 CLO</div>
+                            </td>
+                            <td style="padding: 8px 0 0;" valign="top"
+                              width="33%">
+                              <div
+                                style="font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #888780; margin-bottom: 3px;">
+                                Velocidad del aire</div>
+                              <div
+                                style="font-size: 14px; font-weight: bold; color: #1a2a4a;">
+                                v = 2 m/s</div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="border-top: 1px solid #e0ddd6; margin-bottom: 24px;"> </div>
+    <table style="border-collapse: collapse; margin-bottom: 24px;" width="100%"
+      cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td style="padding: 0 10px 0 0;" valign="top" width="36">
+            <div
+              style="width: 28px; height: 28px; background-color: #1a2a4a; border-radius: 50%; text-align: center; line-height: 28px; font-size: 13px; font-weight: bold; color: #c8a84b;">
+              5</div>
+          </td>
+          <td style="padding-top: 4px;" valign="top">
+            <p
+              style="font-size: 14px; line-height: 1.8; color: #2c2c2a; margin: 0; padding: 0; text-align: justify;">
+              Teniendo en cuenta la <strong style="color: #1a2a4a;">Tabla
+                Criterios de Valoración – Estrés Térmico por Frío (Ver
+                Anexo)</strong>, evaluar el riesgo por el método IREQ para
+              varios operarios de cámara frigorífica que laboran dentro de una
+              sección de procesamiento de pollo en las siguientes condiciones:
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      style="font-size: 10px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #1a2a4a; border-bottom: 2px solid #c8a84b; padding-bottom: 5px; margin-bottom: 14px; display: inline-block;">
+      a. Teniendo en cuenta variables ambientales</div>
+    <div style="overflow-x: auto; margin-bottom: 24px;">
+      <table
+        style="border-collapse: collapse; font-size: 13px; min-width: 580px;"
+        width="100%" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              Op.</td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              M<br><span
+                style="font-size: 10px; font-weight: normal;">(W/m²)</span></td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              Va<br><span
+                style="font-size: 10px; font-weight: normal;">(m/s)</span></td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              Ta<br><span
+                style="font-size: 10px; font-weight: normal;">(°C)</span></td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              HR<br><span
+                style="font-size: 10px; font-weight: normal;">(%)</span></td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              IREQ<sub>min</sub></td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              IREQ<sub>neutro</sub></td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              I<sub>CL</sub></td>
+            <td
+              style="background-color: #c8a84b; color: #1a2a4a; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #c8a84b;">
+              Valoración</td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              90</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              0</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              85</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.3</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.6</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.5</td>
+            <td
+              style="background-color: #fff8ee; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              115</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              −20</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              85</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              3.1</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              3.4</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              4</td>
+            <td
+              style="background-color: #fffdf7; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              3</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              165</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              5</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              −10</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              85</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1.7</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1.8</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.5</td>
+            <td
+              style="background-color: #fff8ee; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              4</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              115</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              −25</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              85</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              3.4</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              3.6</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              3.5</td>
+            <td
+              style="background-color: #fffdf7; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              5</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              90</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              0</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              —</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.7</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              3.1</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.5</td>
+            <td
+              style="background-color: #fff8ee; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      style="font-size: 10px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #1a2a4a; border-bottom: 2px solid #c8a84b; padding-bottom: 5px; margin-bottom: 14px; display: inline-block;">
+      b. Teniendo en cuenta sólo el aislamiento térmico</div>
+    <div style="overflow-x: auto; margin-bottom: 8px;">
+      <table
+        style="border-collapse: collapse; font-size: 13px; min-width: 380px;"
+        width="70%" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              Op.</td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              ICL<sub>min</sub></td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              ICL<sub>neutro</sub></td>
+            <td
+              style="background-color: #1a2a4a; color: #ffffff; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #1a2a4a;">
+              I<sub>CL</sub></td>
+            <td
+              style="background-color: #c8a84b; color: #1a2a4a; font-weight: bold; text-align: center; padding: 10px 8px; border: 1px solid #c8a84b;">
+              Valoración</td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.3</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.6</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.4</td>
+            <td
+              style="background-color: #fff8ee; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.1</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.4</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1.7</td>
+            <td
+              style="background-color: #fffdf7; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              3</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1.5</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1.9</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.1</td>
+            <td
+              style="background-color: #fff8ee; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              4</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1.4</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1.6</td>
+            <td
+              style="background-color: #fef3ec; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              1.5</td>
+            <td
+              style="background-color: #fffdf7; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+          <tr>
+            <td
+              style="background-color: #e8700a; color: #ffffff; font-weight: bold; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              5</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.7</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              3.1</td>
+            <td
+              style="background-color: #fde8d6; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+              2.2</td>
+            <td
+              style="background-color: #fff8ee; text-align: center; padding: 9px 8px; border: 1px solid #cccccc;">
+               </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    style="background-color: #f0ede6; border: 1px solid #cccccc; border-top: none; padding: 11px 32px;">
+    <table style="border-collapse: collapse;" width="100%" cellspacing="0"
+      cellpadding="0">
+      <tbody>
+        <tr>
+          <td valign="middle"><span style="font-size: 12px; color: #888780;">🔒 
+              El botón de entrega se activa al finalizar todos los
+              ejercicios</span></td>
+          <td style="text-align: right;" valign="middle"><span
+              style="font-size: 10px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; background-color: #1a2a4a; color: #c8a84b; border-radius: 3px; padding: 5px 12px;">Actividad
+              grupal</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    style="background-color: #1a2a4a; border-radius: 0 0 6px 6px; padding: 14px 32px; text-align: center; border: 1px solid #1a2a4a; border-top: 2px solid #c8a84b;">
+    <span
+      style="font-size: 11px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; color: #c8a84b;">Administración
+      en Seguridad y Salud en el Trabajo  •  Peligros Físicos II</span></div>
+</div>
