@@ -1,0 +1,211 @@
+<div
+  style="font-family: Arial,Helvetica,sans-serif; max-width: 860px; margin: 0 auto; padding: 0 0 24px; line-height: 1.4;">
+  <div
+    style="background-color: #1a2a4a; border-bottom: 4px solid #c8a84b; padding: 24px 32px 20px; border-radius: 6px 6px 0 0;">
+    <div style="display: table; width: 100%;">
+      <div style="display: table-cell; vertical-align: middle; width: 64px;">
+        <div
+          style="width: 50px; height: 50px; background-color: #2a3d63; border: 2px solid #c8a84b; border-radius: 50%; text-align: center; line-height: 50px; font-size: 22px;">
+          📤</div>
+      </div>
+      <div style="display: table-cell; vertical-align: middle;">
+        <div
+          style="font-size: 10px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #c8a84b; margin-bottom: 6px;">
+          Entrega final · Peligros Físicos II</div>
+        <div
+          style="font-family: Georgia,'Times New Roman',serif; font-size: 19px; font-weight: bold; color: #ffffff; line-height: 1.3;">
+          Entrega de la actividad grupal</div>
+        <div style="font-size: 12px; color: #8899bb; margin-top: 5px;">
+          ¡Felicitaciones por completar el taller! Ahora suba su trabajo</div>
+      </div>
+    </div>
+  </div>
+  <div
+    style="background-color: #ffffff; border: 1px solid #cccccc; border-top: none; padding: 28px 32px;">
+    <div
+      style="font-size: 10px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #1a2a4a; border-bottom: 2px solid #c8a84b; padding-bottom: 5px; margin-bottom: 18px; display: inline-block;">
+      Instrucciones de carga</div>
+    <p
+      style="font-size: 14.5px; line-height: 1.85; color: #2c2c2a; margin: 0 0 24px 0; padding: 0; text-align: justify;">
+      Antes de subir su trabajo, asegúrese de haber resuelto y consolidado
+      <strong style="color: #1a2a4a;">los 6 ejercicios del taller</strong> en un
+      único documento. El archivo debe contener los nombres completos de todos
+      los integrantes del grupo, los cálculos desarrollados y las conclusiones
+      solicitadas en cada punto.</p>
+    <table style="border-collapse: collapse; margin-bottom: 24px;" width="100%"
+      cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td style="padding: 0 6px 0 0;" valign="top" width="33%">
+            <div
+              style="background-color: #f7f5f0; border: 1px solid #cccccc; border-left: 3px solid #1a2a4a; border-radius: 4px; padding: 16px 14px; text-align: center;">
+              <div style="font-size: 26px; margin-bottom: 8px; line-height: 1;">
+                📄</div>
+              <div
+                style="font-size: 11px; font-weight: bold; color: #1a2a4a; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 4px;">
+                Formato</div>
+              <div style="font-size: 13px; color: #5f5e5a; line-height: 1.5;">
+                Únicamente archivos en formato <strong>PDF</strong></div>
+            </div>
+          </td>
+          <td style="padding: 0 6px;" valign="top" width="33%">
+            <div
+              style="background-color: #f7f5f0; border: 1px solid #cccccc; border-left: 3px solid #1a2a4a; border-radius: 4px; padding: 16px 14px; text-align: center;">
+              <div style="font-size: 26px; margin-bottom: 8px; line-height: 1;">
+                👥</div>
+              <div
+                style="font-size: 11px; font-weight: bold; color: #1a2a4a; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 4px;">
+                Entrega</div>
+              <div style="font-size: 13px; color: #5f5e5a; line-height: 1.5;">Un
+                solo archivo por <strong>grupo de trabajo</strong></div>
+            </div>
+          </td>
+          <td style="padding: 0 0 0 6px;" valign="top" width="33%">
+            <div
+              style="background-color: #f7f5f0; border: 1px solid #cccccc; border-left: 3px solid #1a2a4a; border-radius: 4px; padding: 16px 14px; text-align: center;">
+              <div style="font-size: 26px; margin-bottom: 8px; line-height: 1;">
+                ⏳</div>
+              <div
+                style="font-size: 11px; font-weight: bold; color: #1a2a4a; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 4px;">
+                Plazo</div>
+              <div style="font-size: 13px; color: #5f5e5a; line-height: 1.5;">
+                Según indicación del tutor</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      style="background-color: #f0f4fa; border: 1px solid #c0cce0; border-left: 4px solid #1a2a4a; border-radius: 4px; padding: 16px 18px; margin-bottom: 24px;">
+      <div
+        style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #1a2a4a; margin-bottom: 8px;">
+        📝 Nomenclatura sugerida del archivo</div>
+      <div
+        style="background-color: #ffffff; border: 1px dashed #8899bb; border-radius: 3px; padding: 10px 14px; font-family: 'Courier New',monospace; font-size: 13px; color: #1a2a4a; text-align: center;">
+        TallerIREQ_NombreGrupo_Fecha.pdf</div>
+    </div>
+    <table
+      style="border-collapse: collapse; background-color: #fdfaf3; border: 1px solid #e0cf85; border-left: 4px solid #c8a84b; border-radius: 4px; margin-bottom: 24px;"
+      width="100%" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td style="padding: 16px 10px 16px 16px;" valign="top" width="44">
+            <div style="font-size: 22px; line-height: 1;">⚠</div>
+          </td>
+          <td style="padding: 16px 16px 16px 4px;" valign="top"><span
+              style="font-size: 14px; line-height: 1.7; color: #3a3020;"><strong
+                style="color: #1a2a4a;">Importante:</strong> Verifique que el
+              documento esté completo y legible antes de subirlo. Una vez
+              enviado el archivo, no podrá modificarlo a menos que el tutor
+              habilite un nuevo intento. Revise que el PDF no esté protegido con
+              contraseña ni corrupto.</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      style="font-size: 10px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #1a2a4a; border-bottom: 2px solid #c8a84b; padding-bottom: 5px; margin-bottom: 16px; display: inline-block;">
+      Lista de verificación antes de subir</div>
+    <table style="border-collapse: collapse; margin-bottom: 8px;" width="100%"
+      cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td style="padding: 8px 0; border-bottom: 1px solid #e8e6df;"
+            valign="middle">
+            <table style="border-collapse: collapse;" cellspacing="0"
+              cellpadding="0">
+              <tbody>
+                <tr>
+                  <td valign="middle" width="26">
+                    <div
+                      style="width: 18px; height: 18px; border: 2px solid #1a2a4a; border-radius: 3px;">
+                       </div>
+                  </td>
+                  <td
+                    style="padding-left: 10px; font-size: 13.5px; color: #2c2c2a;"
+                    valign="middle">Los 6 ejercicios están resueltos y completos
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 8px 0; border-bottom: 1px solid #e8e6df;"
+            valign="middle">
+            <table style="border-collapse: collapse;" cellspacing="0"
+              cellpadding="0">
+              <tbody>
+                <tr>
+                  <td valign="middle" width="26">
+                    <div
+                      style="width: 18px; height: 18px; border: 2px solid #1a2a4a; border-radius: 3px;">
+                       </div>
+                  </td>
+                  <td
+                    style="padding-left: 10px; font-size: 13.5px; color: #2c2c2a;"
+                    valign="middle">Incluye los nombres completos de todos los
+                    integrantes</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 8px 0; border-bottom: 1px solid #e8e6df;"
+            valign="middle">
+            <table style="border-collapse: collapse;" cellspacing="0"
+              cellpadding="0">
+              <tbody>
+                <tr>
+                  <td valign="middle" width="26">
+                    <div
+                      style="width: 18px; height: 18px; border: 2px solid #1a2a4a; border-radius: 3px;">
+                       </div>
+                  </td>
+                  <td
+                    style="padding-left: 10px; font-size: 13.5px; color: #2c2c2a;"
+                    valign="middle">El archivo está guardado en formato PDF</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 8px 0;" valign="middle">
+            <table style="border-collapse: collapse;" cellspacing="0"
+              cellpadding="0">
+              <tbody>
+                <tr>
+                  <td valign="middle" width="26">
+                    <div
+                      style="width: 18px; height: 18px; border: 2px solid #1a2a4a; border-radius: 3px;">
+                       </div>
+                  </td>
+                  <td
+                    style="padding-left: 10px; font-size: 13.5px; color: #2c2c2a;"
+                    valign="middle">Revisó que el documento abre correctamente
+                    antes de subirlo</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    style="background-color: #f0ede6; border: 1px solid #cccccc; border-top: none; padding: 20px 32px; text-align: center;">
+    <div
+      style="display: inline-block; background-color: #1a2a4a; border: 1px solid #1a2a4a; border-radius: 4px; padding: 12px 36px;">
+      <span
+        style="font-size: 13px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; color: #c8a84b;">📤 
+        Subir taller (PDF)</span></div>
+    <div style="font-size: 11.5px; color: #888780; margin-top: 10px;">Use el
+      botón de entrega habilitado por Moodle en esta misma página</div>
+  </div>
+  <div
+    style="background-color: #1a2a4a; border-radius: 0 0 6px 6px; padding: 14px 32px; text-align: center; border: 1px solid #1a2a4a; border-top: 2px solid #c8a84b;">
+    <span
+      style="font-size: 11px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; color: #c8a84b;">Administración
+      en Seguridad y Salud en el Trabajo  •  Peligros Físicos II</span></div>
+</div>
