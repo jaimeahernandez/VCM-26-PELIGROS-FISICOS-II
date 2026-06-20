@@ -1,0 +1,261 @@
+<div
+  style="font-family: Arial,Helvetica,sans-serif; max-width: 860px; margin: 0 auto; padding: 0 0 24px; line-height: 1.4;">
+  <div
+    style="background-color: #1a2a4a; border-bottom: 4px solid #c8a84b; padding: 24px 32px 20px; border-radius: 6px 6px 0 0;">
+    <div style="display: table; width: 100%;">
+      <div style="display: table-cell; vertical-align: middle; width: 64px;">
+        <div
+          style="width: 50px; height: 50px; background-color: #2a3d63; border: 2px solid #c8a84b; border-radius: 50%; text-align: center; line-height: 50px; font-size: 22px;">
+          🎯</div>
+      </div>
+      <div style="display: table-cell; vertical-align: middle;">
+        <div
+          style="font-size: 10px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #c8a84b; margin-bottom: 6px;">
+          Retos · Peligros Físicos II</div>
+        <div
+          style="font-family: Georgia,'Times New Roman',serif; font-size: 19px; font-weight: bold; color: #ffffff; line-height: 1.3;">
+          Casos aplicados a la gestión del riesgo por frío</div>
+        <div style="font-size: 12px; color: #8899bb; margin-top: 5px;">Analice
+          cada caso desde su rol como profesional en Administración en SST</div>
+      </div>
+    </div>
+  </div>
+  <div
+    style="background-color: #ffffff; border: 1px solid #cccccc; border-top: none; padding: 28px 32px;">
+    <div
+      style="background-color: #f0f4fa; border: 1px solid #c0cce0; border-left: 4px solid #1a2a4a; border-radius: 4px; padding: 14px 18px; margin-bottom: 28px;">
+      <p
+        style="font-size: 13.5px; line-height: 1.7; color: #1a2a4a; margin: 0; padding: 0; text-align: justify;">
+        A continuación encontrará dos casos de empresas reales del sector de
+        frío industrial. Como futuro(a) profesional en <strong>Administración en
+          Seguridad y Salud en el Trabajo</strong>, su tarea es aplicar el
+        Método IREQ para sustentar técnicamente sus recomendaciones de gestión
+        del riesgo.</p>
+    </div>
+    <table style="border-collapse: collapse; margin-bottom: 28px;" width="100%"
+      cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td
+            style="background-color: #f7f5f0; border: 1px solid #cccccc; border-radius: 4px 4px 0 0; padding: 0;">
+            <table style="border-collapse: collapse;" width="100%"
+              cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td
+                    style="background-color: #1a2a4a; text-align: center; vertical-align: middle; border-radius: 4px 0 0 0;"
+                    valign="middle" width="70">
+                    <div
+                      style="font-size: 11px; font-weight: bold; color: #c8a84b; letter-spacing: 1px;">
+                      RETO</div>
+                    <div
+                      style="font-size: 24px; font-weight: bold; color: #ffffff; line-height: 1;">
+                      01</div>
+                  </td>
+                  <td style="padding: 18px 20px 14px;" valign="middle">
+                    <div
+                      style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.2px; color: #c8a84b; margin-bottom: 4px;">
+                      🧮 Caso aplicado — Cálculo del IREQ<sub>min</sub></div>
+                    <div
+                      style="font-family: Georgia,'Times New Roman',serif; font-size: 15.5px; font-weight: bold; color: #1a2a4a;">
+                      Logística de Congelados del Pacífico S.A.S.</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="background-color: #ffffff; border: 1px solid #cccccc; border-top: none; border-radius: 0 0 4px 4px; padding: 18px 20px;">
+            <p
+              style="font-size: 14px; line-height: 1.85; color: #2c2c2a; margin: 0 0 14px 0; padding: 0; text-align: justify;">
+              Usted ha sido contratado(a) como practicante de SST en una empresa
+              de logística de alimentos congelados que opera dos bodegas de
+              almacenamiento. La gerencia le solicita un informe técnico
+              preliminar sobre la exigencia térmica que enfrentan los operarios
+              de montacargas en cada bodega, como insumo para decidir si se
+              requieren turnos rotativos o pausas adicionales de recuperación.
+            </p>
+            <p
+              style="font-size: 14px; line-height: 1.85; color: #2c2c2a; margin: 0 0 16px 0; padding: 0; text-align: justify;">
+              Las condiciones medidas en cada bodega son las siguientes:</p>
+            <table style="border-collapse: collapse; margin-bottom: 16px;"
+              width="100%" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td style="padding: 0 8px 0 0;" valign="top" width="50%">
+                    <div
+                      style="background-color: #fdfaf3; border: 1px solid #e0cf85; border-radius: 4px; padding: 14px 16px;">
+                      <div
+                        style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #1a2a4a; margin-bottom: 8px; border-bottom: 1px solid #e0cf85; padding-bottom: 6px;">
+                        Bodega A</div>
+                      <div
+                        style="font-size: 13px; line-height: 2; color: #3a3020;">
+                        Temperatura del aire: <strong>−10
+                          °C</strong><br>Actividad metabólica: <strong>M = 80
+                          W/m²</strong><br>Humedad relativa: <strong>HR =
+                          60%</strong><br>Velocidad del aire: <strong>v = 0.5
+                          m/s</strong></div>
+                    </div>
+                  </td>
+                  <td style="padding: 0 0 0 8px;" valign="top" width="50%">
+                    <div
+                      style="background-color: #fdfaf3; border: 1px solid #e0cf85; border-radius: 4px; padding: 14px 16px;">
+                      <div
+                        style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #1a2a4a; margin-bottom: 8px; border-bottom: 1px solid #e0cf85; padding-bottom: 6px;">
+                        Bodega B</div>
+                      <div
+                        style="font-size: 13px; line-height: 2; color: #3a3020;">
+                        Temperatura del aire: <strong>0 °C</strong><br>Actividad
+                        metabólica: <strong>M = 145 W/m²</strong><br>Humedad
+                        relativa: <strong>HR = 40%</strong><br>Velocidad del
+                        aire: <strong>v = 2 m/s</strong></div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              style="background-color: #f0f4fa; border: 1px solid #c0cce0; border-left: 4px solid #1a2a4a; border-radius: 4px; padding: 14px 16px;">
+              <div
+                style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #1a2a4a; margin-bottom: 6px;">
+                📝 Lo que debe entregar</div>
+              <p
+                style="font-size: 13.5px; line-height: 1.75; color: #2c2c2a; margin: 0; padding: 0; text-align: justify;">
+                Calcule el <strong>IREQ<sub>min</sub></strong> para cada bodega
+                utilizando la Tabla 8 de la NTP 462. Con base en los resultados,
+                redacte una breve conclusión técnica dirigida a la gerencia
+                explicando qué bodega representa mayor exigencia térmica para el
+                trabajador y qué significa esto en términos de gestión del
+                riesgo.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="border-collapse: collapse; margin-bottom: 6px;" width="100%"
+      cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td
+            style="background-color: #f7f5f0; border: 1px solid #cccccc; border-radius: 4px 4px 0 0; padding: 0;">
+            <table style="border-collapse: collapse;" width="100%"
+              cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td
+                    style="background-color: #e8700a; text-align: center; vertical-align: middle; border-radius: 4px 0 0 0;"
+                    valign="middle" width="70">
+                    <div
+                      style="font-size: 11px; font-weight: bold; color: #ffffff; letter-spacing: 1px;">
+                      RETO</div>
+                    <div
+                      style="font-size: 24px; font-weight: bold; color: #ffffff; line-height: 1;">
+                      02</div>
+                  </td>
+                  <td style="padding: 18px 20px 14px;" valign="middle">
+                    <div
+                      style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.2px; color: #e8700a; margin-bottom: 4px;">
+                      ⏲ Caso aplicado — Cálculo del T<sub>max</sub></div>
+                    <div
+                      style="font-family: Georgia,'Times New Roman',serif; font-size: 15.5px; font-weight: bold; color: #1a2a4a;">
+                      Cámara Frigorífica Polo Norte Ltda.</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="background-color: #ffffff; border: 1px solid #cccccc; border-top: none; border-radius: 0 0 4px 4px; padding: 18px 20px;">
+            <p
+              style="font-size: 14px; line-height: 1.85; color: #2c2c2a; margin: 0 0 14px 0; padding: 0; text-align: justify;">
+              Una empresa procesadora de carnes lo(a) ha vinculado para revisar
+              el programa de pausas activas y rotación de personal en dos de sus
+              cámaras frigoríficas, donde recientemente se han reportado casos
+              de fatiga y molestias por frío entre los operarios. Su rol es
+              determinar el tiempo máximo admisible de exposición continua en
+              cada cámara, para luego proponer un esquema de rotación acorde al
+              riesgo identificado.</p>
+            <p
+              style="font-size: 14px; line-height: 1.85; color: #2c2c2a; margin: 0 0 16px 0; padding: 0; text-align: justify;">
+              Las condiciones de trabajo registradas son las siguientes:</p>
+            <table style="border-collapse: collapse; margin-bottom: 16px;"
+              width="100%" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td style="padding: 0 8px 0 0;" valign="top" width="50%">
+                    <div
+                      style="background-color: #fdf2e8; border: 1px solid #f0c896; border-radius: 4px; padding: 14px 16px;">
+                      <div
+                        style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #1a2a4a; margin-bottom: 8px; border-bottom: 1px solid #f0c896; padding-bottom: 6px;">
+                        Cámara 1</div>
+                      <div
+                        style="font-size: 13px; line-height: 2; color: #5c3a14;">
+                        Temperatura del aire: <strong>−20
+                          °C</strong><br>Actividad metabólica: <strong>M = 80
+                          W/m²</strong><br>Aislamiento de la ropa:
+                        <strong>I<sub>CL</sub> = 2 CLO</strong><br>Velocidad del
+                        aire: <strong>v = 0.5 m/s</strong></div>
+                    </div>
+                  </td>
+                  <td style="padding: 0 0 0 8px;" valign="top" width="50%">
+                    <div
+                      style="background-color: #fdf2e8; border: 1px solid #f0c896; border-radius: 4px; padding: 14px 16px;">
+                      <div
+                        style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #1a2a4a; margin-bottom: 8px; border-bottom: 1px solid #f0c896; padding-bottom: 6px;">
+                        Cámara 2</div>
+                      <div
+                        style="font-size: 13px; line-height: 2; color: #5c3a14;">
+                        Temperatura del aire: <strong>−30
+                          °C</strong><br>Actividad metabólica: <strong>M = 115
+                          W/m²</strong><br>Aislamiento de la ropa:
+                        <strong>I<sub>CL</sub> = 3 CLO</strong><br>Velocidad del
+                        aire: <strong>v = 2 m/s</strong></div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              style="background-color: #f0f4fa; border: 1px solid #c0cce0; border-left: 4px solid #1a2a4a; border-radius: 4px; padding: 14px 16px;">
+              <div
+                style="font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; color: #1a2a4a; margin-bottom: 6px;">
+                📝 Lo que debe entregar</div>
+              <p
+                style="font-size: 13.5px; line-height: 1.75; color: #2c2c2a; margin: 0; padding: 0; text-align: justify;">
+                Calcule el <strong>T<sub>max</sub> (Tiempo Máximo
+                  Admisible)</strong> para cada cámara. A partir de los
+                resultados, explique qué significa este valor en términos
+                prácticos para el trabajador y proponga, de manera justificada,
+                cómo debería organizarse la rotación del personal entre ambas
+                cámaras.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    style="background-color: #f0ede6; border: 1px solid #cccccc; border-top: none; padding: 11px 32px;">
+    <table style="border-collapse: collapse;" width="100%" cellspacing="0"
+      cellpadding="0">
+      <tbody>
+        <tr>
+          <td valign="middle"><span style="font-size: 12px; color: #888780;">🎯 
+              Resuelva ambos casos para habilitar la entrega final</span></td>
+          <td style="text-align: right;" valign="middle"><span
+              style="font-size: 10px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; background-color: #1a2a4a; color: #c8a84b; border-radius: 3px; padding: 5px 12px;">2
+              casos</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div
+    style="background-color: #1a2a4a; border-radius: 0 0 6px 6px; padding: 14px 32px; text-align: center; border: 1px solid #1a2a4a; border-top: 2px solid #c8a84b;">
+    <span
+      style="font-size: 11px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; color: #c8a84b;">Administración
+      en Seguridad y Salud en el Trabajo  •  Peligros Físicos II</span></div>
+</div>
