@@ -1,0 +1,79 @@
+<div
+  style="font-family: 'Segoe UI', Tahoma, sans-serif; max-width: 900px; margin: auto; padding: 20px; background: #f8fbff; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+  <div
+    style="display: flex; align-items: center; gap: 14px; border-bottom: 4px solid #1a73e8; padding-bottom: 16px; margin-bottom: 24px;">
+    <span style="font-size: 2.8rem;">🧊</span>
+    <div>
+      <h1 style="color: #0a2a44; margin: 0; font-size: 2rem;">Estudio de Caso
+      </h1>
+      <p
+        style="color: #2c3e50; margin: 0; font-size: 1.1rem; font-weight: 300;">
+        Estrés Térmico por Frío - Índice de Viento Frío (WCI)</p>
+    </div>
+  </div>
+  <div
+    style="background: white; border-radius: 16px; padding: 24px 28px; border-left: 6px solid #1a73e8; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+    <h2
+      style="color: #0a2a44; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+      <span
+        style="background: #1a73e8; color: white; padding: 2px 14px; border-radius: 30px; font-size: 0.8rem;">CASO</span>
+      Mantenimiento en Subestación Eléctrica</h2>
+    <p><strong>📍 Ubicación:</strong> Zona montañosa, 3.800 m s.n.m. — Trabajo
+      completamente expuesto a la intemperie durante el invierno.</p>
+    <div
+      style="background: #eef4fc; border-radius: 12px; padding: 16px 20px; margin: 16px 0;">
+      <h3 style="color: #0a2a44; margin: 0 0 8px 0; font-size: 1rem;">🌡️
+        Condiciones Ambientales</h3>
+      <ul style="margin: 0; padding-left: 20px; list-style: none;">
+        <li style="margin: 6px 0;">• Temperatura del aire: <span
+            style="background: #ffeb3b; padding: 2px 10px; border-radius: 6px; font-weight: bold;">-15
+            °C</span></li>
+        <li style="margin: 6px 0;">• Velocidad del viento: <span
+            style="background: #ffeb3b; padding: 2px 10px; border-radius: 6px; font-weight: bold;">35
+            km/h</span> (constante)</li>
+      </ul>
+    </div>
+    <div
+      style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0;">
+      <div
+        style="background: #f0f6ff; border-radius: 12px; padding: 14px 18px;">
+        <h4 style="margin: 0 0 6px 0; color: #0a2a44;">👷 Actividad</h4>
+        <p style="margin: 0; font-size: 0.95rem;">Moderada (carga de
+          herramientas, ajustes de pernos, caminatas cortas).<br><span
+            style="font-size: 0.85rem; color: #555;">Gasto metabólico: ~200
+            kcal/hora.</span></p>
+      </div>
+      <div
+        style="background: #f0f6ff; border-radius: 12px; padding: 14px 18px;">
+        <h4 style="margin: 0 0 6px 0; color: #0a2a44;">⏰ Jornada</h4>
+        <p style="margin: 0; font-size: 0.95rem;">8 horas continuas (06:00 -
+          14:00).<br><span style="font-size: 0.85rem; color: #555;">Inicio al
+            amanecer, cuando la sensación térmica es más baja.</span></p>
+      </div>
+    </div>
+    <div
+      style="background: #fff8e1; border-radius: 12px; padding: 16px 20px; border-left: 4px solid #f9a825;">
+      <h4 style="margin: 0 0 6px 0; color: #0a2a44;">🧥 Equipo de Protección
+        Personal (EPP) disponible</h4>
+      <ul style="margin: 0; padding-left: 20px;">
+        <li>Casco dieléctrico con pasamontañas</li>
+        <li>Chaleco reflectivo</li>
+        <li>Guantes de cuero (tipo jardinero) <strong>sin forro térmico</strong>
+        </li>
+        <li>Botas de seguridad dieléctricas con punta de acero</li>
+        <li>Chaqueta cortavientos <strong>sin relleno térmico</strong></li>
+      </ul>
+    </div>
+    <div
+      style="margin-top: 20px; padding: 16px 20px; background: #e3f2fd; border-radius: 12px; text-align: center;">
+      <p style="margin: 0; font-weight: 600; color: #0a2a44;">🎯 <strong>Tu
+          rol:</strong> Profesional en Seguridad y Salud en el Trabajo.<br><span
+          style="font-weight: 400;">Debes evaluar el riesgo y proponer medidas
+          de control.</span></p>
+    </div>
+  </div>
+  <div
+    style="margin-top: 24px; padding: 12px 20px; background: #e8f0fe; border-radius: 30px; text-align: center; font-size: 0.95rem; color: #1a3a5a;">
+    ⬅️ Página 1 de 5 — Avanza al siguiente capítulo para explorar la tabla WCI.
+  </div>
+</div>
