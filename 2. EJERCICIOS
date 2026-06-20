@@ -1,0 +1,59 @@
+<section>
+  <div class="container-fluid px-2 px-md-4 py-4"
+    style="background: linear-gradient(135deg, #0b2545 0%, #13315c 50%, #1d4e89 100%); font-family: 'Helvetica Neue', Arial, sans-serif;">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-11"><!-- Encabezado académico -->
+        <div class="p-4 mb-3 text-center"
+          style="background: rgba(255,255,255,0.06); border: 1px solid rgba(201,162,39,0.45); border-radius: 10px; box-shadow: 0 6px 24px rgba(0,0,0,0.25);">
+          <div
+            style="display: inline-block; padding: 6px 18px; border: 1px solid #c9a227; border-radius: 30px; color: #c9a227; font-size: 0.78rem; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 14px;">
+            <i class="fa fa-flask" aria-hidden="true"></i>  Peligros Físicos II
+          </div>
+          <h2
+            style="font-family: Georgia, 'Times New Roman', serif; color: #ffffff; font-weight: bold; letter-spacing: 1px; margin: 0 0 6px 0;">
+            Ejercicios Prácticos — Estrés Térmico</h2>
+          <div
+            style="width: 90px; height: 3px; background: #c9a227; margin: 12px auto;">
+             </div>
+          <p
+            style="color: #e6edf5; font-style: italic; margin: 0; font-size: 1rem;">
+            Aplicación de conceptos, cálculos y análisis de casos</p>
+        </div>
+        <!-- Instrucciones -->
+        <div class="p-3 mb-3"
+          style="background: #fdfaf3; border-left: 5px solid #c9a227; border-radius: 6px;">
+          <p
+            style="margin: 0; color: #0b2545; font-size: 0.98rem; line-height: 1.55;">
+            <i class="fa fa-book" style="color: #c9a227;"></i>
+             <strong>Instrucciones:</strong> desarrolle la siguiente actividad
+            interactiva de manera individual. Utilice los recursos audiovisuales
+            y las fórmulas suministradas por su tutor. Al finalizar todos los
+            ejercicios, se habilitará el acceso a la evaluación.</p>
+        </div>
+        <!-- Contenedor del recurso Genially -->
+        <div
+          style="background: #ffffff; padding: 14px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.35); border: 1px solid rgba(201,162,39,0.35);">
+          <div style="width: 100%;">
+            <div
+              style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0; overflow: hidden; border-radius: 6px; background: #0b2545;">
+              <iframe
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                title="Estrés Térmico — Ejercicios"
+                src="https://view.genially.com/66f20dd3e448266ec8b0256f"
+                width="1200" height="675" frameborder="0" scrolling="yes"
+                allowfullscreen="allowfullscreen"></iframe></div>
+          </div>
+          <p
+            style="margin: 10px 2px 0; font-size: 0.82rem; color: #5a6473; text-align: right; font-style: italic;">
+            <i class="fa fa-mouse-pointer"></i> Interactúe con cada elemento del
+            recurso para avanzar.</p>
+        </div>
+        <!-- Pie académico -->
+        <div class="text-center mt-3 p-2" style="color: #e6edf5;"><small
+            style="letter-spacing: 2px; text-transform: uppercase;"> <i
+              class="fa fa-graduation-cap" style="color: #c9a227;"></i>
+             Seguridad y Salud en el Trabajo  ·  Unidad Académica </small></div>
+      </div>
+    </div>
+  </div>
+</section>
