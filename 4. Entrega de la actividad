@@ -1,0 +1,73 @@
+<p></p>
+<div
+  style="font-family: 'Roboto', Arial, sans-serif; background-color: #f8fafc; color: #1e293b; line-height: 1.6; max-width: 800px; margin: 0 auto; padding-bottom: 50px; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+  <!-- ENCABEZADO CON FONDO AZUL SÓLIDO -->
+  <div
+    style="background: linear-gradient(135deg, #004a99 0%, #0056b3 100%); padding: 50px 20px; text-align: center; border-bottom: 4px solid #c8a951;">
+    <div
+      style="background: rgba(255, 255, 255, 0.2); display: inline-block; padding: 4px 15px; border-radius: 20px; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.3);">
+      <span
+        style="color: #ffffff; font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase;">Actividad
+        Finalizada</span></div>
+    <h1
+      style="margin: 0; font-size: 30px; color: #ffffff; font-weight: 800; letter-spacing: -0.5px;">
+      ¡Subir la evidencia de la Actividad!</h1>
+  </div>
+  <div style="padding: 40px 30px; text-align: center;">
+    <!-- TARJETA DE INSTRUCCIONES DE ENTREGA -->
+    <div
+      style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 35px; box-shadow: 0 10px 40px rgba(15, 23, 42, 0.08); margin-bottom: 30px; position: relative; overflow: hidden;">
+      <div
+        style="display: flex; justify-content: center; gap: 30px; margin-bottom: 30px;">
+        <!-- Icono PDF -->
+        <div style="text-align: center;">
+          <div
+            style="width: 60px; height: 60px; background: #fee2e2; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px;">
+            <svg style="width: 28px; height: 28px; color: #ef4444;">
+              <path
+                d="M9 2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V6.414A2 2 0 0016.414 5L14 2.586A2 2 0 0012.586 2H9z">
+              </path>
+              <path d="M3 8a2 2 0 012-2v10h8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z">
+              </path>
+            </svg></div>
+          <span
+            style="font-size: 12px; font-weight: 800; color: #ef4444; text-transform: uppercase; letter-spacing: 0.5px;">Formato
+            PDF</span>
+        </div>
+        <!-- Icono Individual -->
+        <div style="text-align: center;">
+          <div
+            style="width: 60px; height: 60px; background: #f0f9ff; border-radius: 15px; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px;">
+            <svg style="width: 28px; height: 28px; color: #0ea5e9;">
+              <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z">
+              </path>
+            </svg></div>
+          <span
+            style="font-size: 12px; font-weight: 800; color: #0ea5e9; text-transform: uppercase; letter-spacing: 0.5px;">Individual</span>
+        </div>
+      </div>
+      <h2
+        style="margin: 0 0 15px; font-size: 20px; color: #0f172a; font-weight: bold;">
+        Instrucciones de Envío</h2>
+      <p
+        style="margin: 0 0 25px; font-size: 16px; color: #475569; line-height: 1.7; padding: 0 10px;">
+        Por favor asegúrese de <strong>convertir su archivo a PDF</strong> antes
+        de subirlo. Una vez que haya resuelto todas las preguntas de la
+        actividad, pulse el botón inferior para realizar la entrega.</p>
+      <div
+        style="background: #f8fafc; border: 1px dashed #cbd5e1; padding: 18px; border-radius: 10px; margin-bottom: 30px;">
+        <p
+          style="margin: 0; font-size: 14px; color: #64748b; font-style: italic;">
+          "Esta actividad es de carácter individual y evaluará su capacidad de
+          análisis técnico."</p>
+      </div>
+      <!-- BOTÓN DE ACCIÓN --> <a
+        style="display: inline-block; background: #0056b3; color: #ffffff; text-decoration: none; padding: 18px 50px; border-radius: 10px; font-weight: 800; font-size: 18px; transition: all 0.3s ease; box-shadow: 0 8px 20px rgba(0, 86, 179, 0.25);"
+        href="https://aulasvirtuales.uniajc.edu.co/mod/assign/view.php?id=1065765">
+        Subir Trabajo... </a>
+    </div>
+    <!-- PIE DE PÁGINA -->
+    <div style="font-size: 12px; color: #94a3b8; margin-top: 20px;">Higiene
+      Industrial | Peligros Físicos II | Unicamacho 2026</div>
+  </div>
+</div>
