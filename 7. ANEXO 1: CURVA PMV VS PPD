@@ -1,0 +1,522 @@
+<div
+  style="font-family: 'Segoe UI', Tahoma, sans-serif; max-width: 1100px; margin: auto; padding: 20px; background: #f8fbff; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+  <div
+    style="display: flex; align-items: center; gap: 14px; border-bottom: 4px solid #2e86c1; padding-bottom: 16px; margin-bottom: 24px;">
+    <span style="font-size: 2.8rem;">🌡️</span>
+    <div>
+      <h1 style="color: #0a2a44; margin: 0; font-size: 2rem;">Confort Térmico -
+        PMV / PPD</h1>
+      <p style="color: #2c3e50; margin: 0; font-size: 1rem; font-weight: 300;">
+        Relación entre el Voto Medio Predicho (PMV) y el Porcentaje de Personas
+        Insatisfechas (PPD) según ISO 7730</p>
+    </div>
+  </div>
+  <!-- ======== SIMULADOR ======== -->
+  <div
+    style="background: white; border-radius: 16px; padding: 22px 26px; margin-bottom: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+    <h3
+      style="color: #0a2a44; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+      🎛️ Simulador PMV → PPD</h3>
+    <div
+      style="display: grid; grid-template-columns: 1fr 1fr auto; gap: 20px; align-items: end; flex-wrap: wrap;">
+      <div><label
+          style="font-weight: 600; color: #1a2a44; display: block; margin-bottom: 6px;">🌡️
+          PMV (Índice de Voto Medio Predicho)</label> <input id="pmvSlider"
+          style="width: 100%; accent-color: #2e86c1;" max="2.0" min="-2.0"
+          step="0.01" type="range" value="0.5">
+        <div
+          style="display: flex; justify-content: space-between; font-size: 0.8rem; color: #666; margin-top: 4px;">
+          Frío (-2.0) <span
+            style="font-weight: bold; color: #28a745;">CONFORT</span> Calor
+          (+2.0)</div>
+        <div
+          style="display: flex; justify-content: space-between; font-size: 0.7rem; color: #28a745; margin-top: 2px;">
+          ⬅️ -0.5 (PPD ≈ 10%) +0.5 (PPD ≈ 10%) ➡️</div>
+      </div>
+      <div><label
+          style="font-weight: 600; color: #1a2a44; display: block; margin-bottom: 6px;">📊
+          PMV (Valor numérico)</label> <input id="pmvInput"
+          style="width: 100%; padding: 10px 14px; border: 2px solid #d0dbe8; border-radius: 12px; font-size: 1rem; font-weight: 600; background: #f8faff;"
+          max="2.0" min="-2.0" step="0.01" type="number" value="0.5"></div>
+      <div
+        style="background: #0a2a44; color: white; padding: 14px 24px; border-radius: 16px; text-align: center; min-width: 140px;">
+        <div style="font-size: 0.8rem; opacity: 0.7;">PPD</div>
+        <div id="ppdDisplay"
+          style="font-size: 2.6rem; font-weight: 800; line-height: 1;">10.0
+        </div>
+        <div style="font-size: 0.8rem;">% Insatisfechos</div>
+        <div id="confortDisplay"
+          style="background: #2ecc71; color: white; padding: 2px 12px; border-radius: 40px; font-weight: bold; font-size: 0.75rem; margin-top: 4px;">
+          ✅ CONFORTABLE</div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 12px; background: #eef4fc; padding: 10px 16px; border-radius: 12px; font-size: 0.9rem;">
+      💡 <strong>Interpretación:</strong> Confort térmico cuando <strong>PMV
+        entre -0.5 y +0.5</strong> y <strong>PPD &lt; 10%</strong>. Superar
+      estos límites aumenta la insatisfacción.</div>
+  </div>
+  <!-- ======== GRÁFICA CANVAS ======== -->
+  <div
+    style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); margin-bottom: 24px;">
+    <h3
+      style="color: #0a2a44; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+      📈 Curva PMV - PPD (ISO 7730)</h3>
+    <div style="width: 100%; overflow-x: auto; text-align: center;"><canvas
+        id="graficaCanvas"
+        style="max-width: 100%; height: auto; background: #fafcff; border-radius: 12px; border: 1px solid #e2eaf6; display: block; margin: 0 auto;"
+        width="800" height="480"></canvas></div>
+    <!-- Leyenda de colores -->
+    <div
+      style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 12px; font-size: 0.85rem;">
+      <div style="display: flex; align-items: center; gap: 6px;">Zona de confort
+        (PPD &lt; 10%)</div>
+      <div style="display: flex; align-items: center; gap: 6px;">Límite PPD =
+        10%</div>
+      <div style="display: flex; align-items: center; gap: 6px;">Curva PMV-PPD
+      </div>
+      <div style="display: flex; align-items: center; gap: 6px;">Punto actual
+      </div>
+    </div>
+  </div>
+  <!-- ======== TABLA DE VALORES DE REFERENCIA ======== -->
+  <div
+    style="background: white; border-radius: 16px; padding: 20px 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+    <h3
+      style="color: #0a2a44; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+      📋 Valores de Referencia PMV - PPD</h3>
+    <div style="overflow-x: auto;">
+      <table id="tablaReferencia"
+        style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+        <thead>
+          <tr style="background: #0a2a44; color: white;">
+            <th style="padding: 10px 12px; text-align: center;">PMV</th>
+            <th style="padding: 10px 12px; text-align: center;">PPD (%)</th>
+            <th style="padding: 10px 12px; text-align: center;">Interpretación
+            </th>
+            <th style="padding: 10px 12px; text-align: center;">Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="fila0" style="background: #d4edda; font-weight: bold;">
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              0.0</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              5.0</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              Neutralidad perfecta</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              <span
+                style="background: #2ecc71; color: white; padding: 2px 12px; border-radius: 30px; font-weight: 600;">CONFORT</span>
+            </td>
+          </tr>
+          <tr id="fila05" style="background: #f8fbff;">
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center; font-weight: 600;">
+              ±0.5</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              10.0</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              Límite de confort aceptable</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              <span
+                style="background: #f1c40f; color: #0a2a44; padding: 2px 12px; border-radius: 30px; font-weight: 600;">LÍMITE</span>
+            </td>
+          </tr>
+          <tr id="fila1">
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center; font-weight: 600;">
+              ±1.0</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              26.0</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              Insatisfacción significativa</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              <span
+                style="background: #e67e22; color: white; padding: 2px 12px; border-radius: 30px; font-weight: 600;">ALERTA</span>
+            </td>
+          </tr>
+          <tr id="fila15" style="background: #f8fbff;">
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center; font-weight: 600;">
+              ±1.5</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              52.0</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              Alta insatisfacción</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              <span
+                style="background: #e74c3c; color: white; padding: 2px 12px; border-radius: 30px; font-weight: 600;">PELIGRO</span>
+            </td>
+          </tr>
+          <tr id="fila2">
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center; font-weight: 600;">
+              ±2.0</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              76.0</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              Insatisfacción extrema</td>
+            <td
+              style="padding: 8px 12px; border: 1px solid #dbe3ef; text-align: center;">
+              <span
+                style="background: #c0392b; color: white; padding: 2px 12px; border-radius: 30px; font-weight: 600;">CRÍTICO</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      style="margin-top: 12px; background: #d4edda; padding: 12px 16px; border-radius: 12px; border-left: 5px solid #28a745; font-size: 0.85rem;">
+      📌 <strong>Nota:</strong> Según ISO 7730, se considera confort térmico
+      aceptable cuando <strong>PMV entre -0.5 y +0.5</strong> y <strong>PPD &lt;
+        10%</strong>.</div>
+  </div>
+  <div
+    style="margin-top: 20px; padding: 12px 20px; background: #e8f0fe; border-radius: 30px; text-align: center; font-size: 0.95rem; color: #1a3a5a;">
+    ⬅️ Herramienta interactiva — Ajusta el PMV y observa el PPD calculado.
+    <strong style="color: #28a745;">Confort: PPD &lt; 10% (PMV entre -0.5 y
+      +0.5)</strong></div>
+</div>
+<p>
+  <script>
+    // ======== FUNCIÓN PPD (ISO 7730) ========
+    function calcularPPD(pmv) {
+      const pmv2 = pmv * pmv;
+      const pmv4 = pmv2 * pmv2;
+      const ppd = 100 - 95 * Math.exp(-0.03353 * pmv4 - 0.2179 * pmv2);
+      return Math.min(100, Math.max(5, ppd));
+    }
+
+    // ======== FUNCIONES DE ESCALA PARA CANVAS ========
+    // Canvas: 800x480, margen 60 izq, 40 der, 40 sup, 50 inf
+    const MARGEN_IZQ = 60;
+    const MARGEN_DER = 40;
+    const MARGEN_SUP = 40;
+    const MARGEN_INF = 50;
+    const ANCHO_GRAF = 800 - MARGEN_IZQ - MARGEN_DER; // 700
+    const ALTO_GRAF = 480 - MARGEN_SUP - MARGEN_INF; // 390
+
+    function pmvToX(pmv) {
+      // PMV: -2.0 a +2.0 → x: MARGEN_IZQ a MARGEN_IZQ + ANCHO_GRAF
+      return MARGEN_IZQ + ((pmv + 2.0) / 4.0) * ANCHO_GRAF;
+    }
+
+    function ppdToY(ppd) {
+      // PPD: 5% a 80% → y: MARGEN_SUP + ALTO_GRAF a MARGEN_SUP (invertido)
+      const pct = Math.min(80, Math.max(5, ppd));
+      return MARGEN_SUP + ALTO_GRAF - ((pct - 0) / 80) * ALTO_GRAF;
+    }
+
+    // ======== DIBUJAR GRÁFICA EN CANVAS ========
+    function dibujarGrafica() {
+      const canvas = document.getElementById('graficaCanvas');
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width;
+      const h = canvas.height;
+
+      // Limpiar
+      ctx.clearRect(0, 0, w, h);
+
+      // ---- FONDO ----
+      ctx.fillStyle = '#fafcff';
+      ctx.fillRect(0, 0, w, h);
+
+      // ---- ZONA DE CONFORT (PPD < 10%) ----
+      // Calcular coordenadas para PMV -0.5 a +0.5
+      const xConfIzq = pmvToX(-0.5);
+      const xConfDer = pmvToX(0.5);
+      const yPPD10 = ppdToY(10);
+
+      ctx.fillStyle = 'rgba(212, 237, 218, 0.4)';
+      ctx.fillRect(xConfIzq, MARGEN_SUP, xConfDer - xConfIzq, yPPD10 -
+        MARGEN_SUP);
+      ctx.strokeStyle = '#28a745';
+      ctx.lineWidth = 2;
+      ctx.setLineDash([8, 4]);
+      ctx.strokeRect(xConfIzq, MARGEN_SUP, xConfDer - xConfIzq, yPPD10 -
+        MARGEN_SUP);
+      ctx.setLineDash([]);
+
+      // ---- ETIQUETA ZONA DE CONFORT ----
+      ctx.fillStyle = '#1a7a34';
+      ctx.font = 'bold 14px Segoe UI, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'top';
+      const centroX = (xConfIzq + xConfDer) / 2;
+      ctx.fillText('✅ ZONA DE CONFORT', centroX, MARGEN_SUP + 8);
+      ctx.font = '12px Segoe UI, sans-serif';
+      ctx.fillText('PPD < 10%', centroX, MARGEN_SUP + 30);
+      ctx.fillText('PMV entre -0.5 y +0.5', centroX, MARGEN_SUP + 48);
+
+      // ---- CUADRÍCULA Y EJES ----
+      // Líneas horizontales (PPD)
+      const ppdValores = [0, 10, 30, 60, 80];
+      const ppdColores = ['#dbe3ef', '#28a745', '#dbe3ef', '#dbe3ef',
+      '#dbe3ef'];
+      const ppdGrosor = [1, 3, 1, 1, 1];
+      ppdValores.forEach((val, idx) => {
+        const y = ppdToY(val);
+        ctx.strokeStyle = ppdColores[idx];
+        ctx.lineWidth = ppdGrosor[idx];
+        if (val === 10) {
+          ctx.setLineDash([8, 6]);
+        } else {
+          ctx.setLineDash([4, 4]);
+        }
+        ctx.beginPath();
+        ctx.moveTo(MARGEN_IZQ, y);
+        ctx.lineTo(w - MARGEN_DER, y);
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        // Etiquetas
+        ctx.fillStyle = (val === 10) ? '#28a745' : '#666';
+        ctx.font = (val === 10) ? 'bold 12px Segoe UI, sans-serif' :
+          '11px Segoe UI, sans-serif';
+        ctx.textAlign = 'end';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(val + '%', MARGEN_IZQ - 8, y);
+      });
+
+      // Líneas verticales (PMV)
+      const pmvValores = [-2.0, -1.0, 0, 1.0, 2.0];
+      pmvValores.forEach(val => {
+        const x = pmvToX(val);
+        ctx.strokeStyle = '#dbe3ef';
+        ctx.lineWidth = 1;
+        ctx.setLineDash([4, 4]);
+        ctx.beginPath();
+        ctx.moveTo(x, MARGEN_SUP);
+        ctx.lineTo(x, h - MARGEN_INF);
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        ctx.fillStyle = '#666';
+        ctx.font = '11px Segoe UI, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'top';
+        ctx.fillText(val.toFixed(1), x, h - MARGEN_INF + 6);
+      });
+
+      // ---- LÍMITES PMV -0.5 y +0.5 ----
+      [-0.5, 0.5].forEach(val => {
+        const x = pmvToX(val);
+        ctx.strokeStyle = '#28a745';
+        ctx.lineWidth = 2;
+        ctx.setLineDash([6, 4]);
+        ctx.beginPath();
+        ctx.moveTo(x, MARGEN_SUP);
+        ctx.lineTo(x, h - MARGEN_INF);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.fillStyle = '#28a745';
+        ctx.font = 'bold 11px Segoe UI, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'bottom';
+        ctx.fillText(val.toFixed(1), x, MARGEN_SUP - 4);
+      });
+
+      // ---- EJES PRINCIPALES ----
+      ctx.strokeStyle = '#0a2a44';
+      ctx.lineWidth = 2;
+      ctx.setLineDash([]);
+      // Eje Y
+      ctx.beginPath();
+      ctx.moveTo(MARGEN_IZQ, MARGEN_SUP);
+      ctx.lineTo(MARGEN_IZQ, h - MARGEN_INF);
+      ctx.stroke();
+      // Eje X
+      ctx.beginPath();
+      ctx.moveTo(MARGEN_IZQ, h - MARGEN_INF);
+      ctx.lineTo(w - MARGEN_DER, h - MARGEN_INF);
+      ctx.stroke();
+
+      // ---- TÍTULOS DE EJES ----
+      ctx.fillStyle = '#0a2a44';
+      ctx.font = 'bold 14px Segoe UI, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      // Título Y (rotado)
+      ctx.save();
+      ctx.translate(18, (MARGEN_SUP + h - MARGEN_INF) / 2);
+      ctx.rotate(-Math.PI / 2);
+      ctx.fillText('PPD (%)', 0, 0);
+      ctx.restore();
+      // Título X
+      ctx.fillText('PMV (Índice de Voto Medio Predicho)', (MARGEN_IZQ + w -
+        MARGEN_DER) / 2, h - 8);
+
+      // ---- CURVA PPD ----
+      ctx.strokeStyle = '#2e86c1';
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      let primero = true;
+      for (let pmv = -2.0; pmv <= 2.0; pmv += 0.02) {
+        const ppd = calcularPPD(pmv);
+        const x = pmvToX(pmv);
+        const y = ppdToY(ppd);
+        if (primero) {
+          ctx.moveTo(x, y);
+          primero = false;
+        } else {
+          ctx.lineTo(x, y);
+        }
+      }
+      ctx.stroke();
+
+      // ---- PUNTO ACTUAL ----
+      const pmvActual = parseFloat(document.getElementById('pmvInput').value);
+      const ppdActual = calcularPPD(pmvActual);
+      const xAct = pmvToX(pmvActual);
+      const yAct = ppdToY(ppdActual);
+
+      // Líneas de guía
+      ctx.strokeStyle = 'rgba(231, 76, 60, 0.5)';
+      ctx.lineWidth = 1.5;
+      ctx.setLineDash([4, 4]);
+      ctx.beginPath();
+      ctx.moveTo(xAct, yAct);
+      ctx.lineTo(xAct, h - MARGEN_INF);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(MARGEN_IZQ, yAct);
+      ctx.lineTo(xAct, yAct);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      // Etiquetas del punto
+      ctx.fillStyle = '#e74c3c';
+      ctx.font = 'bold 12px Segoe UI, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'top';
+      ctx.fillText('PMV: ' + pmvActual.toFixed(2), xAct, h - MARGEN_INF + 22);
+      ctx.textAlign = 'end';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('PPD: ' + ppdActual.toFixed(1) + '%', MARGEN_IZQ - 10, yAct);
+
+      // Punto (círculo)
+      ctx.shadowColor = 'rgba(0,0,0,0.2)';
+      ctx.shadowBlur = 8;
+      ctx.beginPath();
+      ctx.arc(xAct, yAct, 8, 0, 2 * Math.PI);
+      ctx.fillStyle = '#e74c3c';
+      ctx.fill();
+      ctx.shadowBlur = 0;
+      ctx.strokeStyle = 'white';
+      ctx.lineWidth = 2.5;
+      ctx.stroke();
+
+      // Círculo exterior
+      ctx.beginPath();
+      ctx.arc(xAct, yAct, 13, 0, 2 * Math.PI);
+      ctx.strokeStyle = 'rgba(231, 76, 60, 0.3)';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+    }
+
+    // ======== ACTUALIZAR TODO ========
+    function actualizarTodo() {
+      const pmv = parseFloat(document.getElementById('pmvInput').value);
+      const ppd = calcularPPD(pmv);
+
+      // Actualizar displays
+      document.getElementById('ppdDisplay').textContent = ppd.toFixed(1);
+      document.getElementById('pmvSlider').value = pmv;
+
+      // Estado de confort
+      const confortDisplay = document.getElementById('confortDisplay');
+      if (pmv >= -0.5 && pmv <= 0.5) {
+        confortDisplay.style.background = '#2ecc71';
+        confortDisplay.textContent = '✅ CONFORTABLE';
+      } else if (pmv >= -1.0 && pmv <= 1.0) {
+        confortDisplay.style.background = '#f1c40f';
+        confortDisplay.textContent = '🟡 LÍMITE ACEPTABLE';
+      } else if (pmv >= -1.5 && pmv <= 1.5) {
+        confortDisplay.style.background = '#e67e22';
+        confortDisplay.textContent = '🟠 ALTA INSATISFACCIÓN';
+      } else {
+        confortDisplay.style.background = '#e74c3c';
+        confortDisplay.textContent = '🔴 INSATISFACCIÓN EXTREMA';
+      }
+
+      // Resaltar fila en tabla
+      resaltarFilaTabla(pmv);
+
+      // Dibujar gráfica
+      dibujarGrafica();
+    }
+
+    // ======== RESALTAR FILA ========
+    function resaltarFilaTabla(pmv) {
+      const filas = ['fila0', 'fila05', 'fila1', 'fila15', 'fila2'];
+      const valores = [0, 0.5, 1.0, 1.5, 2.0];
+      const absPmv = Math.abs(pmv);
+
+      filas.forEach(id => {
+        const fila = document.getElementById(id);
+        if (fila) {
+          fila.style.background = '';
+          fila.style.fontWeight = '';
+        }
+      });
+
+      let minDiff = Infinity;
+      let closestId = null;
+      filas.forEach((id, index) => {
+        const diff = Math.abs(absPmv - valores[index]);
+        if (diff < minDiff) {
+          minDiff = diff;
+          closestId = id;
+        }
+      });
+
+      if (closestId && minDiff < 0.1) {
+        const fila = document.getElementById(closestId);
+        if (fila) {
+          fila.style.background = '#d4edda';
+          fila.style.fontWeight = '700';
+        }
+      }
+    }
+
+    // ======== EVENT LISTENERS ========
+    document.getElementById('pmvSlider').addEventListener('input', function() {
+      const val = parseFloat(this.value);
+      document.getElementById('pmvInput').value = val.toFixed(2);
+      actualizarTodo();
+    });
+
+    document.getElementById('pmvInput').addEventListener('input', function() {
+      let val = parseFloat(this.value);
+      if (isNaN(val)) val = 0;
+      val = Math.max(-2.0, Math.min(2.0, val));
+      document.getElementById('pmvSlider').value = val;
+      actualizarTodo();
+    });
+
+    // ======== REDIBUJAR AL CAMBIAR TAMAÑO ========
+    window.addEventListener('resize', function() {
+      // El canvas se redimensiona automáticamente con CSS
+      dibujarGrafica();
+    });
+
+    // ======== INICIALIZAR ========
+    actualizarTodo();
+  </script>
+</p>
