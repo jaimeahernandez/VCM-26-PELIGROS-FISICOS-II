@@ -1,0 +1,341 @@
+<div
+  style="font-family: 'Segoe UI', Tahoma, sans-serif; max-width: 950px; margin: auto; padding: 20px; background: #f8fbff; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+  <div
+    style="display: flex; align-items: center; gap: 14px; border-bottom: 4px solid #8e44ad; padding-bottom: 16px; margin-bottom: 24px;">
+    <span style="font-size: 2.8rem;">🌡️</span>
+    <div>
+      <h1 style="color: #0a2a44; margin: 0; font-size: 2rem;">Confort Térmico -
+        TRM + To</h1>
+      <p style="color: #2c3e50; margin: 0; font-size: 1rem; font-weight: 300;">
+        Calculadora interactiva: Temperatura Radiante Media (TRM) y Temperatura
+        Operativa (To)</p>
+    </div>
+  </div>
+  <!-- ======== FÓRMULAS ======== -->
+  <div
+    style="background: #f0f0ff; border-radius: 12px; padding: 16px 20px; margin-bottom: 24px; border-left: 5px solid #8e44ad; text-align: center;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+      <div>
+        <p
+          style="margin: 0; font-size: 1.1rem; font-weight: 600; color: #0a2a44;">
+          TRM = TG + 1,9 · √<span style="text-decoration: overline;">ν</span> ·
+          (TG - TS)<sup>m</sup></p>
+        <p style="margin: 4px 0 0 0; font-size: 0.8rem; color: #2c3e50;">
+          <strong>TG</strong> = Temp. Globo · <strong>TS</strong> = Temp. Seca ·
+          <strong>ν</strong> = Velocidad aire · <strong>m</strong> = 4/3 ó 4</p>
+      </div>
+      <div style="border-left: 2px dashed #d0dbe8; padding-left: 20px;">
+        <p
+          style="margin: 0; font-size: 1.2rem; font-weight: bold; color: #8e44ad;">
+          To = (Ta + TRM) / 2</p>
+        <p style="margin: 4px 0 0 0; font-size: 0.8rem; color: #2c3e50;">
+          <strong>Ta</strong> = Temp. Seca (aire) · <strong>TRM</strong> = Temp.
+          Radiante Media</p>
+        <p
+          style="margin: 4px 0 0 0; font-size: 0.75rem; color: #666; font-style: italic;">
+          Para velocidades de aire &lt; 0.2 m/s (espacios cerrados)</p>
+      </div>
+    </div>
+  </div>
+  <!-- ======== SIMULADOR / CALCULADORA ======== -->
+  <div
+    style="background: white; border-radius: 16px; padding: 24px 28px; margin-bottom: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+    <h3
+      style="color: #0a2a44; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+      🎛️ Ingresa los valores</h3>
+    <div
+      style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; align-items: end;">
+      <div><label
+          style="font-weight: 600; color: #1a2a44; display: block; margin-bottom: 6px;">🌡️
+          Temp. Globo (TG) °C</label> <input id="tgInput"
+          style="width: 100%; padding: 10px 14px; border: 2px solid #d0dbe8; border-radius: 12px; font-size: 1rem; font-weight: 600; background: #f8faff;"
+          step="0.1" type="number" value="35.0"></div>
+      <div><label
+          style="font-weight: 600; color: #1a2a44; display: block; margin-bottom: 6px;">🌡️
+          Temp. Seca (Ta/TS) °C</label> <input id="tsInput"
+          style="width: 100%; padding: 10px 14px; border: 2px solid #d0dbe8; border-radius: 12px; font-size: 1rem; font-weight: 600; background: #f8faff;"
+          step="0.1" type="number" value="28.0"></div>
+      <div><label
+          style="font-weight: 600; color: #1a2a44; display: block; margin-bottom: 6px;">💨
+          Velocidad Aire (ν) m/s</label> <input id="velInput"
+          style="width: 100%; padding: 10px 14px; border: 2px solid #d0dbe8; border-radius: 12px; font-size: 1rem; font-weight: 600; background: #f8faff;"
+          min="0.0" step="0.05" type="number" value="0.5"></div>
+    </div>
+    <div
+      style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;">
+      <div><label
+          style="font-weight: 600; color: #1a2a44; display: block; margin-bottom: 6px;">🔢
+          Exponente (m)</label><select id="exponenteInput"
+          style="width: 100%; padding: 10px 14px; border: 2px solid #d0dbe8; border-radius: 12px; font-size: 1rem; font-weight: 500; background: #f8faff; cursor: pointer;">
+          <option value="1.3333333333333333">4/3 (Convección natural)</option>
+          <option value="4">4 (Convección forzada)</option>
+        </select></div>
+      <div style="display: flex; align-items: end; gap: 12px;">
+        <div style="flex: 1;"><label
+            style="font-weight: 600; color: #1a2a44; display: block; margin-bottom: 6px;">📐
+            Velocidad baja (To)</label>
+          <div
+            style="background: #f0f6ff; padding: 10px 14px; border-radius: 12px; border: 2px solid #d0dbe8; text-align: center; font-weight: 600;">
+            <span id="toInfo" style="color: #8e44ad;">ν &lt; 0.2 m/s</span>
+          </div>
+        </div>
+        <div
+          style="background: #8e44ad; color: white; padding: 10px 18px; border-radius: 12px; font-size: 0.85rem; font-weight: 600; text-align: center; white-space: nowrap;">
+          To = (Ta + TRM) / 2</div>
+      </div>
+    </div>
+    <!-- ======== RESULTADOS ======== -->
+    <div
+      style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 12px; margin-top: 20px;">
+      <div
+        style="background: #0a2a44; color: white; padding: 14px; border-radius: 14px; text-align: center;">
+        <div style="font-size: 0.75rem; opacity: 0.7;">Diferencia (TG - TS)
+        </div>
+        <div id="deltaDisplay" style="font-size: 1.4rem; font-weight: 800;">7.0
+        </div>
+        <div style="font-size: 0.65rem;">°C</div>
+      </div>
+      <div
+        style="background: #2e86c1; color: white; padding: 14px; border-radius: 14px; text-align: center;">
+        <div style="font-size: 0.75rem; opacity: 0.7;">√ν</div>
+        <div id="sqrtDisplay" style="font-size: 1.4rem; font-weight: 800;">0.71
+        </div>
+        <div style="font-size: 0.65rem;">m/s</div>
+      </div>
+      <div
+        style="background: #e67e22; color: white; padding: 14px; border-radius: 14px; text-align: center;">
+        <div style="font-size: 0.75rem; opacity: 0.7;">TRM Calculada</div>
+        <div id="trmDisplay" style="font-size: 1.6rem; font-weight: 800;">39.6
+        </div>
+        <div style="font-size: 0.65rem;">°C</div>
+      </div>
+      <div
+        style="background: #8e44ad; color: white; padding: 14px; border-radius: 14px; text-align: center; border: 2px solid #c39bd3;">
+        <div style="font-size: 0.75rem; opacity: 0.8;">To (Temp. Operativa)
+        </div>
+        <div id="toDisplay" style="font-size: 1.6rem; font-weight: 800;">33.8
+        </div>
+        <div style="font-size: 0.65rem;">°C</div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 14px; background: #f0f0ff; padding: 12px 16px; border-radius: 12px; font-size: 0.9rem; border-left: 4px solid #8e44ad;">
+      💡 <strong>Interpretación:</strong> La <strong>Temperatura Operativa
+        (To)</strong> combina el efecto del aire y la radiación. Es el promedio
+      de la temperatura seca (Ta) y la temperatura radiante media (TRM) cuando
+      la velocidad del aire es baja.</div>
+  </div>
+  <!-- ======== ESCALA DE INTERPRETACIÓN ======== -->
+  <div
+    style="background: white; border-radius: 16px; padding: 20px 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); margin-bottom: 24px;">
+    <h3
+      style="color: #0a2a44; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+      📊 Interpretación de Resultados</h3>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+      <div>
+        <div style="font-weight: bold; color: #0a2a44; margin-bottom: 8px;">🌡️
+          TRM vs Ta</div>
+        <div
+          style="background: #d4edda; border-radius: 8px; padding: 10px 14px; border-left: 4px solid #28a745; margin-bottom: 6px;">
+          <span style="font-weight: 600;">✅ Confort:</span> TRM ≈ Ta (diferencia
+          &lt; 2°C)</div>
+        <div
+          style="background: #fff3cd; border-radius: 8px; padding: 10px 14px; border-left: 4px solid #f1c40f; margin-bottom: 6px;">
+          <span style="font-weight: 600;">🟡 Alerta:</span> TRM &gt; Ta + 5°C
+          (calor radiante)</div>
+        <div
+          style="background: #f8d7da; border-radius: 8px; padding: 10px 14px; border-left: 4px solid #dc3545;">
+          <span style="font-weight: 600;">🔴 Peligro:</span> TRM &gt; Ta + 10°C
+          (alta carga radiativa)</div>
+      </div>
+      <div>
+        <div style="font-weight: bold; color: #0a2a44; margin-bottom: 8px;">🌡️
+          To (Temperatura Operativa)</div>
+        <div
+          style="background: #d4edda; border-radius: 8px; padding: 10px 14px; border-left: 4px solid #28a745; margin-bottom: 6px;">
+          <span style="font-weight: 600;">✅ Confort:</span> To entre 20-26°C
+          (invierno) / 23-26°C (verano)</div>
+        <div
+          style="background: #fff3cd; border-radius: 8px; padding: 10px 14px; border-left: 4px solid #f1c40f; margin-bottom: 6px;">
+          <span style="font-weight: 600;">🟡 Alerta:</span> To &gt; 28°C
+          (sensación de calor)</div>
+        <div
+          style="background: #f8d7da; border-radius: 8px; padding: 10px 14px; border-left: 4px solid #dc3545;">
+          <span style="font-weight: 600;">🔴 Peligro:</span> To &gt; 32°C
+          (riesgo de estrés térmico)</div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 12px; background: #eef4fc; padding: 10px 16px; border-radius: 12px; font-size: 0.85rem;">
+      📌 <strong>Nota:</strong> La To es el parámetro de confort más
+      representativo para espacios cerrados. Se recomienda mantener To entre
+      <strong>20-26°C</strong> para confort en invierno y
+      <strong>23-26°C</strong> en verano.</div>
+  </div>
+  <!-- ======== EJEMPLOS PRÁCTICOS ======== -->
+  <div
+    style="background: white; border-radius: 16px; padding: 20px 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+    <h3
+      style="color: #0a2a44; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+      📋 Escenarios de Ejemplo</h3>
+    <div
+      style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px;">
+      <div id="ejemplo1"
+        style="background: #f0f6ff; border-radius: 10px; padding: 12px; text-align: center; cursor: pointer; border: 2px solid transparent;">
+        <div style="font-weight: bold; color: #0a2a44;">🏠 Oficina</div>
+        <div style="font-size: 0.75rem;">TG:26°C · TS:24°C · ν:0.1</div>
+        <div style="font-size: 0.7rem; color: #2e86c1;">🖱️ Cargar</div>
+      </div>
+      <div id="ejemplo2"
+        style="background: #f0f6ff; border-radius: 10px; padding: 12px; text-align: center; cursor: pointer; border: 2px solid transparent;">
+        <div style="font-weight: bold; color: #0a2a44;">🏭 Planta Ind.</div>
+        <div style="font-size: 0.75rem;">TG:55°C · TS:32°C · ν:2.0</div>
+        <div style="font-size: 0.7rem; color: #2e86c1;">🖱️ Cargar</div>
+      </div>
+      <div id="ejemplo3"
+        style="background: #f0f6ff; border-radius: 10px; padding: 12px; text-align: center; cursor: pointer; border: 2px solid transparent;">
+        <div style="font-weight: bold; color: #0a2a44;">☀️ Exterior Solar</div>
+        <div style="font-size: 0.75rem;">TG:42°C · TS:30°C · ν:0.8</div>
+        <div style="font-size: 0.7rem; color: #2e86c1;">🖱️ Cargar</div>
+      </div>
+      <div id="ejemplo4"
+        style="background: #f0f6ff; border-radius: 10px; padding: 12px; text-align: center; cursor: pointer; border: 2px solid transparent;">
+        <div style="font-weight: bold; color: #0a2a44;">🧊 Almacén Frío</div>
+        <div style="font-size: 0.75rem;">TG:2°C · TS:4°C · ν:0.3</div>
+        <div style="font-size: 0.7rem; color: #2e86c1;">🖱️ Cargar</div>
+      </div>
+    </div>
+  </div>
+  <div
+    style="margin-top: 20px; padding: 12px 20px; background: #e8f0fe; border-radius: 30px; text-align: center; font-size: 0.95rem; color: #1a3a5a;">
+    ⬅️ Calculadora interactiva — Modifica los valores y observa cómo cambian TRM
+    y To.</div>
+</div>
+<p>
+  <script>
+    // ======== FUNCIÓN PRINCIPAL DE CÁLCULO ========
+    function calcularTRM_y_To() {
+      // Obtener valores
+      const TG = parseFloat(document.getElementById('tgInput').value);
+      const TS = parseFloat(document.getElementById('tsInput').value);
+      const vel = parseFloat(document.getElementById('velInput').value);
+      const m = parseFloat(document.getElementById('exponenteInput').value);
+
+      // Validaciones
+      if (isNaN(TG) || isNaN(TS) || isNaN(vel) || isNaN(m)) {
+        document.getElementById('trmDisplay').textContent = '—';
+        document.getElementById('toDisplay').textContent = '—';
+        document.getElementById('deltaDisplay').textContent = '—';
+        document.getElementById('sqrtDisplay').textContent = '—';
+        document.getElementById('toInfo').textContent = 'ν &lt; 0.2 m/s';
+        return;
+      }
+
+      // 1. Cálculo de la diferencia
+      const delta = TG - TS;
+      document.getElementById('deltaDisplay').textContent = delta.toFixed(1);
+
+      // 2. Cálculo de √ν
+      const sqrtVel = Math.sqrt(vel);
+      document.getElementById('sqrtDisplay').textContent = sqrtVel.toFixed(3);
+
+      // 3. Fórmula: TRM = TG + 1.9 * sqrt(ν) * (TG - TS)^m
+      const termino = 1.9 * sqrtVel * Math.pow(delta, m);
+      const TRM = TG + termino;
+      document.getElementById('trmDisplay').textContent = TRM.toFixed(1);
+
+      // 4. Temperatura Operativa: To = (Ta + TRM) / 2
+      const Ta = TS; // Temperatura seca = Ta
+      const To = (Ta + TRM) / 2;
+      document.getElementById('toDisplay').textContent = To.toFixed(1);
+
+      // 5. Info sobre velocidad baja
+      const toInfo = document.getElementById('toInfo');
+      if (vel < 0.2) {
+        toInfo.innerHTML =
+          '✅ ν &lt; 0.2 m/s <span style="font-weight:400; color:#28a745;">(To válida)</span>';
+        toInfo.style.color = '#28a745';
+      } else {
+        toInfo.innerHTML = '⚠️ ν = ' + vel.toFixed(2) +
+          ' m/s <span style="font-weight:400; color:#e67e22;">(To con corrección)</span>';
+        toInfo.style.color = '#e67e22';
+      }
+
+      // Resaltar ejemplo seleccionado
+      const ejemploDivs = document.querySelectorAll('[id^="ejemplo"]');
+      ejemploDivs.forEach(el => {
+        el.style.borderColor = 'transparent';
+      });
+    }
+
+    // ======== CARGAR EJEMPLOS ========
+    function cargarEjemplo(num) {
+      const ejemplos = {
+        1: {
+          tg: 26,
+          ts: 24,
+          vel: 0.1,
+          exp: 1.3333333333333333,
+          label: '🏠 Oficina'
+        },
+        2: {
+          tg: 55,
+          ts: 32,
+          vel: 2.0,
+          exp: 1.3333333333333333,
+          label: '🏭 Planta Industrial'
+        },
+        3: {
+          tg: 42,
+          ts: 30,
+          vel: 0.8,
+          exp: 1.3333333333333333,
+          label: '☀️ Exterior Solar'
+        },
+        4: {
+          tg: 2,
+          ts: 4,
+          vel: 0.3,
+          exp: 1.3333333333333333,
+          label: '🧊 Almacén Frío'
+        }
+      };
+
+      const ej = ejemplos[num];
+      if (!ej) return;
+
+      document.getElementById('tgInput').value = ej.tg;
+      document.getElementById('tsInput').value = ej.ts;
+      document.getElementById('velInput').value = ej.vel;
+      document.getElementById('exponenteInput').value = ej.exp;
+
+      // Resaltar el ejemplo seleccionado
+      document.querySelectorAll('[id^="ejemplo"]').forEach(el => {
+        el.style.borderColor = 'transparent';
+      });
+      const el = document.getElementById('ejemplo' + num);
+      if (el) {
+        el.style.borderColor = '#8e44ad';
+        el.style.borderWidth = '2px';
+        el.style.borderStyle = 'solid';
+        el.style.borderRadius = '10px';
+      }
+
+      calcularTRM_y_To();
+    }
+
+    // ======== EVENT LISTENERS ========
+    document.getElementById('tgInput').addEventListener('input',
+      calcularTRM_y_To);
+    document.getElementById('tsInput').addEventListener('input',
+      calcularTRM_y_To);
+    document.getElementById('velInput').addEventListener('input',
+      calcularTRM_y_To);
+    document.getElementById('exponenteInput').addEventListener('change',
+      calcularTRM_y_To);
+
+    // ======== INICIALIZAR ========
+    // Cargar ejemplo por defecto (oficina)
+    cargarEjemplo(1);
+  </script>
+</p>
