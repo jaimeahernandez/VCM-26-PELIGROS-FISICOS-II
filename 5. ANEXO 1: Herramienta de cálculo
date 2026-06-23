@@ -1,0 +1,474 @@
+<div id="simulador-rn">
+  <h2
+    style="color: #1a3a5e; border-bottom: 3px solid #2a7de1; padding-bottom: 8px;">
+    ☀️ Simulador de Radiaciones No Ionizantes</h2>
+  <p style="color: #2c3e50; font-size: 14px;"><strong>PELIGROS FÍSICOS
+      II</strong> · Cálculo de Irradiancia Total, Irradiancia Efectiva,
+    Exposición Radiante e Índice de Riesgo</p>
+  <!-- ============================================================ --><!-- SECCIÓN 1: IRRADIANCIA TOTAL                                   --><!-- ============================================================ -->
+  <div
+    style="background: #f9fbfd; border: 1px solid #d0dbe8; border-radius: 8px; padding: 12px 15px; margin-bottom: 18px;">
+    <h3
+      style="color: #1a3a5e; margin-top: 0; border-bottom: 2px solid #2a7de1; padding-bottom: 5px;">
+      📊 SECCIÓN 1: Irradiancia Total</h3>
+    <div
+      style="background: #eef3fa; padding: 4px 12px; border-radius: 16px; display: inline-block; font-style: italic; font-size: 13px; margin-bottom: 10px;">
+      E = Σ E<sub>λ</sub> · Δλ (265–280 nm)</div>
+    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+      <tbody>
+        <tr style="background: #e6edf6; font-weight: bold;">
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            λ (nm)</td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            E<sub>λ</sub> (W/m²·nm)</td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            Δλ (nm)</td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            E<sub>λ</sub> · Δλ</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            265</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e1_265"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="0.5"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            5</td>
+          <td id="prod1_265"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            2.5000</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            270</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e1_270"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="0.8"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            5</td>
+          <td id="prod1_270"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            4.0000</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            275</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e1_275"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="1.2"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            5</td>
+          <td id="prod1_275"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            6.0000</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            280</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e1_280"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="0.6"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            5</td>
+          <td id="prod1_280"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            3.0000</td>
+        </tr>
+        <tr style="background: #dce6f2; font-weight: bold;">
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: right;"
+            colspan="3">TOTAL E (W/m²)</td>
+          <td id="totalE"
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            15.5000</td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      style="background: #f0f5fe; border-radius: 6px; padding: 8px 12px; margin-top: 8px; border-left: 4px solid #2a7de1;">
+      <strong>Resultado:</strong> Irradiancia Total = <span id="resultE"
+        style="font-size: 17px; font-weight: bold; color: #00337a;">15.5000</span>
+      W/m²</div>
+  </div>
+  <!-- ============================================================ --><!-- SECCIÓN 2: IRRADIANCIA EFECTIVA                                --><!-- ============================================================ -->
+  <div
+    style="background: #f9fbfd; border: 1px solid #d0dbe8; border-radius: 8px; padding: 12px 15px; margin-bottom: 18px;">
+    <h3
+      style="color: #1a3a5e; margin-top: 0; border-bottom: 2px solid #2a7de1; padding-bottom: 5px;">
+      🧬 SECCIÓN 2: Irradiancia Efectiva</h3>
+    <div
+      style="background: #eef3fa; padding: 4px 12px; border-radius: 16px; display: inline-block; font-style: italic; font-size: 13px; margin-bottom: 10px;">
+      E<sub>eff</sub> = Σ E<sub>λ</sub> · S<sub>λ</sub> · Δλ (265–280 nm)</div>
+    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+      <tbody>
+        <tr style="background: #e6edf6; font-weight: bold;">
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            λ (nm)</td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            E<sub>λ</sub> (W/m²·nm)</td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            S<sub>λ</sub></td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            Δλ (nm)</td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            E<sub>λ</sub>·S<sub>λ</sub>·Δλ</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            265</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e2_265"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="0.5"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            0.50</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            5</td>
+          <td id="prod2_265"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            1.2500</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            270</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e2_270"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="0.8"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            0.85</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            5</td>
+          <td id="prod2_270"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            3.4000</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            275</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e2_275"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="1.2"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            0.95</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            5</td>
+          <td id="prod2_275"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            5.7000</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            280</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e2_280"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="0.6"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            0.88</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            5</td>
+          <td id="prod2_280"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            2.6400</td>
+        </tr>
+        <tr style="background: #dce6f2; font-weight: bold;">
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: right;"
+            colspan="4">Σ E<sub>λ</sub> · S<sub>λ</sub> · Δλ (W/m²)</td>
+          <td id="totalEff"
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            12.9900</td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      style="background: #f0f5fe; border-radius: 6px; padding: 8px 12px; margin-top: 8px; border-left: 4px solid #2a7de1;">
+      <strong>Resultado:</strong> Irradiancia Efectiva = <span id="resultEff"
+        style="font-size: 17px; font-weight: bold; color: #00337a;">12.9900</span>
+      W/m²</div>
+  </div>
+  <!-- ============================================================ --><!-- SECCIÓN 3: EXPOSICIÓN RADIANTE E ÍNDICE DE RIESGO             --><!-- ============================================================ -->
+  <div
+    style="background: #f9fbfd; border: 1px solid #d0dbe8; border-radius: 8px; padding: 12px 15px; margin-bottom: 18px;">
+    <h3
+      style="color: #1a3a5e; margin-top: 0; border-bottom: 2px solid #2a7de1; padding-bottom: 5px;">
+      ⚠️ SECCIÓN 3: Exposición Radiante e Índice de Riesgo</h3>
+    <div
+      style="background: #eef3fa; padding: 4px 12px; border-radius: 16px; display: inline-block; font-style: italic; font-size: 13px; margin-bottom: 10px;">
+      H<sub>eff</sub> = (Σ E<sub>λ</sub>·S<sub>λ</sub>·Δλ) · T(s)  |  IR =
+      H<sub>eff</sub> / VLE-1</div>
+    <div
+      style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin: 10px 0;">
+      <div><strong>Tiempo (T):</strong> <input id="tiempo"
+          style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+          step="0.1" type="number" value="1.0"> <span
+          style="font-size: 12px;">segundos</span></div>
+      <div><strong>H<sub>eff</sub> =</strong> <span id="heff"
+          style="font-size: 18px; font-weight: bold; color: #00337a;">12.9900</span>
+        <span style="font-size: 12px;">J/m²</span></div>
+      <div><strong>IR =</strong> <span id="ir"
+          style="font-size: 18px; font-weight: bold; color: #00337a;">0.4330</span>
+      </div>
+      <div id="estado"
+        style="background: #dff0d8; color: #1f6b3b; padding: 4px 14px; border-radius: 20px; font-weight: bold; border: 1px solid #b3d6b3;">
+        ✅ Cumple VLE-1</div>
+    </div>
+    <div
+      style="background: #f8faff; border-radius: 6px; padding: 6px 12px; border: 1px dashed #b4cae0; font-size: 13px;">
+      <strong>VLE-1 = 30 J/m²</strong> · Si IR &gt; 1.0 → <span
+        style="color: #a12727; font-weight: bold;">"Supera el VLE-1"</span>
+      <div id="mensaje" style="margin-top: 4px; font-weight: bold;">🟢 Condición
+        segura · IR ≤ 1.0</div>
+    </div>
+  </div>
+  <!-- BOTONES DE CONTROL -->
+  <div style="display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0 12px;">
+    <button
+      style="background: #e3eaf3; border: none; padding: 5px 16px; border-radius: 20px; font-weight: bold; color: #1d3f62; cursor: pointer; font-size: 12px;">↺
+      Restablecer todo</button> <button
+      style="background: #d4e2f0; border: none; padding: 5px 16px; border-radius: 20px; font-weight: bold; color: #1d3f62; cursor: pointer; font-size: 12px;">📊
+      Cargar ejemplo</button> <button
+      style="background: #fce1e1; border: none; padding: 5px 16px; border-radius: 20px; font-weight: bold; color: #a12727; cursor: pointer; font-size: 12px;">⚠️
+      Ejemplo con riesgo</button></div>
+  <p
+    style="font-size: 11px; color: #5f7d9a; border-top: 1px solid #d6e0ec; padding-top: 8px;">
+    Simulador educativo · PELIGROS FÍSICOS II · Valores S<sub>λ</sub>
+    representativos para UV-C (ACGIH) <br><strong>🔵 ACTUALIZACIÓN
+      AUTOMÁTICA:</strong> Los resultados se actualizan cada 500ms mientras
+    escribes.</p>
+</div>
+<p>
+  <script>
+    // ============================================================
+    // FUNCIÓN PRINCIPAL DE CÁLCULO
+    // ============================================================
+    function calcularTodo() {
+      try {
+        // Leer valores SECCIÓN 1
+        var e1_265 = parseFloat(document.getElementById('e1_265').value) || 0;
+        var e1_270 = parseFloat(document.getElementById('e1_270').value) || 0;
+        var e1_275 = parseFloat(document.getElementById('e1_275').value) || 0;
+        var e1_280 = parseFloat(document.getElementById('e1_280').value) || 0;
+
+        // Leer valores SECCIÓN 2
+        var e2_265 = parseFloat(document.getElementById('e2_265').value) || 0;
+        var e2_270 = parseFloat(document.getElementById('e2_270').value) || 0;
+        var e2_275 = parseFloat(document.getElementById('e2_275').value) || 0;
+        var e2_280 = parseFloat(document.getElementById('e2_280').value) || 0;
+
+        // Factores de ponderación
+        var S265 = 0.50,
+          S270 = 0.85,
+          S275 = 0.95,
+          S280 = 0.88;
+        var delta = 5;
+
+        // --- SECCIÓN 1: IRRADIANCIA TOTAL ---
+        var prod1_265 = e1_265 * delta;
+        var prod1_270 = e1_270 * delta;
+        var prod1_275 = e1_275 * delta;
+        var prod1_280 = e1_280 * delta;
+        var totalE = prod1_265 + prod1_270 + prod1_275 + prod1_280;
+
+        // Actualizar celdas
+        document.getElementById('prod1_265').innerHTML = prod1_265.toFixed(4);
+        document.getElementById('prod1_270').innerHTML = prod1_270.toFixed(4);
+        document.getElementById('prod1_275').innerHTML = prod1_275.toFixed(4);
+        document.getElementById('prod1_280').innerHTML = prod1_280.toFixed(4);
+        document.getElementById('totalE').innerHTML = totalE.toFixed(4);
+        document.getElementById('resultE').innerHTML = totalE.toFixed(4);
+
+        // --- SECCIÓN 2: IRRADIANCIA EFECTIVA ---
+        var prod2_265 = e2_265 * S265 * delta;
+        var prod2_270 = e2_270 * S270 * delta;
+        var prod2_275 = e2_275 * S275 * delta;
+        var prod2_280 = e2_280 * S280 * delta;
+        var totalEff = prod2_265 + prod2_270 + prod2_275 + prod2_280;
+
+        document.getElementById('prod2_265').innerHTML = prod2_265.toFixed(4);
+        document.getElementById('prod2_270').innerHTML = prod2_270.toFixed(4);
+        document.getElementById('prod2_275').innerHTML = prod2_275.toFixed(4);
+        document.getElementById('prod2_280').innerHTML = prod2_280.toFixed(4);
+        document.getElementById('totalEff').innerHTML = totalEff.toFixed(4);
+        document.getElementById('resultEff').innerHTML = totalEff.toFixed(4);
+
+        // --- SECCIÓN 3: EXPOSICIÓN E ÍNDICE DE RIESGO ---
+        var tiempo = parseFloat(document.getElementById('tiempo').value) || 0;
+        var heff = totalEff * tiempo;
+        var VLE = 30;
+        var ir = heff / VLE;
+
+        document.getElementById('heff').innerHTML = heff.toFixed(4);
+        document.getElementById('ir').innerHTML = ir.toFixed(4);
+
+        // Cambiar estado según riesgo
+        var estado = document.getElementById('estado');
+        var mensaje = document.getElementById('mensaje');
+
+        if (ir > 1.0) {
+          estado.style.background = '#fce1e1';
+          estado.style.color = '#a12727';
+          estado.style.border = '1px solid #dba6a6';
+          estado.innerHTML = '⚠️ Supera VLE-1';
+          mensaje.innerHTML =
+            '🔴 <strong>"Supera el VLE-1"</strong> · Riesgo alto. Se deben tomar medidas de control.';
+        } else {
+          estado.style.background = '#dff0d8';
+          estado.style.color = '#1f6b3b';
+          estado.style.border = '1px solid #b3d6b3';
+          estado.innerHTML = '✅ Cumple VLE-1';
+          mensaje.innerHTML = '🟢 Condición segura · IR ≤ 1.0';
+        }
+
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    // ============================================================
+    // FUNCIONES DE CONTROL
+    // ============================================================
+    function resetearTodo() {
+      document.getElementById('e1_265').value = '0';
+      document.getElementById('e1_270').value = '0';
+      document.getElementById('e1_275').value = '0';
+      document.getElementById('e1_280').value = '0';
+      document.getElementById('e2_265').value = '0';
+      document.getElementById('e2_270').value = '0';
+      document.getElementById('e2_275').value = '0';
+      document.getElementById('e2_280').value = '0';
+      document.getElementById('tiempo').value = '1.0';
+      calcularTodo();
+    }
+
+    function cargarEjemplo() {
+      document.getElementById('e1_265').value = '0.5';
+      document.getElementById('e1_270').value = '0.8';
+      document.getElementById('e1_275').value = '1.2';
+      document.getElementById('e1_280').value = '0.6';
+      document.getElementById('e2_265').value = '0.5';
+      document.getElementById('e2_270').value = '0.8';
+      document.getElementById('e2_275').value = '1.2';
+      document.getElementById('e2_280').value = '0.6';
+      document.getElementById('tiempo').value = '1.0';
+      calcularTodo();
+    }
+
+    function cargarEjemploRiesgo() {
+      document.getElementById('e1_265').value = '3.0';
+      document.getElementById('e1_270').value = '4.0';
+      document.getElementById('e1_275').value = '5.0';
+      document.getElementById('e1_280').value = '3.0';
+      document.getElementById('e2_265').value = '3.0';
+      document.getElementById('e2_270').value = '4.0';
+      document.getElementById('e2_275').value = '5.0';
+      document.getElementById('e2_280').value = '3.0';
+      document.getElementById('tiempo').value = '2.0';
+      calcularTodo();
+    }
+
+    // ============================================================
+    // ¡¡¡ CLAVE DE LA SOLUCIÓN: TEMPORIZADOR !!!
+    // ============================================================
+    // Este temporizador revisa los campos cada 500ms y actualiza
+    // automáticamente, SIN DEPENDER de eventos bloqueados por Moodle
+    // ============================================================
+
+    // Variable para almacenar los valores anteriores
+    var valoresAnteriores = {};
+
+    function verificarCambios() {
+      try {
+        // Lista de campos a monitorear
+        var campos = ['e1_265', 'e1_270', 'e1_275', 'e1_280', 'e2_265',
+          'e2_270', 'e2_275', 'e2_280', 'tiempo'
+        ];
+        var hayCambios = false;
+
+        // Verificar si algún campo cambió
+        for (var i = 0; i < campos.length; i++) {
+          var id = campos[i];
+          var elemento = document.getElementById(id);
+          if (elemento) {
+            var valorActual = elemento.value;
+            if (valoresAnteriores[id] !== valorActual) {
+              valoresAnteriores[id] = valorActual;
+              hayCambios = true;
+            }
+          }
+        }
+
+        // Si hubo cambios, recalcular
+        if (hayCambios) {
+          calcularTodo();
+        }
+      } catch (e) {
+        // Si hay error, no hacemos nada
+      }
+    }
+
+    // Iniciar el temporizador (cada 500ms)
+    var temporizador = setInterval(verificarCambios, 500);
+
+    // Calcular al cargar
+    calcularTodo();
+
+    // Respaldos con eventos (por si acaso funcionan)
+    var todosLosInputs = document.querySelectorAll('input[type="number"]');
+    for (var i = 0; i < todosLosInputs.length; i++) {
+      todosLosInputs[i].addEventListener('input', function() {
+        // Forzar actualización inmediata
+        calcularTodo();
+      });
+      todosLosInputs[i].addEventListener('change', function() {
+        calcularTodo();
+      });
+    }
+
+    console.log('✅ Simulador funcionando con temporizador cada 500ms');
+  </script>
+</p>
