@@ -1,0 +1,298 @@
+<div id="irradiancia-total">
+  <h2
+    style="color: #1a3a5e; border-bottom: 3px solid #2a7de1; padding-bottom: 8px;">
+    ☀️ IRRADIANCIA TOTAL</h2>
+  <!-- DEFINICIÓN Y SIGNIFICADO -->
+  <div
+    style="background: #e8f0fe; border-radius: 8px; padding: 14px 18px; margin-bottom: 18px; border-left: 5px solid #2a7de1;">
+    <h3 style="color: #1a3a5e; margin-top: 0; margin-bottom: 6px;">📖 Definición
+    </h3>
+    <p style="margin: 4px 0; font-size: 14px; line-height: 1.6;">
+      <strong>Irradiancia Total (E)</strong> es la <strong>cantidad total de
+        potencia radiada</strong> por una fuente de radiación ultravioleta (UV)
+      en un rango específico de longitudes de onda. Se calcula como la
+      <strong>suma de los productos</strong> de la irradiancia por longitud de
+      onda (E<sub>λ</sub>) y el intervalo entre longitudes de onda (Δλ).</p>
+    <p style="margin: 4px 0; font-size: 14px; line-height: 1.6;"><strong>🔬
+        Significado físico:</strong> Representa la <strong>potencia total por
+        unidad de área</strong> que incide sobre una superficie en el rango de
+      265–280 nm (UV-C). Es un parámetro fundamental para evaluar la
+      <strong>exposición a radiación ultravioleta</strong> en entornos
+      laborales.</p>
+    <div
+      style="background: #dce6f2; padding: 6px 14px; border-radius: 16px; display: inline-block; font-style: italic; font-size: 14px; margin-top: 6px;">
+      <strong>Fórmula:</strong> E = Σ E<sub>λ</sub> · Δλ (265–280 nm)</div>
+  </div>
+  <!-- TABLA DE CÁLCULO -->
+  <div
+    style="background: #f9fbfd; border: 1px solid #d0dbe8; border-radius: 8px; padding: 12px 15px; margin-bottom: 18px;">
+    <h3
+      style="color: #1a3a5e; margin-top: 0; border-bottom: 2px solid #2a7de1; padding-bottom: 5px;">
+      📊 Cálculo de Irradiancia Total</h3>
+    <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+      <tbody>
+        <tr style="background: #e6edf6; font-weight: bold;">
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            λ (nm)</td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            E<sub>λ</sub> (W/m²·nm)</td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            Δλ (nm) <br><span
+              style="font-size: 11px; font-weight: normal;">(editable)</span>
+          </td>
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            E<sub>λ</sub> · Δλ</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            265</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e1_265"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="0.5"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="d1_265"
+              style="width: 60px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="5"></td>
+          <td id="prod1_265"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            2.50</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            270</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e1_270"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="0.8"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="d1_270"
+              style="width: 60px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="5"></td>
+          <td id="prod1_270"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            4.00</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            275</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e1_275"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="1.2"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="d1_275"
+              style="width: 60px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="5"></td>
+          <td id="prod1_275"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            6.00</td>
+        </tr>
+        <tr>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            280</td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="e1_280"
+              style="width: 70px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="0.6"></td>
+          <td
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            <input id="d1_280"
+              style="width: 60px; padding: 3px; border-radius: 4px; border: 1px solid #b0c4db; text-align: center;"
+              step="any" type="number" value="5"></td>
+          <td id="prod1_280"
+            style="padding: 4px 8px; border: 1px solid #bcc9db; text-align: center;">
+            3.00</td>
+        </tr>
+        <tr style="background: #dce6f2; font-weight: bold;">
+          <td
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: right;"
+            colspan="3"><strong>TOTAL E (W/m²)</strong></td>
+          <td id="totalE"
+            style="padding: 6px 8px; border: 1px solid #bcc9db; text-align: center;">
+            15.50</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- RESULTADO DESTACADO -->
+    <div
+      style="background: #f0f5fe; border-radius: 8px; padding: 12px 16px; margin-top: 12px; border-left: 4px solid #2a7de1;">
+      <div
+        style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+        <div><strong style="font-size: 15px;">🔆 Irradiancia Total</strong>
+          <span
+            style="display: block; font-size: 13px; color: #3a5d7c;">Potencia
+            radiada total en el rango 265–280 nm</span></div>
+        <div style="text-align: right;"><span id="resultE"
+            style="font-size: 28px; font-weight: bold; color: #00337a;">15.50</span>
+          <span
+            style="font-size: 16px; font-weight: bold; color: #00337a;">W/m²</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- BOTONES DE CONTROL -->
+  <div style="display: flex; gap: 10px; flex-wrap: wrap; margin: 6px 0 12px;">
+    <button
+      style="background: #e3eaf3; border: none; padding: 6px 20px; border-radius: 20px; font-weight: bold; color: #1d3f62; cursor: pointer; font-size: 13px;">
+      ↺ Restablecer todo </button> <button
+      style="background: #d4e2f0; border: none; padding: 6px 20px; border-radius: 20px; font-weight: bold; color: #1d3f62; cursor: pointer; font-size: 13px;">
+      📊 Cargar ejemplo </button> <button
+      style="background: #d4e2f0; border: none; padding: 6px 20px; border-radius: 20px; font-weight: bold; color: #1d3f62; cursor: pointer; font-size: 13px;">
+      📊 Ejemplo con Δλ variable </button></div>
+  <!-- NOTA INFORMATIVA -->
+  <div
+    style="background: #f8faff; border-radius: 6px; padding: 10px 14px; border: 1px dashed #b4cae0; font-size: 13px; margin-top: 8px;">
+    <p style="margin: 4px 0;"><strong>📌 Aplicación práctica:</strong></p>
+    <ul style="margin: 4px 0; padding-left: 20px;">
+      <li>Evaluación de <strong>lámparas germicidas</strong> (UV-C)</li>
+      <li>Medición de <strong>exposición ocupacional</strong> a radiación UV
+      </li>
+      <li>Control de <strong>procesos de fotopolimerización</strong></li>
+      <li>Verificación de <strong>límites de seguridad</strong> en ambientes
+        laborales</li>
+    </ul>
+  </div>
+  <p
+    style="font-size: 11px; color: #5f7d9a; border-top: 1px solid #d6e0ec; padding-top: 10px; margin-top: 14px;">
+    Simulador educativo · PELIGROS FÍSICOS II · Rango UV-C (265–280 nm)
+    <br><strong>🔵 ACTUALIZACIÓN AUTOMÁTICA:</strong> Los resultados se
+    actualizan cada 500ms mientras escribes. <br><strong>✏️ Δλ
+      editable:</strong> Los estudiantes pueden modificar los valores de Δλ para
+    cada longitud de onda.</p>
+</div>
+<p>
+  <script>
+    // ============================================================
+    // FUNCIÓN PRINCIPAL DE CÁLCULO
+    // ============================================================
+    function calcularTodo() {
+      try {
+        // Leer valores Eλ
+        var e1_265 = parseFloat(document.getElementById('e1_265').value) || 0;
+        var e1_270 = parseFloat(document.getElementById('e1_270').value) || 0;
+        var e1_275 = parseFloat(document.getElementById('e1_275').value) || 0;
+        var e1_280 = parseFloat(document.getElementById('e1_280').value) || 0;
+
+        // Leer valores Δλ (editable)
+        var d1_265 = parseFloat(document.getElementById('d1_265').value) || 0;
+        var d1_270 = parseFloat(document.getElementById('d1_270').value) || 0;
+        var d1_275 = parseFloat(document.getElementById('d1_275').value) || 0;
+        var d1_280 = parseFloat(document.getElementById('d1_280').value) || 0;
+
+        // --- CÁLCULOS ---
+        var prod1_265 = e1_265 * d1_265;
+        var prod1_270 = e1_270 * d1_270;
+        var prod1_275 = e1_275 * d1_275;
+        var prod1_280 = e1_280 * d1_280;
+        var totalE = prod1_265 + prod1_270 + prod1_275 + prod1_280;
+
+        // Actualizar celdas con 2 decimales
+        document.getElementById('prod1_265').innerHTML = prod1_265.toFixed(2);
+        document.getElementById('prod1_270').innerHTML = prod1_270.toFixed(2);
+        document.getElementById('prod1_275').innerHTML = prod1_275.toFixed(2);
+        document.getElementById('prod1_280').innerHTML = prod1_280.toFixed(2);
+        document.getElementById('totalE').innerHTML = totalE.toFixed(2);
+        document.getElementById('resultE').innerHTML = totalE.toFixed(2);
+
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    // ============================================================
+    // FUNCIONES DE CONTROL
+    // ============================================================
+    function resetearTodo() {
+      document.getElementById('e1_265').value = '0';
+      document.getElementById('e1_270').value = '0';
+      document.getElementById('e1_275').value = '0';
+      document.getElementById('e1_280').value = '0';
+      document.getElementById('d1_265').value = '5';
+      document.getElementById('d1_270').value = '5';
+      document.getElementById('d1_275').value = '5';
+      document.getElementById('d1_280').value = '5';
+      calcularTodo();
+    }
+
+    function cargarEjemplo() {
+      document.getElementById('e1_265').value = '0.5';
+      document.getElementById('e1_270').value = '0.8';
+      document.getElementById('e1_275').value = '1.2';
+      document.getElementById('e1_280').value = '0.6';
+      document.getElementById('d1_265').value = '5';
+      document.getElementById('d1_270').value = '5';
+      document.getElementById('d1_275').value = '5';
+      document.getElementById('d1_280').value = '5';
+      calcularTodo();
+    }
+
+    function cargarEjemploDeltaVariable() {
+      document.getElementById('e1_265').value = '0.5';
+      document.getElementById('e1_270').value = '0.8';
+      document.getElementById('e1_275').value = '1.2';
+      document.getElementById('e1_280').value = '0.6';
+      document.getElementById('d1_265').value = '4';
+      document.getElementById('d1_270').value = '6';
+      document.getElementById('d1_275').value = '5';
+      document.getElementById('d1_280').value = '7';
+      calcularTodo();
+    }
+
+    // ============================================================
+    // TEMPORIZADOR (ACTUALIZACIÓN AUTOMÁTICA)
+    // ============================================================
+    var valoresAnteriores = {};
+
+    function verificarCambios() {
+      try {
+        var campos = ['e1_265', 'e1_270', 'e1_275', 'e1_280', 'd1_265',
+          'd1_270', 'd1_275', 'd1_280'
+        ];
+        var hayCambios = false;
+
+        for (var i = 0; i < campos.length; i++) {
+          var id = campos[i];
+          var elemento = document.getElementById(id);
+          if (elemento) {
+            var valorActual = elemento.value;
+            if (valoresAnteriores[id] !== valorActual) {
+              valoresAnteriores[id] = valorActual;
+              hayCambios = true;
+            }
+          }
+        }
+
+        if (hayCambios) {
+          calcularTodo();
+        }
+      } catch (e) {
+        // Silencioso
+      }
+    }
+
+    // Iniciar temporizador
+    setInterval(verificarCambios, 500);
+
+    // Calcular al cargar
+    calcularTodo();
+
+    console.log('✅ Simulador de Irradiancia Total funcionando');
+  </script>
+</p>
