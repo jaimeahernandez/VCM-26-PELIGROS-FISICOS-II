@@ -1,0 +1,101 @@
+<div
+  style="background: #fdfdfd; border: 1px solid #002d5a; border-radius: 20px; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 1000px; margin: 20px auto;">
+  <div
+    style="background: #002d5a; color: #ffffff; padding: 40px 35px; text-align: left; border-bottom: 6px solid #ffc107;">
+    <div>
+      <div
+        style="background: rgba(255,255,255,0.15); padding: 18px; border-radius: 15px; font-size: 40px;">
+        ☢️🌡️</div>
+      <div><span
+          style="background: #ffc107; color: #002d5a; padding: 4px 12px; border-radius: 20px; font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px;">
+          Asignatura Profesional </span>
+        <h2
+          style="margin: 0; text-transform: uppercase; letter-spacing: 2px; font-size: 30px; font-weight: 900; line-height: 1.2;">
+          BIENVENIDOS A PELIGROS FÍSICOS II</h2>
+        <p
+          style="margin: 8px 0 0 0; color: #e2e8f0; font-weight: 500; font-size: 16px; letter-spacing: 0.5px;">
+          Administración de la Seguridad y Salud en el Trabajo (ASST)</p>
+      </div>
+    </div>
+  </div>
+  <div style="padding: 40px 35px;">
+    <div
+      style="background: #f8fafc; border-left: 6px solid #002d5a; padding: 20px 25px; border-radius: 0 15px 15px 0; margin-bottom: 35px; border: 1px solid #e2e8f0; border-left-width: 6px;">
+      <h3
+        style="color: #002d5a; font-size: 20px; margin-top: 0; text-transform: uppercase; font-weight: 800; letter-spacing: 1px;">
+        👋 Estimados estudiantes</h3>
+      <p
+        style="color: #334155; font-size: 16px; line-height: 1.8; margin: 0; text-align: justify;">
+        Les doy la más cordial bienvenida al curso de <strong>Peligros Físicos
+          II</strong>. Durante este periodo académico, profundizaremos en la
+        gestión higiénica de factores de riesgo ambientales críticos como
+        Radiaciones (Ionizantes y No Ionizantes) y Temperaturas Extremas (Estrés
+        Térmico por Calor y Disconfort/Sobrecarga por Frío) e iluminación.
+        Exploraremos técnicas de evaluación de campo, límites de exposición
+        permisibles y la implementación de controles de ingeniería y
+        organizativos.</p>
+    </div>
+    <h3
+      style="color: #002d5a; font-size: 20px; text-transform: uppercase; font-weight: 800; letter-spacing: 1px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-bottom: 25px;">
+      🎯 Pilares de Formación del Curso</h3>
+    <div style="margin-bottom: 35px;">
+      <div
+        style="background: #ffffff; padding: 22px; border-radius: 12px; border: 1px solid #e2e8f0; border-top: 4px solid #002d5a;">
+        <div style="font-size: 28px; margin-bottom: 10px;">📊</div>
+        <h4
+          style="margin: 0 0 8px 0; color: #002d5a; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+          1. Evaluación y Dosimetría</h4>
+        <p
+          style="margin: 0; font-size: 14px; color: #475569; line-height: 1.6; text-align: justify;">
+          Medición e interpretación de dosis equivalentes/efectivas para
+          radiaciones y cálculo del índice WBGT (Temperatura Globo Bulbo Húmedo)
+          frente a criterios normativos.</p>
+      </div>
+      <div
+        style="background: #ffffff; padding: 22px; border-radius: 12px; border: 1px solid #e2e8f0; border-top: 4px solid #004a8f;">
+        <div style="font-size: 28px; margin-bottom: 10px;">🩺</div>
+        <h4
+          style="margin: 0 0 8px 0; color: #002d5a; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+          2. Fisiología y Salud Ocupacional</h4>
+        <p
+          style="margin: 0; font-size: 14px; color: #475569; line-height: 1.6; text-align: justify;">
+          Análisis de efectos biológicos estocásticos/deterministas por
+          radiación y respuestas termorreguladoras (golpe de calor, hipotermia y
+          disconfort térmico).</p>
+      </div>
+      <div
+        style="background: #ffffff; padding: 22px; border-radius: 12px; border: 1px solid #e2e8f0; border-top: 4px solid #ffc107;">
+        <div style="font-size: 28px; margin-bottom: 10px;">🛡️</div>
+        <h4
+          style="margin: 0 0 8px 0; color: #002d5a; font-size: 16px; font-weight: bold; text-transform: uppercase;">
+          3. Blindaje y Termocontrol</h4>
+        <p
+          style="margin: 0; font-size: 14px; color: #475569; line-height: 1.6; text-align: justify;">
+          Diseño de medidas de intervención basadas en distancia, tiempo y
+          blindaje (radiaciones), e implementación de regímenes de
+          trabajo-descanso y climatización.</p>
+      </div>
+    </div>
+    <div
+      style="background: #eff6ff; padding: 22px 25px; border-radius: 12px; margin-bottom: 35px; border: 1px solid #bfdbfe;">
+      <h4
+        style="margin: 0 0 10px 0; color: #1e40af; font-size: 16px; font-weight: 800; text-transform: uppercase;">
+        💡 Recomendaciones para el éxito en la asignatura:</h4>
+      <ul
+        style="margin: 0; padding-left: 20px; color: #1e3a8a; font-size: 14px; line-height: 1.8;">
+        <li>Revise periódicamente los compromisos en la Hoja de Ruta /
+          Calendario académico.</li>
+        <li>Descargue y analice las guías técnicas sobre cálculo de índices WBGT
+          y protocolos de radioprotección antes de los talleres.</li>
+        <li>Participe activamente en los foros de debate técnico y resolución de
+          casos reales de la industria.</li>
+      </ul>
+    </div>
+  </div>
+  <div
+    style="background: #f1f5f9; padding: 20px; text-align: center; border-top: 1px solid #e2e8f0;">
+    <p
+      style="margin: 0; font-size: 13px; color: #475569; letter-spacing: 1.5px; font-weight: bold; text-transform: uppercase;">
+      Administración en Seguridad y Salud en el Trabajo | UNIAJC</p>
+  </div>
+</div>
