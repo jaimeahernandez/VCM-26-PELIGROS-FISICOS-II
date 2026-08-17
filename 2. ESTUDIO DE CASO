@@ -1,109 +1,66 @@
 <p></p>
-<section style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
-  <div class="container-fluid py-4" style="background-color: #0f172a; border-radius: 20px; padding: 15px;">
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
+  <div class="container-fluid py-4"
+    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
     <div class="row justify-content-center">
       <div class="col-12 col-xl-11">
-        
-        <!-- CONTENEDOR PRINCIPAL TIPO DASHBOARD -->
-        <div class="card shadow-lg border-0" style="border-radius: 24px; overflow: hidden; background: #ffffff;">
-          
-          <!-- BANNER / ENCABEZADO IMPACTANTE -->
-          <div class="card-header border-0 py-5 px-4" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #3b82f6 100%); color: white; position: relative; overflow: hidden;">
-            <div style="position: absolute; top: -30px; right: -30px; width: 180px; height: 180px; background: rgba(245, 158, 11, 0.15); border-radius: 50%; blur: 20px;"></div>
-            
-            <div class="text-center" style="position: relative; z-index: 2;">
-              <span style="background: linear-gradient(90deg, #f59e0b, #fbbf24); color: #0f172a; padding: 6px 18px; border-radius: 30px; font-size: 0.85rem; font-weight: 900; text-transform: uppercase; letter-spacing: 1.5px; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);">
-                ⚡ Fase de Aplicación Práctica
-              </span>
-              <h2 style="font-weight: 900; text-transform: uppercase; letter-spacing: 2px; margin-top: 15px; margin-bottom: 8px; font-size: 2rem; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">
-                Actividad E2: Protocolo de Casos Autónomos
-              </h2>
-              <p class="mb-0" style="font-size: 1.15rem; color: #93c5fd; font-weight: 400; letter-spacing: 0.5px;">
-                🔬 Evaluación Quirúrgica e Higiénica en la Región UV
-              </p>
+        <div class="card shadow-lg border-0"
+          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <div class="card-header border-0 py-4"
+            style="background: linear-gradient(135deg, #1e3a8a 0%, #2c5282 100%); color: white;">
+            <div class="text-center"><span
+                style="background-color: #4caf50; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                Entorno de Simulación </span>
+              <h2
+                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
+                Estudios de Caso Interactivos</h2>
+              <p class="mb-0"
+                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
+                Análisis de Exposición a Radiaciones No Ionizantes</p>
             </div>
           </div>
-
-          <!-- CUERPO DE TARJETAS TÁCTICAS -->
-          <div class="card-body p-4 p-md-5" style="background-color: #f8fafc;">
-            
-            <div class="row g-4">
-              
-              <!-- BLOQUE 1: HONESTIDAD Y NORMAS (ALERTA) -->
-              <div class="col-12 mb-3">
-                <div style="background: #ffffff; border-radius: 16px; padding: 25px; border-left: 8px solid #f43f5e; box-shadow: 0 10px 25px -5px rgba(244, 63, 94, 0.1); border-top: 1px solid #ffe4e6; border-right: 1px solid #ffe4e6; border-bottom: 1px solid #ffe4e6;">
-                  <div class="d-flex align-items-center mb-3">
-                    <div style="background: #ffe4e6; color: #e11d48; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; font-weight: bold; margin-right: 15px;">
-                      🚫
-                    </div>
-                    <div>
-                      <span style="font-size: 0.75rem; font-weight: 800; color: #e11d48; text-transform: uppercase; letter-spacing: 1px;">Paso 01</span>
-                      <h4 style="color: #9f1239; font-weight: 800; font-size: 1.2rem; margin: 0; text-transform: uppercase;">
-                        Lineamientos de Honestidad Académica
-                      </h4>
-                    </div>
-                  </div>
-                  <p style="color: #334155; font-size: 1rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
-                    Lea detenidamente las instrucciones de esta actividad individual. Está autorizado el uso de <strong>calculadora física u operacional</strong>. Queda estrictamente <strong>prohibido el uso de teléfonos celulares o aplicaciones de mensajería (WhatsApp)</strong> durante el desarrollo. La infracción de esta norma de control acarreará la anulación automática de la actividad de forma inapelable.
-                  </p>
-                </div>
-              </div>
-
-              <!-- BLOQUE 2: ESTRUCTURA DE LOS CASOS UV -->
-              <div class="col-12 col-md-6 mb-3">
-                <div style="background: #ffffff; border-radius: 16px; padding: 25px; height: 100%; border-top: 5px solid #10b981; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05); border-left: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
-                  <div class="d-flex align-items-center mb-3">
-                    <div style="background: #d1fae5; color: #059669; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; font-weight: bold; margin-right: 15px;">
-                      📂
-                    </div>
-                    <div>
-                      <span style="font-size: 0.75rem; font-weight: 800; color: #059669; text-transform: uppercase; letter-spacing: 1px;">Paso 02</span>
-                      <h4 style="color: #065f46; font-weight: 800; font-size: 1.1rem; margin: 0; text-transform: uppercase;">
-                        Estudios de Caso UV
-                      </h4>
-                    </div>
-                  </div>
-                  <p style="color: #475569; font-size: 0.98rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
-                    Esta actividad contiene <strong>tres (3) estudios de casos de entornos reales</strong> relacionados con la exposición laboral a radiaciones en la <strong>Región Ultravioleta (UV)</strong>. Deberá responder a los requerimientos indicados para cada caso de manera sincrónica <strong>DURANTE el encuentro académico</strong>. Absténgase de interactuar con otros grupos o personas; la detección de copias influirá negativamente con el descuento de puntos o la pérdida del taller.
-                  </p>
-                </div>
-              </div>
-
-              <!-- BLOQUE 3: MODELADO Y EVALUACIÓN -->
-              <div class="col-12 col-md-6 mb-3">
-                <div style="background: #ffffff; border-radius: 16px; padding: 25px; height: 100%; border-top: 5px solid #3b82f6; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05); border-left: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
-                  <div class="d-flex align-items-center mb-3">
-                    <div style="background: #dbeafe; color: #2563eb; width: 45px; height: 45px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; font-weight: bold; margin-right: 15px;">
-                      🧮
-                    </div>
-                    <div>
-                      <span style="font-size: 0.75rem; font-weight: 800; color: #2563eb; text-transform: uppercase; letter-spacing: 1px;">Paso 03</span>
-                      <h4 style="color: #1e40af; font-weight: 800; font-size: 1.1rem; margin: 0; text-transform: uppercase;">
-                        Modelado Matemático
-                      </h4>
-                    </div>
-                  </div>
-                  <p style="color: #475569; font-size: 0.98rem; line-height: 1.7; text-align: justify; margin-bottom: 0;">
-                    Si el análisis del caso requiere cuantificar dosis o interpretar variables físicas, le recomendamos apoyarse estrictamente en las <strong>fórmulas matemáticas y tablas normativas</strong> anexadas dentro de la plataforma. Al finalizar la revisión exhaustiva de los casos, se habilitará automáticamente el sistema técnico para que efectúe su evaluación informática. ¡Muchos éxitos en su desarrollo profesional!
-                  </p>
-                </div>
-              </div>
-
+          <div class="card-body p-3 p-md-4" style="background-color: #f8fafc;">
+            <div
+              style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px 20px; border-radius: 6px; margin-bottom: 25px; font-size: 0.95rem; color: #1e40af;">
+              <h5
+                style="margin-top: 0; font-weight: bold; font-size: 1.05rem; color: #1e3a8a; text-transform: uppercase; letter-spacing: 0.5px;">
+                <i class="fa fa-graduation-cap mr-2"></i> Objetivo de la
+                Dimensión Práctica</h5>
+              <p
+                style="margin-bottom: 0; color: #334155; line-height: 1.5; text-align: justify;">
+                Evaluar situaciones reales de riesgo higiénico en entornos
+                industriales y de servicios. Al interactuar con los tres
+                escenarios, analice las variables de tiempo, distancia, fuentes
+                emisoras y determine las medidas de prevención técnica según la
+                jerarquía del riesgo.</p>
             </div>
-
+            <div
+              style="position: relative; width: 100%; overflow: hidden; border-radius: 12px; border: 1px solid #e2e8f0; background-color: #ffffff; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);">
+              <iframe
+                title="Estudio de caso - Exposición a radiaciones no ionizantes"
+                src="https://aulasvirtuales.unicamacho.edu.co/mod/hvp/embed.php?id=1532141"
+                width="1207" height="704" frameborder="0"
+                allowfullscreen="allowfullscreen"></iframe>
+              <script
+                src="https://aulasvirtuales.unicamacho.edu.co/mod/hvp/library/js/h5p-resizer.js"
+                charset="UTF-8"></script>
+            </div>
           </div>
-
-          <!-- FOOTER INSTITUCIONAL REFORZADO -->
-          <div class="card-footer py-3 text-center" style="background-color: #0f172a; color: #94a3b8; border-top: 4px solid #f59e0b;">
-            <small style="font-size: 0.9rem; letter-spacing: 1px; font-weight: 700; text-transform: uppercase;">
-              🛡️ Peligros Físicos II | Administración en SST
-            </small>
-          </div>
-
+          <div class="card-footer py-4 text-center"
+            style="background-color: #1e3a8a; color: rgba(255,255,255,0.8); border-top: 5px solid #4CAF50;">
+            <small
+              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
+              <i class="fa fa-shield mr-2" style="color: #4caf50;"></i> Peligros
+              Físicos II | Administración en SST </small></div>
         </div>
-
       </div>
     </div>
   </div>
 </section>
+<p>
+  <script
+    src="https://aulasvirtuales.unicamacho.edu.co/mod/hvp/library/js/h5p-resizer.js"
+    charset="UTF-8"></script>
+</p>
 <p></p>
