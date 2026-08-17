@@ -7,29 +7,33 @@
       <div class="col-12 col-xl-11">
         <div class="card shadow-lg border-0"
           style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
+          <!-- ENCABEZADO -->
           <div class="card-header border-0 py-4"
             style="background: linear-gradient(135deg, #1e3a8a 0%, #2c5282 100%); color: white;">
             <div class="text-center"><span
-                style="background-color: #e11d48; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
-                Desafío de Análisis Clínico e Higiénico </span>
+                style="background-color: #e11d48; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;"> Desafío
+                de Análisis Higiénico </span>
               <h2
                 style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
                 Banco de Retos: Evaluación de Casos UV</h2>
               <p class="mb-0"
                 style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
-                Resolución de Escenarios Técnicos a partir de Resultados
-                Cuantitativos</p>
+                Resolución de Escenarios Técnicos Alineados a los RAA de la
+                Asignatura</p>
             </div>
           </div>
+          <!-- CUERPO DE LA ACTIVIDAD -->
           <div class="card-body p-4 p-md-5" style="position: relative;">
             <p
               style="color: #475569; font-size: 1.05rem; line-height: 1.7; text-align: justify; margin-bottom: 35px;">
-              A continuación, se presentan los tres retos analíticos que
-              corresponden a las simulaciones ejecutadas en el recurso
-              interactivo. Con base en los datos de <strong>Irradiancia Total
-                (EC1)</strong>, <strong>Irradiancia Efectiva (EC2)</strong> y
-              <strong>Exposición Radiante (EC3)</strong>, resuelva los
-              siguientes cuestionamientos de gestión en SST:</p>
+              A continuación, se presentan los tres retos analíticos
+              correspondientes a las simulaciones ejecutadas en el recurso
+              interactivo. Cada reto está estructurado para evaluar de manera
+              directa los <strong>Resultados de Aprendizaje de la Asignatura
+                (RAA)</strong> a partir de los datos cuantitativos de
+              Irradiancia Total (EC1), Irradiancia Efectiva (EC2) y Exposición
+              Radiante (EC3):</p>
+            <!-- RETO 1 (ALINEADO A RAA2) -->
             <div class="row align-items-stretch mb-5"
               style="position: relative;">
               <div
@@ -48,32 +52,36 @@
               <div class="col">
                 <div
                   style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #1e3a8a; padding: 25px; border-radius: 12px; height: 100%;">
-                  <span
-                    style="background-color: #e0f2fe; color: #0369a1; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Reto
-                    EC1</span>
+                  <div
+                    class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2">
+                    <span
+                      style="background-color: #e0f2fe; color: #0369a1; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">
+                      Reto EC1 </span> <span
+                      style="background-color: #1e3a8a; color: #ffffff; padding: 3px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">
+                      Alineado a RAA2: Evaluación del Riesgo </span></div>
                   <h4
-                    style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">
+                    style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-top: 5px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">
                     Interpretación Espacial de la Irradiancia Total</h4>
                   <p
                     style="color: #475569; font-size: 1.05rem; line-height: 1.6; text-align: justify; margin-bottom: 15px;">
                     Considerando el resultado obtenido para la
-                    <strong>Irradiancia Total ($E_{total}$ en $\mu
-                      W/cm^2$)</strong> a diferentes distancias de la fuente
-                    emisora UV:</p>
+                    <strong>Irradiancia Total (E_total en W/cm2)</strong> a
+                    diferentes distancias de la fuente emisora UV:</p>
                   <div
                     style="background-color: #ffffff; border-radius: 6px; padding: 15px; border: 1px dashed #cbd5e1; font-size: 0.95rem; color: #334155;">
                     <i class="fa fa-question-circle"
                       style="color: #1e3a8a;"></i> <strong>Desafío de
                       SST:</strong> Demuestre matemáticamente si la irradiancia
                     disminuye de acuerdo con la <em>Ley del Cuadrado
-                      Inverso</em> al alejarse de la fuente. Desde su rol
-                    administrador, defina la <strong>distancia mínima de
-                      seguridad</strong> que debe demarcarse en el suelo para
-                    evitar que el personal circulante reciba radiación directa
-                    no controlada.</div>
+                      Inverso</em> al alejarse de la fuente. Desde su rol de
+                    gestor en SST, defina la <strong>distancia mínima de
+                      seguridad</strong> que debe demarcarse para evitar que el
+                    personal circulante reciba radiación directa no controlada.
+                  </div>
                 </div>
               </div>
             </div>
+            <!-- RETO 2 (ALINEADO A RAA1) -->
             <div class="row align-items-stretch mb-5"
               style="position: relative;">
               <div
@@ -92,33 +100,37 @@
               <div class="col">
                 <div
                   style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #4CAF50; padding: 25px; border-radius: 12px; height: 100%;">
-                  <span
-                    style="background-color: #dcfce7; color: #15803d; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Reto
-                    EC2</span>
+                  <div
+                    class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2">
+                    <span
+                      style="background-color: #dcfce7; color: #15803d; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">
+                      Reto EC2 </span> <span
+                      style="background-color: #4caf50; color: #ffffff; padding: 3px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">
+                      Alineado a RAA1: Análisis de Efectos en la Salud </span>
+                  </div>
                   <h4
-                    style="color: #1a5235; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">
+                    style="color: #1a5235; font-weight: bold; font-size: 1.2rem; margin-top: 5px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">
                     Ponderación Espectral y Efecto Biológico Crítico</h4>
                   <p
                     style="color: #475569; font-size: 1.05rem; line-height: 1.6; text-align: justify; margin-bottom: 15px;">
                     El cálculo de la <strong>Irradiancia Efectiva
-                      ($E_{eff}$)</strong> multiplica los valores medidos por el
-                    factor de eficacia espectral $S(\lambda)$, el cual
-                    representa el riesgo de daño celular (como eritema o
-                    fotoqueratitis):</p>
+                      (E_eff)</strong> multiplica los valores medidos por el
+                    factor de eficacia espectral S(lambda), el cual representa
+                    el riesgo de daño celular (eritema o fotoqueratitis):</p>
                   <div
                     style="background-color: #ffffff; border-radius: 6px; padding: 15px; border: 1px dashed #cbd5e1; font-size: 0.95rem; color: #334155;">
                     <i class="fa fa-question-circle"
                       style="color: #4caf50;"></i> <strong>Desafío de
-                      SST:</strong> Compare el valor de $E_{eff}$ obtenido
-                    frente al límite umbral máximo recomendado por la ACGIH para
-                    una jornada normal. Si el resultado supera el estándar,
-                    determine qué <strong>lesiones agudas en tejidos oculares y
-                      dérmicos</strong> deben monitorearse prioritariamente
-                    dentro del Programa de Vigilancia Epidemiológica de la
-                    empresa.</div>
+                      SST:</strong> Compare el valor de E_eff obtenido frente al
+                    límite umbral máximo recomendado por la ACGIH. Si supera el
+                    estándar, determine qué <strong>lesiones agudas en tejidos
+                      oculares y dérmicos</strong> deben monitorearse
+                    prioritariamente dentro del Programa de Vigilancia
+                    Epidemiológica de la empresa.</div>
                 </div>
               </div>
             </div>
+            <!-- RETO 3 (ALINEADO A RAA3) -->
             <div class="row align-items-stretch" style="position: relative;">
               <div
                 class="col-auto text-center d-none d-sm-flex flex-column align-items-center"
@@ -133,35 +145,39 @@
               <div class="col">
                 <div
                   style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid #f59e0b; padding: 25px; border-radius: 12px; height: 100%;">
-                  <span
-                    style="background-color: #fef3c7; color: #b45309; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Reto
-                    EC3</span>
+                  <div
+                    class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2">
+                    <span
+                      style="background-color: #fef3c7; color: #b45309; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">
+                      Reto EC3 </span> <span
+                      style="background-color: #f59e0b; color: #ffffff; padding: 3px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">
+                      Alineado a RAA3: Formulación de Medidas de Control </span>
+                  </div>
                   <h4
-                    style="color: #b45309; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">
+                    style="color: #b45309; font-weight: bold; font-size: 1.2rem; margin-top: 5px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">
                     Cálculo del Tiempo Máximo Permitido y Control Administrativo
                   </h4>
                   <p
                     style="color: #475569; font-size: 1.05rem; line-height: 1.6; text-align: justify; margin-bottom: 15px;">
-                    A partir de la fórmula de la <strong>Exposición Radiante ($H
-                      = E_{eff} \times t$)</strong>, el sistema calcula la dosis
-                    acumulada de energía por unidad de área ($J/m^2$ o
-                    $mJ/cm^2$):</p>
+                    A partir de la fórmula de la <strong>Exposición Radiante (H
+                      = E_eff \ t)</strong>, el sistema calcula la dosis
+                    acumulada de energía por unidad de área (J/m2 o mJ/cm2):</p>
                   <div
                     style="background-color: #ffffff; border-radius: 6px; padding: 15px; border: 1px dashed #cbd5e1; font-size: 0.95rem; color: #334155;">
                     <i class="fa fa-question-circle"
                       style="color: #f59e0b;"></i> <strong>Desafío de
                       SST:</strong> Basándose en el valor de exposición radiante
-                    límite ($30\text{ J/m}^2$), despeje el <strong>tiempo máximo
-                      de exposición permitido ($t_{max}$)</strong> para los
-                    operarios. Posteriormente, diseñe una medida de control de
-                    tipo administrativo enfocada en la <strong>organización de
-                      los turnos de trabajo y rotación de personal</strong> para
-                    garantizar que ningún trabajador sobrepase dicho tiempo.
-                  </div>
+                    límite (30 J/m2), despeje el <strong>tiempo máximo de
+                      exposición permitido (t_max)</strong> para los operarios.
+                    Posteriormente, diseñe una medida de control de tipo
+                    administrativo enfocada en la <strong>organización de turnos
+                      de trabajo y rotación de personal</strong> para garantizar
+                    que ningún trabajador sobrepase dicho tiempo.</div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- PIE DE PAGINA -->
           <div class="card-footer py-4 text-center"
             style="background-color: #1e3a8a; color: rgba(255,255,255,0.8); border-top: 5px solid #4CAF50;">
             <small
