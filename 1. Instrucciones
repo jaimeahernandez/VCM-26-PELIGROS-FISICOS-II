@@ -1,0 +1,163 @@
+<!-- CONTENEDOR PRINCIPAL - INSTRUCCIONES DE ACTIVIDAD: MÉTODO DE LA CUADRÍCULA (MOODLE) -->
+<p dir="ltr" style="text-align: left;"></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #2d3748; width: 100%;">
+  <div class="container my-3 py-md-4"
+    style="max-width: 1000px; margin: 0 auto;">
+    <!-- ENCABEZADO ACADÉMICO INSTITUCIONAL -->
+    <div class="card shadow-lg border-0 mb-4"
+      style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); border-radius: 12px; overflow: hidden;">
+      <div class="card-body p-4 p-md-5 text-white">
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap mb-2">
+          <span class="badge badge-warning text-dark font-weight-bold px-3 py-1"
+            style="background-color: #ffc107 !important; color: #0f172a !important; font-size: 0.78rem; letter-spacing: 0.8px; text-transform: uppercase; border-radius: 4px;">
+            <i class="fa fa-clipboard mr-1"></i> Peligros Físicos II •
+            Evaluación de Iluminación </span> <span
+            class="small opacity-75 font-weight-bold"
+            style="letter-spacing: 1px; font-size: 0.75rem;"> UNICAMACHO • SST
+          </span></div>
+        <h2 class="font-weight-bold mb-2 text-white"
+          style="font-size: 1.65rem; letter-spacing: -0.3px;">Instrucciones de
+          la Actividad: Método de la Cuadrícula</h2>
+        <p class="mb-0 text-white-50"
+          style="font-size: 0.98rem; line-height: 1.5;">Lineamientos de
+          desarrollo grupal, cálculos prácticos y registro de la actividad.</p>
+      </div>
+    </div>
+    <!-- LÍNEA DE TIEMPO / PASOS DE INSTRUCCIONES -->
+    <div class="container-fluid py-2 mt-4 mb-4 bg-white rounded shadow-sm"
+      style="border: 1px solid #e2e8f0; border-radius: 14px;"><!-- PASO 1 -->
+      <div class="row mb-3 rounded overflow-hidden shadow-sm"
+        style="background-image: url('https://sn-recit-formation-a-distance.github.io/html-bootstrap-editor-showcase/img/sci0312/1pinson.jpg'); background-size: cover; border: 1px solid #cbd5e1;">
+        <div class="col-auto text-center flex-column d-none d-sm-flex py-2">
+          <div class="row h-50">
+            <div class="col"> </div>
+            <div class="col"> </div>
+          </div>
+          <div class="m-2"><span
+              class="badge badge-pill rounded-circle border text-light d-flex align-items-center justify-content-center shadow"
+              style="width: 70px; height: 70px; background-color: #002d5a !important; border: 3px solid #ffc107 !important;"> </span>
+            <h5 class="text-center m-0 font-weight-bold"
+              style="color: #ffc107; font-size: 1.35rem;">1</h5>
+          </div>
+          <div class="row h-50">
+            <div class="col border-right"> </div>
+            <div class="col"> </div>
+          </div>
+        </div>
+        <div class="col py-3 pr-3">
+          <div class="card shadow border-0"
+            style="background-color: rgba(255, 255, 255, 0.95); min-height: 15px; border-left: 5px solid #002d5a !important; border-radius: 10px;">
+            <div class="card-body p-4">
+              <div
+                class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge text-dark font-weight-bold px-2 py-1"
+                  style="background-color: #ffc107 !important; font-size: 0.75rem; text-transform: uppercase;">
+                  Reglas y Restricciones </span>
+                <div class="float-right text-muted"> </div>
+              </div>
+              <h3 class="text-justify mb-0"
+                style="font-size: 25px; font-family: sans-serif; color: #1e293b; line-height: 1.55;">
+                Lea detenidamente las instrucciones de esta actividad grupal
+                (Máximo 2 personas). Use calculadora.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PASO 2 -->
+      <div class="row mb-3 rounded overflow-hidden shadow-sm"
+        style="background-image: url('https://sn-recit-formation-a-distance.github.io/html-bootstrap-editor-showcase/img/sci0312/2dandelion.jpg'); background-size: cover; border: 1px solid #cbd5e1;">
+        <div class="col-auto text-center flex-column d-none d-sm-flex py-2">
+          <div class="row h-50">
+            <div class="col border-right"> </div>
+            <div class="col"> </div>
+          </div>
+          <div class="m-2"><span
+              class="badge badge-pill rounded-circle border text-light d-flex align-items-center justify-content-center shadow"
+              style="width: 70px; height: 70px; background-color: #002d5a !important; border: 3px solid #ffc107 !important;"> </span>
+            <h5 class="m-0 font-weight-bold"
+              style="color: #ffc107; font-size: 1.35rem;">2</h5>
+          </div>
+          <div class="row h-50">
+            <div class="col border-right"> </div>
+            <div class="col"> </div>
+          </div>
+        </div>
+        <div class="col py-3 pr-3">
+          <div class="card shadow border-0"
+            style="background-color: rgba(255, 255, 255, 0.95); min-height: 15px; border-left: 5px solid #002d5a !important; border-radius: 10px;">
+            <div class="card-body p-4">
+              <div
+                class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge text-dark font-weight-bold px-2 py-1"
+                  style="background-color: #ffc107 !important; font-size: 0.75rem; text-transform: uppercase;">
+                  Estudio de Caso y Dinámica </span>
+                <div class="float-right"> </div>
+              </div>
+              <h3 class="text-justify mb-0"
+                style="font-size: 25px; font-family: sans-serif; color: #1e293b; line-height: 1.55;">
+                Esta actividad contiene un (1) estudio de caso relacionado con
+                la evaluación de niveles de iluminación usando el método de la
+                cuadrícula. Responde lo indicado en el ejercicio.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PASO 3 -->
+      <div class="row mb-2 rounded overflow-hidden shadow-sm"
+        style="background-image: url('https://sn-recit-formation-a-distance.github.io/html-bootstrap-editor-showcase/img/sci0312/3lac.jpg'); background-size: cover; border: 1px solid #cbd5e1;">
+        <div class="col-auto text-center flex-column d-none d-sm-flex py-2">
+          <div class="row h-50">
+            <div class="col border-right"> </div>
+            <div class="col"> </div>
+          </div>
+          <div class="m-2"><span
+              class="badge badge-pill rounded-circle border text-light d-flex align-items-center justify-content-center shadow"
+              style="width: 70px; height: 70px; background-color: #002d5a !important; border: 3px solid #ffc107 !important;"> </span>
+            <h5 class="m-0 font-weight-bold"
+              style="color: #ffc107; font-size: 1.35rem;">3</h5>
+          </div>
+          <div class="row h-50">
+            <div class="col border-right"> </div>
+            <div class="col"> </div>
+          </div>
+        </div>
+        <div class="col py-3 pr-3">
+          <div class="card shadow border-0"
+            style="background-color: rgba(255, 255, 255, 0.95); min-height: 15px; border-left: 5px solid #002d5a !important; border-radius: 10px;">
+            <div class="card-body p-4">
+              <div
+                class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge text-dark font-weight-bold px-2 py-1"
+                  style="background-color: #ffc107 !important; font-size: 0.75rem; text-transform: uppercase;">
+                  Cálculos y Evaluación Final </span>
+                <div class="float-right text-muted"> </div>
+              </div>
+              <h3 class="text-justify mb-0"
+                style="font-size: 25px; font-family: sans-serif; color: #1e293b; line-height: 1.55;">
+                Si requiere hacer cálculos, les recomendamos apoyarse del
+                tutorial incluido dentro la actividad. Sólo, al final de la
+                misma, saldrá un mensaje para que suban el trabajo a la
+                plataforma. ¡Muchos Éxitos en el desarrollo de la actividad!
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PIE DE PÁGINA ACADÉMICO -->
+    <div class="card shadow border-0 mt-3"
+      style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); color: #ffffff; border-top: 4px solid #ffc107 !important; border-radius: 10px;">
+      <div class="card-body py-3 px-4 text-center">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap small"
+          style="font-size: 0.85rem;"><strong>UNICAMACHO</strong> •
+          Administración en SST <span
+            class="badge text-dark font-weight-bold px-3 py-1 my-1"
+            style="background-color: #ffc107 !important;">Peligros Físicos
+            II</span> Método de la Cuadrícula — Iluminación</div>
+      </div>
+    </div>
+  </div>
+</section>
