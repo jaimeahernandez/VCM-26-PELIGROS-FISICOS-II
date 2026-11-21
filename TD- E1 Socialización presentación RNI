@@ -1,0 +1,220 @@
+<!-- CONTENEDOR PRINCIPAL MOODLE - SOCIALIZACIÓN RNI -->
+<div class="container-fluid py-3"
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #2c3e50; max-width: 1100px; margin: 0 auto;">
+  <!-- ========================================== --><!-- ENCABEZADO INSTITUCIONAL Y ACADÉMICO       --><!-- ========================================== --><!-- 1. Banner Institucional Superior -->
+  <div class="card border-0 shadow-sm mb-3 text-white"
+    style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); border-radius: 8px;">
+    <div
+      class="card-body p-3 d-flex justify-content-between align-items-center flex-wrap">
+      <div class="d-flex align-items-center flex-wrap">
+        <div
+          class="p-2 bg-white rounded-circle text-primary me-3 mr-3 d-none d-sm-block">
+           </div>
+        <div><span
+            class="badge bg-warning text-dark fw-bold px-3 py-1 mb-1 d-inline-block"
+            style="background-color: #ffc107 !important; color: #000000 !important; font-size: 0.8rem; font-weight: bold; letter-spacing: 0.5px;">
+            <i class="fa fa-star me-1"></i> SOCIALIZACIÓN OBLIGATORIA (TD-E1)
+          </span>
+          <h5 class="mb-0 fw-bold font-weight-bold text-white"
+            style="font-size: 1.15rem;">Administración en Seguridad y Salud en
+            el Trabajo (FEDV)</h5>
+          <span class="text-uppercase tracking-wider small opacity-75 d-block"
+            style="letter-spacing: 1px; font-size: 0.75rem;"> Peligros Físicos
+            II / Higiene y Seguridad Industrial — UNICAMACHO </span>
+        </div>
+      </div>
+      <div class="mt-2 mt-md-0 text-end text-right"><span
+          class="badge bg-light text-dark px-3 py-2 border font-weight-normal"
+          style="font-size: 0.8rem;"> <i class="fa fa-calendar me-1"></i>
+          Sustentación: 30 Oct 2026 (6:00 PM) </span></div>
+    </div>
+  </div>
+  <!-- 2. Ruta de Navegación (Breadcrumb Moodle) -->
+  <nav class="mb-3" aria-label="breadcrumb">
+    <ol class="breadcrumb bg-white p-2 rounded shadow-sm border small mb-0">
+      <li class="breadcrumb-item"><a class="text-decoration-none text-primary"
+          href="#"><i class="fa fa-home"></i> Inicio</a></li>
+      <li class="breadcrumb-item"><a class="text-decoration-none text-primary"
+          href="#">Peligros Físicos II</a></li>
+      <li class="breadcrumb-item active text-muted" aria-current="page">TD- E1
+        Socialización presentación RNI ⭐</li>
+    </ol>
+  </nav><!-- 3. Ficha Técnica de la Actividad -->
+  <div class="card border-0 shadow-sm mb-4"
+    style="border-left: 6px solid #1a365d !important; background: #ffffff;">
+    <div class="card-body p-4">
+      <div class="d-flex justify-content-between align-items-center flex-wrap">
+        <div><span class="badge badge-primary bg-primary mb-2 px-3 py-2"
+            style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; background-color: #002d5a !important;"> Actividad
+            de Socialización</span>
+          <h2 class="h3 font-weight-bold fw-bold mb-1" style="color: #002d5a;">
+            TD- E1 Socialización presentación RNI ⭐</h2>
+          <p class="text-muted mb-0">Lectura comprensiva, apropiación conceptual
+            y sustentación de la presentación RNI en el próximo encuentro.</p>
+          <p class="text-muted mb-0"></p>
+          <p class="text-muted mb-0">Grupos máximo de 3 personas.</p>
+          <p class="text-muted mb-0"></p>
+        </div>
+        <div class="mt-2 mt-md-0 text-right text-md-end"><span
+            class="badge badge-light bg-light text-dark border px-3 py-2 d-block mb-1">
+            <i class="fa fa-clock-o me-1"></i> Modalidad: Virtual</span> <span
+            class="badge badge-warning bg-warning text-dark px-3 py-1 d-block"
+            style="background-color: #ffc107 !important;"> <i
+              class="fa fa-flag-checkered me-1"></i> Fecha: 30 Octubre 2026
+          </span></div>
+      </div>
+      <hr class="my-3">
+      <div class="row text-center g-3">
+        <div class="col-md-4">
+          <div class="p-2 rounded bg-light border"><small
+              class="text-uppercase text-muted d-block fw-bold"
+              style="font-size: 0.75rem;">Fase 1 (Previa)</small> <strong
+              class="text-dark small">Lectura y Análisis del Recurso
+              RNI</strong></div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-2 rounded bg-light border"><small
+              class="text-uppercase text-muted d-block fw-bold"
+              style="font-size: 0.75rem;">Fase 2 (Encuentro)</small> <strong
+              class="text-primary fw-bold small">Sustentación Activa en
+              Clase</strong></div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-2 rounded bg-light border"><small
+              class="text-uppercase text-muted d-block fw-bold"
+              style="font-size: 0.75rem;">Evaluación</small> <strong
+              class="text-dark small">Dominio Técnico y Argumentación</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========================================== --><!-- CUERPO DE LA ACTIVIDAD                    --><!-- ========================================== --><!-- CAJA DE PROPÓSITO E INSTRUCCIONES -->
+  <div class="card border-0 shadow-sm mb-4"
+    style="background-color: #f0fdf4; border-left: 5px solid #16a34a !important;">
+    <div class="card-body p-4">
+      <h4 class="h5 font-weight-bold fw-bold mb-2 text-success"><i
+          class="fa fa-book-reader me-2"></i>📖 Propósito de la Actividad</h4>
+      <p class="text-dark small mb-3 text-justify" style="line-height: 1.6;">El
+        objetivo principal de esta socialización es garantizar la apropiación
+        teórica y técnica de los contenidos expuestos en la
+        <strong>"Presentación RNI"</strong>. La comprensión profunda de este
+        material es fundamental para establecer las bases normativas y
+        toxicológicas del curso de Peligros Físicos II e Higiene Industrial.</p>
+      <h5 class="h6 font-weight-bold fw-bold text-dark mt-3 mb-2"><i
+          class="fa fa-tasks me-2 text-success"></i>📌 Dinámica de Desarrollo:
+      </h5>
+      <ul class="small text-muted mb-0 ps-3" style="line-height: 1.7;">
+        <li class="mb-1"><strong>Paso 1 (Estudio Autónomo):</strong> Cada
+          estudiante o grupo debe leer detalladamente, analizar y comprender en
+          su totalidad la información contenida en el recurso <em>Presentación
+            RNI</em> disponible en este módulo.</li>
+        <li class="mb-1"><strong>Paso 2 (Preparación):</strong> Plantee dudas,
+          relacione los conceptos clave con casos prácticos de SST y asegúrese
+          de dominar la terminología técnica empleada.</li>
+        <li><strong>Paso 3 (Sustentación en el Encuentro):</strong> Durante la
+          próxima sesión presencial/sincrónica, el docente convocará de manera
+          aleatoria o por equipos a los participantes para <strong>sustentar,
+            explicar y debatir</strong> los apartados de la presentación frente
+          al grupo.</li>
+      </ul>
+    </div>
+  </div>
+  <!-- ALERTA DE HITO / FECHA CLAVE -->
+  <div class="card border-0 shadow-sm mb-4"
+    style="background-color: #fffbeb; border: 1px solid #fde68a !important; border-left: 5px solid #f59e0b !important;">
+    <div class="card-body p-4 d-flex align-items-center">
+      <div class="me-3 mr-3 text-warning" style="font-size: 2.5rem;"> </div>
+      <div>
+        <h5 class="font-weight-bold fw-bold text-dark mb-1"
+          style="font-size: 1.1rem; color: #92400e !important;">Cronograma del
+          Encuentro de Sustentación</h5>
+        <p class="mb-0 small text-dark" style="line-height: 1.5;">La
+          sustentación se llevará a cabo el día <strong>30 de octubre de 2026 a
+            las 6:00 PM</strong>. Se evaluará la claridad conceptual, el rigor
+          técnico en las respuestas y la participación activa durante la
+          plenaria. ¡Prepárese con anticipación!</p>
+      </div>
+    </div>
+  </div>
+  <!-- CRITERIOS DE EVALUACIÓN RÁPIDOS -->
+  <div class="card border-0 shadow-sm mb-4 bg-white">
+    <div class="card-header bg-white p-3 border-bottom">
+      <h5 class="h6 font-weight-bold fw-bold mb-0 text-dark"
+        style="color: #002d5a !important;"><i
+          class="fa fa-check-circle me-2 text-primary"></i>📋 Criterios que se
+        evaluarán durante la sustentación:</h5>
+    </div>
+    <div class="card-body p-4">
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="p-3 border rounded bg-light h-100">
+            <h6 class="font-weight-bold text-primary small"><i
+                class="fa fa-brain me-1"></i> 1. Dominio Conceptual</h6>
+            <p class="small text-muted mb-0">Claridad en la explicación de los
+              conceptos centrales expuestos en la RNI sin lectura pasiva de
+              diapositivas.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border rounded bg-light h-100">
+            <h6 class="font-weight-bold text-success small"><i
+                class="fa fa-comments me-1"></i> 2. Argumentación Técnica</h6>
+            <p class="small text-muted mb-0">Uso adecuado de la terminología
+              propia de la Seguridad y Salud en el Trabajo (SST).</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border rounded bg-light h-100">
+            <h6 class="font-weight-bold text-danger small"><i
+                class="fa fa-users me-1"></i> 3. Participación Activa</h6>
+            <p class="small text-muted mb-0">Disposición para debatir, responder
+              preguntas del docente y aportar ejemplos aplicados a la industria.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========================================== --><!-- PIE DE PÁGINA Y SOPORTE DE MOODLE          --><!-- ========================================== --><!-- 1. Caja de Soporte y Tutoría con enlace al Foro -->
+  <div class="card border-0 shadow-sm mb-4"
+    style="background-color: #f0fdf4; border-left: 5px solid #16a34a !important;">
+    <div class="card-body p-3">
+      <div class="row align-items-center">
+        <div class="col-md-8 mb-2 mb-md-0">
+          <h6 class="fw-bold font-weight-bold text-success mb-1"><i
+              class="fa fa-comments me-2"></i>¿Tienes dudas sobre los conceptos
+            de la presentación RNI?</h6>
+          <p class="small text-muted mb-0">Comparte tus inquietudes previas en
+            el <strong>Foro General de Consultas</strong> o contacta al docente
+            a través del correo institucional.</p>
+        </div>
+        <div class="col-md-4 text-md-end text-right"><a
+            class="btn btn-sm btn-outline-success font-weight-bold me-1"
+            href="URL_DEL_FORO_AQUI" target="_blank" rel="noopener"><i
+              class="fa fa-comments-o me-1"></i> Ir al Foro</a> <a
+            class="btn btn-sm btn-success font-weight-bold text-white"
+            href="mailto:jaimeahernandez@profesores.uniajc.edu.co"><i
+              class="fa fa-envelope me-1"></i> Contactar Docente</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- 2. Footer Institucional de Cierre Mejorado -->
+  <div class="card border-0 shadow-sm text-center py-3 px-4"
+    style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: #ffffff; border-radius: 8px; border-top: 3px solid #ffc107 !important;">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md-4 text-md-start text-left small mb-2 mb-md-0"><i
+          class="fa fa-graduation-cap me-1" style="color: #ffc107;"></i>
+        <strong>UNICAMACHO</strong> | Campus Virtual</div>
+      <div class="col-md-4 text-center mb-2 mb-md-0"><span
+          class="badge px-3 py-1 text-dark fw-bold"
+          style="background-color: #ffc107 !important; font-size: 0.75rem; letter-spacing: 0.5px;">
+          Peligros Físicos II — 2026 </span></div>
+      <div class="col-md-4 text-md-end text-right small"><a
+          class="text-light text-decoration-none opacity-90"
+          href="mailto:jaimeahernandez@profesores.uniajc.edu.co"> <i
+            class="fa fa-envelope-o me-1"></i>
+          jaimeahernandez@profesores.uniajc.edu.co </a></div>
+    </div>
+  </div>
+</div>
