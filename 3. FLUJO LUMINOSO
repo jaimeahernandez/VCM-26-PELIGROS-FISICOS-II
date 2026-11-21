@@ -1,249 +1,171 @@
-<p></p>
+<!-- CONTENEDOR PRINCIPAL - FLUJO LUMINOSO (MOODLE) -->
 <section
-  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
-  <div class="container-fluid py-4"
-    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
-    <div class="row justify-content-center">
-      <div class="col-12 col-xl-11">
-        <div class="card shadow-lg border-0"
-          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
-          <div class="card-header border-0 py-4"
-            style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
-            <div class="text-center"><span
-                style="background-color: #eab308; color: #0f172a; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
-                Variables Fotométricas e Higiene Industrial </span>
-              <h2
-                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
-                Concepto Fundamental: Flujo Luminoso ($\Phi$)</h2>
-              <p class="mb-0"
-                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
-                Cuantificación de la Energía Lumínica y Criterios de Eficiencia
-                en SST</p>
-            </div>
-          </div>
-          <div class="card-body p-4 p-md-5" style="background-color: #ffffff;">
-            <div class="row mb-4">
-              <div class="col-12 text-justify">
-                <p
-                  style="color: #334155; font-size: 1.05rem; line-height: 1.7; text-align: justify;">
-                  El **flujo luminoso** es la magnitud fotométrica que mide la
-                  cantidad total de luz visible emitida por una fuente
-                  electromagnética en todas las direcciones por unidad de
-                  tiempo. Matemáticamente, esta variable se representa con la
-                  letra griega **$\Phi$ (phi)** y su unidad de medida en el
-                  Sistema Internacional es el **lumen (lm)**. A diferencia de
-                  las magnitudes puramente físicas de la radiación, el flujo
-                  luminoso contempla la sensibilidad del ojo humano,
-                  representando la potencia lumínica percibida de forma real. A
-                  mayor flujo luminoso de una luminaria, mayor será la
-                  brillantez aparente en las áreas de trabajo.</p>
-              </div>
-            </div>
-            <div class="text-center mb-5"><img class="img-fluid"
-                style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"
-                src="https://www.sciencefacts.net/wp-content/uploads/2023/12/Luminous-Flux.jpg"
-                alt="Representación del Flujo Luminoso">
-              <p
-                style="font-size: 0.85rem; color: #64748b; margin-top: 8px; font-style: italic;">
-                Figura 1. Emisión esférica del flujo luminoso medido en lúmenes.
-              </p>
-            </div>
-            <div class="mb-5">
-              <h4
-                style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px;">
-                <i class="fa fa-briefcase mr-2" style="color: #3b82f6;"></i>
-                Relevancia Práctica en la Gestión de SST</h4>
-              <div class="row">
-                <div class="col-12 col-md-6 mb-3">
-                  <div
-                    style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 15px; border-radius: 0 8px 8px 0; height: 100%;">
-                    <strong
-                      style="color: #0f172a; display: block; margin-bottom: 5px;"><i
-                        class="fa fa-balance-scale mr-2"
-                        style="color: #3b82f6;"></i> Comparación Técnica de
-                      Lámparas</strong> <span
-                      style="color: #475569; font-size: 0.95rem; text-align: justify; display: block;">Permite
-                      auditar fichas técnicas del fabricante para seleccionar
-                      las fuentes lumínicas adecuadas según la tarea, evitando
-                      basarse únicamente en la potencia eléctrica
-                      (vatios).</span></div>
-                </div>
-                <div class="col-12 col-md-6 mb-3">
-                  <div
-                    style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 15px; border-radius: 0 8px 8px 0; height: 100%;">
-                    <strong
-                      style="color: #0f172a; display: block; margin-bottom: 5px;"><i
-                        class="fa fa-pencil-square-o mr-2"
-                        style="color: #3b82f6;"></i> Diseño y Cálculo de
-                      Iluminación</strong> <span
-                      style="color: #475569; font-size: 0.95rem; text-align: justify; display: block;">Es
-                      la variable de entrada para métodos analíticos (como el
-                      método de lúmenes), esenciales para proyectar la cantidad
-                      total de luminarias requeridas en un espacio de
-                      trabajo.</span></div>
-                </div>
-                <div class="col-12 col-md-6 mb-3 mb-md-0">
-                  <div
-                    style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 15px; border-radius: 0 8px 8px 0; height: 100%;">
-                    <strong
-                      style="color: #0f172a; display: block; margin-bottom: 5px;"><i
-                        class="fa fa-leaf mr-2" style="color: #22c55e;"></i>
-                      Evaluación de Eficiencia Energética</strong> <span
-                      style="color: #475569; font-size: 0.95rem; text-align: justify; display: block;">Determina
-                      la relación eficacia lumínica ($\text{lm/W}$). Permite
-                      optimizar el consumo eléctrico organizacional manteniendo
-                      los estándares de confort visual intactos.</span></div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <div
-                    style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 15px; border-radius: 0 8px 8px 0; height: 100%;">
-                    <strong
-                      style="color: #0f172a; display: block; margin-bottom: 5px;"><i
-                        class="fa fa-gavel mr-2" style="color: #e11d48;"></i>
-                      Normativas e Inspecciones Legales</strong> <span
-                      style="color: #475569; font-size: 0.95rem; text-align: justify; display: block;">Garantiza
-                      que el diseño original del sistema suministre los flujos
-                      mínimos exigidos por reglamentos de seguridad y salud,
-                      controlando el riesgo de accidentes.</span></div>
-                </div>
-              </div>
-            </div>
-            <div class="mb-5">
-              <div
-                style="background-color: #fff5f5; border: 1px solid #fee2e2; border-left: 5px solid #ef4444; padding: 20px; border-radius: 12px;">
-                <h5
-                  style="color: #991b1b; font-weight: bold; font-size: 1.1rem; text-transform: uppercase; margin-bottom: 15px;">
-                  <i class="fa fa-list-ol mr-2"></i> Matriz de Rendimiento
-                  Fotométrico Comercial</h5>
-                <p
-                  style="color: #7f1d1d; font-size: 1rem; margin-bottom: 15px; text-align: justify;">
-                  A continuación, se tabulan los valores típicos de flujo
-                  luminoso generados por distintas tecnologías presentes en los
-                  sectores industriales y de servicios:</p>
-                <div class="table-responsive">
-                  <table class="table table-bordered text-center"
-                    style="font-size: 1rem; border-color: #fca5a5; background-color: #ffffff;">
-                    <thead style="background-color: #991b1b; color: white;">
-                      <tr>
-                        <th
-                          style="padding: 12px; font-weight: 600; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.5px;">
-                          Tipo de Tecnología / Luminaria</th>
-                        <th
-                          style="padding: 12px; font-weight: 600; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.5px;">
-                          Consumo Eléctrico (Vatios)</th>
-                        <th
-                          style="padding: 12px; font-weight: 600; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.5px;">
-                          Flujo Luminoso Típico ($\text{lúmenes}$)</th>
-                      </tr>
-                    </thead>
-                    <tbody style="color: #334155;">
-                      <tr>
-                        <td
-                          style="padding: 10px; font-weight: 500; text-align: left; padding-left: 20px;">
-                          Bombilla Incandescente Convencional</td>
-                        <td style="padding: 10px;">60 W</td>
-                        <td style="padding: 10px; font-weight: bold;">~ 800 lm
-                        </td>
-                      </tr>
-                      <tr>
-                        <td
-                          style="padding: 10px; font-weight: 500; text-align: left; padding-left: 20px;">
-                          Bombilla LED de Alta Eficiencia</td>
-                        <td style="padding: 10px;">10 W</td>
-                        <td
-                          style="padding: 10px; font-weight: bold; color: #16a34a;">
-                          800 a 900 lm</td>
-                      </tr>
-                      <tr>
-                        <td
-                          style="padding: 10px; font-weight: 500; text-align: left; padding-left: 20px;">
-                          Tubo Fluorescente T8 (4 pies)</td>
-                        <td style="padding: 10px;">36 W</td>
-                        <td style="padding: 10px; font-weight: bold;">2600 a
-                          3200 lm</td>
-                      </tr>
-                      <tr>
-                        <td
-                          style="padding: 10px; font-weight: 500; text-align: left; padding-left: 20px;">
-                          Proyector LED para Exteriores / Fachadas</td>
-                        <td style="padding: 10px;">50 W</td>
-                        <td style="padding: 10px; font-weight: bold;">4000 a
-                          6000 lm</td>
-                      </tr>
-                      <tr>
-                        <td
-                          style="padding: 10px; font-weight: 500; text-align: left; padding-left: 20px;">
-                          Panel LED de Techo (Áreas Administrativas)</td>
-                        <td style="padding: 10px;">Variable</td>
-                        <td style="padding: 10px; font-weight: bold;">3000 a
-                          5000 lm</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-stretch"
-              style="position: relative; margin-top: 40px;">
-              <div
-                class="col-auto text-center d-none d-sm-flex flex-column align-items-center"
-                style="width: 70px;">
-                <div
-                  style="width: 45px; height: 45px; background-color: #e11d48; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
-                   </div>
-              </div>
-              <div class="col">
-                <div
-                  style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #e11d48; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                  <span
-                    style="background-color: #ffe4e6; color: #9f1239; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Desafío
-                    de Auditoría y Reconversión Tecnológica</span>
-                  <h4
-                    style="color: #9f1239; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px;">
-                    Reto de Gestión: Diagnóstico de Eficacia Lumínica
-                    Organizacional</h4>
-                  <p
-                    style="color: #334155; font-size: 1rem; line-height: 1.6; text-align: justify;">
-                    La gerencia de una planta industrial solicita su asesoría
-                    para modernizar el sistema de iluminación del área de
-                    empaque, el cual opera actualmente con 150 bombillas
-                    incandescentes de **60 W** cada una. El departamento de
-                    mantenimiento propone cambiarlas por bombillas LED de **10
-                    W**, afirmando que esto disminuirá drásticamente los costos
-                    de consumo eléctrico. Sin embargo, el sindicato de
-                    trabajadores teme que al disminuir la potencia en vatios
-                    ($W$), el área quede oscura y se incrementen los errores de
-                    manufactura o los accidentes de trabajo.</p>
-                  <div
-                    style="background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 15px; border-radius: 8px; margin-top: 15px;">
-                    <span
-                      style="color: #0f172a; font-weight: bold; font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 8px;">Consigna
-                      Analítica para el Estudiante:</span>
-                    <p
-                      style="color: #475569; font-size: 0.95rem; margin-bottom: 0; text-align: justify; line-height: 1.5;">
-                      Utilizando los datos analíticos presentados en la matriz
-                      de rendimiento fotométrico, elabore un argumento técnico
-                      dirigido a la gerencia y a los trabajadores. Explique la
-                      diferencia conceptual entre **potencia consumida
-                      (Vatios)** y **potencia lumínica producida (Flujo Luminoso
-                      - Lúmenes)**, y justifique si la propuesta de sustitución
-                      de luminarias LED comprometerá o mantendrá los niveles de
-                      seguridad visual del personal, justificando la viabilidad
-                      de la intervención.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-footer py-4 text-center"
-            style="background-color: #0f172a; color: rgba(255,255,255,0.8); border-top: 5px solid #eab308;">
-            <small
-              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
-              <i class="fa fa-shield mr-2" style="color: #eab308;"></i> Peligros
-              Físicos II | Magnitudes y Variables Fotométricas </small></div>
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #2d3748; width: 100%;">
+  <div class="container my-3 py-md-4" style="max-width: 980px; margin: 0 auto;">
+    <!-- ENCABEZADO ACADÉMICO INSTITUCIONAL -->
+    <div class="card shadow-lg border-0 mb-4"
+      style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); border-radius: 12px; overflow: hidden;">
+      <div class="card-body p-4 p-md-5 text-white">
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap mb-2">
+          <span class="badge badge-warning text-dark font-weight-bold px-3 py-1"
+            style="background-color: #ffc107 !important; color: #0f172a !important; font-size: 0.78rem; letter-spacing: 0.8px; text-transform: uppercase; border-radius: 4px;">
+            <i class="fa fa-sun-o mr-1"></i> Peligros Físicos II • Radiaciones
+            No Ionizantes </span> <span
+            class="small opacity-75 font-weight-bold"
+            style="letter-spacing: 1px; font-size: 0.75rem;"> UNICAMACHO • SST
+          </span></div>
+        <h2 class="font-weight-bold mb-2 text-white"
+          style="font-size: 1.65rem; letter-spacing: -0.3px;">Flujo Luminoso (Φ)
+          y Aplicaciones en Iluminación</h2>
+        <p class="mb-0 text-white-50"
+          style="font-size: 0.98rem; line-height: 1.5;">Medición en lúmenes
+          (lm), criterios técnicos de selección de luminarias, eficiencia
+          energética y valores de referencia.</p>
+      </div>
+    </div>
+    <!-- TARJETA PRINCIPAL DE CONTENIDO -->
+    <div class="card shadow rounded border-0"
+      style="background: #ffffff; border-radius: 14px; overflow: hidden; border: 1px solid #e2e8f0 !important;">
+      <div class="card-body p-4 p-lg-5" style="text-align: justify;">
+        <!-- DEFINICIÓN -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-info-circle mr-2" style="color: #002d5a;"></i>
+            Definición de Flujo Luminoso</h5>
+          <p
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155; margin-bottom: 0;">
+            <strong>Definición: </strong>El flujo luminoso es una medida de la
+            cantidad total de luz visible emitida por una fuente de luz en todas
+            direcciones. La variable del flujo luminoso se conoce comúnmente con
+            la letra "Φ" (phi) y se mide en lúmenes (lm). Representa la cantidad
+            de luz que realmente produce una fuente de luz. Cuanto mayor sea el
+            flujo luminoso de una fuente de luz, más brillante será percibida.
+          </p>
         </div>
+        <!-- FIGURA 1 -->
+        <div class="card border-0 shadow-sm mb-4 p-3 text-center"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0 !important; border-radius: 10px;">
+          <p class="mb-2" style="text-align: center;"><img
+              class="img-fluid atto_image_button_text-bottom rounded shadow-sm"
+              style="border: 2px solid #002d5a;"
+              src="https://www.sciencefacts.net/wp-content/uploads/2023/12/Luminous-Flux.jpg"
+              alt="Figura 1" width="550" height="497"></p>
+          <small class="text-muted font-weight-bold d-block mt-1"
+            style="color: #002d5a !important; font-size: 0.85rem;"> Figura 1.
+            Representación conceptual del flujo luminoso emitido por una fuente.
+          </small>
+        </div>
+        <!-- APLICACIONES PRÁCTICAS -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-check-square-o mr-2" style="color: #002d5a;"></i>
+            Aplicaciones Prácticas del Flujo Luminoso</h5>
+          <p style="font-size: 1.02rem; line-height: 1.75; color: #334155;"
+            class="mb-3">En la práctica, el valor del flujo luminoso se utiliza
+            para evaluar y comparar la cantidad de luz producida por diferentes
+            fuentes de iluminación. Aquí hay algunas formas en que nos damos
+            cuenta del valor del flujo luminoso en la práctica:</p>
+          <ul
+            style="line-height: 1.8; color: #1e293b; padding-left: 22px; margin-bottom: 0;">
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 12px;">
+              <strong>Comparación de lámparas: </strong> Al comprar lámparas o
+              bombillas, el valor del flujo luminoso se proporciona generalmente
+              en las especificaciones del producto. Esto permite a los
+              consumidores comparar la cantidad de luz producida por diferentes
+              opciones de iluminación y elegir la más adecuada para sus
+              necesidades.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 12px;">
+              <strong>Diseño de iluminación: </strong>En aplicaciones de diseño
+              de iluminación, como iluminación arquitectónica o de interiores,
+              los diseñadores utilizan el valor del flujo luminoso para calcular
+              la cantidad total de luz necesaria en un espacio determinado. Esto
+              ayuda a garantizar que el nivel de iluminación sea adecuado para
+              las actividades previstas y cumpla con los requisitos de confort
+              visual y seguridad.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 12px;">
+              <strong>Evaluación de eficiencia energética: </strong> El valor
+              del flujo luminoso también se utiliza para evaluar la eficiencia
+              energética de las fuentes de iluminación. Cuanto mayor sea el
+              flujo luminoso de una lámpara en relación con su consumo de
+              energía, más eficiente será en términos de producción de luz por
+              unidad de energía consumida.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 0;">
+              <strong>Normativas y estándares: </strong>Las normativas y
+              estándares de iluminación suelen especificar requisitos mínimos de
+              flujo luminoso para diferentes aplicaciones. Por ejemplo, las
+              regulaciones de iluminación en edificios comerciales pueden
+              establecer requisitos mínimos de flujo luminoso por metro cuadrado
+              para garantizar niveles adecuados de iluminación para el trabajo y
+              la seguridad.</li>
+          </ul>
+        </div>
+        <hr
+          style="border: 0; height: 2px; background: linear-gradient(to right, #002d5a, #ffc107, #e2e8f0); margin: 30px 0;">
+        <!-- CUADRO DE RESUMEN Y VALORES TÍPICOS -->
+        <div class="alert alert-danger shadow-sm p-4 mb-0"
+          style="background-color: #fff5f5; border: 1px solid #fecaca; border-left: 6px solid #b91c1c !important; border-radius: 10px; color: #1e293b;"
+          role="alert">
+          <div class="d-flex align-items-center mb-2"><span
+              class="badge badge-danger font-weight-bold mr-2 px-2 py-1"
+              style="background-color: #b91c1c !important; font-size: 0.75rem; text-transform: uppercase;">
+              Valores de Referencia </span>
+            <h5 class="font-weight-bold mb-0"
+              style="color: #991b1b; font-size: 1.15rem;">Partes del Ojo Vs Luz
+              Visible</h5>
+          </div>
+          <p class="mt-3 mb-3"
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155;">En
+            resumen, el valor del flujo luminoso se utiliza en diversas
+            aplicaciones prácticas, desde la selección de lámparas hasta el
+            diseño de iluminación y la evaluación de eficiencia energética, para
+            garantizar niveles adecuados de iluminación y satisfacer las
+            necesidades de los usuarios finales. Aquí tenemos algunos ejemplos
+            de luminarias comunes junto con sus valores típicos de flujo
+            luminoso:</p>
+          <ul
+            style="line-height: 1.8; color: #1e293b; padding-left: 22px; margin-bottom: 0;">
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 8px;">
+              Bombilla incandescente de 60 vatios: alrededor de 800 lúmenes.
+            </li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 8px;">
+              Bombilla LED de 10 vatios: alrededor de 800-900 lúmenes.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 8px;">
+              Tubo fluorescente T8 de 4 pies (36 vatios): alrededor de 2600-3200
+              lúmenes.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 8px;">
+              Proyector LED para exteriores de 50 vatios: alrededor de 4000-6000
+              lúmenes.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 0;">
+              Luminaria de techo LED para oficina (tipo panel): alrededor de
+              3000-5000 lúmenes</li>
+          </ul>
+        </div>
+      </div>
+      <!-- PIE DE PÁGINA ACADÉMICO -->
+      <div class="card-footer py-3 px-4 text-center"
+        style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); color: #ffffff; border-top: 4px solid #ffc107;">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap small"
+          style="font-size: 0.85rem;"><strong>UNICAMACHO</strong> •
+          Administración en SST <span
+            class="badge text-dark font-weight-bold px-3 py-1 my-1"
+            style="background-color: #ffc107 !important;">Peligros Físicos
+            II</span> Gestión de Radiaciones No Ionizantes</div>
       </div>
     </div>
   </div>
 </section>
-<p></p>
