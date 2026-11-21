@@ -37,15 +37,15 @@
                   class="fa fa-lightbulb-o mr-2" style="color: #d97706;"></i>
                 Brillo</h3>
               <p class="text-justify mb-0"
-                style="font-size: 18px; line-height: 1.75; color: #334155;">El
-                brillo es una percepción visual que se refiere a la intensidad
-                relativa de la luz emitida o reflejada por una superficie. Es
-                una cualidad subjetiva de la sensación visual que se relaciona
-                con la cantidad de luz que una superficie emite, refleja o
-                transmite en comparación con su entorno. Las superficies
-                presentes en una oficina, como paredes, techos, muebles y
-                suelos, pueden reflejar la luz de las luminarias y la luz
-                natural, contribuyendo al brillo general del espacio.
+                style="font-size: 18px; text-align: justify; line-height: 1.75; color: #334155;">
+                El brillo es una percepción visual que se refiere a la
+                intensidad relativa de la luz emitida o reflejada por una
+                superficie. Es una cualidad subjetiva de la sensación visual que
+                se relaciona con la cantidad de luz que una superficie emite,
+                refleja o transmite en comparación con su entorno. Las
+                superficies presentes en una oficina, como paredes, techos,
+                muebles y suelos, pueden reflejar la luz de las luminarias y la
+                luz natural, contribuyendo al brillo general del espacio.
                 Superficies de colores claros y altamente reflectantes pueden
                 aumentar la sensación de brillo en comparación con superficies
                 oscuras y menos reflectantes.</p>
