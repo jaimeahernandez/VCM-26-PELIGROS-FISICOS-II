@@ -1,0 +1,147 @@
+<!-- RÚBRICA DE EVALUACIÓN OFICIAL - PELIGROS FÍSICOS II (RAA1, RAA2, RAA3 | 50/50) -->
+<details class="border rounded shadow-sm bg-white my-3" open="">
+  <summary class="p-3 font-weight-bold fw-bold h5 mb-0"
+    style="cursor: pointer; background-color: #f1f5f9; color: #1e3a8a;"><i
+      class="fa fa-table mr-2" style="color: #4caf50;"></i>📊 Rúbrica de
+    Evaluación con Resultados de Aprendizaje (100 Puntos)</summary>
+  <div class="p-4 border-top">
+    <div class="alert alert-warning border-0 p-3 mb-3 small"
+      style="background-color: #fef3c7; color: #92400e; border-left: 4px solid #f59e0b !important;">
+      <strong>Nota Evaluativa Importante:</strong> La calificación definitiva
+      del reto se compone de un <strong>50% por el Informe Técnico
+        Escrito</strong> (máx. 3 páginas) y un <strong>50% por la Sustentación
+        Oral y Defensa Técnica</strong> del equipo. Ambas fases evalúan de
+      manera integral los Resultados de Aprendizaje de la Asignatura (RAA1,
+      RAA2, RAA3).</div>
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover align-middle small"
+        style="font-size: 0.85rem;">
+        <thead class="text-white text-center"
+          style="background-color: #1e3a8a;">
+          <tr>
+            <th style="width: 22%;">Criterio &amp; Resultado de Aprendizaje</th>
+            <th style="width: 20%;">Excelente</th>
+            <th style="width: 20%;">Bueno</th>
+            <th style="width: 18%;">Básico</th>
+            <th style="width: 12%;">Insuficiente</th>
+            <th style="width: 8%;">Puntos</th>
+          </tr>
+        </thead>
+        <tbody><!-- COMPONENTE 1: INFORME ESCRITO (50%) -->
+          <tr class="table-dark text-white font-weight-bold fw-bold">
+            <td class="bg-secondary text-uppercase py-2 text-white"
+              style="background-color: #2c5282 !important;" colspan="6"><i
+                class="fa fa-file-text mr-2"></i> COMPONENTE 1: INFORME TÉCNICO
+              ESCRITO (50% DE LA NOTA FINAL - 50 PUNTOS)</td>
+          </tr>
+          <tr>
+            <td class="fw-bold font-weight-bold bg-light"><strong>1. Espectro y
+                Diagnóstico Biológico</strong><br><span
+                class="badge bg-info text-dark mt-1"
+                style="background-color: #e0f2fe; color: #0369a1;">Alineado a
+                RAA1</span></td>
+            <td>Clasificación rigurosa de las RNI (frecuencias/longitudes de
+              onda) en ambas áreas y diagnóstico preciso de efectos térmicos y
+              no térmicos a largo plazo.</td>
+            <td>Identifica adecuadamente los tipos de radiación y efectos
+              biológicos, aunque con menor profundidad en el análisis
+              toxicológico.</td>
+            <td>Clasifica de manera general las radiaciones pero presenta
+              confusiones conceptuales entre efectos térmicos y no térmicos.
+            </td>
+            <td>No clasifica las radiaciones correctamente ni fundamenta los
+              riesgos biológicos de los operarios.</td>
+            <td class="text-center fw-bold font-weight-bold text-primary">20 pts
+            </td>
+          </tr>
+          <tr>
+            <td class="fw-bold font-weight-bold bg-light"><strong>2. Controles
+                Técnicos y Normativa</strong><br><span
+                class="badge bg-info text-dark mt-1"
+                style="background-color: #e0f2fe; color: #0369a1;">Alineado a
+                RAA2 &amp; RAA3</span></td>
+            <td>Propuesta impecable basada en la Jerarquía de Controles (fuente,
+              medio, persona) y criterios normativos internacionales (ICNIRP /
+              ACGIH).</td>
+            <td>Propone medidas coherentes de control y menciona organismos de
+              referencia, pero la integración con la jerarquía es parcial.</td>
+            <td>Las medidas de control son limitadas, enfocándose principalmente
+              en EPP sin un fuerte diseño en la fuente o el medio.</td>
+            <td>Ausencia de controles técnicos viables o desconocimiento de los
+              marcos normativos internacionales para RNI.</td>
+            <td class="text-center fw-bold font-weight-bold text-primary">20 pts
+            </td>
+          </tr>
+          <tr>
+            <td class="fw-bold font-weight-bold bg-light"><strong>3. Calidad
+                Académica y Síntesis (PDF)</strong><br><span
+                class="badge bg-info text-dark mt-1"
+                style="background-color: #e0f2fe; color: #0369a1;">Alineado a
+                RAA1</span></td>
+            <td>Cumple estrictamente con el límite de extensión (máx. 3
+              páginas), excelente estructura técnica, redacción profesional y
+              rigor metodológico grupal.</td>
+            <td>Informe bien estructurado y dentro del límite de páginas, con
+              mínimos detalles de formato o redacción.</td>
+            <td>Extensión excedida o problemas significativos de organización,
+              redacción y falta de rigor técnico.</td>
+            <td>Documento incompleto, desorganizado, fuera del formato PDF o
+              plagio evidente.</td>
+            <td class="text-center fw-bold font-weight-bold text-primary">10 pts
+            </td>
+          </tr>
+          <!-- COMPONENTE 2: SUSTENTACIÓN ORAL (50%) -->
+          <tr class="table-dark text-white font-weight-bold fw-bold">
+            <td class="bg-danger text-uppercase py-2 text-white"
+              style="background-color: #991b1b !important;" colspan="6"><i
+                class="fa fa-microphone mr-2"></i> COMPONENTE 2: SUSTENTACIÓN Y
+              DEFENSA ORAL (50% DE LA NOTA FINAL - 50 PUNTOS)</td>
+          </tr>
+          <tr>
+            <td class="fw-bold font-weight-bold bg-light"><strong>4. Dominio
+                Técnico y Exposición Grupal</strong><br><span
+                class="badge bg-danger text-white mt-1"
+                style="background-color: #fee2e2; color: #991b1b;">Alineado a
+                RAA1 &amp; RAA2</span></td>
+            <td>Demuestra un manejo conceptual sobresaliente de la higiene
+              ocupacional en RNI. Todos los integrantes exponen con seguridad y
+              fluidez sin lectura pasiva.</td>
+            <td>Exposición clara y organizada por parte del equipo, con un buen
+              nivel de apropiación temática.</td>
+            <td>Exposición insegura, con dependencia excesiva de la lectura y
+              participación desigual de los integrantes.</td>
+            <td>Incapacidad para exponer el caso, falta de preparación o
+              ausencia de miembros del grupo en la sustentación.</td>
+            <td class="text-center fw-bold font-weight-bold text-danger">25 pts
+            </td>
+          </tr>
+          <tr>
+            <td class="fw-bold font-weight-bold bg-light"><strong>5. Defensa de
+                Soluciones y Mitigación</strong><br><span
+                class="badge bg-danger text-white mt-1"
+                style="background-color: #fee2e2; color: #991b1b;">Alineado a
+                RAA3</span></td>
+            <td>Responde con absoluta solidez y criterio técnico a los
+              cuestionamientos del docente, defendiendo las medidas de
+              mitigación propuestas.</td>
+            <td>Responde adecuadamente a las preguntas planteadas demostrando
+              criterio profesional general.</td>
+            <td>Dificultad o vacilación para argumentar las medidas de
+              mitigación ante las preguntas del auditor/docente.</td>
+            <td>Incapacidad para defender el caso de estudio o brindar
+              respuestas contrarias a los principios de la SST.</td>
+            <td class="text-center fw-bold font-weight-bold text-danger">25 pts
+            </td>
+          </tr>
+        </tbody>
+        <tfoot class="fw-bold font-weight-bold text-center bg-light">
+          <tr>
+            <td class="text-end text-right" colspan="5">PUNTAJE TOTAL COMBINADO:
+            </td>
+            <td class="text-primary fs-5" style="color: #1e3a8a;">100 pts</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</details>
