@@ -1,0 +1,172 @@
+<!-- CONTENEDOR PRINCIPAL - POTENCIA ELÉCTRICA Y EFICACIA LUMINOSA (MOODLE) -->
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #2d3748; width: 100%;">
+  <div class="container my-3 py-md-4" style="max-width: 980px; margin: 0 auto;">
+    <!-- ENCABEZADO ACADÉMICO INSTITUCIONAL -->
+    <div class="card shadow-lg border-0 mb-4"
+      style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); border-radius: 12px; overflow: hidden;">
+      <div class="card-body p-4 p-md-5 text-white">
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap mb-2">
+          <span class="badge badge-warning text-dark font-weight-bold px-3 py-1"
+            style="background-color: #ffc107 !important; color: #0f172a !important; font-size: 0.78rem; letter-spacing: 0.8px; text-transform: uppercase; border-radius: 4px;">
+            <i class="fa fa-bolt mr-1"></i> Peligros Físicos II • Radiaciones No
+            Ionizantes </span> <span class="small opacity-75 font-weight-bold"
+            style="letter-spacing: 1px; font-size: 0.75rem;"> UNICAMACHO • SST
+          </span></div>
+        <h2 class="font-weight-bold mb-2 text-white"
+          style="font-size: 1.65rem; letter-spacing: -0.3px;">Potencia Eléctrica
+          (W) y Relación con el Flujo Luminoso</h2>
+        <p class="mb-0 text-white-50"
+          style="font-size: 0.98rem; line-height: 1.5;">Consumo energético en
+          vatios (W), eficacia luminosa (lm/W), eficiencia tecnológica y
+          comparativa de luminarias.</p>
+      </div>
+    </div>
+    <!-- TARJETA PRINCIPAL DE CONTENIDO -->
+    <div class="card shadow rounded border-0"
+      style="background: #ffffff; border-radius: 14px; overflow: hidden; border: 1px solid #e2e8f0 !important;">
+      <div class="card-body p-4 p-lg-5" style="text-align: justify;">
+        <!-- DEFINICIÓN DE POTENCIA -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-info-circle mr-2" style="color: #002d5a;"></i>
+            Definición de Potencia en Iluminación</h5>
+          <p
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155; margin-bottom: 0;">
+            <strong>Definición: </strong>En el contexto de iluminación, la
+            potencia se refiere a la cantidad de energía eléctrica que consume
+            una fuente de luz para generar luz visible. Se mide típicamente en
+            vatios (W). La potencia es una medida importante a considerar al
+            seleccionar y diseñar sistemas de iluminación, ya que está
+            directamente relacionada con el consumo de energía y, por lo tanto,
+            con los costos operativos y la eficiencia energética. La potencia de
+            una fuente de luz puede variar dependiendo del tipo de tecnología
+            utilizada. Por ejemplo, las lámparas incandescentes generalmente
+            tienen una potencia más alta en comparación con las lámparas
+            fluorescentes compactas o las lámparas LED, pero también son menos
+            eficientes en términos de conversión de energía eléctrica en luz
+            visible. Con el avance de la tecnología LED, las fuentes de luz con
+            potencias más bajas pueden proporcionar niveles de iluminación
+            equivalentes o incluso superiores a los de las fuentes de luz más
+            tradicionales con potencias más altas. En resumen, en iluminación,
+            la potencia se refiere a la energía eléctrica consumida por una
+            fuente de luz para producir luz visible, y es una consideración
+            importante en términos de eficiencia energética y costos operativos.
+          </p>
+        </div>
+        <!-- FIGURA 1 -->
+        <div class="card border-0 shadow-sm mb-4 p-3 text-center"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0 !important; border-radius: 10px;">
+          <p class="mb-2" style="text-align: center;"><img
+              class="img-fluid atto_image_button_text-bottom rounded shadow-sm"
+              style="border: 2px solid #002d5a;"
+              src="https://www.tuexperto.com/wp-content/uploads/2019/02/consumo-de-luz-potencia-min.jpg"
+              alt="Figura 1" width="550" height="497"></p>
+          <small class="text-muted font-weight-bold d-block mt-1"
+            style="color: #002d5a !important; font-size: 0.85rem;"> Figura 1.
+            Consumo de energía eléctrica y potencia asociada a fuentes de
+            iluminación. </small>
+        </div>
+        <!-- POTENCIA VS FLUJO LUMINOSO -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-exchange mr-2" style="color: #002d5a;"></i> Potencia
+            vs Flujo Luminoso (Eficacia Luminosa)</h5>
+          <p style="font-size: 1.02rem; line-height: 1.75; color: #334155;"
+            class="mb-4"><strong>Potencia vs Flujo luminoso: </strong>La
+            relación entre el flujo luminoso y la potencia puede describirse
+            utilizando el concepto de eficacia luminosa, que es la medida de la
+            eficiencia con la que una fuente de luz convierte la energía
+            eléctrica en luz visible. La eficacia luminosa se expresa
+            típicamente en lúmenes por vatio (lm/W) y es una medida de cuánta
+            luz (en lúmenes) produce una fuente de luz por unidad de energía
+            eléctrica consumida (en vatios). En otras palabras, la eficacia
+            luminosa indica cuánta luz se genera por cada vatio de potencia
+            consumida. Cuanto mayor sea la eficacia luminosa de una fuente de
+            luz, más eficiente será en la producción de luz visible con menos
+            energía eléctrica. La relación entre el flujo luminoso (medido en
+            lúmenes) y la potencia (medida en vatios) de una fuente de luz se
+            puede expresar entonces mediante la eficacia luminosa. Por ejemplo,
+            si una lámpara tiene una eficacia luminosa de 100 lm/W, significa
+            que produce 100 lúmenes de luz por cada vatio de potencia eléctrica
+            consumida.</p>
+          <!-- FIGURA 2 -->
+          <div class="card border-0 shadow-sm p-3 text-center"
+            style="background-color: #ffffff; border: 1px solid #cbd5e1 !important; border-radius: 10px;">
+            <p class="mb-2" style="text-align: center;"><img
+                class="img-fluid atto_image_button_text-bottom rounded shadow-sm"
+                style="width: 450px; border: 2px solid #002d5a;"
+                src="https://cdn.shopify.com/s/files/1/0694/5151/4161/files/Lumens_guide_600x600.jpg?v=1677291989"
+                alt="Figura 1" width="550" height="497"></p>
+            <small class="text-muted font-weight-bold d-block mt-1"
+              style="color: #002d5a !important; font-size: 0.85rem;"> Figura 1.
+              Guía de referencia entre potencia, lúmenes y eficiencia lumínica.
+            </small>
+          </div>
+        </div>
+        <hr
+          style="border: 0; height: 2px; background: linear-gradient(to right, #002d5a, #ffc107, #e2e8f0); margin: 30px 0;">
+        <!-- CASO PRÁCTICO -->
+        <div class="alert alert-danger shadow-sm p-4 mb-0"
+          style="background-color: #fff5f5; border: 1px solid #fecaca; border-left: 6px solid #b91c1c !important; border-radius: 10px; color: #1e293b;"
+          role="alert">
+          <div class="d-flex align-items-center mb-2"><span
+              class="badge badge-danger font-weight-bold mr-2 px-2 py-1"
+              style="background-color: #b91c1c !important; font-size: 0.75rem; text-transform: uppercase;">
+              Aplicación Práctica </span>
+            <h5 class="font-weight-bold mb-0"
+              style="color: #991b1b; font-size: 1.15rem;">Caso Práctico</h5>
+          </div>
+          <p class="mt-3 mb-3"
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155;">
+            Supongamos que queremos iluminar una habitación con una determinada
+            cantidad de luz. Consideremos tres opciones de lámparas para lograr
+            este objetivo:</p>
+          <ul
+            style="line-height: 1.8; color: #1e293b; padding-left: 22px; margin-bottom: 18px;">
+            <li style="font-size: 1.02rem; margin-bottom: 8px;"><strong>Lámpara
+                incandescente de 60 vatios: </strong>Esta lámpara consume una
+              potencia eléctrica de 60 vatios. Tiene un flujo luminoso de
+              aproximadamente 800 lúmenes.</li>
+            <li style="font-size: 1.02rem; margin-bottom: 8px;"><strong>Lámpara
+                fluorescente compacta de 14 vatios: </strong>Esta lámpara
+              consume una potencia eléctrica de 14 vatios. Tiene un flujo
+              luminoso de 800 lúmenes.</li>
+            <li style="font-size: 1.02rem; margin-bottom: 0;"><strong>Lámpara
+                LED de 13 vatios: </strong>Esta lámpara consume una potencia
+              eléctrica de 10 vatios. Tiene un flujo luminoso de aproximadamente
+              800 lúmenes.</li>
+          </ul>
+          <p class="mb-0 p-3 rounded"
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155; background-color: #ffffff; border: 1px solid #fed7d7;">
+            En este caso, las tres lámparas proporcionan aproximadamente la
+            misma cantidad de luz visible (flujo luminoso) en la habitación. Sin
+            embargo, la lámpara LED consume significativamente menos potencia
+            eléctrica en comparación con la lámpara incandescente y la lámpara
+            fluorescente compacta para producir la misma cantidad de luz. Esto
+            ilustra cómo las tecnologías de iluminación más eficientes, como las
+            lámparas LED, pueden proporcionar niveles de iluminación
+            equivalentes o superiores con un consumo de energía más bajo en
+            comparación con tecnologías más antiguas y menos eficientes, como
+            las lámparas incandescentes y fluorescentes.</p>
+        </div>
+      </div>
+      <!-- PIE DE PÁGINA ACADÉMICO -->
+      <div class="card-footer py-3 px-4 text-center"
+        style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); color: #ffffff; border-top: 4px solid #ffc107;">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap small"
+          style="font-size: 0.85rem;"><strong>UNICAMACHO</strong> •
+          Administración en SST <span
+            class="badge text-dark font-weight-bold px-3 py-1 my-1"
+            style="background-color: #ffc107 !important;">Peligros Físicos
+            II</span> Gestión de Radiaciones No Ionizantes</div>
+      </div>
+    </div>
+  </div>
+</section>
