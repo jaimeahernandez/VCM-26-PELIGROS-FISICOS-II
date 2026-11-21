@@ -1,0 +1,174 @@
+<!-- CONTENEDOR PRINCIPAL - NIVEL DE ILUMINACIÓN (ILUMINANCIA) Y LUXÓMETRO (MOODLE) -->
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #2d3748; width: 100%;">
+  <div class="container my-3 py-md-4" style="max-width: 980px; margin: 0 auto;">
+    <!-- ENCABEZADO ACADÉMICO INSTITUCIONAL -->
+    <div class="card shadow-lg border-0 mb-4"
+      style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); border-radius: 12px; overflow: hidden;">
+      <div class="card-body p-4 p-md-5 text-white">
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap mb-2">
+          <span class="badge badge-warning text-dark font-weight-bold px-3 py-1"
+            style="background-color: #ffc107 !important; color: #0f172a !important; font-size: 0.78rem; letter-spacing: 0.8px; text-transform: uppercase; border-radius: 4px;">
+            <i class="fa fa-sun-o mr-1"></i> Peligros Físicos II • Radiaciones
+            No Ionizantes </span> <span
+            class="small opacity-75 font-weight-bold"
+            style="letter-spacing: 1px; font-size: 0.75rem;"> UNICAMACHO • SST
+          </span></div>
+        <h2 class="font-weight-bold mb-2 text-white"
+          style="font-size: 1.65rem; letter-spacing: -0.3px;">Nivel de
+          Iluminación (Iluminancia) y Medición con Luxómetro</h2>
+        <p class="mb-0 text-white-50"
+          style="font-size: 0.98rem; line-height: 1.5;">Medición en lux (lx =
+          lm/m²), instrumentación higiénica, recurso interactivo y análisis de
+          caso en planta industrial.</p>
+      </div>
+    </div>
+    <!-- TARJETA PRINCIPAL DE CONTENIDO -->
+    <div class="card shadow rounded border-0"
+      style="background: #ffffff; border-radius: 14px; overflow: hidden; border: 1px solid #e2e8f0 !important;">
+      <div class="card-body p-4 p-lg-5" style="text-align: justify;">
+        <!-- DEFINICIÓN -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-info-circle mr-2" style="color: #002d5a;"></i>
+            Definición de Nivel de Iluminación (Iluminancia)</h5>
+          <p
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155; margin-bottom: 0;">
+            <strong>Definición: </strong>El nivel de iluminación, también
+            conocido como iluminancia, se refiere a la cantidad de luz incidente
+            que llega a una superficie específica. Se mide en lux (lx) y
+            describe la cantidad de luz que ilumina una unidad de área en metros
+            cuadrados (m²). En otras palabras, el nivel de iluminación indica
+            cuán brillante es una superficie determinada debido a la luz que
+            recibe. Se utiliza para determinar si los niveles de luz en un
+            entorno determinado cumplen con los requisitos específicos para las
+            actividades que se llevan a cabo allí, como lectura, trabajo, o
+            tareas de precisión. Además, el nivel de iluminación puede variar
+            según el tipo de aplicación, como iluminación interior, exterior,
+            residencial, comercial o industrial.</p>
+        </div>
+        <!-- FIGURA 1 -->
+        <div class="card border-0 shadow-sm mb-4 p-3 text-center"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0 !important; border-radius: 10px;">
+          <p class="mb-2" style="text-align: center;"><img
+              class="img-fluid atto_image_button_text-bottom rounded shadow-sm"
+              style="border: 2px solid #002d5a;"
+              src="https://www.lacasadelalampara.com/wp-content/uploads/2023/04/ejemplo-luminancia_e_iluminancia.jpg"
+              alt="Figura 1" width="550" height="497"></p>
+          <small class="text-muted font-weight-bold d-block mt-1"
+            style="color: #002d5a !important; font-size: 0.85rem;"> Figura 1.
+            Concepto y representación de iluminación sobre una superficie.
+          </small>
+        </div>
+        <!-- LUXÓMETRO Y RECURSO INTERACTIVO -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-tachometer mr-2" style="color: #002d5a;"></i>
+            Luxómetro y Laboratorio Interactivo</h5>
+          <p style="font-size: 1.02rem; line-height: 1.75; color: #334155;"
+            class="mb-4"><strong>Luxómetro: </strong>Es un dispositivo de
+            medición utilizado para cuantificar el nivel de iluminación en un
+            entorno determinado. Funciona midiendo la iluminancia, que es la
+            cantidad de luz incidente por unidad de área en una superficie dada.
+            El luxómetro mide esta iluminancia en lux (lx), donde 1 lux equivale
+            a 1 lumen por metro cuadrado (lm/m²).</p>
+          <!-- RECURSO GENIALLY EMBEBIDO -->
+          <div class="card border-0 shadow-sm mb-4 p-2 text-center"
+            style="background-color: #ffffff; border: 1px solid #cbd5e1 !important; border-radius: 10px;">
+            <div style="width: 100%;">
+              <div
+                style="position: relative; padding-bottom: 57.35%; padding-top: 0; height: 0;">
+                <iframe
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px;"
+                  title="Copia2 - LABORATORIO LFR"
+                  src="https://view.genial.ly/6620bbcb97a9660014944770"
+                  width="600" height="300" frameborder="0" scrolling="yes"
+                  allowfullscreen="allowfullscreen"></iframe></div>
+            </div>
+            <small class="text-muted font-weight-bold d-block mt-2"
+              style="color: #002d5a !important; font-size: 0.85rem;"> Recurso
+              Interactivo: Laboratorio LFR — Medición de Iluminancia. </small>
+          </div>
+          <ul
+            style="line-height: 1.8; color: #1e293b; padding-left: 22px; margin-bottom: 0;">
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 10px;">
+              Los luxómetros constan de un sensor de luz sensible y un medidor
+              que muestra la lectura de iluminancia en lux. Estos dispositivos
+              pueden variar en tamaño y complejidad, desde modelos portátiles de
+              mano hasta unidades más grandes montadas en trípodes para
+              mediciones más precisas.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 10px;">
+              Los luxómetros se utilizan en una variedad de aplicaciones, como
+              diseño de iluminación, evaluación de seguridad en el lugar de
+              trabajo, inspecciones de iluminación, investigación científica y
+              control de calidad en la fabricación de productos sensibles a la
+              luz.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 0;">
+              Proporcionan una herramienta invaluable para garantizar que los
+              niveles de iluminación sean adecuados para las necesidades
+              específicas de cada aplicación.</li>
+          </ul>
+        </div>
+        <hr
+          style="border: 0; height: 2px; background: linear-gradient(to right, #002d5a, #ffc107, #e2e8f0); margin: 30px 0;">
+        <!-- CASO PRÁCTICO -->
+        <div class="alert alert-danger shadow-sm p-4 mb-0"
+          style="background-color: #fff5f5; border: 1px solid #fecaca; border-left: 6px solid #b91c1c !important; border-radius: 10px; color: #1e293b;"
+          role="alert">
+          <div class="d-flex align-items-center mb-2"><span
+              class="badge badge-danger font-weight-bold mr-2 px-2 py-1"
+              style="background-color: #b91c1c !important; font-size: 0.75rem; text-transform: uppercase;">
+              Aplicación en SST </span>
+            <h5 class="font-weight-bold mb-0"
+              style="color: #991b1b; font-size: 1.15rem;">Caso Práctico</h5>
+          </div>
+          <p class="mt-3 mb-0"
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155;">
+            Imaginemos una fábrica de producción de automóviles donde se llevan
+            a cabo tareas de ensamblaje y fabricación. En este entorno, es
+            fundamental garantizar que haya suficiente luz para que los
+            trabajadores realicen sus tareas de manera segura y eficiente. Un
+            nivel de iluminación inadecuado podría resultar en accidentes
+            laborales, fatiga visual, errores en la producción y una disminución
+            en la productividad. Para abordar este problema, se llevará a cabo
+            una evaluación del nivel de iluminación utilizando un luxómetro. Los
+            técnicos de seguridad o ingenieros de iluminación realizarán
+            mediciones en diferentes áreas de la fábrica para determinar si los
+            niveles de iluminación cumplen con las normativas de seguridad
+            ocupacional y proporcionan un entorno de trabajo adecuadamente
+            iluminado. Después de realizar las mediciones, se tomarán medidas
+            correctivas si se encuentran deficiencias en el nivel de
+            iluminación. Esto incluirá la instalación de luminarias adicionales,
+            la limpieza y mantenimiento de las existentes, o el ajuste de la
+            orientación de las luces para asegurar una distribución uniforme de
+            la luz. En resumen, en un entorno ocupacional como una fábrica, el
+            nivel de iluminación adecuado es esencial para garantizar la
+            seguridad, el confort y la productividad de los empleados. Mediante
+            la evaluación y el mantenimiento de los niveles de iluminación con
+            un luxómetro, se pueden identificar y corregir problemas potenciales
+            antes de que afecten negativamente el rendimiento laboral y la
+            seguridad en el lugar de trabajo.</p>
+        </div>
+      </div>
+      <!-- PIE DE PÁGINA ACADÉMICO -->
+      <div class="card-footer py-3 px-4 text-center"
+        style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); color: #ffffff; border-top: 4px solid #ffc107;">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap small"
+          style="font-size: 0.85rem;"><strong>UNICAMACHO</strong> •
+          Administración en SST <span
+            class="badge text-dark font-weight-bold px-3 py-1 my-1"
+            style="background-color: #ffc107 !important;">Peligros Físicos
+            II</span> Gestión de Radiaciones No Ionizantes</div>
+      </div>
+    </div>
+  </div>
+</section>
