@@ -1,0 +1,339 @@
+<!-- CONTENEDOR PRINCIPAL - FENÓMENOS ÓPTICOS Y PROPAGACIÓN DE LA LUZ (MOODLE) -->
+<p dir="ltr" style="text-align: left;"></p>
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #2d3748; width: 100%;">
+  <div class="container my-3 py-md-4"
+    style="max-width: 1020px; margin: 0 auto;">
+    <!-- ENCABEZADO ACADÉMICO INSTITUCIONAL -->
+    <div class="card shadow-lg border-0 mb-4"
+      style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); border-radius: 12px; overflow: hidden;">
+      <div class="card-body p-4 p-md-5 text-white">
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap mb-2">
+          <span class="badge badge-warning text-dark font-weight-bold px-3 py-1"
+            style="background-color: #ffc107 !important; color: #0f172a !important; font-size: 0.78rem; letter-spacing: 0.8px; text-transform: uppercase; border-radius: 4px;">
+            <i class="fa fa-sun-o mr-1"></i> Peligros Físicos II • Radiaciones
+            No Ionizantes </span> <span
+            class="small opacity-75 font-weight-bold"
+            style="letter-spacing: 1px; font-size: 0.75rem;"> UNICAMACHO • SST
+          </span></div>
+        <h2 class="font-weight-bold mb-2 text-white"
+          style="font-size: 1.65rem; letter-spacing: -0.3px;">Comportamiento
+          Óptico de la Luz y Factores de Iluminación</h2>
+        <p class="mb-0 text-white-50"
+          style="font-size: 0.98rem; line-height: 1.5;">Haz clic en cada tema
+          para desplegar su contenido: Reflexión, Refracción, Distancia,
+          Superficie y Dispersión.</p>
+      </div>
+    </div>
+    <!-- CONTENEDOR DE TEMAS DESPLEGABLES (COMPATIBLE CON MOODLE SIN JS) -->
+    <div class="card shadow rounded border-0 p-3 p-md-4"
+      style="border-radius: 14px; background-color: #f8fafc !important; border: 1px solid #cbd5e1 !important;">
+      <!-- 1. REFLEXIÓN -->
+      <details
+        style="background-color: #ffffff; border: 1px solid #cbd5e1; border-left: 6px solid #002d5a; border-radius: 10px; margin-bottom: 14px; overflow: hidden;"
+        open="">
+        <summary
+          style="cursor: pointer; list-style: none; padding: 16px 20px; background-color: #f1f5f9; color: #002d5a; font-weight: bold; font-size: 1.15rem; border-bottom: 1px solid #e2e8f0;">
+          1. Reflexión</summary>
+        <div class="p-3 p-md-4 bg-white">
+          <div class="p-3 mb-3 rounded"
+            style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+            <h5 class="font-weight-bold mb-2" style="color: #002d5a;">1.
+              Reflexión de la Luz</h5>
+            <p style="font-size: 20px; line-height: 1.7; color: #334155; margin-bottom: 0;"
+              class="text-justify">La reflexión es un fenómeno óptico en el cual
+              la luz incidente en una superficie se refleja o rebota de manera
+              especular o difusa, dependiendo de las características de la
+              superficie y del ángulo de incidencia de la luz.</p>
+          </div>
+          <ol style="line-height: 1.8; color: #1e293b; padding-left: 24px;">
+            <li style="font-size: 20px; text-align: justify;"><strong>Reflexión
+                especular: </strong>En la reflexión especular, la luz se refleja
+              de manera ordenada y sigue un ángulo de incidencia igual al ángulo
+              de reflexión, de acuerdo con la ley de reflexión. Este tipo de
+              reflexión ocurre en superficies lisas y pulidas, como un espejo,
+              donde la luz se refleja en una dirección específica y produce
+              imágenes nítidas y bien definidas.</li>
+          </ol>
+          <br>
+          <ol style="line-height: 1.8; color: #1e293b; padding-left: 24px;">
+            <li style="font-size: 20px; text-align: justify;"><strong>Reflexión
+                difusa: </strong>En la reflexión difusa, la luz se refleja en
+              muchas direcciones diferentes debido a la rugosidad o textura de
+              la superficie. Este tipo de reflexión ocurre en superficies
+              rugosas o mate, como la pintura mate o el papel, donde la luz se
+              dispersa en todas direcciones y no produce una imagen clara ni
+              definida. La reflexión difusa es responsable de la iluminación
+              ambiental y suavizada en muchos entornos, ya que dispersa la luz
+              de manera uniforme y reduce los reflejos y sombras duras.</li>
+          </ol>
+          <figure class="figure-caption text-center p-3 my-3 rounded shadow-sm"
+            style="background-color: #f8fafc; border: 1px solid #e2e8f0;"><img
+              class="img-fluid attoreciteditor_img-popup rounded"
+              style="width: 700px; border: 2px solid #002d5a;"
+              src="https://cdn1.byjus.com/wp-content/uploads/2023/03/Specular-and-Diffuse-Reflection-Updated-1.png">
+            <figcaption class="mt-2 font-weight-bold" style="color: #002d5a;">
+              Imagen: Ilustración a la izquierda, <em>Reflexión especular y a la
+                dereca </em>Reflexión difusa.</figcaption>
+          </figure>
+          <div class="alert alert-warning p-3 mb-0"
+            style="background-color: #fffbeb; border-left: 5px solid #ffc107; color: #1e293b; border-radius: 8px;">
+            <p style="font-size: 20px; line-height: 1.7; margin-bottom: 0;"
+              class="text-justify">En resumen, la reflexión es el proceso
+              mediante el cual la luz incidente en una superficie se refleja o
+              rebota, ya sea de manera especular (ordenada) o difusa
+              (desordenada), dependiendo de las características de la
+              superficie. Este fenómeno óptico es fundamental en el diseño de
+              iluminación, la visión y muchas otras aplicaciones en la vida
+              cotidiana.</p>
+          </div>
+        </div>
+      </details>
+      <!-- 2. REFRACCIÓN -->
+      <details
+        style="background-color: #ffffff; border: 1px solid #cbd5e1; border-left: 6px solid #002d5a; border-radius: 10px; margin-bottom: 14px; overflow: hidden;">
+        <summary
+          style="cursor: pointer; list-style: none; padding: 16px 20px; background-color: #f1f5f9; color: #002d5a; font-weight: bold; font-size: 1.15rem; border-bottom: 1px solid #e2e8f0;">
+          2. Refracción</summary>
+        <div class="p-3 p-md-4 bg-white">
+          <div class="p-3 mb-3 rounded"
+            style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+            <h5 class="font-weight-bold mb-2" style="color: #002d5a;">2.
+              Refracción de la Luz</h5>
+            <p style="font-size: 20px; line-height: 1.7; color: #334155; margin-bottom: 0;"
+              class="text-justify">Es un fenómeno óptico que ocurre cuando la
+              luz atraviesa un medio transparente y cambia su dirección debido a
+              la diferencia en la velocidad de propagación de la luz en
+              diferentes medios. La refracción es causada por un cambio en la
+              velocidad de la luz al pasar de un medio a otro, lo que resulta en
+              un cambio en su dirección.</p>
+          </div>
+          <ol style="line-height: 1.8; color: #1e293b; padding-left: 24px;">
+            <li style="font-size: 20px; text-align: justify;"><strong>Cambio de
+                dirección: </strong>Cuando la luz pasa de un medio a otro con
+              una densidad óptica diferente, su velocidad cambia y, por lo
+              tanto, su dirección también se modifica. La luz puede refractarse
+              hacia o alejarse de la normal (una línea perpendicular a la
+              superficie en el punto de incidencia) dependiendo de las
+              propiedades de los medios y del ángulo de incidencia de la luz.
+            </li>
+          </ol>
+          <br>
+          <ol style="line-height: 1.8; color: #1e293b; padding-left: 24px;">
+            <li style="font-size: 20px; text-align: justify;"><strong>Desviación
+                de la luz: </strong>La refracción puede provocar que la luz se
+              desvíe de su trayectoria original, lo que puede ser evidente
+              cuando se observa la aparente curvatura de objetos sumergidos en
+              agua o cuando se mira a través de un prisma. Esta desviación es
+              esencial para el funcionamiento de lentes, prismas y otros
+              dispositivos ópticos que utilizan la refracción para enfocar,
+              desviar o separar la luz.</li>
+          </ol>
+          <figure class="figure-caption text-center p-3 my-3 rounded shadow-sm"
+            style="background-color: #f8fafc; border: 1px solid #e2e8f0;"><img
+              class="img-fluid attoreciteditor_img-popup rounded"
+              style="width: 700px; border: 2px solid #002d5a;"
+              src="https://cdn1.byjus.com/wp-content/uploads/2022/10/Human-Eye-.png">
+            <figcaption class="mt-2 font-weight-bold" style="color: #002d5a;">
+              Imagen : Ilustración de la propiedad de la refracción que implica
+              cambio de dirección del rayo luminoso</figcaption>
+          </figure>
+          <div class="alert alert-warning p-3 mb-0"
+            style="background-color: #fffbeb; border-left: 5px solid #ffc107; color: #1e293b; border-radius: 8px;">
+            <p style="font-size: 20px; line-height: 1.7; margin-bottom: 0;"
+              class="text-justify">En resumen, la refracción es el fenómeno
+              óptico en el que la luz cambia de dirección al pasar de un medio a
+              otro con una densidad óptica diferente. Este fenómeno es
+              fundamental en óptica y tiene muchas aplicaciones prácticas en la
+              vida cotidiana, desde la formación de arcoíris hasta el diseño de
+              lentes y prismas en dispositivos ópticos.</p>
+          </div>
+        </div>
+      </details>
+      <!-- 3. DISTANCIA -->
+      <details
+        style="background-color: #ffffff; border: 1px solid #cbd5e1; border-left: 6px solid #002d5a; border-radius: 10px; margin-bottom: 14px; overflow: hidden;">
+        <summary
+          style="cursor: pointer; list-style: none; padding: 16px 20px; background-color: #f1f5f9; color: #002d5a; font-weight: bold; font-size: 1.15rem; border-bottom: 1px solid #e2e8f0;">
+          3. Distancia</summary>
+        <div class="p-3 p-md-4 bg-white">
+          <div class="p-3 mb-3 rounded"
+            style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+            <h5 class="font-weight-bold mb-2" style="color: #002d5a;">3. Ley
+              Inversa del Cuadrado de la Distancia</h5>
+            <p style="font-size: 20px; line-height: 1.7; color: #334155; margin-bottom: 0;"
+              class="text-justify">La ley inversa del cuadrado de la distancia
+              es un principio físico que describe cómo la intensidad de una
+              fuente de luz o energía disminuye a medida que la distancia desde
+              la fuente aumenta. Esta ley es fundamental en diversas áreas de la
+              física, incluida la óptica, la electromagnetismo y la mecánica. La
+              ley inversa del cuadrado de la distancia establece que la
+              intensidad de la luz o energía es inversamente proporcional al
+              cuadrado de la distancia desde la fuente. En otras palabras, a
+              medida que la distancia desde la fuente aumenta, la intensidad de
+              la luz o energía disminuye en función del cuadrado de esa
+              distancia.</p>
+          </div>
+          <figure class="figure-caption text-center p-3 my-3 rounded shadow-sm"
+            style="background-color: #f8fafc; border: 1px solid #e2e8f0;"><img
+              class="img-fluid attoreciteditor_img-popup rounded"
+              style="width: 700px; border: 2px solid #002d5a;"
+              src="https://pressbooks.bccampus.ca/lightingforelectricians/wp-content/uploads/sites/1349/2021/01/inverse-square-law.png">
+            <figcaption class="mt-2 font-weight-bold" style="color: #002d5a;">
+              Imagen : Ilustración de la relación entre el nivel de iluminación
+              y la distancia (Ley inversa).</figcaption>
+          </figure>
+          <div class="alert alert-warning p-3 mb-0"
+            style="background-color: #fffbeb; border-left: 5px solid #ffc107; color: #1e293b; border-radius: 8px;">
+            <p style="font-size: 20px; line-height: 1.7; margin-bottom: 0;"
+              class="text-justify">Esta ley se aplica a una amplia gama de
+              fenómenos, incluida la iluminación, la propagación de ondas
+              electromagnéticas (como la luz visible, las ondas de radio y las
+              ondas sonoras) y la gravedad. Por ejemplo, en iluminación, la ley
+              inversa del cuadrado de la distancia explica por qué una fuente de
+              luz parece más brillante cuando se encuentra más cerca y menos
+              brillante a medida que se aleja. Del mismo modo, en el campo de la
+              gravedad, esta ley describe cómo la fuerza de atracción
+              gravitatoria entre dos objetos disminuye a medida que aumenta la
+              distancia entre ellos.</p>
+          </div>
+        </div>
+      </details>
+      <!-- 4. SUPERFICIE -->
+      <details
+        style="background-color: #ffffff; border: 1px solid #cbd5e1; border-left: 6px solid #002d5a; border-radius: 10px; margin-bottom: 14px; overflow: hidden;">
+        <summary
+          style="cursor: pointer; list-style: none; padding: 16px 20px; background-color: #f1f5f9; color: #002d5a; font-weight: bold; font-size: 1.15rem; border-bottom: 1px solid #e2e8f0;">
+          4. Superficie</summary>
+        <div class="p-3 p-md-4 bg-white">
+          <div class="p-3 mb-3 rounded"
+            style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+            <h5 class="font-weight-bold mb-2" style="color: #002d5a;">4.
+              Relación entre Nivel de Iluminación y Superficie</h5>
+            <p style="font-size: 20px; line-height: 1.7; color: #334155; margin-bottom: 0;"
+              class="text-justify">La relación entre el nivel de iluminación y
+              el tamaño de la superficie es crucial para crear entornos visuales
+              confortables y funcionales. La iluminancia adecuada en una
+              superficie determinada depende tanto del tamaño de la superficie
+              como de la distribución de la luz, y encontrar el equilibrio
+              correcto es fundamental para optimizar la visibilidad y el confort
+              visual. La relación entre el nivel de iluminación y el tamaño de
+              la superficie en una oficina se establece mediante la iluminancia,
+              que es la cantidad de luz que incide sobre la superficie por
+              unidad de área. Esta relación se basa en el principio de que una
+              superficie más grande requerirá una cantidad proporcionalmente
+              mayor de luz para alcanzar el mismo nivel de iluminancia que una
+              superficie más pequeña.</p>
+          </div>
+          <div class="container-fluid my-3 p-3 rounded shadow-sm"
+            style="background-color: #f8fafc; border: 1px solid #e2e8f0;">
+            <div
+              class="row flex-md-row justify-content-md-center align-items-center">
+              <div class="col-12 py-2 col-md-6">
+                <figure class="figure-caption text-center p-2 mb-0"><img
+                    class="img-fluid attoreciteditor_img-popup rounded"
+                    style="width: 700px; height: 400px; border: 2px solid #002d5a;"
+                    src="https://cdn.vectorstock.com/i/1000v/23/54/light-measurement-lumens-lux-candela-vector-50902354.jpg">
+                </figure>
+              </div>
+            </div>
+            <small class="text-muted font-weight-bold d-block text-center mt-1"
+              style="color: #002d5a !important;"> Comparación de iluminancia
+              (lux) según la distribución del flujo luminoso en el área.
+            </small>
+          </div>
+          <div class="alert alert-warning p-3 mb-0"
+            style="background-color: #fffbeb; border-left: 5px solid #ffc107; color: #1e293b; border-radius: 8px;">
+            <p style="font-size: 20px; line-height: 1.7; margin-bottom: 0;"
+              class="text-justify">En la imagen de la izquierda, la luminaria de
+              1000 lumens está distribuyendo todo su flujo luminoso sobre un
+              área de 1 metro cuadrado. La iluminancia o nivel de iluminación
+              resultante es de 1000 lux. Esto significa que cada lumen de luz se
+              distribuye sobre un área de 1 metro cuadrado, proporcionando un
+              nivel de iluminación de 1000 lumens por metro cuadrado (lux). Por
+              otro lado, la misma luminaria de 1000 lumens está distribuyendo su
+              flujo luminoso sobre un área de 10 metros cuadrados. La
+              iluminancia resultante es de 100 lux. Esto significa que los
+              mismos 1000 lumens de luz ahora se distribuyen sobre un área diez
+              veces mayor, lo que resulta en un nivel de iluminación de 100
+              lumens por metro cuadrado (Lux).</p>
+          </div>
+        </div>
+      </details>
+      <!-- 5. DISPERSIÓN -->
+      <details
+        style="background-color: #ffffff; border: 1px solid #cbd5e1; border-left: 6px solid #002d5a; border-radius: 10px; margin-bottom: 6px; overflow: hidden;">
+        <summary
+          style="cursor: pointer; list-style: none; padding: 16px 20px; background-color: #f1f5f9; color: #002d5a; font-weight: bold; font-size: 1.15rem; border-bottom: 1px solid #e2e8f0;">
+          5. Dispersión</summary>
+        <div class="p-3 p-md-4 bg-white">
+          <div class="p-3 mb-3 rounded"
+            style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+            <h5 class="font-weight-bold mb-2" style="color: #002d5a;">5.
+              Dispersión de la Luz</h5>
+            <p class="text-justify"
+              style="font-size: 20px; line-height: 1.7; color: #334155; margin-bottom: 0;">
+              La dispersión se refiere al fenómeno en el cual la luz u otras
+              formas de radiación se desvían de su trayectoria original al
+              interactuar con partículas o medios en su camino. Esta desviación
+              puede ocurrir debido a diversas razones, como el cambio en la
+              velocidad de propagación de la luz al pasar de un medio a otro
+              (refracción), la reflexión de la luz en superficies rugosas o
+              irregulares, o la dispersión de la luz en múltiples direcciones al
+              interactuar con partículas suspendidas en un medio (como en la
+              dispersión atmosférica). En términos más generales, la dispersión
+              se refiere al proceso mediante el cual la energía o el flujo de
+              una onda se distribuyen o se esparcen en diferentes direcciones al
+              propagarse a través un medio. Este fenómeno es fundamental en
+              diversas áreas, incluida la óptica, la meteorología, la física de
+              partículas y la acústica, y puede tener efectos importantes en la
+              percepción visual, la propagación de la luz en la atmósfera, la
+              formación de arcoíris, entre otros.</p>
+          </div>
+          <figure class="figure-caption text-center p-3 my-3 rounded shadow-sm"
+            style="background-color: #f8fafc; border: 1px solid #e2e8f0;"><img
+              class="img-fluid attoreciteditor_img-popup rounded"
+              style="width: 700px; border: 2px solid #002d5a;"
+              src="https://media.geeksforgeeks.org/wp-content/uploads/20210423142640/1111.png">
+            <figcaption class="mt-2 font-weight-bold" style="color: #002d5a;">
+              Imagen : Ejemplo de Dispersión usando un prisma. Primero ocurre la
+              refracción y luego la distribución de luz</figcaption>
+          </figure>
+          <div class="alert alert-warning p-3 mb-0"
+            style="background-color: #fffbeb; border-left: 5px solid #ffc107; color: #1e293b; border-radius: 8px;">
+            <p class="text-justify"
+              style="font-size: 20px; line-height: 1.7; margin-bottom: 0;">
+              Imagina una oficina con una luminaria suspendida sobre un área de
+              trabajo. Esta luminaria está equipada con un difusor de acrílico o
+              policarbonato transparente. Cuando la luz emitida por las fuentes
+              de luz dentro de la luminaria alcanza el difusor, parte de esa luz
+              se dispersa en diferentes direcciones debido a la refracción y
+              reflexión interna en el material del difusor. Este efecto de
+              dispersión suaviza la luz emitida y ayuda a reducir el
+              deslumbramiento directo, proporcionando una iluminación más
+              uniforme y suave sobre el área de trabajo. El difusor en este caso
+              actúa de manera similar a un prisma, dispersando la luz en
+              múltiples direcciones y creando un efecto de "difusión" en lugar
+              de descomponer la luz en colores como lo hace un prisma. Este
+              fenómeno es comúnmente utilizado en el diseño de luminarias para
+              mejorar la calidad de la luz y el confort visual en entornos de
+              oficina, proporcionando una iluminación más agradable y adecuada
+              para realizar tareas visuales.</p>
+          </div>
+        </div>
+      </details>
+      <!-- PIE DE PÁGINA ACADÉMICO -->
+      <div class="card-footer py-3 px-4 text-center mt-3"
+        style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); color: #ffffff; border-top: 4px solid #ffc107; border-radius: 10px;">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap small"
+          style="font-size: 0.85rem;"><strong>UNICAMACHO</strong> •
+          Administración en SST <span
+            class="badge text-dark font-weight-bold px-3 py-1 my-1"
+            style="background-color: #ffc107 !important;">Peligros Físicos
+            II</span> Gestión de Radiaciones No Ionizantes</div>
+      </div>
+    </div>
+  </div>
+</section>
