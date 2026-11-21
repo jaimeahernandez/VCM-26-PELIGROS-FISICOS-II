@@ -1,0 +1,198 @@
+<!-- CONTENEDOR PRINCIPAL - ÁNGULO DE APERTURA Y DISTRIBUCIÓN DEL HAZ (MOODLE) -->
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #2d3748; width: 100%;">
+  <div class="container my-3 py-md-4" style="max-width: 980px; margin: 0 auto;">
+    <!-- ENCABEZADO ACADÉMICO INSTITUCIONAL -->
+    <div class="card shadow-lg border-0 mb-4"
+      style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); border-radius: 12px; overflow: hidden;">
+      <div class="card-body p-4 p-md-5 text-white">
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap mb-2">
+          <span class="badge badge-warning text-dark font-weight-bold px-3 py-1"
+            style="background-color: #ffc107 !important; color: #0f172a !important; font-size: 0.78rem; letter-spacing: 0.8px; text-transform: uppercase; border-radius: 4px;">
+            <i class="fa fa-sun-o mr-1"></i> Peligros Físicos II • Radiaciones
+            No Ionizantes </span> <span
+            class="small opacity-75 font-weight-bold"
+            style="letter-spacing: 1px; font-size: 0.75rem;"> UNICAMACHO • SST
+          </span></div>
+        <h2 class="font-weight-bold mb-2 text-white"
+          style="font-size: 1.65rem; letter-spacing: -0.3px;">Ángulo de Apertura
+          (°) y Distribución del Haz Luminoso</h2>
+        <p class="mb-0 text-white-50"
+          style="font-size: 0.98rem; line-height: 1.5;">Cobertura espacial,
+          clasificación según ángulos de haz, uniformidad lumínica y aplicación
+          en diseño de espacios.</p>
+      </div>
+    </div>
+    <!-- TARJETA PRINCIPAL DE CONTENIDO -->
+    <div class="card shadow rounded border-0"
+      style="background: #ffffff; border-radius: 14px; overflow: hidden; border: 1px solid #e2e8f0 !important;">
+      <div class="card-body p-4 p-lg-5" style="text-align: justify;">
+        <!-- DEFINICIÓN -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-info-circle mr-2" style="color: #002d5a;"></i>
+            Definición de Ángulo de Apertura</h5>
+          <p
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155; margin-bottom: 0;">
+            <strong>Definición: </strong>El ángulo de apertura en iluminación se
+            refiere al ángulo sólido dentro del cual una fuente de luz emite su
+            flujo luminoso. Describe la extensión del área o espacio que la luz
+            cubre o ilumina desde la fuente de luz en una dirección determinada.
+            Un ángulo de apertura más amplio indica que la luz se distribuye en
+            un área más grande, mientras que un ángulo de apertura más estrecho
+            significa que la luz está más concentrada en una dirección
+            específica.</p>
+        </div>
+        <!-- FIGURA 1 -->
+        <div class="card border-0 shadow-sm mb-4 p-3 text-center"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0 !important; border-radius: 10px;">
+          <p class="mb-2" style="text-align: center;"><img
+              class="img-fluid atto_image_button_text-bottom rounded shadow-sm"
+              style="border: 2px solid #002d5a;"
+              src="https://actitudecologica.com/wp-content/uploads/2019/08/angulo-de-apertura-e1565175711602.jpg"
+              alt="Figura 1" width="550" height="497"></p>
+          <small class="text-muted font-weight-bold d-block mt-1"
+            style="color: #002d5a !important; font-size: 0.85rem;"> Figura 1.
+            Representación de unidades de medida y distribución direccional de
+            la luz. </small>
+        </div>
+        <!-- IMPORTANCIA PRÁCTICA Y FIGURA 2 -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-compass mr-2" style="color: #002d5a;"></i> Aplicación
+            Práctica del Ángulo de Apertura</h5>
+          <p style="font-size: 1.02rem; line-height: 1.75; color: #334155;"
+            class="mb-4">En términos prácticos, el ángulo de apertura es
+            importante para determinar la distribución de la luz en un espacio o
+            área determinada. Por ejemplo, una lámpara de inundación para
+            iluminación exterior puede tener un ángulo de apertura amplio para
+            iluminar un área grande alrededor de un edificio, mientras que un
+            foco direccional puede tener un ángulo de apertura más estrecho para
+            iluminar un objeto o área específica con mayor intensidad y
+            precisión. El ángulo de apertura se mide generalmente en grados (°)
+            y puede variar dependiendo del diseño y la configuración de la
+            fuente de luz, así como del tipo de aplicación para la cual se
+            utiliza la iluminación. Es una consideración importante en el diseño
+            de iluminación para garantizar una distribución adecuada de la luz y
+            cumplir con los requisitos de iluminación específicos de cada
+            aplicación.</p>
+          <!-- FIGURA 2 -->
+          <div class="card border-0 shadow-sm mb-4 p-3 text-center"
+            style="background-color: #ffffff; border: 1px solid #cbd5e1 !important; border-radius: 10px;">
+            <p class="mb-2" style="text-align: center;"><img
+                class="img-fluid atto_image_button_text-bottom rounded shadow-sm"
+                style="width: 550px; border: 2px solid #002d5a;"
+                src="https://images.squarespace-cdn.com/content/v1/61169c7aa247453eec91692a/1632946998276-I1BKN5ANUIM2OT0VK1ZR/lightingbasics_graphic_beam+spread.png"
+                alt="Figura 1" width="550" height="497"></p>
+            <small class="text-muted font-weight-bold d-block mt-1"
+              style="color: #002d5a !important; font-size: 0.85rem;"> Figura 1.
+              Esquema comparativo de dispersión según el ángulo del haz (beam
+              spread). </small>
+          </div>
+          <!-- CLASIFICACIÓN POR ÁNGULO DE HAZ -->
+          <h6 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.05rem;"><i
+              class="fa fa-list-ol mr-2" style="color: #002d5a;"></i>
+            Distribución de la Luz Según el Ángulo de Haz</h6>
+          <p style="font-size: 1.02rem; line-height: 1.75; color: #334155;"
+            class="mb-3">La distribución de la luz según el ángulo de haz puede
+            variar dependiendo del diseño específico de la fuente de luz y la
+            aplicación. Sin embargo, aquí tienes una descripción general de cómo
+            puede ser la distribución de la luz en función del ángulo:</p>
+          <ol
+            style="font-weight: normal; line-height: 1.8; color: #1e293b; padding-left: 22px; margin-bottom: 0;">
+            <li style="font-size: 1.02rem; margin-bottom: 12px;"><strong>Ángulo
+                estrecho (por ejemplo, &lt; 30 grados): </strong>Este tipo de
+              haz de luz se caracteriza por ser altamente direccional y
+              enfocado. La mayor parte de la intensidad luminosa se concentra en
+              un área relativamente pequeña. Es útil para resaltar objetos o
+              áreas específicas con una luz enfocada y precisa.</li>
+            <li style="font-size: 1.02rem; margin-bottom: 12px;"><strong>Ángulo
+                medio (por ejemplo, 30-60 grados): </strong>La luz se distribuye
+              de manera más uniforme en un área más amplia en comparación con el
+              ángulo estrecho. Proporciona una iluminación más uniforme en el
+              área objetivo. Es comúnmente utilizado en aplicaciones de
+              iluminación general donde se necesita una cobertura más amplia
+              pero aún controlada.</li>
+            <li style="font-size: 1.02rem; margin-bottom: 0;"><strong>Ángulo
+                amplio (por ejemplo, &gt; 60 grados): </strong>El haz de luz se
+              dispersa en un área aún más grande. La intensidad luminosa es más
+              uniforme en todo el área iluminada. Es útil para iluminar grandes
+              áreas o proporcionar iluminación ambiental general en entornos
+              como almacenes, estacionamientos o áreas exteriores.</li>
+          </ol>
+        </div>
+        <hr
+          style="border: 0; height: 2px; background: linear-gradient(to right, #002d5a, #ffc107, #e2e8f0); margin: 30px 0;">
+        <!-- CASO PRÁCTICO -->
+        <div class="alert alert-danger shadow-sm p-4 mb-0"
+          style="background-color: #fff5f5; border: 1px solid #fecaca; border-left: 6px solid #b91c1c !important; border-radius: 10px; color: #1e293b;"
+          role="alert">
+          <div class="d-flex align-items-center mb-2"><span
+              class="badge badge-danger font-weight-bold mr-2 px-2 py-1"
+              style="background-color: #b91c1c !important; font-size: 0.75rem; text-transform: uppercase;">
+              Aplicación Práctica </span>
+            <h5 class="font-weight-bold mb-0"
+              style="color: #991b1b; font-size: 1.15rem;">Caso Práctico</h5>
+          </div>
+          <p class="mt-3 mb-3"
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155;">
+            Supongamos que tenemos una sala de conferencias rectangular con una
+            mesa grande en el centro y sillas dispuestas alrededor de la mesa.
+            El objetivo es proporcionar una iluminación adecuada y uniforme en
+            toda la sala para garantizar que todos los participantes puedan ver
+            claramente y sentirse cómodos durante las reuniones. Para lograr
+            esto, podríamos utilizar una combinación de luminarias empotradas en
+            el techo y focos direccionables montados en las paredes o el techo.
+            Aquí es donde los ángulos de haz y la uniformidad juegan un papel
+            importante:</p>
+          <ul
+            style="line-height: 1.8; color: #1e293b; padding-left: 22px; margin-bottom: 18px;">
+            <li
+              style="font-weight: normal; font-size: 1.02rem; margin-bottom: 10px;">
+              <strong>Ángulos de haz: </strong>Para iluminar la mesa de
+              conferencias de manera efectiva, podríamos utilizar luminarias con
+              ángulos de haz medios (por ejemplo, 30-60 grados) sobre la mesa
+              para proporcionar una iluminación uniforme y evitar
+              deslumbramientos. Para iluminar las áreas alrededor de la mesa y
+              las paredes de la sala, podríamos usar focos con ángulos de haz
+              más amplios (por ejemplo, &gt; 60 grados) para dispersar la luz de
+              manera uniforme en toda la sala.</li>
+            <li
+              style="font-weight: normal; font-size: 1.02rem; margin-bottom: 0;">
+              <strong>Uniformidad: </strong>Es importante lograr una uniformidad
+              adecuada en toda la sala para evitar áreas sobreiluminadas o
+              subiluminadas que puedan causar fatiga visual o incomodidad. Esto
+              se puede lograr seleccionando luminarias con patrones de
+              distribución de luz diseñados para proporcionar una iluminación
+              uniforme en todo el espacio. Además, el diseño y la disposición de
+              las luminarias deben tener en cuenta la distribución uniforme de
+              la luz para evitar sombras molestas o áreas mal iluminadas.</li>
+          </ul>
+          <p class="mb-0 p-3 rounded"
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155; background-color: #ffffff; border: 1px solid #fed7d7;">
+            Al diseñar la iluminación de la sala de conferencias considerando
+            cuidadosamente los ángulos de haz y la uniformidad, podemos crear un
+            entorno cómodo y funcional que facilite reuniones productivas y
+            colaborativas.</p>
+        </div>
+      </div>
+      <!-- PIE DE PÁGINA ACADÉMICO -->
+      <div class="card-footer py-3 px-4 text-center"
+        style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); color: #ffffff; border-top: 4px solid #ffc107;">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap small"
+          style="font-size: 0.85rem;"><strong>UNICAMACHO</strong> •
+          Administración en SST <span
+            class="badge text-dark font-weight-bold px-3 py-1 my-1"
+            style="background-color: #ffc107 !important;">Peligros Físicos
+            II</span> Gestión de Radiaciones No Ionizantes</div>
+      </div>
+    </div>
+  </div>
+</section>
