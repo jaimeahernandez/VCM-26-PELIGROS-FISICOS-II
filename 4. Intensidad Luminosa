@@ -1,257 +1,176 @@
-<p></p>
+<!-- CONTENEDOR PRINCIPAL - INTENSIDAD LUMINOSA (MOODLE) -->
 <section
-  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; width: 100%;">
-  <div class="container-fluid py-4"
-    style="background-color: #f4f7f9; border-radius: 15px; padding-left: 10px; padding-right: 10px;">
-    <div class="row justify-content-center">
-      <div class="col-12 col-xl-11">
-        <div class="card shadow-lg border-0"
-          style="border-radius: 20px; overflow: hidden; background-color: #ffffff;">
-          <div class="card-header border-0 py-4"
-            style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color: white;">
-            <div class="text-center"><span
-                style="background-color: #3b82f6; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
-                Variables Fotométricas e Higiene Industrial </span>
-              <h2
-                style="font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 10px; margin-bottom: 5px; font-size: 1.6rem;">
-                Concepto Fundamental: Intensidad Luminosa ($I$)</h2>
-              <p class="mb-0"
-                style="font-size: 1.05rem; opacity: 0.9; font-weight: 300;">
-                Distribución Direccional de la Luz y Prevención del
-                Deslumbramiento Laboral</p>
-            </div>
-          </div>
-          <div class="card-body p-4 p-md-5" style="background-color: #ffffff;">
-            <div class="row mb-4">
-              <div class="col-12 text-justify">
-                <p
-                  style="color: #334155; font-size: 1.05rem; line-height: 1.7; text-align: justify;">
-                  La **intensidad luminosa** es la magnitud fotométrica que
-                  define la cantidad de flujo luminoso emitido por una fuente de
-                  luz por unidad de ángulo sólido en una dirección específica.
-                  Simbolizada formalmente con la letra **$I$**, su unidad de
-                  medida en el Sistema Internacional es la **candela (cd)**
-                  ($1\text{ cd} = 1\text{ lm/sr}$). A diferencia del flujo
-                  luminoso (que mide la radiación total esférica), la intensidad
-                  luminosa describe la concentración espacial de la luz en un
-                  vector vectorial determinado, permitiendo evaluar la
-                  brillantez focalizada y el potencial de interferencia óptica
-                  en el plano visual del operario.</p>
-              </div>
-            </div>
-            <div class="text-center mb-5"><img class="img-fluid"
-                style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 4px 6px rgba(0,0,0,0.05);"
-                src="https://www.sciencefacts.net/wp-content/uploads/2023/12/Luminous-Intensity.jpg"
-                alt="Representación de la Intensidad Luminosa">
-              <p
-                style="font-size: 0.85rem; color: #64748b; margin-top: 8px; font-style: italic;">
-                Figura 1. Distribución geométrica de la intensidad luminosa
-                medida en candelas por estereorradián.</p>
-            </div>
-            <div class="mb-5">
-              <h4
-                style="color: #1e3a8a; font-weight: bold; font-size: 1.2rem; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px;">
-                <i class="fa fa-eye mr-2" style="color: #3b82f6;"></i>
-                Evaluación y Percepción en los Entornos Reales</h4>
-              <div class="row">
-                <div class="col-12 col-md-6 mb-3">
-                  <div
-                    style="background-color: #f8fafc; border-top: 4px solid #3b82f6; padding: 20px; border-radius: 8px; height: 100%; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-                    <strong
-                      style="color: #0f172a; display: block; margin-bottom: 8px;"><i
-                        class="fa fa-sun-o mr-2" style="color: #ea580c;"></i>
-                      Brillo Aparente Localizado</strong>
-                    <p
-                      style="color: #475569; font-size: 0.95rem; text-align: justify; margin-bottom: 0;">
-                      Modula directamente la severidad de la radiación directa
-                      que impacta la córnea del trabajador desde un ángulo
-                      específico. Determina los rangos de tolerancia fisiológica
-                      antes de desencadenar ceguera temporal.</p>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6 mb-3">
-                  <div
-                    style="background-color: #f8fafc; border-top: 4px solid #3b82f6; padding: 20px; border-radius: 8px; height: 100%; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-                    <strong
-                      style="color: #0f172a; display: block; margin-bottom: 8px;"><i
-                        class="fa fa-crosshairs mr-2"
-                        style="color: #2563eb;"></i> Focalización de
-                      Objetos</strong>
-                    <p
-                      style="color: #475569; font-size: 0.95rem; text-align: justify; margin-bottom: 0;">
-                      Condiciona la distribución de sombras y contrastes sobre
-                      los materiales del puesto de trabajo, alterando la agudeza
-                      visual de acuerdo con el ángulo de inclinación de la
-                      fuente.</p>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6 mb-3 mb-md-0">
-                  <div
-                    style="background-color: #f8fafc; border-top: 4px solid #3b82f6; padding: 20px; border-radius: 8px; height: 100%; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-                    <strong
-                      style="color: #0f172a; display: block; margin-bottom: 8px;"><i
-                        class="fa fa-calculator mr-2"
-                        style="color: #16a34a;"></i> Instrumentación
-                      Fotométrica</strong>
-                    <p
-                      style="color: #475569; font-size: 0.95rem; text-align: justify; margin-bottom: 0;">
-                      A través del uso de goniofotómetros y luxómetros con
-                      corrección de coseno, los higienistas industriales
-                      capturan las curvas de distribución de la intensidad para
-                      mapear vectores de riesgo.</p>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <div
-                    style="background-color: #f8fafc; border-top: 4px solid #3b82f6; padding: 20px; border-radius: 8px; height: 100%; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-                    <strong
-                      style="color: #0f172a; display: block; margin-bottom: 8px;"><i
-                        class="fa fa-th-large mr-2" style="color: #7c3aed;"></i>
-                      Cotejo de Patrones Lumínicos</strong>
-                    <p
-                      style="color: #475569; font-size: 0.95rem; text-align: justify; margin-bottom: 0;">
-                      Permite realizar análisis cualitativos inter-puestos
-                      comparando el nivel de confort o fatiga reportado por los
-                      colaboradores expuestos a diferentes geometrías de
-                      descarga lumínica.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="mb-5">
-              <div
-                style="background-color: #fff5f5; border: 1px solid #fee2e2; border-left: 5px solid #ef4444; padding: 25px; border-radius: 12px;">
-                <h4
-                  style="color: #991b1b; font-weight: bold; font-size: 1.2rem; text-transform: uppercase; margin-bottom: 15px; letter-spacing: 0.5px;">
-                  <i class="fa fa-shield mr-2"></i> Justificación de la
-                  Intensidad ($I$) en la Prevención de Riesgos</h4>
-                <p
-                  style="color: #7f1d1d; font-size: 1rem; margin-bottom: 20px; text-align: justify;">
-                  El control cuantitativo de la intensidad en candelas
-                  constituye un pilar preventivo indispensable bajo los
-                  siguientes criterios técnicos:</p>
-                <div class="table-responsive">
-                  <table class="table table-bordered"
-                    style="font-size: 1rem; border-color: #fca5a5; background-color: #ffffff;">
-                    <thead style="background-color: #991b1b; color: white;">
-                      <tr class="text-center">
-                        <th
-                          style="padding: 12px; font-weight: 600; text-transform: uppercase; font-size: 0.85rem; width: 30%;">
-                          Eje de Aplicación</th>
-                        <th
-                          style="padding: 12px; font-weight: 600; text-transform: uppercase; font-size: 0.85rem;">
-                          Impacto Directo en la Seguridad y Salud del Trabajador
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody style="color: #334155;">
-                      <tr>
-                        <td
-                          style="padding: 12px; font-weight: bold; color: #991b1b; background-color: #fff1f1; text-align: center;">
-                          Cálculo de Sólidos de Distribución</td>
-                        <td style="padding: 12px; text-align: justify;">
-                          Proporciona las curvas fotométricas para trazar cómo
-                          se proyectará la energía en el espacio, garantizando
-                          homogeneidad y previniendo zonas de penumbra
-                          peligrosas en pasillos o bodegas.</td>
-                      </tr>
-                      <tr>
-                        <td
-                          style="padding: 12px; font-weight: bold; color: #991b1b; background-color: #fff1f1; text-align: center;">
-                          Control de Iluminación Direccional</td>
-                        <td style="padding: 12px; text-align: justify;">Es el
-                          parámetro crítico para el diseño técnico de focos,
-                          proyectores y reflectores de alta concentración,
-                          asegurando que el haz focalizado alcance la zona de
-                          operaciones sin dispersarse.</td>
-                      </tr>
-                      <tr>
-                        <td
-                          style="padding: 12px; font-weight: bold; color: #991b1b; background-color: #fff1f1; text-align: center;">
-                          Sistemas de Emergencia y Señalización</td>
-                        <td style="padding: 12px; text-align: justify;">
-                          Garantiza que estrobos, balizas y rutas de evacuación
-                          posean las candelas suficientes para romper atmósferas
-                          con presencia de humo, polvos o nieblas densas en
-                          contingencias.</td>
-                      </tr>
-                      <tr>
-                        <td
-                          style="padding: 12px; font-weight: bold; color: #991b1b; background-color: #fff1f1; text-align: center;">
-                          Verificación de Estándares Internacionales</td>
-                        <td style="padding: 12px; text-align: justify;">Permite
-                          auditar el cumplimiento de normativas de tráfico,
-                          balizamiento de grúas torre o iluminación perimetral
-                          externa de acuerdo con los códigos de seguridad
-                          vigentes.</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-stretch"
-              style="position: relative; margin-top: 40px;">
-              <div
-                class="col-auto text-center d-none d-sm-flex flex-column align-items-center"
-                style="width: 70px;">
-                <div
-                  style="width: 45px; height: 45px; background-color: #e11d48; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 2; box-shadow: 0 4px 6px rgba(0,0,0,0.15);">
-                   </div>
-              </div>
-              <div class="col">
-                <div
-                  style="background-color: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #e11d48; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">
-                  <span
-                    style="background-color: #ffe4e6; color: #9f1239; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Desafío
-                    de Control de Factores de Riesgo</span>
-                  <h4
-                    style="color: #9f1239; font-weight: bold; font-size: 1.2rem; margin-top: 10px; margin-bottom: 12px;">
-                    Reto de Gestión: Diagnóstico de Deslumbramiento por Alta
-                    Intensidad Direccional</h4>
-                  <p
-                    style="color: #334155; font-size: 1rem; line-height: 1.6; text-align: justify;">
-                    En un muelle de carga y descarga nocturna de mercancías
-                    pesadas, los operadores de montacargas reportan incidentes
-                    recurrentes de "ceguera súbita momentánea" al aproximarse a
-                    las rampas principales. Durante la inspección de SST, se
-                    verifica que se instalaron reflectores LED direccionales de
-                    alta potencia con una elevadísima intensidad luminosa de
-                    **15,000 candelas (cd)** focalizada directamente en un
-                    ángulo de inclinación de 45° con respecto a la línea
-                    horizontal de visión de los conductores.</p>
-                  <div
-                    style="background-color: #f8fafc; border: 1px dashed #cbd5e1; padding: 15px; border-radius: 8px; margin-top: 15px;">
-                    <span
-                      style="color: #0f172a; font-weight: bold; font-size: 0.95rem; text-transform: uppercase; display: block; margin-bottom: 8px;">Consigna
-                      Analítica para el Estudiante:</span>
-                    <p
-                      style="color: #475569; font-size: 0.95rem; margin-bottom: 0; text-align: justify; line-height: 1.5;">
-                      Basándose en el concepto técnico de **Intensidad Luminosa
-                      ($I$)**, analice por qué la concentración del flujo en una
-                      sola dirección específica (candelas) es la responsable
-                      directa del deslumbramiento, a pesar de que el área
-                      circundante carezca de iluminación uniforme. Como
-                      **Administrador en SST**, plantee **dos medidas de
-                      intervención de ingeniería o de diseño** (modificación de
-                      la geometría de instalación, apantallamiento o difusores
-                      vectoriales) para redireccionar las candelas críticas y
-                      neutralizar el riesgo de accidente de tránsito laboral.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-footer py-4 text-center"
-            style="background-color: #0f172a; color: rgba(255,255,255,0.8); border-top: 5px solid #3b82f6;">
-            <small
-              style="font-size: 0.95rem; letter-spacing: 0.5px; font-weight: 500;">
-              <i class="fa fa-shield mr-2" style="color: #3b82f6;"></i> Peligros
-              Físicos II | Magnitudes y Distribución Fotométrica </small></div>
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #2d3748; width: 100%;">
+  <div class="container my-3 py-md-4" style="max-width: 980px; margin: 0 auto;">
+    <!-- ENCABEZADO ACADÉMICO INSTITUCIONAL -->
+    <div class="card shadow-lg border-0 mb-4"
+      style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); border-radius: 12px; overflow: hidden;">
+      <div class="card-body p-4 p-md-5 text-white">
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap mb-2">
+          <span class="badge badge-warning text-dark font-weight-bold px-3 py-1"
+            style="background-color: #ffc107 !important; color: #0f172a !important; font-size: 0.78rem; letter-spacing: 0.8px; text-transform: uppercase; border-radius: 4px;">
+            <i class="fa fa-sun-o mr-1"></i> Peligros Físicos II • Radiaciones
+            No Ionizantes </span> <span
+            class="small opacity-75 font-weight-bold"
+            style="letter-spacing: 1px; font-size: 0.75rem;"> UNICAMACHO • SST
+          </span></div>
+        <h2 class="font-weight-bold mb-2 text-white"
+          style="font-size: 1.65rem; letter-spacing: -0.3px;">Intensidad
+          Luminosa (I) y su Aplicación en Iluminación</h2>
+        <p class="mb-0 text-white-50"
+          style="font-size: 0.98rem; line-height: 1.5;">Medición en candelas
+          (cd), percepción direccional del brillo, instrumentos de medición y
+          criterios de seguridad.</p>
+      </div>
+    </div>
+    <!-- TARJETA PRINCIPAL DE CONTENIDO -->
+    <div class="card shadow rounded border-0"
+      style="background: #ffffff; border-radius: 14px; overflow: hidden; border: 1px solid #e2e8f0 !important;">
+      <div class="card-body p-4 p-lg-5" style="text-align: justify;">
+        <!-- DEFINICIÓN -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-info-circle mr-2" style="color: #002d5a;"></i>
+            Definición de Intensidad Luminosa</h5>
+          <p
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155; margin-bottom: 0;">
+            <strong>Definición: </strong>La intensidad luminosa es una medida de
+            la cantidad de luz emitida por una fuente de luz en una dirección
+            específica. Se mide en candelas (cd) y describe la cantidad de luz
+            que se emite por unidad de ángulo sólido en una dirección
+            particular. En otras palabras, la intensidad luminosa indica cuánta
+            luz se está emitiendo en una dirección específica, lo que es útil
+            para describir qué tan brillante es una fuente de luz en una
+            dirección particular. Cuanto mayor sea la intensidad luminosa en una
+            dirección dada, más brillante aparecerá la fuente de luz en esa
+            dirección.</p>
         </div>
+        <!-- FIGURA 1 -->
+        <div class="card border-0 shadow-sm mb-4 p-3 text-center"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0 !important; border-radius: 10px;">
+          <p class="mb-2" style="text-align: center;"><img
+              class="img-fluid atto_image_button_text-bottom rounded shadow-sm"
+              style="border: 2px solid #002d5a;"
+              src="https://www.sciencefacts.net/wp-content/uploads/2023/12/Luminous-Intensity.jpg"
+              alt="Figura 1" width="550" height="497"></p>
+          <small class="text-muted font-weight-bold d-block mt-1"
+            style="color: #002d5a !important; font-size: 0.85rem;"> Figura 1.
+            Representación conceptual de la intensidad luminosa en una dirección
+            específica. </small>
+        </div>
+        <!-- PERCEPCIÓN Y MEDICIÓN PRÁCTICA -->
+        <div class="p-4 mb-4 rounded"
+          style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #002d5a;">
+          <h5 class="font-weight-bold mb-3"
+            style="color: #002d5a; font-size: 1.1rem;"><i
+              class="fa fa-check-square-o mr-2" style="color: #002d5a;"></i>
+            Percepción y Evaluación en la Práctica</h5>
+          <p style="font-size: 1.02rem; line-height: 1.75; color: #334155;"
+            class="mb-3">En la práctica, podemos percibir el valor de la
+            intensidad luminosa de una fuente de luz mediante nuestra
+            experiencia visual y utilizando herramientas de medición
+            específicas. Aquí hay algunas formas en que nos damos cuenta del
+            valor de la intensidad luminosa en la práctica:</p>
+          <ul
+            style="line-height: 1.8; color: #1e293b; padding-left: 22px; margin-bottom: 0;">
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 12px;">
+              <strong>Brillo Aparente: </strong> La intensidad luminosa afecta
+              directamente el brillo aparente de una fuente de luz vista desde
+              una determinada dirección. Cuanto mayor sea la intensidad luminosa
+              en esa dirección, más brillante parecerá la fuente de luz.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 12px;">
+              <strong>Iluminación de objetos: </strong>La intensidad luminosa
+              determina la cantidad de luz que un objeto recibe de una fuente de
+              luz en una dirección específica. Observando cómo se ilumina un
+              objeto desde diferentes ángulos, podemos tener una idea de la
+              intensidad luminosa relativa en esas direcciones.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 12px;">
+              <strong>Uso de instrumentos de medición: </strong> Se pueden
+              utilizar fotómetros y luxómetros para medir directamente la
+              intensidad luminosa en candelas (cd) en una dirección específica.
+              Estos instrumentos proporcionan una medida cuantitativa del brillo
+              de una fuente de luz en una dirección determinada.</li>
+            <li style="font-size: 1.02rem; margin-bottom: 0;">
+              <strong>Comparación visual : </strong>En entornos donde se
+              utilizan múltiples fuentes de luz, podemos comparar visualmente la
+              intensidad relativa de las fuentes de luz en función de su brillo
+              aparente en diferentes direcciones.</li>
+          </ul>
+        </div>
+        <hr
+          style="border: 0; height: 2px; background: linear-gradient(to right, #002d5a, #ffc107, #e2e8f0); margin: 30px 0;">
+        <!-- CUADRO DE IMPORTANCIA -->
+        <div class="alert alert-danger shadow-sm p-4 mb-0"
+          style="background-color: #fff5f5; border: 1px solid #fecaca; border-left: 6px solid #b91c1c !important; border-radius: 10px; color: #1e293b;"
+          role="alert">
+          <div class="d-flex align-items-center mb-2"><span
+              class="badge badge-danger font-weight-bold mr-2 px-2 py-1"
+              style="background-color: #b91c1c !important; font-size: 0.75rem; text-transform: uppercase;">
+              Criterio Técnico </span>
+            <h5 class="font-weight-bold mb-0"
+              style="color: #991b1b; font-size: 1.15rem;">Importancia de la
+              Intensidad Luminosa (I)</h5>
+          </div>
+          <p class="mt-3 mb-3"
+            style="font-size: 1.02rem; line-height: 1.75; color: #334155;">La
+            intensidad luminosa en candelas (cd) es una medida importante en la
+            práctica por varias razones:</p>
+          <ul
+            style="line-height: 1.8; color: #1e293b; padding-left: 22px; margin-bottom: 0;">
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 10px;">
+              <strong>Diseño de iluminación: </strong>En el diseño de
+              iluminación, la intensidad luminosa en candelas se utiliza para
+              calcular la distribución de la luz en un espacio determinado.
+              Conociendo la intensidad luminosa de una fuente de luz en
+              diferentes direcciones, los diseñadores pueden determinar cómo se
+              iluminará un área específica y pueden planificar la disposición
+              óptima de las luminarias para lograr los niveles de iluminación
+              deseados.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 10px;">
+              <strong>Iluminación direccional: </strong>La intensidad luminosa
+              en candelas es crucial para fuentes de luz direccionales, como
+              focos o reflectores, que emiten luz en una dirección específica.
+              La intensidad luminosa determina qué tan enfocada será la luz en
+              una dirección determinada y cuánta luz alcanzará un objeto o área
+              objetivo.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 10px;">
+              <strong>Señalización y seguridad: </strong>En aplicaciones de
+              señalización y seguridad, la intensidad luminosa en candelas se
+              utiliza para garantizar que las señales, faros y luces de
+              advertencia sean lo suficientemente brillantes como para ser
+              visibles desde la distancia adecuada y bajo diversas condiciones
+              ambientales.</li>
+            <li
+              style="font-size: 1.02rem; text-align: justify; margin-bottom: 0;">
+              <strong>Normativas y estándares: </strong>Las normativas y
+              estándares de iluminación pueden especificar requisitos mínimos de
+              intensidad luminosa en candelas para diversas aplicaciones, como
+              iluminación exterior, iluminación de emergencia o señalización
+              vial. Estos requisitos garantizan que la iluminación cumpla con
+              los estándares de seguridad y visibilidad establecidos.</li>
+          </ul>
+        </div>
+      </div>
+      <!-- PIE DE PÁGINA ACADÉMICO -->
+      <div class="card-footer py-3 px-4 text-center"
+        style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); color: #ffffff; border-top: 4px solid #ffc107;">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap small"
+          style="font-size: 0.85rem;"><strong>UNICAMACHO</strong> •
+          Administración en SST <span
+            class="badge text-dark font-weight-bold px-3 py-1 my-1"
+            style="background-color: #ffc107 !important;">Peligros Físicos
+            II</span> Gestión de Radiaciones No Ionizantes</div>
       </div>
     </div>
   </div>
 </section>
-<p></p>
