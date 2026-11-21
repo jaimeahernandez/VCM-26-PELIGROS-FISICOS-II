@@ -1,0 +1,78 @@
+<!-- CONTENEDOR PRINCIPAL - FLUJO LUMINOSO VS INTENSIDAD LUMINOSA (MOODLE) -->
+<section
+  style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #2d3748; width: 100%;">
+  <div class="container my-3 py-md-4" style="max-width: 980px; margin: 0 auto;">
+    <!-- ENCABEZADO ACADÉMICO INSTITUCIONAL -->
+    <div class="card shadow-lg border-0 mb-4"
+      style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); border-radius: 12px; overflow: hidden;">
+      <div class="card-body p-4 p-md-5 text-white">
+        <div
+          class="d-flex align-items-center justify-content-between flex-wrap mb-2">
+          <span class="badge badge-warning text-dark font-weight-bold px-3 py-1"
+            style="background-color: #ffc107 !important; color: #0f172a !important; font-size: 0.78rem; letter-spacing: 0.8px; text-transform: uppercase; border-radius: 4px;">
+            <i class="fa fa-sun-o mr-1"></i> Peligros Físicos II • Radiaciones
+            No Ionizantes </span> <span
+            class="small opacity-75 font-weight-bold"
+            style="letter-spacing: 1px; font-size: 0.75rem;"> UNICAMACHO • SST
+          </span></div>
+        <h2 class="font-weight-bold mb-2 text-white"
+          style="font-size: 1.65rem; letter-spacing: -0.3px;">Flujo luminoso Vs
+          Intensidad Luminosa</h2>
+        <p class="mb-0 text-white-50"
+          style="font-size: 0.98rem; line-height: 1.5;">Comparativa técnica
+          entre emisión omnidireccional total y concentración direccional de luz
+          en el entorno laboral.</p>
+      </div>
+    </div>
+    <!-- TARJETA PRINCIPAL DE CONTENIDO -->
+    <div class="card shadow rounded border-0"
+      style="background: #ffffff; border-radius: 14px; overflow: hidden; border: 1px solid #e2e8f0 !important;">
+      <div class="card-body p-4 p-lg-5">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-md-6 py-2 align-self-center">
+            <div class="p-4 rounded"
+              style="background-color: #f8fafc; border-left: 5px solid #002d5a;">
+              <h3 class="h4 font-weight-bold mb-3" style="color: #002d5a;"><i
+                  class="fa fa-balance-scale mr-2" style="color: #002d5a;"></i>
+                Flujo luminoso Vs Intensidad Luminosa</h3>
+              <p class="text-justify mb-0"
+                style="font-size: 1.02rem; line-height: 1.75; color: #334155;">
+                El flujo luminoso se refiere a la cantidad total de luz emitida
+                por una fuente de luz en todas direcciones (No direccional,
+                Imagen de la izquierda). Representa la cantidad total de luz
+                producida por la fuente de luz, independientemente de la
+                dirección en la que se emite. La intensidad luminosa se refiere
+                a la cantidad de luz emitida por una fuente de luz en una
+                dirección específica (Direccional, Imagen de la derecha).
+                Representa la cantidad de luz que se emite en una dirección
+                particular, por lo que es una medida de la concentración de luz
+                en esa dirección.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 py-2 text-center">
+            <div class="p-3 rounded shadow-sm"
+              style="background-color: #f8fafc; border: 1px solid #e2e8f0;"><img
+                class="img-fluid rounded shadow-sm"
+                style="width: 750px; height: 350px; border: 2px solid #002d5a;"
+                src="https://integral-led.com/en/image/getthumbnail/11194?version=1"
+                alt=""> <small class="text-muted font-weight-bold d-block mt-2"
+                style="color: #002d5a !important; font-size: 0.85rem;"> Figura
+                1. Comparación visual entre flujo luminoso (izquierda) e
+                intensidad luminosa (derecha). </small></div>
+          </div>
+        </div>
+      </div>
+      <!-- PIE DE PÁGINA ACADÉMICO -->
+      <div class="card-footer py-3 px-4 text-center"
+        style="background: linear-gradient(135deg, #002d5a 0%, #1e3a8a 100%); color: #ffffff; border-top: 4px solid #ffc107;">
+        <div
+          class="d-flex justify-content-between align-items-center flex-wrap small"
+          style="font-size: 0.85rem;"><strong>UNICAMACHO</strong> •
+          Administración en SST <span
+            class="badge text-dark font-weight-bold px-3 py-1 my-1"
+            style="background-color: #ffc107 !important;">Peligros Físicos
+            II</span> Gestión de Radiaciones No Ionizantes</div>
+      </div>
+    </div>
+  </div>
+</section>
