@@ -1,0 +1,296 @@
+<div id="calc-mprom-p2"
+  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 960px; margin: 16px auto; padding: 22px; background: #f6f3ec; border-radius: 14px; box-shadow: 0 12px 28px rgba(7, 25, 47, 0.16); border: 1px solid #dfd6be;">
+  <!-- ENCABEZADO -->
+  <div
+    style="background: linear-gradient(145deg, #07192f 0%, #0f2c52 55%, #1a477a 100%); color: #ffffff; padding: 20px 24px; border-radius: 10px; border-bottom: 5px solid #c9a227; margin-bottom: 20px; box-shadow: 0 6px 18px rgba(7, 25, 47, 0.22);">
+    <div
+      style="display: inline-block; padding: 3px 12px; border: 1px solid #e2be4b; background: rgba(201, 162, 39, 0.15); border-radius: 20px; color: #f3d56b; font-size: 0.72rem; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px;">
+      Peligros Físicos II · Estrés Térmico</div>
+    <h2
+      style="margin: 0; font-size: 1.65rem; font-weight: bold; font-family: Georgia, 'Times New Roman', serif; color: #ffffff;">
+      ⚖️ Calculadora de Carga Metabólica Promedio (M<sub>prom</sub>)</h2>
+    <p style="margin: 4px 0 0 0; color: #dbeafe; font-size: 0.93rem;">Promedio
+      ponderado en el tiempo: M<sub>prom</sub> = Σ(M<sub>i</sub> ×
+      t<sub>i</sub>) / Σt<sub>i</sub></p>
+  </div>
+  <!-- REFERENCIA DE VALORACIÓN -->
+  <div
+    style="background: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 18px; border: 1px solid #ece6d5; border-left: 5px solid #0f2c52; box-shadow: 0 3px 10px rgba(7, 25, 47, 0.05);">
+    <div
+      style="font-size: 0.82rem; font-weight: 800; color: #07192f; text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px;">
+      Consumo Metabólico en kcal/h — Criterios de Valoración</div>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; font-size: 0.86rem;">
+      <span
+        style="background: #e6f4f1; color: #0f5132; border: 1px solid #badbcc; padding: 5px 12px; border-radius: 6px; font-weight: bold;">
+        LIVIANO: &lt; 200 kcal/h </span> <span
+        style="background: #eef4fc; color: #07192f; border: 1px solid #c7d9ee; padding: 5px 12px; border-radius: 6px; font-weight: bold;">
+        MODERADO: 200–300 kcal/h </span> <span
+        style="background: #fff8e1; color: #7c5800; border: 1px solid #f0d58c; padding: 5px 12px; border-radius: 6px; font-weight: bold;">
+        PESADO: 300–400 kcal/h </span> <span
+        style="background: #fdecea; color: #842029; border: 1px solid #f5c2c7; padding: 5px 12px; border-radius: 6px; font-weight: bold;">
+        MUY PESADO: &gt; 400 kcal/h </span></div>
+  </div>
+  <!-- TABLA DE ACTIVIDADES -->
+  <div
+    style="background: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(7, 25, 47, 0.06); border: 1px solid #ece6d5; border-left: 5px solid #c9a227;">
+    <div style="margin-bottom: 14px;">
+      <h3
+        style="margin: 0; color: #07192f; font-size: 1.1rem; font-weight: bold;">
+        Actividades / Tareas de la Jornada (Tiempo en minutos)</h3>
+    </div>
+    <div style="overflow-x: auto;">
+      <table id="tablaMpromActividades"
+        style="width: 100%; border-collapse: collapse; font-size: 0.9rem; min-width: 580px;">
+        <thead>
+          <tr style="background: #07192f; color: #ffffff;">
+            <th
+              style="padding: 9px 10px; text-align: left; border: 1px solid #1e3a5f;">
+              Actividad / Puesto</th>
+            <th
+              style="padding: 9px 10px; text-align: center; border: 1px solid #1e3a5f; width: 175px;">
+              Carga M<sub>i</sub> (kcal/h)</th>
+            <th
+              style="padding: 9px 10px; text-align: center; border: 1px solid #1e3a5f; width: 165px;">
+              Tiempo t<sub>i</sub> (min)</th>
+            <th
+              style="padding: 9px 10px; text-align: right; border: 1px solid #1e3a5f; width: 165px;">
+              Aporte (M<sub>i</sub> × t<sub>i</sub>)</th>
+            <th
+              style="padding: 9px 10px; text-align: center; border: 1px solid #1e3a5f; width: 70px;">
+              Quitar</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpoMpromActividades">
+          <tr>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="mp-act"
+                style="width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #cbd5e1; border-radius: 6px;"
+                type="text" value="Actividad 1"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="mp-carga"
+                style="width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="180"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="mp-tiempo"
+                style="width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="1" type="number" value="180"></td>
+            <td class="mp-aporte"
+              style="padding: 7px 10px; border: 1px solid #e2e8f0; text-align: right; font-weight: 600; color: #334155;">
+              32400.00</td>
+            <td
+              style="padding: 6px; border: 1px solid #e2e8f0; text-align: center;">
+              <button class="mp-btn-del"
+                style="background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; padding: 5px 9px; border-radius: 6px; cursor: pointer; font-weight: bold;"
+                type="button">✕</button></td>
+          </tr>
+          <tr>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="mp-act"
+                style="width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #cbd5e1; border-radius: 6px;"
+                type="text" value="Actividad 2"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="mp-carga"
+                style="width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="230"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="mp-tiempo"
+                style="width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="1" type="number" value="120"></td>
+            <td class="mp-aporte"
+              style="padding: 7px 10px; border: 1px solid #e2e8f0; text-align: right; font-weight: 600; color: #334155;">
+              27600.00</td>
+            <td
+              style="padding: 6px; border: 1px solid #e2e8f0; text-align: center;">
+              <button class="mp-btn-del"
+                style="background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; padding: 5px 9px; border-radius: 6px; cursor: pointer; font-weight: bold;"
+                type="button">✕</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px;">
+      <button id="mpBtnAdd"
+        style="background: #f6f3ec; color: #07192f; border: 1px solid #c9a227; padding: 9px 16px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.9rem;"
+        type="button"> + Agregar actividad </button> <button id="mpBtnLimpiar"
+        style="background: #ffffff; color: #475569; border: 1px solid #cbd5e1; padding: 9px 14px; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 0.88rem;"
+        type="button"> Reiniciar ejemplo </button></div>
+  </div>
+  <!-- RESULTADO MPROM -->
+  <div
+    style="background: linear-gradient(145deg, #07192f 0%, #0f2c52 100%); color: #ffffff; border-radius: 10px; padding: 20px 24px; border-left: 5px solid #c9a227; box-shadow: 0 6px 18px rgba(7, 25, 47, 0.18);">
+    <div
+      style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px;">
+      <div>
+        <div
+          style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 1.5px; color: #f3d56b; font-weight: bold;">
+          Carga Metabólica Promedio (M<sub>prom</sub>)</div>
+        <div id="mpValorFinal"
+          style="font-size: 2.2rem; font-weight: 800; color: #ffffff; margin-top: 4px; line-height: 1.1;">
+          200.00 kcal/h</div>
+        <div id="mpResumenTiempo"
+          style="font-size: 0.88rem; color: #dbeafe; margin-top: 6px;">Tiempo
+          total (Σtᵢ): 300 min · Numerador Σ(Mᵢ×tᵢ): 60000.00</div>
+      </div>
+      <div
+        style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(201, 162, 39, 0.45); border-radius: 8px; padding: 12px 18px; min-width: 225px;">
+        <div
+          style="font-size: 0.75rem; text-transform: uppercase; color: #e2be4b; font-weight: bold;">
+          Valoración del consumo metabólico</div>
+        <div id="mpClasificacion"
+          style="font-size: 1.25rem; font-weight: 800; color: #ffffff; margin-top: 4px;">
+          MODERADO</div>
+        <div id="mpRangoDetalle"
+          style="font-size: 0.8rem; color: #f3d56b; margin-top: 4px;">
+          Valoración: 200–300 kcal/h</div>
+      </div>
+    </div>
+  </div>
+</div>
+<p>
+  <script>
+    (function() {
+      const tbody = document.getElementById('cuerpoMpromActividades');
+      const btnAdd = document.getElementById('mpBtnAdd');
+      const btnReset = document.getElementById('mpBtnLimpiar');
+      const root = document.getElementById('calc-mprom-p2');
+
+      function valorarConsumoMetabolico(mprom) {
+        if (mprom < 200) {
+          return {
+            categoria: 'LIVIANO',
+            rango: 'Valoración: < 200 kcal/h'
+          };
+        }
+        if (mprom <= 300) {
+          return {
+            categoria: 'MODERADO',
+            rango: 'Valoración: 200–300 kcal/h'
+          };
+        }
+        if (mprom <= 400) {
+          return {
+            categoria: 'PESADO',
+            rango: 'Valoración: 300–400 kcal/h'
+          };
+        }
+        return {
+          categoria: 'MUY PESADO',
+          rango: 'Valoración: > 400 kcal/h'
+        };
+      }
+
+      function calcularMprom() {
+        if (!tbody) return;
+
+        const filas = Array.from(tbody.querySelectorAll('tr'));
+        let sumaPond = 0;
+        let sumaMin = 0;
+
+        filas.forEach((tr) => {
+          const carga = parseFloat(tr.querySelector('.mp-carga').value) ||
+            0;
+          const minutos = parseFloat(tr.querySelector('.mp-tiempo')
+            .value) || 0;
+          const aporte = carga * minutos;
+          const celdaAporte = tr.querySelector('.mp-aporte');
+
+          if (celdaAporte) {
+            celdaAporte.textContent = aporte.toFixed(2);
+          }
+
+          if (minutos > 0) {
+            sumaPond += aporte;
+            sumaMin += minutos;
+          }
+        });
+
+        const elFinal = document.getElementById('mpValorFinal');
+        const elResumen = document.getElementById('mpResumenTiempo');
+        const elClas = document.getElementById('mpClasificacion');
+        const elRango = document.getElementById('mpRangoDetalle');
+
+        if (sumaMin > 0) {
+          const mprom = sumaPond / sumaMin;
+          const val = valorarConsumoMetabolico(mprom);
+          elFinal.textContent = `${mprom.toFixed(2)} kcal/h`;
+          elResumen.textContent =
+            `Tiempo total (Σtᵢ): ${sumaMin.toFixed(0)} min · Numerador Σ(Mᵢ×tᵢ): ${sumaPond.toFixed(2)}`;
+          elClas.textContent = val.categoria;
+          elRango.textContent = val.rango;
+        } else {
+          elFinal.textContent = '-- kcal/h';
+          elResumen.textContent =
+            'Ingresa al menos una actividad con tiempo en minutos mayor a 0.';
+          elClas.textContent = '--';
+          elRango.textContent = 'Rango: --';
+        }
+      }
+
+      function enlazarEliminar() {
+        if (!tbody) return;
+        tbody.querySelectorAll('.mp-btn-del').forEach((btn) => {
+          btn.onclick = function() {
+            if (tbody.rows.length > 1) {
+              btn.closest('tr').remove();
+              calcularMprom();
+            }
+          };
+        });
+      }
+
+      function crearFila(nombre, carga, minutos) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+        <td style="padding: 6px; border: 1px solid #e2e8f0;">
+          <input type="text" class="mp-act" value="${nombre}"
+            style="width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #cbd5e1; border-radius: 6px;">
+        </td>
+        <td style="padding: 6px; border: 1px solid #e2e8f0;">
+          <input type="number" step="0.1" class="mp-carga" value="${carga}"
+            style="width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;">
+        </td>
+        <td style="padding: 6px; border: 1px solid #e2e8f0;">
+          <input type="number" step="1" class="mp-tiempo" value="${minutos}"
+            style="width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;">
+        </td>
+        <td class="mp-aporte" style="padding: 7px 10px; border: 1px solid #e2e8f0; text-align: right; font-weight: 600; color: #334155;">
+          0.00
+        </td>
+        <td style="padding: 6px; border: 1px solid #e2e8f0; text-align: center;">
+          <button type="button" class="mp-btn-del"
+            style="background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; padding: 5px 9px; border-radius: 6px; cursor: pointer; font-weight: 700;">✕</button>
+        </td>
+      `;
+        return tr;
+      }
+
+      function reiniciarEjemplo() {
+        if (!tbody) return;
+        tbody.innerHTML = '';
+        tbody.appendChild(crearFila('Actividad 1', 180, 180));
+        tbody.appendChild(crearFila('Actividad 2', 230, 120));
+        enlazarEliminar();
+        calcularMprom();
+      }
+
+      if (btnAdd) {
+        btnAdd.addEventListener('click', function() {
+          if (!tbody) return;
+          const n = tbody.rows.length + 1;
+          tbody.appendChild(crearFila(`Actividad ${n}`, 200, 60));
+          enlazarEliminar();
+          calcularMprom();
+        });
+      }
+
+      if (btnReset) btnReset.addEventListener('click', reiniciarEjemplo);
+      if (root) {
+        root.addEventListener('input', calcularMprom);
+        root.addEventListener('change', calcularMprom);
+      }
+
+      enlazarEliminar();
+      calcularMprom();
+    })();
+  </script>
+</p>
