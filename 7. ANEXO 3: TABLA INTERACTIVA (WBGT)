@@ -1,0 +1,323 @@
+<div id="wbgt-simulador-p2"
+  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 1100px; margin: 16px auto; padding: 22px; background: #f6f3ec; border-radius: 14px; box-shadow: 0 12px 28px rgba(7, 25, 47, 0.16); border: 1px solid #dfd6be;">
+  <!-- ENCABEZADO ACADÉMICO -->
+  <div
+    style="display: flex; align-items: center; flex-wrap: wrap; gap: 16px; background: linear-gradient(145deg, #07192f 0%, #0f2c52 55%, #1a477a 100%); color: #ffffff; padding: 22px 26px; border-radius: 10px; border-bottom: 5px solid #c9a227; margin-bottom: 22px; box-shadow: 0 6px 18px rgba(7, 25, 47, 0.22);">
+    <span style="font-size: 2.5rem; line-height: 1;">🌡️</span>
+    <div style="flex: 1; min-width: 240px;">
+      <div
+        style="display: inline-block; padding: 3px 12px; border: 1px solid #e2be4b; background: rgba(201, 162, 39, 0.15); border-radius: 20px; color: #f3d56b; font-size: 0.72rem; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px;">
+        Peligros Físicos II · Simulador Técnico</div>
+      <h2
+        style="color: #ffffff; margin: 0; font-size: 1.75rem; font-weight: bold; font-family: Georgia, 'Times New Roman', serif;">
+        Índice WBGT — Estrés Térmico por Calor</h2>
+      <p style="color: #dbeafe; margin: 4px 0 0 0; font-size: 0.96rem;">Límites
+        de exposición según ciclo de trabajo y nivel de actividad</p>
+    </div>
+  </div>
+  <!-- ======== SIMULADOR ======== -->
+  <div
+    style="background: #ffffff; border-radius: 10px; padding: 22px 24px; margin-bottom: 22px; box-shadow: 0 4px 12px rgba(7, 25, 47, 0.06); border: 1px solid #ece6d5; border-left: 5px solid #c9a227;">
+    <h3
+      style="color: #07192f; margin: 0 0 16px 0; font-size: 1.2rem; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+      🎛️ Simulador de Límites WBGT</h3>
+    <div
+      style="display: flex; flex-wrap: wrap; gap: 16px; align-items: stretch;">
+      <div style="flex: 1; min-width: 190px;"><label
+          style="font-weight: bold; color: #07192f; display: block; margin-bottom: 6px; font-size: 0.92rem;"
+          for="nivelActividad"> 🏋️ Nivel de Actividad </label><select
+          id="nivelActividad"
+          style="width: 100%; padding: 10px 12px; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem; background: #f8fafc; color: #07192f; font-weight: 600; cursor: pointer;">
+          <option value="LIVIANO">LIVIANO</option>
+          <option selected="selected" value="MODERADO">MODERADO</option>
+          <option value="PESADO">PESADO</option>
+          <option value="MUY PESADO">MUY PESADO</option>
+        </select></div>
+      <div style="flex: 1; min-width: 210px;"><label
+          style="font-weight: bold; color: #07192f; display: block; margin-bottom: 6px; font-size: 0.92rem;"
+          for="cicloTrabajo"> 🔄 Ciclo Trabajo/Descanso </label><select
+          id="cicloTrabajo"
+          style="width: 100%; padding: 10px 12px; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem; background: #f8fafc; color: #07192f; font-weight: 600; cursor: pointer;">
+          <option value="0">Trabajo Continuo</option>
+          <option value="1">75% Trabajo, 25% Descanso</option>
+          <option selected="selected" value="2">50% Trabajo, 50% Descanso
+          </option>
+          <option value="3">25% Trabajo, 75% Descanso</option>
+        </select></div>
+      <div style="flex: 1; min-width: 185px;"><label
+          style="font-weight: bold; color: #07192f; display: block; margin-bottom: 6px; font-size: 0.92rem;"
+          for="tipoLimite"> 📋 Tipo de Límite </label><select id="tipoLimite"
+          style="width: 100%; padding: 10px 12px; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem; background: #f8fafc; color: #07192f; font-weight: 600; cursor: pointer;">
+          <option selected="selected" value="PERMISIBLE">Límite Permisible
+          </option>
+          <option value="ACCION">Límite de Acción</option>
+        </select></div>
+      <div
+        style="background: linear-gradient(145deg, #07192f 0%, #0f2c52 100%); color: #ffffff; padding: 14px 20px; border-radius: 10px; text-align: center; min-width: 145px; border: 1px solid #c9a227; display: flex; flex-direction: column; justify-content: center;">
+        <div
+          style="font-size: 0.78rem; color: #f3d56b; font-weight: bold; text-transform: uppercase; letter-spacing: 0.8px;">
+          WBGT Límite</div>
+        <div id="wbgtDisplay"
+          style="font-size: 2.2rem; font-weight: 800; line-height: 1.1; margin: 2px 0; color: #ffffff;">
+          --</div>
+        <div style="font-size: 0.82rem; color: #dbeafe;">°C</div>
+        <div id="estadoDisplay"
+          style="background: #2ecc71; color: #ffffff; padding: 3px 12px; border-radius: 40px; font-weight: bold; font-size: 0.74rem; margin-top: 6px; display: inline-block;">
+          ✅ SEGURO</div>
+      </div>
+    </div>
+    <div
+      style="margin-top: 14px; background: #f6f3ec; border-left: 4px solid #0f2c52; padding: 11px 16px; border-radius: 6px; font-size: 0.9rem; color: #1e293b;">
+      💡 <strong style="color: #07192f;">Interpretación:</strong> El WBGT (o
+      TGBH) integra las condiciones térmicas del entorno laboral. Superar los
+      límites de referencia exige aplicar controles técnicos y administrativos
+      en SST.</div>
+  </div>
+  <!-- ======== TABLA WBGT ======== -->
+  <div
+    style="background: #ffffff; border-radius: 10px; padding: 20px; box-shadow: 0 4px 12px rgba(7, 25, 47, 0.06); overflow-x: auto; border: 1px solid #ece6d5; border-top: 4px solid #0f2c52;">
+    <h3
+      style="color: #07192f; margin: 0 0 14px 0; font-size: 1.15rem; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+      📊 Tabla de Límites WBGT (°C)</h3>
+    <table id="tablaWBGT"
+      style="width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 720px;">
+      <thead>
+        <tr style="background: #07192f; color: #ffffff;">
+          <th
+            style="padding: 10px 8px; text-align: center; min-width: 150px; border: 1px solid #1a3a5a;">
+            Ciclo de Trabajo</th>
+          <th
+            style="padding: 10px 8px; text-align: center; background: #0f2c52; color: #f3d56b; border: 1px solid #1a3a5a;"
+            colspan="4">LÍMITE PERMISIBLE</th>
+          <th
+            style="padding: 10px 8px; text-align: center; background: #9b2c2c; color: #ffffff; border: 1px solid #7f1d1d;"
+            colspan="4">LÍMITE DE ACCIÓN</th>
+        </tr>
+        <tr style="background: #13315c; color: #ffffff;">
+          <th
+            style="padding: 8px 6px; text-align: center; font-weight: 600; background: #07192f; border: 1px solid #1a3a5a;">
+            Régimen</th>
+          <th
+            style="padding: 8px 4px; text-align: center; font-weight: 600; border: 1px solid #1e4273;">
+            LIVIANO</th>
+          <th
+            style="padding: 8px 4px; text-align: center; font-weight: 600; border: 1px solid #1e4273;">
+            MODERADO</th>
+          <th
+            style="padding: 8px 4px; text-align: center; font-weight: 600; border: 1px solid #1e4273;">
+            PESADO</th>
+          <th
+            style="padding: 8px 4px; text-align: center; font-weight: 600; border: 1px solid #1e4273;">
+            MUY PESADO</th>
+          <th
+            style="padding: 8px 4px; text-align: center; font-weight: 600; background: #7f1d1d; border: 1px solid #991b1b;">
+            LIVIANO</th>
+          <th
+            style="padding: 8px 4px; text-align: center; font-weight: 600; background: #7f1d1d; border: 1px solid #991b1b;">
+            MODERADO</th>
+          <th
+            style="padding: 8px 4px; text-align: center; font-weight: 600; background: #7f1d1d; border: 1px solid #991b1b;">
+            PESADO</th>
+          <th
+            style="padding: 8px 4px; text-align: center; font-weight: 600; background: #7f1d1d; border: 1px solid #991b1b;">
+            MUY PESADO</th>
+        </tr>
+      </thead>
+      <tbody id="tablaWBGTBody"></tbody>
+    </table>
+    <div
+      style="margin-top: 14px; display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.8rem; justify-content: center; align-items: center; color: #334155;">
+      <span
+        style="background: #2ecc71; padding: 2px 10px; border-radius: 4px; color: #ffffff; font-weight: bold;">SEGURO</span>
+      WBGT ≤ Límite <span
+        style="background: #f1c40f; padding: 2px 10px; border-radius: 4px; color: #07192f; font-weight: bold;">ALERTA</span>
+      Entre Permisible y Acción <span
+        style="background: #e74c3c; padding: 2px 10px; border-radius: 4px; color: #ffffff; font-weight: bold;">PELIGRO</span>
+      WBGT ≥ Límite de Acción <span
+        style="background: #c9a227; padding: 2px 10px; border-radius: 4px; color: #07192f; font-weight: bold; outline: 2px solid #07192f;">Seleccionado</span>
+      Celda activa</div>
+  </div>
+  <!-- ======== ESCALA DE RIESGO ======== -->
+  <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 22px;">
+    <div
+      style="flex: 1; min-width: 240px; background: #d4edda; border-radius: 8px; padding: 14px 16px; border-left: 5px solid #28a745;">
+      <div style="font-weight: bold; color: #155724; margin-bottom: 4px;">✅ ZONA
+        SEGURA</div>
+      <div style="font-size: 0.88rem; color: #155724; line-height: 1.5;">WBGT
+        por debajo del Límite de Acción. Mantener condiciones y hábitos
+        preventivos habituales.</div>
+    </div>
+    <div
+      style="flex: 1; min-width: 240px; background: #fff3cd; border-radius: 8px; padding: 14px 16px; border-left: 5px solid #c9a227;">
+      <div style="font-weight: bold; color: #7c5800; margin-bottom: 4px;">🟡
+        ZONA DE ALERTA</div>
+      <div style="font-size: 0.88rem; color: #7c5800; line-height: 1.5;">WBGT
+        entre Límite Permisible y Límite de Acción. Reforzar hidratación,
+        monitoreo y medidas administrativas.</div>
+    </div>
+    <div
+      style="flex: 1; min-width: 240px; background: #f8d7da; border-radius: 8px; padding: 14px 16px; border-left: 5px solid #dc3545;">
+      <div style="font-weight: bold; color: #721c24; margin-bottom: 4px;">🔴
+        ZONA DE PELIGRO</div>
+      <div style="font-size: 0.88rem; color: #721c24; line-height: 1.5;">WBGT
+        supera el Límite de Acción. Intervención inmediata: controles de
+        ingeniería, ciclos de descanso e hidratación.</div>
+    </div>
+  </div>
+  <div
+    style="margin-top: 18px; padding: 12px 18px; background: #07192f; color: #f3d56b; border-radius: 8px; text-align: center; font-size: 0.9rem; border-top: 3px solid #c9a227;">
+    ⬅️ Simulador interactivo — Ajusta los parámetros para consultar los límites
+    de exposición en SST.</div>
+</div>
+<p>
+  <script>
+    (function() {
+      const datosWBGT = [
+        [
+          [31.0, 28.0, null, null],
+          [28.0, 25.0, null, null]
+        ],
+        [
+          [31.0, 29.0, 27.5, null],
+          [28.0, 26.0, 24.0, null]
+        ],
+        [
+          [32.0, 30.0, 29.0, 28.0],
+          [29.5, 27.0, 25.5, 24.5]
+        ],
+        [
+          [32.5, 31.5, 30.5, 30.0],
+          [30.0, 29.0, 28.0, 27.0]
+        ]
+      ];
+
+      const nombresCiclos = [
+        'Trabajo Continuo',
+        '75% Trabajo, 25% Descanso',
+        '50% Trabajo, 50% Descanso',
+        '25% Trabajo, 75% Descanso'
+      ];
+
+      const nivelMap = {
+        'LIVIANO': 0,
+        'MODERADO': 1,
+        'PESADO': 2,
+        'MUY PESADO': 3
+      };
+
+      function obtenerWBGT(ciclo, tipo, nivel) {
+        if (ciclo < 0 || ciclo > 3 || tipo < 0 || tipo > 1 || nivel < 0 ||
+          nivel > 3) return null;
+        const valor = datosWBGT[ciclo][tipo][nivel];
+        return valor !== null && valor !== undefined ? valor : null;
+      }
+
+      function renderizarTablaWBGT(cicloSeleccionado, tipoSeleccionado,
+        nivelSeleccionado) {
+        const tbody = document.getElementById('tablaWBGTBody');
+        if (!tbody) return;
+        tbody.innerHTML = '';
+
+        for (let i = 0; i < datosWBGT.length; i++) {
+          const tr = document.createElement('tr');
+
+          const tdCiclo = document.createElement('td');
+          tdCiclo.textContent = nombresCiclos[i];
+          tdCiclo.style.cssText =
+            'padding:10px 8px; border:1px solid #dbe3ef; text-align:left; font-weight:700; color:#07192f; background:#f6f3ec;';
+          tr.appendChild(tdCiclo);
+
+          for (let j = 0; j < 4; j++) {
+            const td = document.createElement('td');
+            const valor = datosWBGT[i][0][j];
+            td.textContent = valor !== null ? valor.toFixed(1) : '—';
+            td.style.cssText =
+              'padding:8px 6px; border:1px solid #dbe3ef; text-align:center; font-weight:600; color:#1e293b; background:#ffffff;';
+
+            if (i === cicloSeleccionado && tipoSeleccionado === 0 && j ===
+              nivelSeleccionado) {
+              td.style.cssText +=
+                'background:#c9a227 !important; color:#07192f !important; font-weight:800; outline:3px solid #07192f;';
+            }
+            tr.appendChild(td);
+          }
+
+          for (let j = 0; j < 4; j++) {
+            const td = document.createElement('td');
+            const valor = datosWBGT[i][1][j];
+            td.textContent = valor !== null ? valor.toFixed(1) : '—';
+            td.style.cssText =
+              'padding:8px 6px; border:1px solid #dbe3ef; text-align:center; font-weight:600; color:#1e293b; background:#fffbeb;';
+
+            if (i === cicloSeleccionado && tipoSeleccionado === 1 && j ===
+              nivelSeleccionado) {
+              td.style.cssText +=
+                'background:#c9a227 !important; color:#07192f !important; font-weight:800; outline:3px solid #07192f;';
+            }
+            tr.appendChild(td);
+          }
+
+          tbody.appendChild(tr);
+        }
+      }
+
+      function actualizarWBGT() {
+        const selCiclo = document.getElementById('cicloTrabajo');
+        const selTipo = document.getElementById('tipoLimite');
+        const selNivel = document.getElementById('nivelActividad');
+        const display = document.getElementById('wbgtDisplay');
+        const estado = document.getElementById('estadoDisplay');
+        if (!selCiclo || !selTipo || !selNivel || !display || !estado) return;
+
+        const ciclo = parseInt(selCiclo.value, 10);
+        const tipo = selTipo.value === 'PERMISIBLE' ? 0 : 1;
+        const nivel = nivelMap[selNivel.value];
+
+        const wbgt = obtenerWBGT(ciclo, tipo, nivel);
+
+        if (wbgt !== null) {
+          display.textContent = wbgt.toFixed(1);
+          const otroTipo = tipo === 0 ? 1 : 0;
+          const wbgtOtro = obtenerWBGT(ciclo, otroTipo, nivel);
+
+          let color, textoColor, texto;
+          if (tipo === 0) {
+            if (wbgtOtro !== null && wbgt <= wbgtOtro) {
+              color = '#2ecc71';
+              textoColor = '#ffffff';
+              texto = '✅ SEGURO';
+            } else {
+              color = '#f1c40f';
+              textoColor = '#07192f';
+              texto = '🟡 ALERTA';
+            }
+          } else {
+            color = '#e74c3c';
+            textoColor = '#ffffff';
+            texto = '🔴 PELIGRO';
+          }
+          estado.style.background = color;
+          estado.style.color = textoColor;
+          estado.textContent = texto;
+          renderizarTablaWBGT(ciclo, tipo, nivel);
+        } else {
+          display.textContent = '—';
+          estado.style.background = '#95a5a6';
+          estado.style.color = '#ffffff';
+          estado.textContent = '⚠️ N/A';
+          renderizarTablaWBGT(ciclo, tipo, nivel);
+        }
+      }
+
+      const nivelEl = document.getElementById('nivelActividad');
+      const cicloEl = document.getElementById('cicloTrabajo');
+      const tipoEl = document.getElementById('tipoLimite');
+
+      if (nivelEl) nivelEl.addEventListener('change', actualizarWBGT);
+      if (cicloEl) cicloEl.addEventListener('change', actualizarWBGT);
+      if (tipoEl) tipoEl.addEventListener('change', actualizarWBGT);
+
+      actualizarWBGT();
+    })();
+  </script>
+</p>
