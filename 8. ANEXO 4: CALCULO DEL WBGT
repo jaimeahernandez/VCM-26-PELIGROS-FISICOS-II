@@ -1,0 +1,406 @@
+<div id="calc-estres-termico-p2"
+  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 1120px; margin: 16px auto; padding: 22px; background: #f6f3ec; border-radius: 14px; box-shadow: 0 12px 28px rgba(7, 25, 47, 0.16); border: 1px solid #dfd6be;">
+  <!-- ENCABEZADO -->
+  <div
+    style="background: linear-gradient(145deg, #07192f 0%, #0f2c52 55%, #1a477a 100%); color: #ffffff; padding: 22px 26px; border-radius: 10px; border-bottom: 5px solid #c9a227; margin-bottom: 22px; box-shadow: 0 6px 18px rgba(7, 25, 47, 0.22);">
+    <div
+      style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+      <div>
+        <div
+          style="display: inline-block; padding: 3px 12px; border: 1px solid #e2be4b; background: rgba(201, 162, 39, 0.15); border-radius: 20px; color: #f3d56b; font-size: 0.72rem; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px;">
+          Peligros Físicos II · Calculadora Interactiva</div>
+        <h2
+          style="margin: 0; font-size: 1.7rem; font-weight: bold; font-family: Georgia, 'Times New Roman', serif; color: #ffffff;">
+          🌡️ Calculadora de WBGT Promedio (Interiores: T<sub>h</sub>,
+          T<sub>g</sub>, T<sub>s</sub>)</h2>
+        <p style="margin: 4px 0 0 0; color: #dbeafe; font-size: 0.94rem;">
+          Calcula el WBGT de cada tarea (0.7·T<sub>h</sub> + 0.3·T<sub>g</sub>)
+          y el WBGT<sub>prom</sub> = Σ(WBGT<sub>i</sub> × t<sub>i</sub>) /
+          Σt<sub>i</sub></p>
+      </div>
+    </div>
+  </div>
+  <!-- ENTRADAS DEL ESTUDIANTE -->
+  <div
+    style="background: #ffffff; border-radius: 10px; padding: 22px 24px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(7, 25, 47, 0.06); border: 1px solid #ece6d5; border-left: 5px solid #c9a227;">
+    <h3
+      style="margin: 0 0 14px 0; color: #07192f; font-size: 1.15rem; font-weight: bold;">
+      1. Parámetros Generales y Actividades en Interior</h3>
+    <div
+      style="display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 16px;">
+      <div style="flex: 1; min-width: 190px;"><label
+          style="display: block; font-weight: bold; color: #07192f; font-size: 0.88rem; margin-bottom: 5px;"
+          for="metPromInput"> Carga Metabólica Promedio M<sub>prom</sub>
+          (kcal/h) </label> <input id="metPromInput"
+          style="width: 100%; box-sizing: border-box; padding: 9px 12px; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem; font-weight: 600; color: #07192f;"
+          step="1" type="number" value="250"></div>
+      <div style="flex: 1; min-width: 190px;"><label
+          style="display: block; font-weight: bold; color: #07192f; font-size: 0.88rem; margin-bottom: 5px;"
+          for="cafVestimenta"> Factor de ajuste por vestimenta — CAF (°C)
+        </label> <input id="cafVestimenta"
+          style="width: 100%; box-sizing: border-box; padding: 9px 12px; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem; font-weight: 600; color: #07192f;"
+          step="0.1" type="number" value="0.0"></div>
+      <div style="flex: 1; min-width: 210px;"><label
+          style="display: block; font-weight: bold; color: #07192f; font-size: 0.88rem; margin-bottom: 5px;"
+          for="cicloCalc"> Régimen de trabajo / descanso </label><select
+          id="cicloCalc"
+          style="width: 100%; box-sizing: border-box; padding: 9px 12px; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 0.95rem; font-weight: 600; color: #07192f; background: #f8fafc;">
+          <option value="0">Trabajo Continuo (100%)</option>
+          <option value="1">75% Trabajo / 25% Descanso</option>
+          <option selected="selected" value="2">50% Trabajo / 50% Descanso
+          </option>
+          <option value="3">25% Trabajo / 75% Descanso</option>
+        </select></div>
+    </div>
+    <div
+      style="margin-bottom: 10px; font-weight: bold; color: #07192f; font-size: 0.92rem;">
+      Temperaturas por actividad en interior (T<sub>h</sub>: bulbo húmedo,
+      T<sub>g</sub>: globo, T<sub>s</sub>: bulbo seco) y duración t<sub>i</sub>:
+    </div>
+    <div style="overflow-x: auto;">
+      <table id="tablaTareasCalc"
+        style="width: 100%; border-collapse: collapse; font-size: 0.86rem; min-width: 780px;">
+        <thead>
+          <tr style="background: #07192f; color: #ffffff;">
+            <th
+              style="padding: 8px; text-align: left; border: 1px solid #1e3a5f;">
+              Actividad</th>
+            <th
+              style="padding: 8px; text-align: center; border: 1px solid #1e3a5f; width: 105px;">
+              T<sub>h</sub> (°C)</th>
+            <th
+              style="padding: 8px; text-align: center; border: 1px solid #1e3a5f; width: 105px;">
+              T<sub>g</sub> (°C)</th>
+            <th
+              style="padding: 8px; text-align: center; border: 1px solid #1e3a5f; width: 105px;">
+              T<sub>s</sub> (°C)</th>
+            <th
+              style="padding: 8px; text-align: center; border: 1px solid #1e3a5f; width: 110px;">
+              Tiempo t<sub>i</sub></th>
+            <th
+              style="padding: 8px; text-align: center; border: 1px solid #1e3a5f; width: 115px;">
+              WBGT<sub>i</sub> (°C)</th>
+            <th
+              style="padding: 8px; text-align: right; border: 1px solid #1e3a5f; width: 125px;">
+              WBGT<sub>i</sub> × t<sub>i</sub></th>
+            <th
+              style="padding: 8px; text-align: center; border: 1px solid #1e3a5f; width: 70px;">
+              Quitar</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpoTareasCalc">
+          <tr>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-nombre"
+                style="width: 100%; box-sizing: border-box; padding: 6px 8px; border: 1px solid #cbd5e1; border-radius: 6px;"
+                type="text" value="Actividad 1"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-th"
+                style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="24.5"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-tg"
+                style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="33.0"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-ts"
+                style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="31.5"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-t"
+                style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="4.0"></td>
+            <td class="tarea-wbgt"
+              style="padding: 6px 8px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #07192f;">
+              27.05</td>
+            <td class="tarea-pond"
+              style="padding: 6px 8px; border: 1px solid #e2e8f0; text-align: right; font-weight: 600; color: #334155;">
+              108.20</td>
+            <td
+              style="padding: 6px; border: 1px solid #e2e8f0; text-align: center;">
+              <button class="btn-quitar-fila"
+                style="background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; padding: 5px 9px; border-radius: 6px; cursor: pointer; font-weight: bold;"
+                type="button">✕</button></td>
+          </tr>
+          <tr>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-nombre"
+                style="width: 100%; box-sizing: border-box; padding: 6px 8px; border: 1px solid #cbd5e1; border-radius: 6px;"
+                type="text" value="Actividad 2"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-th"
+                style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="26.0"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-tg"
+                style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="35.0"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-ts"
+                style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="33.0"></td>
+            <td style="padding: 6px; border: 1px solid #e2e8f0;"><input
+                class="tarea-t"
+                style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;"
+                step="0.1" type="number" value="4.0"></td>
+            <td class="tarea-wbgt"
+              style="padding: 6px 8px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #07192f;">
+              28.70</td>
+            <td class="tarea-pond"
+              style="padding: 6px 8px; border: 1px solid #e2e8f0; text-align: right; font-weight: 600; color: #334155;">
+              114.80</td>
+            <td
+              style="padding: 6px; border: 1px solid #e2e8f0; text-align: center;">
+              <button class="btn-quitar-fila"
+                style="background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; padding: 5px 9px; border-radius: 6px; cursor: pointer; font-weight: bold;"
+                type="button">✕</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px;">
+      <button id="btnAgregarTarea"
+        style="background: #f6f3ec; color: #07192f; border: 1px solid #c9a227; padding: 9px 16px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.9rem;"
+        type="button"> + Agregar actividad </button> <button
+        id="btnCalcularEstres"
+        style="background: linear-gradient(145deg, #07192f 0%, #1a477a 100%); color: #f3d56b; border: 2px solid #c9a227; padding: 9px 22px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.92rem;"
+        type="button"> Calcular WBGT<sub>prom</sub> </button></div>
+  </div>
+  <!-- RESULTADOS -->
+  <div
+    style="background: #ffffff; border-radius: 10px; padding: 22px 24px; box-shadow: 0 4px 12px rgba(7, 25, 47, 0.06); border: 1px solid #ece6d5; border-top: 4px solid #0f2c52;">
+    <h3
+      style="margin: 0 0 14px 0; color: #07192f; font-size: 1.15rem; font-weight: bold;">
+      2. Resultados Calculados</h3>
+    <div
+      style="display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 14px;">
+      <div
+        style="flex: 1; min-width: 190px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 14px;">
+        <div
+          style="font-size: 0.78rem; font-weight: bold; color: #475569; text-transform: uppercase;">
+          WBGT Promedio (WBGT<sub>prom</sub>)</div>
+        <div id="resWbgtProm"
+          style="font-size: 1.5rem; font-weight: 800; color: #07192f; margin-top: 4px;">
+          -- °C</div>
+        <div id="resSumaPond"
+          style="font-size: 0.83rem; color: #475569; margin-top: 2px;">
+          Σ(WBGT<sub>i</sub>·t<sub>i</sub>): -- · Tiempo total: --</div>
+      </div>
+      <div
+        style="flex: 1; min-width: 190px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 14px;">
+        <div
+          style="font-size: 0.78rem; font-weight: bold; color: #475569; text-transform: uppercase;">
+          WBGT Efectivo (con CAF)</div>
+        <div id="resWbgtEff"
+          style="font-size: 1.5rem; font-weight: 800; color: #07192f; margin-top: 4px;">
+          -- °C</div>
+        <div id="resCatMet"
+          style="font-size: 0.83rem; font-weight: bold; color: #b58c19; margin-top: 2px;">
+          Metabolismo: --</div>
+      </div>
+      <div
+        style="flex: 1; min-width: 190px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 14px;">
+        <div
+          style="font-size: 0.78rem; font-weight: bold; color: #475569; text-transform: uppercase;">
+          Límite Permisible Ref.</div>
+        <div id="resLimRef"
+          style="font-size: 1.5rem; font-weight: 800; color: #07192f; margin-top: 4px;">
+          -- °C</div>
+        <div id="resDiagnostico"
+          style="font-size: 0.83rem; font-weight: bold; margin-top: 2px;">
+          Estado: --</div>
+      </div>
+    </div>
+    <div id="resNotaPedagogica"
+      style="background: #fcfbf7; border-left: 4px solid #c9a227; padding: 12px 16px; border-radius: 6px; font-size: 0.88rem; color: #334155; line-height: 1.55;">
+      <strong>Fórmula aplicada (interiores):</strong> WBGT<sub>i</sub> = 0.7 ×
+      T<sub>h</sub> + 0.3 × T<sub>g</sub>  |  WBGT<sub>prom</sub> =
+      Σ(WBGT<sub>i</sub> × t<sub>i</sub>) / Σt<sub>i</sub>. Verifica siempre las
+      condiciones particulares del puesto y criterios técnicos aplicables.</div>
+  </div>
+</div>
+<p>
+  <script>
+    (function() {
+      const limitesPermisibles = [
+        [31.0, 28.0, null, null],
+        [31.0, 29.0, 27.5, null],
+        [32.0, 30.0, 29.0, 28.0],
+        [32.5, 31.5, 30.5, 30.0]
+      ];
+
+      function clasificarMetabolismo(kcalH) {
+        if (kcalH < 200) return {
+          cat: 'Liviano (< 200 kcal/h)',
+          idx: 0
+        };
+        if (kcalH <= 300) return {
+          cat: 'Moderado (200–300 kcal/h)',
+          idx: 1
+        };
+        if (kcalH <= 400) return {
+          cat: 'Pesado (300–400 kcal/h)',
+          idx: 2
+        };
+        return {
+          cat: 'Muy Pesado (> 400 kcal/h)',
+          idx: 3
+        };
+      }
+
+      function crearFila(nombre, th, tg, ts, t) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+        <td style="padding: 6px; border: 1px solid #e2e8f0;">
+          <input type="text" class="tarea-nombre" value="${nombre}"
+            style="width: 100%; box-sizing: border-box; padding: 6px 8px; border: 1px solid #cbd5e1; border-radius: 6px;">
+        </td>
+        <td style="padding: 6px; border: 1px solid #e2e8f0;">
+          <input type="number" step="0.1" class="tarea-th" value="${th}"
+            style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;">
+        </td>
+        <td style="padding: 6px; border: 1px solid #e2e8f0;">
+          <input type="number" step="0.1" class="tarea-tg" value="${tg}"
+            style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;">
+        </td>
+        <td style="padding: 6px; border: 1px solid #e2e8f0;">
+          <input type="number" step="0.1" class="tarea-ts" value="${ts}"
+            style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;">
+        </td>
+        <td style="padding: 6px; border: 1px solid #e2e8f0;">
+          <input type="number" step="0.1" class="tarea-t" value="${t}"
+            style="width: 100%; box-sizing: border-box; padding: 6px; border: 1px solid #cbd5e1; border-radius: 6px; text-align: center;">
+        </td>
+        <td class="tarea-wbgt" style="padding: 6px 8px; border: 1px solid #e2e8f0; text-align: center; font-weight: 700; color: #07192f;">
+          0.00
+        </td>
+        <td class="tarea-pond" style="padding: 6px 8px; border: 1px solid #e2e8f0; text-align: right; font-weight: 600; color: #334155;">
+          0.00
+        </td>
+        <td style="padding: 6px; border: 1px solid #e2e8f0; text-align: center;">
+          <button type="button" class="btn-quitar-fila"
+            style="background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; padding: 5px 9px; border-radius: 6px; cursor: pointer; font-weight: bold;">✕</button>
+        </td>
+      `;
+        return tr;
+      }
+
+      function vincularBotonesEliminar() {
+        const botones = document.querySelectorAll(
+          '#cuerpoTareasCalc .btn-quitar-fila');
+        botones.forEach((btn) => {
+          btn.onclick = function() {
+            const tbody = document.getElementById('cuerpoTareasCalc');
+            if (tbody && tbody.rows.length > 1) {
+              btn.closest('tr').remove();
+              calcularTodo();
+            }
+          };
+        });
+      }
+
+      function agregarFilaTarea() {
+        const tbody = document.getElementById('cuerpoTareasCalc');
+        if (!tbody) return;
+        const n = tbody.rows.length + 1;
+        tbody.appendChild(crearFila(`Actividad ${n}`, 25.0, 34.0, 32.0, 2.0));
+        vincularBotonesEliminar();
+        calcularTodo();
+      }
+
+      function calcularTodo() {
+        const tbody = document.getElementById('cuerpoTareasCalc');
+        if (!tbody) return;
+
+        const metVal = parseFloat(document.getElementById('metPromInput')
+          .value) || 0;
+        const cafVal = parseFloat(document.getElementById('cafVestimenta')
+          .value) || 0;
+        const cicloIdx = parseInt(document.getElementById('cicloCalc').value,
+          10) || 0;
+
+        const filas = Array.from(tbody.querySelectorAll('tr'));
+        let sumaPond = 0;
+        let sumaTiempo = 0;
+
+        filas.forEach((tr) => {
+          const th = parseFloat(tr.querySelector('.tarea-th').value) || 0;
+          const tg = parseFloat(tr.querySelector('.tarea-tg').value) || 0;
+          const t = parseFloat(tr.querySelector('.tarea-t').value) || 0;
+
+          const wbgtAct = (0.7 * th) + (0.3 * tg);
+          const pondAct = wbgtAct * t;
+
+          const celdaWbgt = tr.querySelector('.tarea-wbgt');
+          const celdaPond = tr.querySelector('.tarea-pond');
+
+          if (celdaWbgt) celdaWbgt.textContent = wbgtAct.toFixed(2);
+          if (celdaPond) celdaPond.textContent = pondAct.toFixed(2);
+
+          if (t > 0) {
+            sumaPond += pondAct;
+            sumaTiempo += t;
+          }
+        });
+
+        const elProm = document.getElementById('resWbgtProm');
+        const elPond = document.getElementById('resSumaPond');
+        const elEff = document.getElementById('resWbgtEff');
+        const elCat = document.getElementById('resCatMet');
+        const elLim = document.getElementById('resLimRef');
+        const elDiag = document.getElementById('resDiagnostico');
+
+        const infoMet = clasificarMetabolismo(metVal);
+        elCat.textContent = `Metabolismo: ${infoMet.cat}`;
+
+        if (sumaTiempo > 0) {
+          const wbgtProm = sumaPond / sumaTiempo;
+          const wbgtEff = wbgtProm + cafVal;
+          const limite = limitesPermisibles[cicloIdx][infoMet.idx];
+
+          elProm.textContent = `${wbgtProm.toFixed(2)} °C`;
+          elPond.textContent =
+            `Σ(WBGTᵢ·tᵢ): ${sumaPond.toFixed(2)} · Σtᵢ: ${sumaTiempo.toFixed(2)}`;
+          elEff.textContent = `${wbgtEff.toFixed(2)} °C`;
+
+          if (limite !== null && limite !== undefined) {
+            elLim.textContent = `${limite.toFixed(1)} °C`;
+            if (wbgtEff > limite) {
+              elDiag.textContent =
+                'Estado: Supera referencia (requiere controles)';
+              elDiag.style.color = '#991b1b';
+            } else {
+              elDiag.textContent =
+                'Estado: Dentro de referencia para el régimen';
+              elDiag.style.color = '#155724';
+            }
+          } else {
+            elLim.textContent = 'Sin límite directo';
+            elDiag.textContent =
+              'Estado: Revisar régimen / evaluación específica';
+            elDiag.style.color = '#9c7610';
+          }
+        } else {
+          elProm.textContent = '-- °C';
+          elPond.textContent =
+            'Ingresa al menos una actividad con tiempo > 0';
+          elEff.textContent = '-- °C';
+          elLim.textContent = '-- °C';
+          elDiag.textContent = 'Estado: --';
+        }
+      }
+
+      const btnAdd = document.getElementById('btnAgregarTarea');
+      const btnCalc = document.getElementById('btnCalcularEstres');
+      const container = document.getElementById('calc-estres-termico-p2');
+
+      if (btnAdd) btnAdd.addEventListener('click', agregarFilaTarea);
+      if (btnCalc) btnCalc.addEventListener('click', calcularTodo);
+      if (container) container.addEventListener('input', calcularTodo);
+      if (container) container.addEventListener('change', calcularTodo);
+
+      vincularBotonesEliminar();
+      calcularTodo();
+    })();
+  </script>
+</p>
