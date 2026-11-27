@@ -1,0 +1,207 @@
+<div id="calc-ciclo-recuperacion-p2"
+  style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 960px; margin: 16px auto; padding: 22px; background: #f6f3ec; border-radius: 14px; box-shadow: 0 12px 28px rgba(7, 25, 47, 0.16); border: 1px solid #dfd6be;">
+  <!-- ENCABEZADO -->
+  <div
+    style="background: linear-gradient(145deg, #07192f 0%, #0f2c52 55%, #1a477a 100%); color: #ffffff; padding: 20px 24px; border-radius: 10px; border-bottom: 5px solid #c9a227; margin-bottom: 20px; box-shadow: 0 6px 18px rgba(7, 25, 47, 0.22);">
+    <div
+      style="display: inline-block; padding: 3px 12px; border: 1px solid #e2be4b; background: rgba(201, 162, 39, 0.15); border-radius: 20px; color: #f3d56b; font-size: 0.72rem; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px;">
+      Peligros Físicos II · Estrés Térmico</div>
+    <h2
+      style="margin: 0; font-size: 1.65rem; font-weight: bold; font-family: Georgia, 'Times New Roman', serif; color: #ffffff;">
+      🔄 Calculadora de Ciclo Trabajo / Descanso (Recuperación)</h2>
+    <p style="margin: 4px 0 0 0; color: #dbeafe; font-size: 0.93rem;">Ingresa
+      los minutos de trabajo y de descanso para obtener los porcentajes de ciclo
+      (% Trabajo / % Descanso)</p>
+  </div>
+  <!-- ENTRADAS DEL ESTUDIANTE -->
+  <div
+    style="background: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(7, 25, 47, 0.06); border: 1px solid #ece6d5; border-left: 5px solid #c9a227;">
+    <h3
+      style="margin: 0 0 14px 0; color: #07192f; font-size: 1.1rem; font-weight: bold;">
+      1. Tiempos del Ciclo (en minutos)</h3>
+    <div
+      style="display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end;">
+      <div style="flex: 1; min-width: 210px;"><label
+          style="display: block; font-weight: bold; color: #07192f; font-size: 0.9rem; margin-bottom: 6px;"
+          for="minTrabajoCiclo"> ⏱️ Minutos de Trabajo (min) </label> <input
+          id="minTrabajoCiclo"
+          style="width: 100%; box-sizing: border-box; padding: 10px 12px; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 1rem; font-weight: bold; color: #07192f; background: #f8fafc;"
+          min="0" step="1" type="number" value="30"></div>
+      <div style="flex: 1; min-width: 210px;"><label
+          style="display: block; font-weight: bold; color: #07192f; font-size: 0.9rem; margin-bottom: 6px;"
+          for="minDescansoCiclo"> 🛋️ Minutos de Descanso / Recuperación (min)
+        </label> <input id="minDescansoCiclo"
+          style="width: 100%; box-sizing: border-box; padding: 10px 12px; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 1rem; font-weight: bold; color: #07192f; background: #f8fafc;"
+          min="0" step="1" type="number" value="30"></div>
+      <div style="min-width: 160px;"><button id="btnResetCiclo"
+          style="width: 100%; background: #f6f3ec; color: #07192f; border: 1px solid #c9a227; padding: 11px 16px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.9rem;"
+          type="button"> Restablecer (30 / 30) </button></div>
+    </div>
+    <!-- BARRA VISUAL DE DISTRIBUCIÓN -->
+    <div style="margin-top: 18px;">
+      <div
+        style="display: flex; justify-content: space-between; font-size: 0.82rem; font-weight: bold; color: #475569; margin-bottom: 6px;">
+        <span id="lblBarraTrabajo">Trabajo: 50.0%</span> <span
+          id="lblBarraDescanso">Descanso: 50.0%</span></div>
+      <div
+        style="width: 100%; height: 18px; background: #e2e8f0; border-radius: 999px; overflow: hidden; display: flex; border: 1px solid #cbd5e1;">
+        <div id="barraTrabajoCiclo"
+          style="width: 50%; background: linear-gradient(90deg, #07192f, #1a477a); transition: width 0.25s ease;">
+        </div>
+        <div id="barraDescansoCiclo"
+          style="width: 50%; background: linear-gradient(90deg, #c9a227, #e2be4b); transition: width 0.25s ease;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- RESULTADOS EN %TRABAJO Y %DESCANSO -->
+  <div
+    style="background: linear-gradient(145deg, #07192f 0%, #0f2c52 100%); color: #ffffff; border-radius: 10px; padding: 20px 24px; border-left: 5px solid #c9a227; box-shadow: 0 6px 18px rgba(7, 25, 47, 0.18);">
+    <div
+      style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 1.5px; color: #f3d56b; font-weight: bold; margin-bottom: 12px;">
+      Resultado del Ciclo (% Trabajo / % Descanso)</div>
+    <div
+      style="display: flex; flex-wrap: wrap; gap: 14px; align-items: stretch;">
+      <div
+        style="flex: 1; min-width: 180px; background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-size: 0.8rem; color: #dbeafe; font-weight: bold;">%
+          TRABAJO</div>
+        <div id="resPctTrabajo"
+          style="font-size: 2rem; font-weight: 800; color: #ffffff; margin-top: 2px; line-height: 1.1;">
+          50.0%</div>
+        <div id="detMinTrabajo"
+          style="font-size: 0.82rem; color: #cbd5e1; margin-top: 4px;">30 min de
+          trabajo</div>
+      </div>
+      <div
+        style="flex: 1; min-width: 180px; background: rgba(201, 162, 39, 0.14); border: 1px solid rgba(226, 190, 75, 0.55); border-radius: 8px; padding: 14px 16px;">
+        <div style="font-size: 0.8rem; color: #f3d56b; font-weight: bold;">%
+          DESCANSO</div>
+        <div id="resPctDescanso"
+          style="font-size: 2rem; font-weight: 800; color: #f3d56b; margin-top: 2px; line-height: 1.1;">
+          50.0%</div>
+        <div id="detMinDescanso"
+          style="font-size: 0.82rem; color: #fef3c7; margin-top: 4px;">30 min de
+          descanso</div>
+      </div>
+      <div
+        style="flex: 1.3; min-width: 220px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(201, 162, 39, 0.35); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; justify-content: center;">
+        <div
+          style="font-size: 0.76rem; text-transform: uppercase; color: #e2be4b; font-weight: bold;">
+          Resumen del régimen</div>
+        <div id="resFormatoCiclo"
+          style="font-size: 1.15rem; font-weight: 800; color: #ffffff; margin-top: 4px;">
+          50.0% Trabajo / 50.0% Descanso</div>
+        <div id="resCicloReferencia"
+          style="font-size: 0.82rem; color: #dbeafe; margin-top: 4px;">Ciclo
+          total: 60 min · Referencia cercana: 50% Trabajo, 50% Descanso</div>
+      </div>
+    </div>
+  </div>
+</div>
+<p>
+  <script>
+    (function() {
+      const inputTrabajo = document.getElementById('minTrabajoCiclo');
+      const inputDescanso = document.getElementById('minDescansoCiclo');
+      const btnReset = document.getElementById('btnResetCiclo');
+      const root = document.getElementById('calc-ciclo-recuperacion-p2');
+
+      const ciclosReferencia = [{
+          pctT: 100,
+          label: 'Trabajo Continuo (100% / 0%)'
+        },
+        {
+          pctT: 75,
+          label: '75% Trabajo, 25% Descanso'
+        },
+        {
+          pctT: 50,
+          label: '50% Trabajo, 50% Descanso'
+        },
+        {
+          pctT: 25,
+          label: '25% Trabajo, 75% Descanso'
+        }
+      ];
+
+      function cicloMasCercano(pctTrabajo) {
+        let mejor = ciclosReferencia[0];
+        let menorDif = Math.abs(pctTrabajo - mejor.pctT);
+        for (let i = 1; i < ciclosReferencia.length; i++) {
+          const dif = Math.abs(pctTrabajo - ciclosReferencia[i].pctT);
+          if (dif < menorDif) {
+            menorDif = dif;
+            mejor = ciclosReferencia[i];
+          }
+        }
+        return mejor.label;
+      }
+
+      function calcularCiclo() {
+        if (!inputTrabajo || !inputDescanso) return;
+
+        const t = Math.max(0, parseFloat(inputTrabajo.value) || 0);
+        const d = Math.max(0, parseFloat(inputDescanso.value) || 0);
+        const total = t + d;
+
+        const elPctT = document.getElementById('resPctTrabajo');
+        const elPctD = document.getElementById('resPctDescanso');
+        const elDetT = document.getElementById('detMinTrabajo');
+        const elDetD = document.getElementById('detMinDescanso');
+        const elFormato = document.getElementById('resFormatoCiclo');
+        const elRef = document.getElementById('resCicloReferencia');
+        const elBarraT = document.getElementById('barraTrabajoCiclo');
+        const elBarraD = document.getElementById('barraDescansoCiclo');
+        const elLblT = document.getElementById('lblBarraTrabajo');
+        const elLblD = document.getElementById('lblBarraDescanso');
+
+        if (total > 0) {
+          const pctT = (t / total) * 100;
+          const pctD = (d / total) * 100;
+
+          elPctT.textContent = `${pctT.toFixed(1)}%`;
+          elPctD.textContent = `${pctD.toFixed(1)}%`;
+          elDetT.textContent = `${t} min de trabajo`;
+          elDetD.textContent = `${d} min de descanso`;
+          elFormato.textContent =
+            `${pctT.toFixed(1)}% Trabajo / ${pctD.toFixed(1)}% Descanso`;
+          elRef.textContent =
+            `Ciclo total: ${total} min · Referencia cercana: ${cicloMasCercano(pctT)}`;
+
+          if (elBarraT) elBarraT.style.width = `${pctT}%`;
+          if (elBarraD) elBarraD.style.width = `${pctD}%`;
+          if (elLblT) elLblT.textContent = `Trabajo: ${pctT.toFixed(1)}%`;
+          if (elLblD) elLblD.textContent = `Descanso: ${pctD.toFixed(1)}%`;
+        } else {
+          elPctT.textContent = '--%';
+          elPctD.textContent = '--%';
+          elDetT.textContent = '0 min de trabajo';
+          elDetD.textContent = '0 min de descanso';
+          elFormato.textContent = 'Ingresa minutos mayores a 0';
+          elRef.textContent = 'Ciclo total: 0 min';
+
+          if (elBarraT) elBarraT.style.width = '50%';
+          if (elBarraD) elBarraD.style.width = '50%';
+          if (elLblT) elLblT.textContent = 'Trabajo: --%';
+          if (elLblD) elLblD.textContent = 'Descanso: --%';
+        }
+      }
+
+      if (btnReset) {
+        btnReset.addEventListener('click', function() {
+          if (inputTrabajo) inputTrabajo.value = 30;
+          if (inputDescanso) inputDescanso.value = 30;
+          calcularCiclo();
+        });
+      }
+
+      if (root) {
+        root.addEventListener('input', calcularCiclo);
+        root.addEventListener('change', calcularCiclo);
+      }
+
+      calcularCiclo();
+    })();
+  </script>
+</p>
