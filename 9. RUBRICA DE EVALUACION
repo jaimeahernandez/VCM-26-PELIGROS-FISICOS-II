@@ -1,0 +1,222 @@
+<section
+  style="font-family: Georgia, 'Times New Roman', serif; max-width: 1040px; margin: 16px auto;">
+  <div
+    style="background: linear-gradient(145deg, #07192f 0%, #0f2c52 52%, #1a477a 100%); border-radius: 10px; overflow: hidden; box-shadow: 0 12px 28px rgba(7, 25, 47, 0.28); border-top: 6px solid #c9a227; border-bottom: 6px solid #c9a227;">
+    <!-- ENCABEZADO -->
+    <div
+      style="padding: 26px 24px; border-bottom: 1px solid rgba(201, 162, 39, 0.45); text-align: center;">
+      <div
+        style="display: inline-block; padding: 5px 16px; border: 1px solid #e2be4b; background: rgba(201, 162, 39, 0.14); border-radius: 20px; color: #f3d56b; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 10px;">
+        <i class="fa fa-table mr-1" aria-hidden="true"></i> Peligros Físicos II
+        · Evaluación 50 / 50</div>
+      <h2
+        style="color: #ffffff; font-size: 26px; margin: 6px 0; font-weight: bold;">
+        Rúbrica de Evaluación — Estrés Térmico</h2>
+      <p
+        style="color: #dbeafe; font-size: 14px; font-style: italic; margin: 6px 0 0 0;">
+        50% Trabajo Escrito (Informe PDF) · 50% Sustentación Oral Espontánea</p>
+    </div>
+    <!-- CUERPO -->
+    <div style="background: #f6f3ec; padding: 24px;">
+      <!-- AVISO DE PONDERACIÓN Y RAA -->
+      <div
+        style="background: #ffffff; border-left: 5px solid #c9a227; padding: 18px 22px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 3px 10px rgba(7, 25, 47, 0.06); font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b; line-height: 1.65;">
+        <p style="margin: 0 0 8px 0;"><strong style="color: #07192f;">Esquema de
+            calificación (100 puntos):</strong> <strong>50% Informe Técnico
+            Escrito (50 pts)</strong> + <strong>50% Sustentación Oral (50
+            pts)</strong>. La sustentación debe realizarse de manera espontánea
+          y argumentada; la lectura literal de apuntes o diapositivas reduce la
+          calificación.</p>
+        <p style="margin: 0; font-size: 13px; color: #334155;"><strong>RAA
+            evaluados:</strong> <strong>RAA1</strong> (efectos e identificación
+          de áreas), <strong>RAA2</strong> (evaluación del riesgo con
+          metodologías reconocidas) y <strong>RAA3</strong> (medidas de control
+          y mitigación en fuente, medio y persona).</p>
+      </div>
+      <!-- TABLA -->
+      <div
+        style="background: #ffffff; border-radius: 8px; padding: 14px; overflow-x: auto; box-shadow: 0 4px 12px rgba(7, 25, 47, 0.06); border: 1px solid #ece6d5;">
+        <table
+          style="width: 100%; border-collapse: collapse; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13px; min-width: 760px;">
+          <thead>
+            <tr style="background: #07192f; color: #ffffff;">
+              <th
+                style="padding: 10px; text-align: left; border: 1px solid #1e3a5f; width: 20%;">
+                Criterio &amp; RAA</th>
+              <th
+                style="padding: 10px; text-align: left; border: 1px solid #1e3a5f; width: 20%; color: #f3d56b;">
+                Excelente</th>
+              <th
+                style="padding: 10px; text-align: left; border: 1px solid #1e3a5f; width: 19%;">
+                Bueno</th>
+              <th
+                style="padding: 10px; text-align: left; border: 1px solid #1e3a5f; width: 18%;">
+                Básico</th>
+              <th
+                style="padding: 10px; text-align: left; border: 1px solid #1e3a5f; width: 15%;">
+                Insuficiente</th>
+              <th
+                style="padding: 10px; text-align: center; border: 1px solid #1e3a5f; width: 8%; color: #f3d56b;">
+                Pts</th>
+            </tr>
+          </thead>
+          <tbody><!-- BLOQUE 1: ESCRITO 50% -->
+            <tr style="background: #0f2c52; color: #f3d56b; font-weight: bold;">
+              <td
+                style="padding: 8px 10px; border: 1px solid #1e3a5f; letter-spacing: 0.5px;"
+                colspan="6">COMPONENTE 1: TRABAJO ESCRITO — INFORME PDF (50% ·
+                50 PUNTOS)</td>
+            </tr>
+            <tr>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; background: #f8fafc; color: #07192f;">
+                <strong>1. Efectos y Áreas de Intervención</strong><br><span
+                  style="font-size: 11px; color: #0369a1; font-weight: bold;">RAA1</span>
+              </td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Analiza con precisión los efectos del estrés térmico y delimita
+                claramente las áreas de intervención y protección.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Identifica los efectos térmicos y zonas de exposición con
+                claridad, con menor detalle en algún factor.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Presenta generalidades o confusiones parciales sobre los efectos
+                o las áreas de exposición.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                No identifica los efectos térmicos ni las áreas de intervención
+                en el entorno laboral.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #07192f;">
+                15</td>
+            </tr>
+            <tr>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; background: #f8fafc; color: #07192f;">
+                <strong>2. Evaluación y Cálculos Técnicos</strong><br><span
+                  style="font-size: 11px; color: #0369a1; font-weight: bold;">RAA2</span>
+              </td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Aplica correctamente metodologías, fórmulas y límites
+                (WBGT/TGBH, ciclos T/D, WBGTeff/CAF) en los 7 ejercicios.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Resuelve con acierto general; presenta imprecisiones menores sin
+                alterar el diagnóstico del riesgo.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Errores de cálculo o interpretación en varios ejercicios o
+                aplicación parcial de metodologías.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                No aplica las metodologías ni los cálculos requeridos o carecen
+                de sustento técnico.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #07192f;">
+                20</td>
+            </tr>
+            <tr>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; background: #f8fafc; color: #07192f;">
+                <strong>3. Controles y Calidad del Informe</strong><br><span
+                  style="font-size: 11px; color: #0369a1; font-weight: bold;">RAA3</span>
+              </td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Propone controles coherentes en fuente, medio y persona; cumple
+                formato PDF, normas APA y estructura solicitada.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Formula controles pertinentes en fuente, medio y persona con
+                ajustes menores; cumple requisitos de forma.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Controles centrados casi solo en EPP o poco articulados;
+                descuidos en formato o citación APA.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Ausencia de controles viables, incumplimiento del formato o
+                falta de apropiación del trabajo.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #07192f;">
+                15</td>
+            </tr>
+            <!-- BLOQUE 2: SUSTENTACIÓN 50% -->
+            <tr style="background: #7f1d1d; color: #ffffff; font-weight: bold;">
+              <td
+                style="padding: 8px 10px; border: 1px solid #991b1b; letter-spacing: 0.5px;"
+                colspan="6">COMPONENTE 2: SUSTENTACIÓN ORAL (50% · 50 PUNTOS)
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; background: #f8fafc; color: #07192f;">
+                <strong>4. Dominio Técnico y Espontaneidad</strong><br><span
+                  style="font-size: 11px; color: #991b1b; font-weight: bold;">RAA1
+                  · RAA2</span></td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Expone de forma espontánea, clara y segura, con dominio propio
+                del análisis sin depender de lectura de apuntes.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Explica con claridad y buen manejo técnico, con apoyos puntuales
+                y comprensión sólida del caso.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Depende en exceso de lectura o notas, con inseguridad al
+                explicar cálculos, límites o riesgos.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Lee textualmente el informe, no logra explicar sus cálculos o
+                evidencia falta de preparación.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #7f1d1d;">
+                25</td>
+            </tr>
+            <tr>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; background: #f8fafc; color: #07192f;">
+                <strong>5. Defensa y Toma de Decisiones</strong><br><span
+                  style="font-size: 11px; color: #991b1b; font-weight: bold;">RAA3</span>
+              </td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Responde con solidez y criterio profesional a las preguntas,
+                defendiendo sus decisiones y controles en SST.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Argumenta adecuadamente sus decisiones y ajustes propuestos ante
+                los cuestionamientos del docente.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                Justifica con dificultad sus decisiones o muestra dudas al
+                defender la priorización de controles.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; line-height: 1.5;">
+                No logra defender las decisiones planteadas o propone medidas
+                contrarias a la prevención en SST.</td>
+              <td
+                style="padding: 10px; border: 1px solid #e2e8f0; text-align: center; font-weight: bold; color: #7f1d1d;">
+                25</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr style="background: #07192f; color: #f3d56b; font-weight: bold;">
+              <td
+                style="padding: 10px; text-align: right; border: 1px solid #1e3a5f;"
+                colspan="5">PUNTAJE TOTAL:</td>
+              <td
+                style="padding: 10px; text-align: center; border: 1px solid #1e3a5f; font-size: 15px;">
+                100 pts</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
