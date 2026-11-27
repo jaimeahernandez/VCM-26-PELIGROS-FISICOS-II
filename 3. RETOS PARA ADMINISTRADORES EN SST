@@ -1,286 +1,285 @@
 <section
-  style="font-family: Georgia, 'Times New Roman', serif; background: linear-gradient(135deg, #f4f1ea 0%, #e8e2d0 100%); padding: 30px 15px; border-radius: 6px;">
+  style="font-family: Georgia, 'Times New Roman', serif; background: linear-gradient(145deg, #f6f3ec 0%, #ebe4d3 100%); padding: 28px 16px; border-radius: 10px; max-width: 1080px; margin: 16px auto; box-shadow: 0 10px 26px rgba(7, 25, 47, 0.14); border: 1px solid #dfd6be;">
   <!-- ENCABEZADO ACADÉMICO -->
   <div
-    style="background: linear-gradient(135deg, #0b2545 0%, #1d4e89 100%); border-bottom: 5px solid #c9a227; padding: 35px 25px; border-radius: 6px 6px 0 0; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+    style="background: linear-gradient(145deg, #07192f 0%, #0f2c52 55%, #1a477a 100%); border-top: 6px solid #c9a227; border-bottom: 5px solid #c9a227; padding: 34px 24px; border-radius: 8px 8px 0 0; text-align: center; box-shadow: 0 6px 18px rgba(7, 25, 47, 0.22);">
     <div
-      style="display: inline-block; background: #c9a227; color: #0b2545; padding: 6px 18px; border-radius: 20px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 15px;">
-      <i class="fa fa-briefcase"></i>  Peligros Físicos II</div>
+      style="display: inline-block; background: rgba(201, 162, 39, 0.16); color: #f3d56b; border: 1px solid #e2be4b; padding: 6px 18px; border-radius: 20px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: bold; letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 14px;">
+      <i class="fa fa-briefcase mr-1" aria-hidden="true"></i> Peligros Físicos
+      II</div>
     <h2
-      style="color: #ffffff; font-family: Georgia, serif; font-size: 30px; margin: 10px 0 8px 0; font-weight: normal; letter-spacing: 0.5px;">
+      style="color: #ffffff; font-family: Georgia, 'Times New Roman', serif; font-size: 28px; margin: 8px 0; font-weight: bold; letter-spacing: 0.6px; line-height: 1.25;">
       Retos Gerenciales — Análisis y Toma de Decisiones en SST</h2>
+    <div
+      style="width: 90px; height: 3px; background: #e2be4b; margin: 12px auto; border-radius: 2px;">
+       </div>
     <p
-      style="color: #c9a227; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-style: italic; margin: 0;">
+      style="color: #f3d56b; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-style: italic; margin: 0;">
       Del dato técnico a la decisión estratégica del Administrador en Seguridad
       y Salud en el Trabajo</p>
   </div>
   <!-- INSTRUCCIONES -->
   <div
-    style="background: #ffffff; padding: 22px 28px; border-left: 5px solid #c9a227; margin: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+    style="background: #ffffff; padding: 22px 26px; border-left: 5px solid #c9a227; border-right: 1px solid #e6dec8; border-bottom: 1px solid #e6dec8; margin: 0; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);">
     <p
-      style="color: #0b2545; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.7; margin: 0;">
-      <i class="fa fa-balance-scale"
-        style="color: #c9a227; margin-right: 8px;"></i> <strong>Apreciado(a)
-        profesional:</strong> Cada reto presenta el <em>resultado técnico</em>
-      obtenido en el ejercicio correspondiente. Su tarea como
-      <strong>Administrador(a) en SST</strong> es interpretar dicho resultado,
-      evaluar el riesgo, y proponer la <strong>decisión gerencial</strong> más
-      adecuada conforme a la normatividad vigente (Res. 2400/79, Decreto
-      1072/2015, GATISO Estrés Térmico, TLV-ACGIH).</p>
+      style="color: #07192f; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.68; margin: 0; text-align: justify;">
+      <i class="fa fa-balance-scale mr-2" style="color: #b58c19;"
+        aria-hidden="true"></i> <strong>Apreciado(a) profesional:</strong> Cada
+      reto presenta el <em>resultado técnico</em> obtenido en el ejercicio
+      correspondiente. Su tarea como <strong>Administrador(a) en SST</strong> es
+      interpretar dicho resultado, evaluar el riesgo y proponer la
+      <strong>decisión gerencial</strong> más adecuada conforme a la
+      normatividad vigente (Res. 2400/79, Decreto 1072/2015, GATISO Estrés
+      Térmico, TLV-ACGIH). Use las pistas desplegables solo como guía de
+      análisis antes de formular su respuesta.</p>
   </div>
   <!-- RETO 1 -->
   <div
-    style="background: #ffffff; margin: 25px 0; padding: 28px; border-top: 4px solid #0b2545; border-radius: 0 0 8px 8px; box-shadow: 0 3px 12px rgba(0,0,0,0.08);">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;"><span
-        style="background: #0b2545; color: #c9a227; font-family: Georgia, serif; font-size: 22px; font-weight: bold; padding: 8px 16px; border-radius: 4px; margin-right: 15px;">01</span>
+    style="background: #ffffff; margin: 22px 0; padding: 26px; border-top: 4px solid #0f2c52; border-radius: 8px; box-shadow: 0 4px 14px rgba(7, 25, 47, 0.08); border-left: 1px solid #ece6d5; border-right: 1px solid #ece6d5; border-bottom: 1px solid #ece6d5;">
+    <div style="display: flex; align-items: center; margin-bottom: 14px;"><span
+        style="background: #07192f; color: #f3d56b; border: 1px solid #c9a227; font-family: Georgia, serif; font-size: 20px; font-weight: bold; padding: 7px 15px; border-radius: 6px; margin-right: 14px;">01</span>
       <h3
-        style="color: #0b2545; font-family: Georgia, serif; font-size: 22px; margin: 0;">
+        style="color: #07192f; font-family: Georgia, serif; font-size: 21px; margin: 0; font-weight: bold;">
         Carga Metabólica Promedio</h3>
     </div>
     <div
-      style="background: #f4f1ea; padding: 15px 20px; border-left: 4px solid #c9a227; margin-bottom: 18px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333;">
-      <strong>Resultado técnico:</strong> Promedio ponderado de <strong>200,75
-        kcal/h</strong> — clasificación <strong>Liviano</strong>.</div>
+      style="background: #f6f3ec; padding: 14px 18px; border-left: 4px solid #c9a227; border-radius: 4px; margin-bottom: 16px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b;">
+      <strong style="color: #07192f;">Resultado técnico:</strong> Promedio
+      ponderado de <strong>200,75 kcal/h</strong> — clasificación
+      <strong>Liviano</strong>.</div>
     <p
-      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #0b2545; font-size: 15px;">
+      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #07192f; font-size: 15px; line-height: 1.62; margin: 0;">
       <strong>Reto del Administrador SST:</strong> Con base en este resultado,
       ¿qué decisión gerencial tomaría usted respecto a la organización del
       trabajo y al programa de vigilancia epidemiológica?</p>
     <details
-      style="margin-top: 15px; background: #fcfbf7; padding: 15px 20px; border-radius: 4px; border: 1px solid #e0d9c2;">
+      style="margin-top: 16px; background: #fcfbf7; padding: 14px 18px; border-radius: 6px; border: 1px solid #dfd6be;">
       <summary
-        style="cursor: pointer; color: #c9a227; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
-        <i class="fa fa-key"></i>  Ver criterio de decisión</summary>
+        style="cursor: pointer; color: #9c7610; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
+        <i class="fa fa-lightbulb-o mr-1" aria-hidden="true"></i> Pista y
+        lineamiento de análisis</summary>
       <p
-        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333; margin-top: 12px; line-height: 1.7;">
-        Aun cuando la clasificación es <em>Liviana</em>, el Administrador SST
-        <strong>no debe descartar el riesgo</strong>: debe correlacionar la
-        carga metabólica con las condiciones ambientales (WBGT) antes de definir
-        ciclos trabajo-descanso. Decisión recomendada: <strong>mantener
-          vigilancia médica básica</strong>, optimizar rotación y reforzar
-        hidratación, sin necesidad de medidas restrictivas de jornada.</p>
+        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b; margin: 12px 0 0 0; line-height: 1.7;">
+        <strong>Guía:</strong> Recuerde que la carga metabólica es solo uno de
+        los ejes del TLV-ACGIH. Pregúntese cómo interactúa una carga
+        <em>Liviana</em> con la temperatura del entorno (WBGT) y qué implica
+        mantener medidas preventivas proporcionales sin sobredimensionar
+        restricciones ni ignorar hábitos básicos como la hidratación.</p>
     </details>
   </div>
   <!-- RETO 2 -->
   <div
-    style="background: #ffffff; margin: 25px 0; padding: 28px; border-top: 4px solid #0b2545; border-radius: 0 0 8px 8px; box-shadow: 0 3px 12px rgba(0,0,0,0.08);">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;"><span
-        style="background: #0b2545; color: #c9a227; font-family: Georgia, serif; font-size: 22px; font-weight: bold; padding: 8px 16px; border-radius: 4px; margin-right: 15px;">02</span>
+    style="background: #ffffff; margin: 22px 0; padding: 26px; border-top: 4px solid #0f2c52; border-radius: 8px; box-shadow: 0 4px 14px rgba(7, 25, 47, 0.08); border-left: 1px solid #ece6d5; border-right: 1px solid #ece6d5; border-bottom: 1px solid #ece6d5;">
+    <div style="display: flex; align-items: center; margin-bottom: 14px;"><span
+        style="background: #07192f; color: #f3d56b; border: 1px solid #c9a227; font-family: Georgia, serif; font-size: 20px; font-weight: bold; padding: 7px 15px; border-radius: 6px; margin-right: 14px;">02</span>
       <h3
-        style="color: #0b2545; font-family: Georgia, serif; font-size: 22px; margin: 0;">
+        style="color: #07192f; font-family: Georgia, serif; font-size: 21px; margin: 0; font-weight: bold;">
         Ciclo Trabajo-Descanso</h3>
     </div>
     <div
-      style="background: #f4f1ea; padding: 15px 20px; border-left: 4px solid #c9a227; margin-bottom: 18px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333;">
-      <strong>Resultado técnico:</strong> El régimen calculado indica que el
-      trabajador debe alternar <strong>periodos de trabajo con descansos
-        programados</strong> dentro de cada hora laboral.</div>
+      style="background: #f6f3ec; padding: 14px 18px; border-left: 4px solid #c9a227; border-radius: 4px; margin-bottom: 16px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b;">
+      <strong style="color: #07192f;">Resultado técnico:</strong> El régimen
+      calculado indica que el trabajador debe alternar <strong>periodos de
+        trabajo con descansos programados</strong> dentro de cada hora laboral.
+    </div>
     <p
-      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #0b2545; font-size: 15px;">
+      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #07192f; font-size: 15px; line-height: 1.62; margin: 0;">
       <strong>Reto del Administrador SST:</strong> ¿Cómo implementaría
       operativamente este ciclo trabajo-descanso sin afectar la productividad y
       garantizando el cumplimiento normativo?</p>
     <details
-      style="margin-top: 15px; background: #fcfbf7; padding: 15px 20px; border-radius: 4px; border: 1px solid #e0d9c2;">
+      style="margin-top: 16px; background: #fcfbf7; padding: 14px 18px; border-radius: 6px; border: 1px solid #dfd6be;">
       <summary
-        style="cursor: pointer; color: #c9a227; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
-        <i class="fa fa-key"></i>  Ver criterio de decisión</summary>
+        style="cursor: pointer; color: #9c7610; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
+        <i class="fa fa-lightbulb-o mr-1" aria-hidden="true"></i> Pista y
+        lineamiento de análisis</summary>
       <p
-        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333; margin-top: 12px; line-height: 1.7;">
-        El Administrador SST debe <strong>formalizar el ciclo en el
-          procedimiento operativo</strong>, instalar áreas de descanso
-        climatizadas cercanas al puesto, implementar rotación de personal y
-        capacitar al supervisor para hacer cumplir los tiempos. Decisión
-        gerencial: <strong>integrar el ciclo al SG-SST y al estándar de
-          productividad</strong>, evitando que se perciba como tiempo
-        improductivo.</p>
+        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b; margin: 12px 0 0 0; line-height: 1.7;">
+        <strong>Guía:</strong> Considere tres factores operativos: dónde y en
+        qué condiciones térmicas ocurre el descanso, cómo se articula con la
+        supervisión de línea y cómo se alinea con la planeación del SG-SST
+        (Decreto 1072/2015) para que sea ejecutable en campo.</p>
     </details>
   </div>
   <!-- RETO 3 -->
   <div
-    style="background: #ffffff; margin: 25px 0; padding: 28px; border-top: 4px solid #0b2545; border-radius: 0 0 8px 8px; box-shadow: 0 3px 12px rgba(0,0,0,0.08);">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;"><span
-        style="background: #0b2545; color: #c9a227; font-family: Georgia, serif; font-size: 22px; font-weight: bold; padding: 8px 16px; border-radius: 4px; margin-right: 15px;">03</span>
+    style="background: #ffffff; margin: 22px 0; padding: 26px; border-top: 4px solid #0f2c52; border-radius: 8px; box-shadow: 0 4px 14px rgba(7, 25, 47, 0.08); border-left: 1px solid #ece6d5; border-right: 1px solid #ece6d5; border-bottom: 1px solid #ece6d5;">
+    <div style="display: flex; align-items: center; margin-bottom: 14px;"><span
+        style="background: #07192f; color: #f3d56b; border: 1px solid #c9a227; font-family: Georgia, serif; font-size: 20px; font-weight: bold; padding: 7px 15px; border-radius: 6px; margin-right: 14px;">03</span>
       <h3
-        style="color: #0b2545; font-family: Georgia, serif; font-size: 22px; margin: 0;">
+        style="color: #07192f; font-family: Georgia, serif; font-size: 21px; margin: 0; font-weight: bold;">
         Evaluación del WBGTi por Operación</h3>
     </div>
     <div
-      style="background: #f4f1ea; padding: 15px 20px; border-left: 4px solid #c9a227; margin-bottom: 18px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333;">
-      <strong>Resultado técnico:</strong> Algunas operaciones presentan valores
-      de <strong>WBGTi que superan el TLV-ACGIH</strong> para la carga
-      metabólica registrada.</div>
+      style="background: #f6f3ec; padding: 14px 18px; border-left: 4px solid #c9a227; border-radius: 4px; margin-bottom: 16px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b;">
+      <strong style="color: #07192f;">Resultado técnico:</strong> Algunas
+      operaciones presentan valores de <strong>WBGTi que superan el
+        TLV-ACGIH</strong> para la carga metabólica registrada.</div>
     <p
-      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #0b2545; font-size: 15px;">
+      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #07192f; font-size: 15px; line-height: 1.62; margin: 0;">
       <strong>Reto del Administrador SST:</strong> ¿Qué decisión tomaría frente
       a las operaciones que sobrepasan el límite permisible? Priorice
       intervenciones en la jerarquía de controles.</p>
     <details
-      style="margin-top: 15px; background: #fcfbf7; padding: 15px 20px; border-radius: 4px; border: 1px solid #e0d9c2;">
+      style="margin-top: 16px; background: #fcfbf7; padding: 14px 18px; border-radius: 6px; border: 1px solid #dfd6be;">
       <summary
-        style="cursor: pointer; color: #c9a227; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
-        <i class="fa fa-key"></i>  Ver criterio de decisión</summary>
+        style="cursor: pointer; color: #9c7610; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
+        <i class="fa fa-lightbulb-o mr-1" aria-hidden="true"></i> Pista y
+        lineamiento de análisis</summary>
       <p
-        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333; margin-top: 12px; line-height: 1.7;">
-        Aplicar la <strong>jerarquía de controles</strong>: 1) Eliminación o
-        sustitución de la fuente de calor cuando sea viable; 2) Controles de
-        ingeniería (ventilación localizada, apantallamiento, aislamiento
-        térmico); 3) Controles administrativos (rotación, ciclos T/D,
-        hidratación dirigida); 4) EPP especializado como última barrera.
-        Decisión gerencial: <strong>detener temporalmente la operación
-          crítica</strong> hasta implementar al menos un control de ingeniería.
-      </p>
+        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b; margin: 12px 0 0 0; line-height: 1.7;">
+        <strong>Guía:</strong> Revise el orden de prioridad de la jerarquía de
+        controles en SST (de mayor a menor eficacia estructural) y analice qué
+        medida inmediata corresponde cuando un puesto supera el límite
+        permisible antes de continuar con la exposición habitual.</p>
     </details>
   </div>
   <!-- RETO 4 -->
   <div
-    style="background: #ffffff; margin: 25px 0; padding: 28px; border-top: 4px solid #0b2545; border-radius: 0 0 8px 8px; box-shadow: 0 3px 12px rgba(0,0,0,0.08);">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;"><span
-        style="background: #0b2545; color: #c9a227; font-family: Georgia, serif; font-size: 22px; font-weight: bold; padding: 8px 16px; border-radius: 4px; margin-right: 15px;">04</span>
+    style="background: #ffffff; margin: 22px 0; padding: 26px; border-top: 4px solid #0f2c52; border-radius: 8px; box-shadow: 0 4px 14px rgba(7, 25, 47, 0.08); border-left: 1px solid #ece6d5; border-right: 1px solid #ece6d5; border-bottom: 1px solid #ece6d5;">
+    <div style="display: flex; align-items: center; margin-bottom: 14px;"><span
+        style="background: #07192f; color: #f3d56b; border: 1px solid #c9a227; font-family: Georgia, serif; font-size: 20px; font-weight: bold; padding: 7px 15px; border-radius: 6px; margin-right: 14px;">04</span>
       <h3
-        style="color: #0b2545; font-family: Georgia, serif; font-size: 22px; margin: 0;">
+        style="color: #07192f; font-family: Georgia, serif; font-size: 21px; margin: 0; font-weight: bold;">
         WBGT Promedio Ponderado y Nivel de Riesgo</h3>
     </div>
     <div
-      style="background: #f4f1ea; padding: 15px 20px; border-left: 4px solid #c9a227; margin-bottom: 18px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333;">
-      <strong>Resultado técnico:</strong> El WBGT promedio ponderado indica un
-      <strong>riesgo MODERADO a ALTO</strong> de estrés térmico durante la
-      jornada.</div>
+      style="background: #f6f3ec; padding: 14px 18px; border-left: 4px solid #c9a227; border-radius: 4px; margin-bottom: 16px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b;">
+      <strong style="color: #07192f;">Resultado técnico:</strong> El WBGT
+      promedio ponderado indica un <strong>riesgo MODERADO a ALTO</strong> de
+      estrés térmico durante la jornada.</div>
     <p
-      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #0b2545; font-size: 15px;">
+      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #07192f; font-size: 15px; line-height: 1.62; margin: 0;">
       <strong>Reto del Administrador SST:</strong> ¿Qué medidas adoptaría como
       parte del <em>Sistema de Vigilancia Epidemiológica (SVE)</em> y qué
       reportes generaría a la alta gerencia?</p>
     <details
-      style="margin-top: 15px; background: #fcfbf7; padding: 15px 20px; border-radius: 4px; border: 1px solid #e0d9c2;">
+      style="margin-top: 16px; background: #fcfbf7; padding: 14px 18px; border-radius: 6px; border: 1px solid #dfd6be;">
       <summary
-        style="cursor: pointer; color: #c9a227; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
-        <i class="fa fa-key"></i>  Ver criterio de decisión</summary>
+        style="cursor: pointer; color: #9c7610; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
+        <i class="fa fa-lightbulb-o mr-1" aria-hidden="true"></i> Pista y
+        lineamiento de análisis</summary>
       <p
-        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333; margin-top: 12px; line-height: 1.7;">
-        Activar el <strong>SVE para estrés térmico</strong>: exámenes médicos
-        ocupacionales con perfil cardiovascular y renal, monitoreo de signos
-        vitales pre-jornada, plan de hidratación con electrolitos y registro de
-        incidentes por calor. Reportar a la alta gerencia mediante
-        <strong>matriz de riesgo actualizada</strong>, indicadores de exposición
-        y costo-beneficio de los controles propuestos.</p>
+        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b; margin: 12px 0 0 0; line-height: 1.7;">
+        <strong>Guía:</strong> Vincule las acciones preventivas y de seguimiento
+        médico del GATISO Estrés Térmico con el lenguaje que exige la dirección:
+        indicadores de exposición, actualización de peligros y justificación
+        técnica/económica de los controles.</p>
     </details>
   </div>
   <!-- RETO 5 -->
   <div
-    style="background: #ffffff; margin: 25px 0; padding: 28px; border-top: 4px solid #0b2545; border-radius: 0 0 8px 8px; box-shadow: 0 3px 12px rgba(0,0,0,0.08);">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;"><span
-        style="background: #0b2545; color: #c9a227; font-family: Georgia, serif; font-size: 22px; font-weight: bold; padding: 8px 16px; border-radius: 4px; margin-right: 15px;">05</span>
+    style="background: #ffffff; margin: 22px 0; padding: 26px; border-top: 4px solid #0f2c52; border-radius: 8px; box-shadow: 0 4px 14px rgba(7, 25, 47, 0.08); border-left: 1px solid #ece6d5; border-right: 1px solid #ece6d5; border-bottom: 1px solid #ece6d5;">
+    <div style="display: flex; align-items: center; margin-bottom: 14px;"><span
+        style="background: #07192f; color: #f3d56b; border: 1px solid #c9a227; font-family: Georgia, serif; font-size: 20px; font-weight: bold; padding: 7px 15px; border-radius: 6px; margin-right: 14px;">05</span>
       <h3
-        style="color: #0b2545; font-family: Georgia, serif; font-size: 22px; margin: 0;">
+        style="color: #07192f; font-family: Georgia, serif; font-size: 21px; margin: 0; font-weight: bold;">
         Análisis por Operación Individual</h3>
     </div>
     <div
-      style="background: #f4f1ea; padding: 15px 20px; border-left: 4px solid #c9a227; margin-bottom: 18px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333;">
-      <strong>Resultado técnico:</strong> El análisis individual revela que
-      <strong>no todas las operaciones aportan igual al riesgo</strong> —
-      algunas tareas concentran la mayor exposición térmica.</div>
+      style="background: #f6f3ec; padding: 14px 18px; border-left: 4px solid #c9a227; border-radius: 4px; margin-bottom: 16px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b;">
+      <strong style="color: #07192f;">Resultado técnico:</strong> El análisis
+      individual revela que <strong>no todas las operaciones aportan igual al
+        riesgo</strong> — algunas tareas concentran la mayor exposición térmica.
+    </div>
     <p
-      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #0b2545; font-size: 15px;">
+      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #07192f; font-size: 15px; line-height: 1.62; margin: 0;">
       <strong>Reto del Administrador SST:</strong> ¿Cómo priorizaría la
       intervención y qué criterio usaría para reorganizar las tareas críticas
       dentro de la jornada laboral?</p>
     <details
-      style="margin-top: 15px; background: #fcfbf7; padding: 15px 20px; border-radius: 4px; border: 1px solid #e0d9c2;">
+      style="margin-top: 16px; background: #fcfbf7; padding: 14px 18px; border-radius: 6px; border: 1px solid #dfd6be;">
       <summary
-        style="cursor: pointer; color: #c9a227; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
-        <i class="fa fa-key"></i>  Ver criterio de decisión</summary>
+        style="cursor: pointer; color: #9c7610; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
+        <i class="fa fa-lightbulb-o mr-1" aria-hidden="true"></i> Pista y
+        lineamiento de análisis</summary>
       <p
-        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333; margin-top: 12px; line-height: 1.7;">
-        Aplicar el principio de <strong>Pareto al riesgo térmico</strong>:
-        intervenir primero las operaciones que aportan el 80% de la exposición.
-        Reprogramar tareas críticas a las <strong>horas de menor carga térmica
-          ambiental</strong> (primeras horas de la mañana), implementar rotación
-        de operarios entrenados y aclimatados, y documentar la decisión en el
-        plan de trabajo del SG-SST.</p>
+        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b; margin: 12px 0 0 0; line-height: 1.7;">
+        <strong>Guía:</strong> Piense en criterios de priorización por
+        concentración del riesgo y en cómo la variación térmica a lo largo del
+        día permite programar las tareas más exigentes en momentos de menor
+        carga ambiental, cuidando también la aclimatación y rotación.</p>
     </details>
   </div>
   <!-- RETO 6 -->
   <div
-    style="background: #ffffff; margin: 25px 0; padding: 28px; border-top: 4px solid #0b2545; border-radius: 0 0 8px 8px; box-shadow: 0 3px 12px rgba(0,0,0,0.08);">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;"><span
-        style="background: #0b2545; color: #c9a227; font-family: Georgia, serif; font-size: 22px; font-weight: bold; padding: 8px 16px; border-radius: 4px; margin-right: 15px;">06</span>
+    style="background: #ffffff; margin: 22px 0; padding: 26px; border-top: 4px solid #0f2c52; border-radius: 8px; box-shadow: 0 4px 14px rgba(7, 25, 47, 0.08); border-left: 1px solid #ece6d5; border-right: 1px solid #ece6d5; border-bottom: 1px solid #ece6d5;">
+    <div style="display: flex; align-items: center; margin-bottom: 14px;"><span
+        style="background: #07192f; color: #f3d56b; border: 1px solid #c9a227; font-family: Georgia, serif; font-size: 20px; font-weight: bold; padding: 7px 15px; border-radius: 6px; margin-right: 14px;">06</span>
       <h3
-        style="color: #0b2545; font-family: Georgia, serif; font-size: 22px; margin: 0;">
+        style="color: #07192f; font-family: Georgia, serif; font-size: 21px; margin: 0; font-weight: bold;">
         WBGT Efectivo con Uso de EPP (Tyvek)</h3>
     </div>
     <div
-      style="background: #f4f1ea; padding: 15px 20px; border-left: 4px solid #c9a227; margin-bottom: 18px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333;">
-      <strong>Resultado técnico:</strong> El uso del traje Tyvek
-      <strong>incrementa el WBGT efectivo</strong> debido al aislamiento térmico
-      de la vestimenta, reduciendo la evaporación del sudor.</div>
+      style="background: #f6f3ec; padding: 14px 18px; border-left: 4px solid #c9a227; border-radius: 4px; margin-bottom: 16px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b;">
+      <strong style="color: #07192f;">Resultado técnico:</strong> El uso del
+      traje Tyvek <strong>incrementa el WBGT efectivo</strong> debido al
+      aislamiento térmico de la vestimenta, reduciendo la evaporación del sudor.
+    </div>
     <p
-      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #0b2545; font-size: 15px;">
+      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #07192f; font-size: 15px; line-height: 1.62; margin: 0;">
       <strong>Reto del Administrador SST:</strong> Si el EPP es
       <strong>obligatorio por riesgo químico/biológico</strong>, ¿qué decisión
       tomaría para equilibrar la protección química con la prevención del estrés
       térmico?</p>
     <details
-      style="margin-top: 15px; background: #fcfbf7; padding: 15px 20px; border-radius: 4px; border: 1px solid #e0d9c2;">
+      style="margin-top: 16px; background: #fcfbf7; padding: 14px 18px; border-radius: 6px; border: 1px solid #dfd6be;">
       <summary
-        style="cursor: pointer; color: #c9a227; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
-        <i class="fa fa-key"></i>  Ver criterio de decisión</summary>
+        style="cursor: pointer; color: #9c7610; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
+        <i class="fa fa-lightbulb-o mr-1" aria-hidden="true"></i> Pista y
+        lineamiento de análisis</summary>
       <p
-        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333; margin-top: 12px; line-height: 1.7;">
-        No se puede retirar el EPP, por lo tanto el Administrador SST debe
-        <strong>recalcular el régimen trabajo-descanso usando el
-          WBGTeff</strong> (no el WBGT ambiental), reducir el tiempo de
-        exposición continua, evaluar el uso de <strong>chalecos
-          refrigerantes</strong> bajo el Tyvek, programar relevos cortos y
-        reforzar la hidratación. Decisión gerencial: <strong>actualizar la
-          matriz de EPP y el procedimiento de trabajo</strong> incorporando el
-        factor de corrección por vestimenta (CAF).</p>
+        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b; margin: 12px 0 0 0; line-height: 1.7;">
+        <strong>Guía:</strong> Cuando el EPP no puede eliminarse por el riesgo
+        químico/biológico, el análisis debe partir del valor ajustado por
+        vestimenta (WBGTeff) y no del dato ambiental simple. Evalúe cómo ajustar
+        tiempos de exposición, relevos y documentación de la matriz de EPP.</p>
     </details>
   </div>
   <!-- RETO 7 -->
   <div
-    style="background: #ffffff; margin: 25px 0; padding: 28px; border-top: 4px solid #0b2545; border-radius: 0 0 8px 8px; box-shadow: 0 3px 12px rgba(0,0,0,0.08);">
-    <div style="display: flex; align-items: center; margin-bottom: 15px;"><span
-        style="background: #0b2545; color: #c9a227; font-family: Georgia, serif; font-size: 22px; font-weight: bold; padding: 8px 16px; border-radius: 4px; margin-right: 15px;">07</span>
+    style="background: #ffffff; margin: 22px 0; padding: 26px; border-top: 4px solid #0f2c52; border-radius: 8px; box-shadow: 0 4px 14px rgba(7, 25, 47, 0.08); border-left: 1px solid #ece6d5; border-right: 1px solid #ece6d5; border-bottom: 1px solid #ece6d5;">
+    <div style="display: flex; align-items: center; margin-bottom: 14px;"><span
+        style="background: #07192f; color: #f3d56b; border: 1px solid #c9a227; font-family: Georgia, serif; font-size: 20px; font-weight: bold; padding: 7px 15px; border-radius: 6px; margin-right: 14px;">07</span>
       <h3
-        style="color: #0b2545; font-family: Georgia, serif; font-size: 22px; margin: 0;">
+        style="color: #07192f; font-family: Georgia, serif; font-size: 21px; margin: 0; font-weight: bold;">
         Selección Estratégica del EPP (CAF)</h3>
     </div>
     <div
-      style="background: #f4f1ea; padding: 15px 20px; border-left: 4px solid #c9a227; margin-bottom: 18px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333;">
-      <strong>Resultado técnico:</strong> A mayor <strong>CAF (Factor de Ajuste
-        por Vestimenta)</strong>, mayor protección química pero mayor carga
-      térmica para el trabajador.</div>
+      style="background: #f6f3ec; padding: 14px 18px; border-left: 4px solid #c9a227; border-radius: 4px; margin-bottom: 16px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b;">
+      <strong style="color: #07192f;">Resultado técnico:</strong> A mayor
+      <strong>CAF (Factor de Ajuste por Vestimenta)</strong>, mayor protección
+      química pero mayor carga térmica para el trabajador.</div>
     <p
-      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #0b2545; font-size: 15px;">
+      style="font-family: 'Helvetica Neue', Arial, sans-serif; color: #07192f; font-size: 15px; line-height: 1.62; margin: 0;">
       <strong>Reto del Administrador SST:</strong> Como responsable de la compra
       y dotación, ¿qué criterio usaría para seleccionar el traje adecuado entre
       varias alternativas comerciales con distinto CAF?</p>
     <details
-      style="margin-top: 15px; background: #fcfbf7; padding: 15px 20px; border-radius: 4px; border: 1px solid #e0d9c2;">
+      style="margin-top: 16px; background: #fcfbf7; padding: 14px 18px; border-radius: 6px; border: 1px solid #dfd6be;">
       <summary
-        style="cursor: pointer; color: #c9a227; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
-        <i class="fa fa-key"></i>  Ver criterio de decisión</summary>
+        style="cursor: pointer; color: #9c7610; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 14px;">
+        <i class="fa fa-lightbulb-o mr-1" aria-hidden="true"></i> Pista y
+        lineamiento de análisis</summary>
       <p
-        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #333; margin-top: 12px; line-height: 1.7;">
-        El criterio gerencial NO debe ser el costo ni el mayor CAF, sino el
-        <strong>CAF mínimo suficiente</strong> que cubra el riesgo químico real
-        identificado en la matriz de peligros. Decisión: <strong>seleccionar el
-          traje con menor CAF compatible con la protección requerida</strong>,
-        complementarlo con controles ambientales y dejar registro técnico de la
-        elección (ficha técnica, hoja de seguridad y análisis de riesgo) para
-        defender la decisión ante auditorías y la ARL.</p>
+        style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #1e293b; margin: 12px 0 0 0; line-height: 1.7;">
+        <strong>Guía:</strong> Contraste el criterio de "mayor protección
+        posible" frente al de "adecuación técnica al peligro real" y
+        trazabilidad documental. Considere cómo justificar su elección ante
+        auditorías o ARL respaldándose en el peligro identificado y las fichas
+        técnicas.</p>
     </details>
   </div>
   <!-- CIERRE -->
   <div
-    style="background: linear-gradient(135deg, #0b2545 0%, #1d4e89 100%); padding: 25px; text-align: center; border-radius: 6px; margin-top: 30px; border-top: 4px solid #c9a227;">
+    style="background: linear-gradient(145deg, #07192f 0%, #0f2c52 55%, #1a477a 100%); padding: 26px 24px; text-align: center; border-radius: 8px; margin-top: 26px; border-top: 4px solid #c9a227; box-shadow: 0 6px 18px rgba(7, 25, 47, 0.22);">
     <i class="fa fa-graduation-cap"
-      style="color: #c9a227; font-size: 28px; margin-bottom: 10px;"></i>
+      style="color: #f3d56b; font-size: 28px; margin-bottom: 10px;"
+      aria-hidden="true"></i>
     <p
-      style="color: #ffffff; font-family: Georgia, serif; font-style: italic; font-size: 16px; margin: 8px 0 0 0; line-height: 1.6;">
+      style="color: #ffffff; font-family: Georgia, serif; font-style: italic; font-size: 16px; margin: 8px 0 0 0; line-height: 1.65;">
       "Un buen Administrador en SST no solo mide el riesgo: <strong
-        style="color: #c9a227;">lo gestiona, lo comunica y lo transforma en
+        style="color: #f3d56b;">lo gestiona, lo comunica y lo transforma en
         decisiones que protegen vidas.</strong>"</p>
   </div>
 </section>
